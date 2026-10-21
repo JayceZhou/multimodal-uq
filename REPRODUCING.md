@@ -1,5 +1,8 @@
 # Reproducing and inspecting the study
 
+Model checkpoints, TIFF figures, and the upstream demo GIF use Git LFS.
+After cloning, run `git lfs install --local` and `git lfs pull` to retrieve them.
+
 ## Inspect the retained evidence
 
 Run `python check_package.py` from the root. No GPU or dataset is needed.
