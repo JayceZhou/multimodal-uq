@@ -1,0 +1,67 @@
+{
+  "authorization": "author requested recovery or rerunning the missing earlier inputs",
+  "status": "FROZEN_BEFORE_RECOVERY",
+  "recovery_is_byte_restoration": false,
+  "original_results_rewritten": false,
+  "source_sha256": {
+    "riskprop3d_hivt_extension/recover.py": "586ca4f01e36d97c81794b1a8671b2d233ce3dcc12765398ccb9241ae4e0236c",
+    "riskprop3d_hivt_extension/RECOVERY_PROTOCOL.md": "3f242924f4b918acc42acbfa9a9869a61af2b8e514047af0ee35c7c158d8182f",
+    "configs/nuscenes/det/transfusion/secfpn/camera+lidar/swint_v0p075/convfuser.yaml": "cb7bbbc25e8fdf67c2e914b11661828b684312300deb2afc410793192713e04b",
+    "pretrained/bevfusion-det.pth": "ee0a389213922343508db40dff0ec04767b36d8f512da34b093939c37aaf2122",
+    "probset3d/P0_DATA_SPLIT_AUTHORITY.json": "381b7265d9aa5a1a52618b918ac4a5ea21ca47b48c23995ba58de5640b87f4a9",
+    "data/nuscenes/v1.0-trainval/sample.json": "6035ac58b6e971622be2bb1be15b917e7cb4e05ae984d6b339c27c1699c4ad9d",
+    "tools/probset3d_v3_formal.py": "c2e94c7e43a323321e5e32e50aacc8b9dd7d2dd589ddf743a7c9e725ca2010a6",
+    "tools/probset3d_v3_pilot.py": "ef597e2d43730a21340206bf1dbd14cba6b75c64ac349e41e498fd849f903e45",
+    "tools/probset3d_f1_authority.py": "0cc7131e7295df8ad7648d31b1a64d3fb3898573574f0919973a185505832ee5",
+    "tools/probset3d_v2_sweeps.py": "50da1fa2a9fa55c4eb478232d20f52facca29b52c1a9ce5cce646aa408c6cff8",
+    "tools/stage3d_b_native_assignment.py": "c57b844d0fa6601ae9b484d9d1dc829f330b3c688b0bfd3e5678b9a41257477c",
+    "tools/stage3_run_real_target_uq.py": "98b9def561defa3c2d47cb7b13e77782f270726e5d4f5da4dc904117bee835fe",
+    "probset3d/f1/implementation/probabilistic_query.py": "4069ccd9825f5b0b146841e3533c364e121df0f74ae55304045a48b210bed0a3",
+    "mmdet3d/models/fusion_models/bevfusion.py": "d3ec15d31217e85443438603028b762b0f0779a0df2d9795fe255c0d2be7c7f7",
+    "mmdet3d/models/heads/bbox/transfusion.py": "4437d06c6f65a62e1f7edd0a1cb2db16982010bf718bdf314e08b7a87115ad46",
+    "mmdet3d/core/bbox/coders/transfusion_bbox_coder.py": "f2ca62e53a36180fa208cfae4809b90b38acfaf11c52eef69868fa79b7399f06",
+    "outputs/stage3/splits/nuscenes_infos_stage3_train.pkl": "4f442026cf176366c5348b099703bef38058f5234f29d1c543a6d300f979b740",
+    "outputs/stage3/splits/stage3_train_samples.json": "98f00e088664181933b395e8617f26d09f51dd0191d77a9fe5ef97b5a7568314",
+    "outputs/stage3/splits/stage3_train_scenes.json": "464e04a43274d1d486f978d492cd2cdda423c6c47f8c26f374599dadffda5fbd",
+    "outputs/stage3/splits/nuscenes_infos_stage3_label_cal.pkl": "748ba2f9632572821c5466988c9fe4c9a3f467fdf702ba0837fcc58041e0c8a1",
+    "outputs/stage3/splits/stage3_label_cal_samples.json": "8f0dd1522f3c4405636800dc775086e12e13d04dcacee8cb7660b68d6c74612f",
+    "outputs/stage3/splits/stage3_label_cal_scenes.json": "77184a363ab01939185c94abcb4ae659b6cd05bd438d012b9230f5ef7f4f3031",
+    "outputs/stage3/splits/nuscenes_infos_stage3_dev.pkl": "15e4b5078c03e0a22c4d433f14fd2233ce3b3c2d60d81d2da6dd37300c4cbc6f",
+    "outputs/stage3/splits/stage3_dev_samples.json": "b51c1f610aa12413f88574b7f2a8e77ac009efe43454a5325da5afd5a0e2e661",
+    "outputs/stage3/splits/stage3_dev_scenes.json": "b87a33a97964ca96bbd9d324299b0e255c63b1600094a74317d1730522a1e50a"
+  },
+  "splits": {
+    "train": {
+      "samples": 22508,
+      "info_path": "outputs/stage3/splits/nuscenes_infos_stage3_train.pkl"
+    },
+    "label_cal": {
+      "samples": 2814,
+      "info_path": "outputs/stage3/splits/nuscenes_infos_stage3_label_cal.pkl"
+    },
+    "dev": {
+      "samples": 2808,
+      "info_path": "outputs/stage3/splits/nuscenes_infos_stage3_dev.pkl"
+    }
+  },
+  "head_seeds": [
+    20260731,
+    20260801,
+    20260802
+  ],
+  "physical_gpus": [
+    0,
+    2,
+    3
+  ],
+  "epochs": 20,
+  "batch_size": 8,
+  "optimizer": "AdamW lr=1e-3 wd=1e-4 clip=5 FP32",
+  "checkpoint_rule": "last epoch 20",
+  "legacy_density_column_restored": false,
+  "sweeps": "current + nearest nine past; deterministic",
+  "torch": "2.4.1",
+  "cuda_build": "12.4",
+  "official_metrics_read": false,
+  "sealed_test_accessed": false
+}

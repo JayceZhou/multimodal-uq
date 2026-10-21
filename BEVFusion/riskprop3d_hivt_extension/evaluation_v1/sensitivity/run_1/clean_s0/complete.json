@@ -1,0 +1,105 @@
+{
+  "replicate": 1,
+  "condition": "clean_s0",
+  "rows": 64,
+  "parts": [
+    {
+      "file": "part-00000.npz",
+      "sha256": "10b55d29d0d1ea49f2cfcdc052507105cc02db6a634c201a4415b71a7fb4a741",
+      "rows": 4
+    },
+    {
+      "file": "part-00001.npz",
+      "sha256": "b87dc416a047e4b647ffc1a3695b5ac4deb61c210083ee9d22e38543b8262be3",
+      "rows": 4
+    },
+    {
+      "file": "part-00002.npz",
+      "sha256": "d3d0df175ebea730babfdd8623403da24a613a7b2c5f3d26d85644921d802507",
+      "rows": 4
+    },
+    {
+      "file": "part-00003.npz",
+      "sha256": "b10f4aa10d1a7e979d35fbf89e41c8fed658543a5edfbca058a4c50c7864391e",
+      "rows": 4
+    },
+    {
+      "file": "part-00004.npz",
+      "sha256": "9cad406f2f1d4028c8e1ccfceb7eb088066d76bd6d9fa02c8a3a679ed8273b00",
+      "rows": 4
+    },
+    {
+      "file": "part-00005.npz",
+      "sha256": "a5e117be9dd370f45104acb9a7ee7875e5106e35aea1d6ccf3613b6b8b1d4ff7",
+      "rows": 4
+    },
+    {
+      "file": "part-00006.npz",
+      "sha256": "5732575da2a836eaf6325f747e813104ca8733ca085261c15aabc95aa931b44f",
+      "rows": 4
+    },
+    {
+      "file": "part-00007.npz",
+      "sha256": "78198aa11d658eecc37ab5712b844453f10bc25d6c2bbe6e28f3ff6fe0512699",
+      "rows": 4
+    },
+    {
+      "file": "part-00008.npz",
+      "sha256": "7aa3806241ee4f44bacf4fb51c43767b553488c1f57cd06a92c3edcee15e0f7e",
+      "rows": 4
+    },
+    {
+      "file": "part-00009.npz",
+      "sha256": "c20127f98a929eb8e3fbef2d160fc1b2924e1aa67486862f6bfc25ce2a2382a1",
+      "rows": 4
+    },
+    {
+      "file": "part-00010.npz",
+      "sha256": "b0a65a648035ccc44fcdec4a5861ce98d8b1af9ddc386462d1c9a643fe89491a",
+      "rows": 4
+    },
+    {
+      "file": "part-00011.npz",
+      "sha256": "ebaabd0f51d0343c2903d0b9d91966b2b5cc8c00d2e755580c7e3f076e8b3849",
+      "rows": 4
+    },
+    {
+      "file": "part-00012.npz",
+      "sha256": "bfcf6beb94fb950c82ea61fdd7b8efef65dac770212975f02ba1aa853bd055bd",
+      "rows": 4
+    },
+    {
+      "file": "part-00013.npz",
+      "sha256": "e14bb2087aa1256746f0a32c77d1eab0f3915831443c0bdbe1050f749e01a2be",
+      "rows": 4
+    },
+    {
+      "file": "part-00014.npz",
+      "sha256": "b1714ead31be2eb6d03568cabfcc95a2662b7eac312b3350b70dbf9eda945d37",
+      "rows": 4
+    },
+    {
+      "file": "part-00015.npz",
+      "sha256": "4419dc8a45f728509fc0395b85f52a97a5577659c00f42d33c230b0fafa7d769",
+      "rows": 4
+    }
+  ],
+  "seconds": 22.286235570907593,
+  "physical_gpu": 2,
+  "peak_allocation_bytes": 1615391232,
+  "draws_per_set": 256,
+  "gpu_name": "NVIDIA H20",
+  "torch": "2.4.1",
+  "cuda_build": "12.4",
+  "row_batch": 4,
+  "draw_chunk": 32,
+  "native_forward_calls": 784,
+  "mean_state_conditional_target_inputs": 64,
+  "stochastic_conditional_target_inputs": 98304,
+  "first_batch_all_four_laws_compute_seconds": 1.823466621019179,
+  "first_batch_target_rows": 4,
+  "cost_scope": "conditional host inference, graph batching, sampling, metrics and metric I/O; excludes detector/head inference and data/model loading",
+  "freeze_sha256": "b80d3d31b3bfb4c0f1040ef504ffb32de9930b12ce0d716d9fe764e84dcb06af",
+  "head_seed": 20260801,
+  "host_seed": 202610131
+}

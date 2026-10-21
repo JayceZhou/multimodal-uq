@@ -1,0 +1,10 @@
+{
+  "bootstrap_changed": false,
+  "change": "convert identifier arrays from NumPy Unicode to fixed-width UTF-8 bytes",
+  "frozen_evaluator_sha256": "f2a26c9ed7f151000462137e8ba0cc2b6fa81e54fc34012077fdc6b7f85912ed",
+  "gates_or_endpoint_logic_changed": false,
+  "reason": "frozen HDF5 packager supplied NumPy Unicode identifiers to h5py",
+  "scientific_estimators_changed": false,
+  "scope": "serialization only",
+  "shim_sha256": "fd7bb7aee4bd0441f73ba3993fcd6b523faacf36a045992361c80543d0db7e81"
+}

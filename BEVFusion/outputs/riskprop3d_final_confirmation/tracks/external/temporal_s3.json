@@ -1,0 +1,28 @@
+{
+  "condition": "temporal_s3",
+  "export_manifests": [
+    {
+      "path": "outputs/riskprop3d_final_confirmation/exports/external/temporal_s3/shard-00-of-04/accepted.json",
+      "sha256": "68d72cc6981c4c098b4ece66b026636276f963c044f34d66db2a5f25b4b8cefe"
+    },
+    {
+      "path": "outputs/riskprop3d_final_confirmation/exports/external/temporal_s3/shard-01-of-04/accepted.json",
+      "sha256": "73c07704912945032b6544f5c895b5d9bf69e19229e40fa73ee463a9c85a86aa"
+    },
+    {
+      "path": "outputs/riskprop3d_final_confirmation/exports/external/temporal_s3/shard-02-of-04/accepted.json",
+      "sha256": "14faf1761b021db7dd8cb8711dd80f29035104edda9b7436e1fffba66814a6dc"
+    },
+    {
+      "path": "outputs/riskprop3d_final_confirmation/exports/external/temporal_s3/shard-03-of-04/accepted.json",
+      "sha256": "ff4746a77de5d2fb03e7136767aab2568146750de22d1cf57f62b23fa294d1a6"
+    }
+  ],
+  "internal_test_read": false,
+  "official_val_read": false,
+  "phase": "external",
+  "sample_count": 2738,
+  "scene_count": 70,
+  "track_count": 33685,
+  "tracks_sha256": "e8b7d6bea5341a445770da0f4059bcab5f1b60b2c349d2cc31b36ceebfe627bb"
+}

@@ -1,0 +1,23 @@
+{
+  "status": "RECOVERY_COMPLETE",
+  "authority": "authority/manifest.json",
+  "authority_sha256": "35e351efe8ebcb75cc070bb391dbe2a0c0f53992def9dff7a866dd42f25a1d01",
+  "baseline": "baseline.json",
+  "baseline_sha256": "3b5b654c524354fbbd46828c6ac1085aa49d2c3a839ed34eb4b79a353e2480cc",
+  "old_results_rewritten": false,
+  "original_head_hashes_claimed": false,
+  "heads": {
+    "20260731": {
+      "path": "checkpoints/seed_20260731.pt",
+      "sha256": "9173260dd82c72cedc3f17ba1560d9b3071221efaebcac1d1bb8f70ae2041e1e"
+    },
+    "20260801": {
+      "path": "checkpoints/seed_20260801.pt",
+      "sha256": "10d6bd9ee7dddb7540d05821097fea7d56d887204d825c35d97db2170336e5be"
+    },
+    "20260802": {
+      "path": "checkpoints/seed_20260802.pt",
+      "sha256": "58611bdf35c0c3ebc7016193d1576fa8efb01c02af4fc5a0910b4e2db61c37db"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "label_cal": {
+    "matched_targets_checked": 22188,
+    "missing": 0,
+    "max_absolute_difference": {
+      "box": 0.0,
+      "feature": 0.0,
+      "logits": 0.0,
+      "seed": 0.0
+    },
+    "all_target_head_inputs_exact": true
+  },
+  "clean_s0": {
+    "matched_targets_checked": 18230,
+    "missing": 0,
+    "max_absolute_difference": {
+      "box": 0.0,
+      "feature": 0.0,
+      "logits": 0.0,
+      "seed": 0.0
+    },
+    "all_target_head_inputs_exact": true
+  }
+}

@@ -1,0 +1,17 @@
+panel,population,probe,contrast,metric,estimate,ci_low,ci_high,n_scenes,source_stage
+a,development,,HTC token - Mean-only,trajectory energy improvement,0.0020525730236084206,-0.013775149791194612,0.015589998451529691,70,R3-P
+a,development,,HTC token - Mean-only,risk-coverage improvement,0.006988009310850774,0.0006512997656807072,0.01368544905051827,70,R3-P
+a,development,,HTC token - Confidence,trajectory energy improvement,0.000693329296296763,-0.015306568599869142,0.013214136455474663,70,R3-P
+a,development,,HTC token - Confidence,risk-coverage improvement,0.0067231799349212135,0.00026917591433991186,0.013809991880598086,70,R3-P
+b,final validation,,HTC token - Mean-only,trajectory energy improvement,0.027020911415362055,0.015879071117172024,0.0393185268123971,150,final validation
+b,final validation,,HTC token - Mean-only,risk-coverage improvement,0.0230848811879105,0.013344150651337183,0.033838157755265025,150,final validation
+b,final validation,,HTC token - Confidence,trajectory energy improvement,0.020922619617411747,0.011118936053855524,0.03216580236753597,150,final validation
+b,final validation,,HTC token - Confidence,risk-coverage improvement,0.013128814487491876,0.0032451144448916087,0.023381917081684873,150,final validation
+b,final validation,,HTC token - Gaussian token,trajectory energy improvement,0.01682241530861719,0.004561952467321763,0.03051365101699213,150,final validation
+b,final validation,,HTC token - Gaussian token,risk-coverage improvement,-0.00018723395854740847,-0.004724369443320238,0.0047364186211633404,150,final validation
+c,final validation,CV,HTC - Gaussian,High-FDE AUPRC,0.030993014026203036,0.02033429796605302,0.04184962177640183,147,final validation
+c,final validation,CV,HTC - Gaussian,Risk-- coverage,0.008894966572895817,0.0008698112723823177,0.01725532780065912,150,final validation
+c,final validation,CV,HTC - Gaussian,False-safe rate,0.019454312777747586,0.011912974902726827,0.027024012370653498,147,final validation
+c,final validation,MLP,HTC - Gaussian,High-FDE AUPRC,0.019884758188036023,0.010338622391327528,0.029464124473899414,147,final validation
+c,final validation,MLP,HTC - Gaussian,Risk-- coverage,0.008549253518638628,0.0014202101881990194,0.01767869933578053,150,final validation
+c,final validation,MLP,HTC - Gaussian,False-safe rate,0.013462943609992188,0.005959128575531364,0.021163520675443123,147,final validation

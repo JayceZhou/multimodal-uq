@@ -1,0 +1,26 @@
+{
+  "analytic_covariance_max_relative_frobenius_error": 2.4376538645664893e-16,
+  "analytic_resultant_max_absolute_error": 1.1102230246251565e-16,
+  "clipping_rate": 0.0,
+  "empirical_student_vs_mmg_covariance_relative_frobenius": {
+    "max": 0.06926639263209962,
+    "median": 0.005089030423532773,
+    "note": "descriptive Monte Carlo diagnostic; near-two-df Student-t covariance converges slowly"
+  },
+  "empirical_student_vs_mmg_mean_l2": {
+    "max": 0.0013095031331240643,
+    "median": 0.00039387105427133597
+  },
+  "empirical_vm_vs_wg_resultant_absolute_error": {
+    "max": 0.0006741344991861853,
+    "median": 7.802963413405806e-06
+  },
+  "invalid_rate": 0.0,
+  "min_degrees_of_freedom": 2.9297518730163574,
+  "passed": true,
+  "postprocessing": "linear state unchanged; yaw wrapped identically with atan2(sin,cos)",
+  "rejection_rate": 0.0,
+  "rows": 16,
+  "samples_per_row": 262144,
+  "split": "clean label-calibration smoke rows"
+}

@@ -1,0 +1,82 @@
+{
+  "authority": "outputs/stage3/splits/manifest.json",
+  "dataset": "nuScenes v1.0-trainval",
+  "evaluation_host": "fusion",
+  "official_validation": {
+    "access": "forbidden_in_P0_F0",
+    "sample_count": 6019
+  },
+  "seed": 20260708,
+  "splits": {
+    "dev": {
+      "info_path": "outputs/stage3/splits/nuscenes_infos_stage3_dev.pkl",
+      "info_sha256": "15e4b5078c03e0a22c4d433f14fd2233ce3b3c2d60d81d2da6dd37300c4cbc6f",
+      "sample_count": 2808,
+      "sample_tokens_path": "outputs/stage3/splits/stage3_dev_samples.json",
+      "sample_tokens_sha256": "b51c1f610aa12413f88574b7f2a8e77ac009efe43454a5325da5afd5a0e2e661",
+      "scene_count": 70,
+      "scene_tokens_path": "outputs/stage3/splits/stage3_dev_scenes.json",
+      "scene_tokens_sha256": "b87a33a97964ca96bbd9d324299b0e255c63b1600094a74317d1730522a1e50a"
+    },
+    "label_cal": {
+      "info_path": "outputs/stage3/splits/nuscenes_infos_stage3_label_cal.pkl",
+      "info_sha256": "748ba2f9632572821c5466988c9fe4c9a3f467fdf702ba0837fcc58041e0c8a1",
+      "sample_count": 2814,
+      "sample_tokens_path": "outputs/stage3/splits/stage3_label_cal_samples.json",
+      "sample_tokens_sha256": "8f0dd1522f3c4405636800dc775086e12e13d04dcacee8cb7660b68d6c74612f",
+      "scene_count": 70,
+      "scene_tokens_path": "outputs/stage3/splits/stage3_label_cal_scenes.json",
+      "scene_tokens_sha256": "77184a363ab01939185c94abcb4ae659b6cd05bd438d012b9230f5ef7f4f3031"
+    },
+    "train": {
+      "info_path": "outputs/stage3/splits/nuscenes_infos_stage3_train.pkl",
+      "info_sha256": "4f442026cf176366c5348b099703bef38058f5234f29d1c543a6d300f979b740",
+      "sample_count": 22508,
+      "sample_tokens_path": "outputs/stage3/splits/stage3_train_samples.json",
+      "sample_tokens_sha256": "98f00e088664181933b395e8617f26d09f51dd0191d77a9fe5ef97b5a7568314",
+      "scene_count": 560,
+      "scene_tokens_path": "outputs/stage3/splits/stage3_train_scenes.json",
+      "scene_tokens_sha256": "464e04a43274d1d486f978d492cd2cdda423c6c47f8c26f374599dadffda5fbd"
+    }
+  },
+  "checks": {
+    "dev_official_val_scene_and_sample_overlap": 0,
+    "label_cal_dev_sample_overlap": 0,
+    "label_cal_dev_scene_overlap": 0,
+    "train_dev_sample_overlap": 0,
+    "train_dev_scene_overlap": 0,
+    "train_label_cal_sample_overlap": 0,
+    "train_label_cal_scene_overlap": 0
+  },
+  "f0_conditions": [
+    {
+      "corruption_type": "clean",
+      "run_id": "fusion-dev-clean-s0",
+      "severity": 0
+    },
+    {
+      "corruption_type": "camera_lowlight",
+      "lowlight_candidate": "calibrated_candidate",
+      "run_id": "fusion-dev-camera-lowlight-s3",
+      "severity": 3
+    },
+    {
+      "corruption_type": "lidar_dropout",
+      "run_id": "fusion-dev-lidar-dropout-s3",
+      "severity": 3
+    },
+    {
+      "corruption_type": "lidar_beam_reduction",
+      "run_id": "fusion-dev-lidar-beam-reduction-s3",
+      "severity": 3
+    }
+  ],
+  "prohibited_inputs": [
+    "official validation",
+    "stage3d_c internal_test",
+    "artifacts marked INVALID_PARTIAL_DIAGNOSTIC_ONLY",
+    "DC0 partial artifacts",
+    "incomplete M0/DC0 fitted representations, contrasts, endpoints, or decisions"
+  ],
+  "schema_version": "probset3d_p0_data_authority_v1"
+}

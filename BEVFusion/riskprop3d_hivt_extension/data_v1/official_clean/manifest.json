@@ -1,0 +1,786 @@
+{
+  "condition": "official_clean",
+  "targets": 38644,
+  "scenes": 150,
+  "source_tracks": "outputs/riskprop3d_final_confirmation/tracks/official/clean.npz",
+  "source_tracks_sha256": "2aaba38091bf89545b7888ce8e6246262202e3d1c41f3f81ace51cb7954f47db",
+  "sources": [
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/parts/part-00000.npz",
+      "sha256": "aaee8864d16e274a631b6c9fa459dd4173d2f82cc3d0e4da186efa782cc97083"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/parts/part-00001.npz",
+      "sha256": "01daffef81535d5d5f49d4da517f7ee03215ce80cf5067dd27c6274f7b6c1e87"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/parts/part-00002.npz",
+      "sha256": "7ecf078aad4e934e2afe4cb52d6b83ec2f85cc8d8fc8d4c9e06e50fb07ea092e"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/parts/part-00003.npz",
+      "sha256": "52200919658fb5c91f4a2421833c9dfd131ab88a9397439ee035997319a4c6e6"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/parts/part-00004.npz",
+      "sha256": "24e918a3ffc2e58b77ffe6f43a024fbe91dee0f9c1caba413c9f6eb0dece38c4"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/parts/part-00005.npz",
+      "sha256": "27229c12f5784d3cc0937e7152b15aed8da92e79f0cad3d744318be45a699d8d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/parts/part-00006.npz",
+      "sha256": "46eaf82936f4b864648f6369925ffb447dd39821fb00a3080bf478a765c49f88"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/parts/part-00007.npz",
+      "sha256": "962d1225247e064ac646fa110da46c857e765d4bd9857fbe1e1d40ff45ccf403"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/parts/part-00008.npz",
+      "sha256": "5862f5c1f9fe12dc6429b99c5dfb8a0f91104a2a8ca40f736ebef104a9cb1564"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/parts/part-00009.npz",
+      "sha256": "643242e57c277cd500b6508784d2676323f547893ec1b8d2051513b3501cee05"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/parts/part-00010.npz",
+      "sha256": "255412395ff75099b10649da614f56b780bb0178ec679f0f82048afb27fba2ea"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/parts/part-00011.npz",
+      "sha256": "40e90c03aa28e8c2d8db1c8d51977c770063a63891f39de8f0430c96cf7b9eed"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/parts/part-00012.npz",
+      "sha256": "9a7f29b16de8bea044cea10dd656d69cc3ade70c301e683a88023400d1092d3b"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/parts/part-00013.npz",
+      "sha256": "420009b16e5b906df3e06f68a9a690e8335fc1dd4f66974a960bef5ddd894c18"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/parts/part-00014.npz",
+      "sha256": "a9043d1769467617a0990c78add0cdbd5915940b30fd72e8b93e6f3f6e3520fe"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/parts/part-00015.npz",
+      "sha256": "5f9dcece7d5701d4226e6ef364a824e823ae2cb749499e009911ed633c868091"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/parts/part-00016.npz",
+      "sha256": "1a7527334a28f378de9c2522679c7d166b4249fac1ae9e58e9499b95deff3b27"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/parts/part-00017.npz",
+      "sha256": "bacc334f45a84c66706a95e223d1306ef62ef0ae3aaad2f507692b1a7d0bb265"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/parts/part-00018.npz",
+      "sha256": "192972e79633cb6d9741a4484e55f21b03f12933e42b1e99df66cd6b09c4987c"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/parts/part-00019.npz",
+      "sha256": "87ce0a0cbcba0c225a4a7c6dd02a5adcf0997de493ed07f04740554ad7cd4092"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/parts/part-00020.npz",
+      "sha256": "1a96f231e7707db9ab4ab4082e6a8d9b015729d2519b38c88cc2e753355db3bb"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/parts/part-00021.npz",
+      "sha256": "ce59bb8bbe5e456db9484b763fdc8aaa0e24aeab71b073de03f8ddfd643c6c78"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/parts/part-00022.npz",
+      "sha256": "a37dd0d254bdc73965342d5e585db5610c9525107262a0fd2b8026a1cba19d20"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/parts/part-00023.npz",
+      "sha256": "35cb22866f03ad6491e0c1cb0701e21ad89dc9ac2b75bede787a4f935c8f2d66"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/parts/part-00024.npz",
+      "sha256": "96a3df2fe023072b267a744670fa4a78055fdbbd1883a271d06300a3e49dfe44"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/parts/part-00025.npz",
+      "sha256": "2ad842e5398ae1d274d6b038b86776ab0a2d96ed13e8e21685b6df515a4549e2"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/parts/part-00026.npz",
+      "sha256": "09f03ba37dc24dc9d3ad47d5b426a377edbacd963efc343094bc5b15a1305883"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/parts/part-00027.npz",
+      "sha256": "92cc46a00691267556e3e204c0cbba5bfabc6feb85bc903618046d52c15c5610"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/parts/part-00028.npz",
+      "sha256": "bfce8d428e95f31d648cd4e8d96dad5a02ad333b492c762f9f14a23fd0db55e4"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/parts/part-00029.npz",
+      "sha256": "84ddc259382e20338a9ae4129afc44db7a86eadd42b84489e2b61214268f8506"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/parts/part-00030.npz",
+      "sha256": "225a97ad7d3df8c458d4031f7f678c79aced07cb48982f82ebfd33aa3fff6d60"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/parts/part-00031.npz",
+      "sha256": "71be3509aa7339f6ebb628104459932b3b8cab314d416b596c72c78eb86fd219"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/parts/part-00032.npz",
+      "sha256": "a3c8f16f764031ffc86f813b28ca334b2bdbc60c9c7a0fca5c2d959991025cce"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/parts/part-00033.npz",
+      "sha256": "3e58ec6ef589641b8a941f7e841943f144fe924b16c6f2c803b2c807664b906e"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/parts/part-00034.npz",
+      "sha256": "7b1c05d6531f8dd7796a3af64e68d566bf7afcd4aa7bb58eab8019447ea2ced0"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/parts/part-00035.npz",
+      "sha256": "c1600aa9184ca5d8d01f5f733265369d4721ad55577ffec2e08004fdc3b6dc15"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/parts/part-00036.npz",
+      "sha256": "c9216e57513c94f8376503bb22971769b14a052f796861dba6ecf891ad3258c0"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/parts/part-00037.npz",
+      "sha256": "57167f44c69d9b424dee966c6298c9e5ac4a7d2b183221a73281a45b7358aca3"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/parts/part-00038.npz",
+      "sha256": "036b95285ccce0978817d999b410bf1f087553da42bc1e3f4f6f7f215e35af32"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/parts/part-00039.npz",
+      "sha256": "c39eeeafe512b4d2af9e2736851b8c7774d73c1e7c83eac6e1ca19f4c845ce84"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/parts/part-00040.npz",
+      "sha256": "a0a7d0647c2f6b9e42abf8f15137042340b3fd3325a82837f4488ed4873f6703"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/parts/part-00041.npz",
+      "sha256": "eab97a8f17df3fdb652b0c38267d5e3fb91f4cd58296821807e81c9a12891188"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/parts/part-00042.npz",
+      "sha256": "b77d4d645311fd761d4bfac3ccce83718fbaec054cbdc6a58f5d51256070c1e4"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/parts/part-00043.npz",
+      "sha256": "d43f713173145aac83dfb6c440cecbd224327e95e4a3352c7e54bfa885c94af4"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/parts/part-00044.npz",
+      "sha256": "b05f22d3203ee37d21f5875d9833e9ad5ae0f742ee8b4840c94aae1a984f9c5a"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/parts/part-00045.npz",
+      "sha256": "fbee9caffe5bb580b6a590236a0eb15edda291c1d18c9a3de8f0eb3ad23b3aac"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/parts/part-00046.npz",
+      "sha256": "4697993454e40b2ebebfbf1ea22f8dfa3e6470fd6830dd588a8507ca56ba668e"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/parts/part-00047.npz",
+      "sha256": "aa8f9da8a401d7885158d1f82de416a2c5814d26336d526b4c01acd072260926"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/parts/part-00000.npz",
+      "sha256": "638a2ce48cdf0c68c2cc5ba5406f6a3ae0e3a12909df66dad6d82bb401cb0e20"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/parts/part-00001.npz",
+      "sha256": "692779fbd4373a534c096678f2b91ce4b5a02aa482ecfa52523561d2e56eeaff"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/parts/part-00002.npz",
+      "sha256": "55dfe310d8ec5b24816dcfda46604ea0d7758168ad86c096d08414b44352a2f9"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/parts/part-00003.npz",
+      "sha256": "1bf614103a0e94640ea241b9c6d8df3905d1051dfa5023a4eb201d22b661ae5e"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/parts/part-00004.npz",
+      "sha256": "577a0a00d205e0fdc4531e0bb0f15a36e28ad005be29da06a010d1a14ba0a7d6"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/parts/part-00005.npz",
+      "sha256": "880c2d9953b9f37e2fc85e64c25503eea80c44cf6c221ace564f0b249ab3d746"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/parts/part-00006.npz",
+      "sha256": "190ccbd824acdaafc2fa734bec8d40bd44f3aaeea3bbbb6fea1e23594e5d6136"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/parts/part-00007.npz",
+      "sha256": "4c07dec5c441c1f015f7a97c56b434cad12d2cf6249621123ff841c97b27dbb9"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/parts/part-00008.npz",
+      "sha256": "dc29f2d1853d0599153b0090bac3e79ef19772672a894fccd94411f6fc7f1339"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/parts/part-00009.npz",
+      "sha256": "e75eedf8725633f2128a743e85135d3f6cf7df99c053d61e6ca59d4ef75dd282"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/parts/part-00010.npz",
+      "sha256": "06c506bc492fb6438fa5a4a88b6cb2deb82d6cbdc7472ee205399d1f876090e7"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/parts/part-00011.npz",
+      "sha256": "a03bacee265ba83f094a954eede5979d2ea38730aa15825c46aca5507e5069b2"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/parts/part-00012.npz",
+      "sha256": "a550b2de1b929b5ea2c7d746bda911dcd59c64d1a37b128df45eefbe8d1d6bd3"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/parts/part-00013.npz",
+      "sha256": "27eeb4b9b944b6473b70460392971edc51ce892a7b313259ca930e7af93265a9"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/parts/part-00014.npz",
+      "sha256": "a4e29df1bd6e2bbfa73294582f48811ca1b7d65d706850c4301509c7ff9755e4"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/parts/part-00015.npz",
+      "sha256": "13ab8f40fcb76c1194615c46f74e4c99520717b7666cbcf935859b2320b6e3c1"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/parts/part-00016.npz",
+      "sha256": "9ced7be3ef1fa22f4db5c0d19b60cd81bab136bcc79daa7ec207e46305f1b591"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/parts/part-00017.npz",
+      "sha256": "6bdeb6b8b113c251a93a26df6557f833b2ce877ec85ceb3b805b08c44b90f361"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/parts/part-00018.npz",
+      "sha256": "6f46b46672e587b87b9fb34151984946aa5873c2f0034c1352c92033a18ba683"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/parts/part-00019.npz",
+      "sha256": "d3370e77c1c906bd8c1eb776d751ee304bc285802df04d7b8b241201c489d16d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/parts/part-00020.npz",
+      "sha256": "bad2b8e4c0f50f8551bf5d4e817c0b232a643de1e22f67d9752a1d0db905de25"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/parts/part-00021.npz",
+      "sha256": "952b029f3611c9d7758477adfb5a1af31db6b755c575d4dd152dea963bac9f22"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/parts/part-00022.npz",
+      "sha256": "236f6c97d4292abc40cd9906022accb6eadf2f3905bb59e839c836ca1aca91ff"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/parts/part-00023.npz",
+      "sha256": "db25626a36680e835e2b545a16c09d0e80f1c42a39b4ed87097565ef12f1a502"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/parts/part-00024.npz",
+      "sha256": "50ebe9a0b94c0b21ee9e752cabc207838a098f2a6d0906ccd23e3ecf07c42dcb"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/parts/part-00025.npz",
+      "sha256": "205933de4bc2d6b9464f4d607d984414815e6de0d4bf4ffd4091673f1bc1e2c1"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/parts/part-00026.npz",
+      "sha256": "2a705fe5fd59de05044c8e93de47cdc7661039fd0ec91b0dd7f78f894f4a89a2"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/parts/part-00027.npz",
+      "sha256": "dfa0c1345fbf97c6d0e34e90efda89359673ff71641343b38ba2b85001677a08"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/parts/part-00028.npz",
+      "sha256": "6ea7a0b85a18e76d5b5771f8644e97700e743dd1c768bf0e573b596206c7d8b0"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/parts/part-00029.npz",
+      "sha256": "956f5667097c293190273f20cd84f96629f09f378bee3f548361396a6851c541"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/parts/part-00030.npz",
+      "sha256": "11f84c6328c893ebbe9434a6cca0f666f69443c2a3f20f0358785a23ea7790c0"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/parts/part-00031.npz",
+      "sha256": "6b5930ca6a2c61e7ecdc3a6fae690ccdbd2e0f7b288a75959f45a0060ae707f0"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/parts/part-00032.npz",
+      "sha256": "d756025a5c76b52da238cf79212d2438f1a2da621df0178aed5313597078ff2b"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/parts/part-00033.npz",
+      "sha256": "08816dba463935cda75f43b62d229fcaa7a74faaa3f843524b0f0fff5b207fc1"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/parts/part-00034.npz",
+      "sha256": "c24139ff0054452cf941b38e80699cd533c52bf9fba42689663ece700f0d83df"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/parts/part-00035.npz",
+      "sha256": "04ecbce41818bafd24bf80978cef0f400330d5e28c65b744c0bc9b8b9645a89d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/parts/part-00036.npz",
+      "sha256": "2ac8ee5e4af00f34b3221d9ff72569f46606e80489384dcafb9224af9dd0836c"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/parts/part-00037.npz",
+      "sha256": "fb39c0f702acb92ee6063c510bda4d4b0a351313f220a1361c6a316ad43e23b5"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/parts/part-00038.npz",
+      "sha256": "7e3bc255b95203130659593844aa3fd4ef340d5373af4de134e6adb4df9dc93e"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/parts/part-00039.npz",
+      "sha256": "275fceef63767f579cd96786c160728371a138f47ceb4abc6c6acd2102250bf3"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/parts/part-00040.npz",
+      "sha256": "9974e94c08643fa7e4dfcd2fc2f2d9e7aa8eb881f89235f5604307d5def2c046"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/parts/part-00041.npz",
+      "sha256": "be799c7b0568bbef4cb7ed4567493a8e961c60009980f3ea51ccdcea44736d09"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/parts/part-00042.npz",
+      "sha256": "ee9909618de2d165893191a48e1a60fff4479ea41f53239523afeeaf0ea73715"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/parts/part-00043.npz",
+      "sha256": "7d6fea1722930076f1183a49ba10da7c3befaab1bef7cd02b1504582a525da8b"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/parts/part-00044.npz",
+      "sha256": "4e6d4e32dbfe93aebafc7326618efdb5cddc287aeb27b0c7dcc63a717fe68861"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/parts/part-00045.npz",
+      "sha256": "4be7aa768b260c27828bff53491d5297f21d1f38bd057a6e866c18956dd91005"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/parts/part-00046.npz",
+      "sha256": "21aec08ea16e5e11c206fe1d41ad58428b15143522adaefeddd5d644c205fcde"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/parts/part-00047.npz",
+      "sha256": "b4a82244b93ab74aa9050ceeef3d024a89bec10055b6372374bb5d7101c2ecea"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/parts/part-00000.npz",
+      "sha256": "372da1c2321c514b4315cc84b1ae7a3e771dcdd154ef66cc83afcc3c1accb5d8"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/parts/part-00001.npz",
+      "sha256": "651717378f12aacdad4bf6735c377b09512ede37089a4a759825b6479b4f0e13"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/parts/part-00002.npz",
+      "sha256": "47438635c5aeb223fd5785d9a9685534ed7411b28b45bd2ff361874072fbc46f"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/parts/part-00003.npz",
+      "sha256": "8d81ab7ff957a6f67c13dc29da2b6cb9b3c6c1a23ef41c0e2e52655018d7812d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/parts/part-00004.npz",
+      "sha256": "cb4f4f4f92666cc87eb084ea8c0897cc1f2dc53636fd1bbe8cfb0734fe3625fb"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/parts/part-00005.npz",
+      "sha256": "9c57de3d7b98c73b1dd2df28e81edbbcd5a04e9513bd57fc6b64d3ef795ca1d1"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/parts/part-00006.npz",
+      "sha256": "6771b824ae26c65af3bd740be3555bdf98b19eceffd7b8a28d6c547e219d88d7"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/parts/part-00007.npz",
+      "sha256": "e588e38fd622532b17fd984524f4416784c8582354ecad63845ed082b263022d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/parts/part-00008.npz",
+      "sha256": "227552b65e9663bd8ebb42d1478d48835097a9c2423cbb1e3fd268193bf4ded8"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/parts/part-00009.npz",
+      "sha256": "5f2931b8a121d3ef57a55569a236016dfc991190d1ffa916c3931d46a4da849e"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/parts/part-00010.npz",
+      "sha256": "36bea6e825e671c66015107b49ef254b8b0016b10dbf6476b0aa1b0bf274c472"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/parts/part-00011.npz",
+      "sha256": "cc6278f9fe7e1798e0c041ec34d723261a9532d75c725054c824d5098d0be1a9"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/parts/part-00012.npz",
+      "sha256": "5b7a6d327e43542feb7c5db86b597c0d972cb0761df1c1b4578b2d86cf893a3e"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/parts/part-00013.npz",
+      "sha256": "36a87fe223de098dab2310c9caf187ec425ab253439ca3ebdff550869ec9bc07"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/parts/part-00014.npz",
+      "sha256": "a890ae3e22517f7acbb547269eb452906731067d29e721178f4c492276e9ab78"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/parts/part-00015.npz",
+      "sha256": "d828183ea1f24e38af80ac619eda617d087f2696f52b21416c4f9cca31f49d65"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/parts/part-00016.npz",
+      "sha256": "d7f2186099acbce515028d9b757f3ea3b6b7997f4e478ede3539c82f9f36f6cd"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/parts/part-00017.npz",
+      "sha256": "e2e819ef0a870713a76238f00b8e6dd82d0c56d317400becb32104dd69db4d5e"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/parts/part-00018.npz",
+      "sha256": "e3bac3623de9347f56fc809d29976c59909e61d58fac94532ae244751a5a63d1"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/parts/part-00019.npz",
+      "sha256": "07945cd966e615a76a879f7d21bd3cbaa4abdb2bda4d7c5f5510c95fd5d3a1f1"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/parts/part-00020.npz",
+      "sha256": "ef31e63b0bc894597436bb5b3b9acf1af204bb7ba2a54b9abe4daf26b275e582"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/parts/part-00021.npz",
+      "sha256": "0808233ec511e2c6178241a377257010e822142a1414d853b9e2b11eb4d31343"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/parts/part-00022.npz",
+      "sha256": "ef94c104f61546f05594b3afc2302f059d3f5fbdbeb771e99266a9cfdb4c9b06"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/parts/part-00023.npz",
+      "sha256": "b9472e68b26acb0240343b840dbb22027e23d12b7cfb8aeafa1dae11b55341bb"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/parts/part-00024.npz",
+      "sha256": "41abc3d9bf4e7061e93b60e0f3e6f89a5dc85cd4e3305d7d8a442ec862bdde19"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/parts/part-00025.npz",
+      "sha256": "319b035294126398ef23f636a37f03871649ec6b24dbe85636463f3680613392"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/parts/part-00026.npz",
+      "sha256": "94b475a86589ba129d29c815e3e6c11d171915f4b83e49a54bf0a76bb87b6e21"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/parts/part-00027.npz",
+      "sha256": "f4239bf77381dea0a6e7f55cc5b71e0785632d0ed6bc16b24ea6f7204eb27348"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/parts/part-00028.npz",
+      "sha256": "7a68b8a405405e983bb775bc46562e4190ce06e81860deb4780b844bbe241321"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/parts/part-00029.npz",
+      "sha256": "90c05c4eb702810a3d84a06de416d90ff6f224e28ae7a0db1af5018b35d2ef3c"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/parts/part-00030.npz",
+      "sha256": "4adffab249da27fa2772c1251b3c2bdbe397f4b1798a1d4fcbc50fc688f555d5"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/parts/part-00031.npz",
+      "sha256": "e12eaf683815d0b370ae4610ef4ee5206cf87615a42470b1180ba8b8c88c54c0"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/parts/part-00032.npz",
+      "sha256": "3d530cceaeb8a1842c6d39fa6e4b7782cec7324ebb72f0a35ca4ffccf7b926ec"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/parts/part-00033.npz",
+      "sha256": "2400c02af744e3dafbb0f7234e27bfb35f32048832563125e474c764a19f302a"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/parts/part-00034.npz",
+      "sha256": "ded9db4f0196849957af5190e921cab00238320f5812681613ee6d6b5e51fbe8"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/parts/part-00035.npz",
+      "sha256": "1b591cd32b553e361743dd2c95375b47365440c1bfbcdac77da8d848bb4b7cc4"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/parts/part-00036.npz",
+      "sha256": "3e6197c4942137b2a3db47e4da70726cd29bc9eb0952689dee8b92d9b69a4fbb"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/parts/part-00037.npz",
+      "sha256": "22f34b5e34fa5d523e50ed99a508ab30d2cdeca43579fbd354c16eea9f7de49e"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/parts/part-00038.npz",
+      "sha256": "64542227299edc965b24800f83dd886e01d35666af6a71c13c30d440a367ebb4"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/parts/part-00039.npz",
+      "sha256": "3ffadfb335870b70ae0585ff857751699d9762ef142a58cc5e216cb386f5310d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/parts/part-00040.npz",
+      "sha256": "816614bcc7e93817ab13dd8733ba92fb8d628b0054c821b82b1acfc0a3a0c508"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/parts/part-00041.npz",
+      "sha256": "1ebbb0fc81f0be4025b7fdd64523bfc33c436e1ccb86e37fed221b06574b63ee"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/parts/part-00042.npz",
+      "sha256": "afe2cd1a1df40445da67ac8ab1b4ab5182cbddc8ebe8b30cf2e242e1fdba7315"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/parts/part-00043.npz",
+      "sha256": "be91b7e9b68c5689f297a615bab35b13b67535afff23016a97c48bbc4533deb9"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/parts/part-00044.npz",
+      "sha256": "b3c476da12b2e9f7f12e41464488b31f8fa2ec82545f24220cbf4c032199a471"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/parts/part-00045.npz",
+      "sha256": "e0f2af927d1c8e803d52560ba3e150845d11000b2ac74d57f6ef26648eea6dce"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/parts/part-00046.npz",
+      "sha256": "59a6811bb1cd8ebe36b969fb350d72d3e44eaa4ff9f5a6b4c3f35f24403c4bf1"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/parts/part-00047.npz",
+      "sha256": "e1fa0935cf768217222f4405cca9ba19a6ee9b116828bf83c458d2c4df483054"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/parts/part-00000.npz",
+      "sha256": "58aff2257a934973e45cca7604a93c5787841a9997dd1e58af8e2a33794d16cb"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/parts/part-00001.npz",
+      "sha256": "9b02555b53b5569b881e0b5b75ab13d409a53b9112afcc1cd66d078fcc28f7b6"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/parts/part-00002.npz",
+      "sha256": "5bb0d02bfbdde0b503864247fc4f14fbde8db233153f8f8aea6b09c7758b6a71"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/parts/part-00003.npz",
+      "sha256": "9f193223135223242112d1e68b3ee433993752f908c242b20511eee99d33b9f3"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/parts/part-00004.npz",
+      "sha256": "6a5a845aa1d921ad0b4474de1e0a8e37efb091637d298641bae73d7d468aab55"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/parts/part-00005.npz",
+      "sha256": "af33991097d2914aef813bc564d79b2f386d05d2f084fb23eaf80d62b607a808"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/parts/part-00006.npz",
+      "sha256": "49a94d6e4b7a144bb991fc52fce983cddd819a2d0caedbe5ba3683e493eaf975"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/parts/part-00007.npz",
+      "sha256": "0c4b62fafdf57856faa20edc6e43c1c2947594d3552ee9a78d770f61db5225b7"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/parts/part-00008.npz",
+      "sha256": "96ffc9544ae4f58ef49798c90d1a9196ebcf4595707d7cc63e194ab62d7f7d7f"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/parts/part-00009.npz",
+      "sha256": "8611d6e823cac4ca9e0a1205cb14c3dac4cfb81b598e089cfadef331b818d90f"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/parts/part-00010.npz",
+      "sha256": "efb9990b17fe8a40dbaefc6c37da3de91ed8bcadf98d2f4442eb17c31b1b2177"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/parts/part-00011.npz",
+      "sha256": "dbcb324d7fb7af7c3e965d8b91c1c91f7683286a0b3f5f4b051515135bfdab90"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/parts/part-00012.npz",
+      "sha256": "9218ddb246af80c9915c97f50277150564b7be4b0c73bacb38d8a2be36d515cb"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/parts/part-00013.npz",
+      "sha256": "2bcf8370742cad8c7fdae9e7995d7d208c0db841c6080fd964ac5385119f0822"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/parts/part-00014.npz",
+      "sha256": "913281c0ee6766a9dd2a3e176ffd72a04cece950611deef9d95711679c4c9587"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/parts/part-00015.npz",
+      "sha256": "8e7f5f0a4d6f4c866537fa4955ded242f2e0f3a7782b0607ddfdb7ffc7c290c1"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/parts/part-00016.npz",
+      "sha256": "45961de97e45fb0471a1103027713758a1a90d5b4146efd2f77131f02e739542"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/parts/part-00017.npz",
+      "sha256": "8549d02355074cdcfde889732a87567cb4a6e84336527f22bf69f429db869c1b"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/parts/part-00018.npz",
+      "sha256": "2f116914f7470bd474f8f3e70e63221584e31a2c47d3923cc858d0b5b7e94b69"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/parts/part-00019.npz",
+      "sha256": "bcb6d71ca8af326f8dd7e3ba6002f55b9f0ca770298d66d83b27f3661d2c1d30"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/parts/part-00020.npz",
+      "sha256": "aad4ae327d2fce5bdaa263ed6f8be4b06755905b52762d728224b0b82629ca8e"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/parts/part-00021.npz",
+      "sha256": "0410e8e410736052d93ef7372fbe8a31bb61664efb8b88dc5f8b0873a91148dd"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/parts/part-00022.npz",
+      "sha256": "b00c9760049f835fdcb363048474a83ac56669d3a91b1b7bcade7184fa90bc15"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/parts/part-00023.npz",
+      "sha256": "be6815157478d160ceeeb6987775ea0ff56f85d23057f728abcb9f6d10d71bb9"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/parts/part-00024.npz",
+      "sha256": "2e9080c0e7a94d82283f06e2962798281a736b2ad8ce009b402da6b947fccef8"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/parts/part-00025.npz",
+      "sha256": "ba2b1011cdff3b169fcec254e1aa9c2799e5b1260997813cda29d100ead8ef69"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/parts/part-00026.npz",
+      "sha256": "747a879e69a05fc4afc8f6d71e39ea68d24a940b0b5a72e1e3f4d2a674a8706f"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/parts/part-00027.npz",
+      "sha256": "6fb1c055da40a064f48c0050b13cface4daf9123222fe7742ba514803f1368d0"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/parts/part-00028.npz",
+      "sha256": "7e9b38ec772017773b07e5a3f371f64a2cb9f7a519fd04fd7dfeb45496bd41da"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/parts/part-00029.npz",
+      "sha256": "2c12e1b6245b123138fdd30370a14092ff95a71f8c30562b56fd03af9b937685"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/parts/part-00030.npz",
+      "sha256": "51d1ffb7e48c6110ed6a78907085ab1392f188f3110c842ad74a0af46821c973"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/parts/part-00031.npz",
+      "sha256": "11145964d77a1033821eab50ef16cf4ae75132e2c00ed690515f0066b4e7c284"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/parts/part-00032.npz",
+      "sha256": "80b200f6b580ff255849091e0db214487daed76cd7334c81bcdbbc1cb0e85a48"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/parts/part-00033.npz",
+      "sha256": "2e866632217537d15b83140ed9c450dfeb7e44a47a8b00572ec6262b1fbe03a7"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/parts/part-00034.npz",
+      "sha256": "e0caf341294373a186f20a4a6959c8a68d4bb955b5bb53c7adaeefa7f9b698fa"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/parts/part-00035.npz",
+      "sha256": "dc836c641d94754254962fb7e54c8e2cbaf9046d9857f736eccdfaac786883e0"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/parts/part-00036.npz",
+      "sha256": "166884d6cc396aacd451323f9e103a5eb8af545de882cd303f8e7025a7b5c745"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/parts/part-00037.npz",
+      "sha256": "e0cde29200706631ead8f6428a36b3824dfbda3d5abc4df815d1ec3e1458179e"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/parts/part-00038.npz",
+      "sha256": "0b9c8e5070eb6862d6f81b8ab032d984af127ad7f05c9d67da0c7ba41e62522e"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/parts/part-00039.npz",
+      "sha256": "3deaa91ef14fc8b6dee8b18955d5e057eaccf4a1fdc85f990ded6ec6ef8477da"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/parts/part-00040.npz",
+      "sha256": "9d21fc1128823fced958fc9361fd6c0fc4853de5bca9ab04815773af543c6941"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/parts/part-00041.npz",
+      "sha256": "7e5ac994821b0f760713787be7cda9ccfe91d867900a2e1bdb1d0b346a5015ed"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/parts/part-00042.npz",
+      "sha256": "9dd261f80719131f8957af52e6f81fcd75348d6f828ca507b63f23adb912672b"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/parts/part-00043.npz",
+      "sha256": "499ad860cf290bf081f198db579ad07c2a7d98088b4e2a7d89f03cfc0070c439"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/parts/part-00044.npz",
+      "sha256": "02be27c6526e1e531b4b84277ec9d29b9e54dd3099a5c3ead81cfec49f287b6f"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/parts/part-00045.npz",
+      "sha256": "47f8ae6552f3ae9479ab607dbc3b74dc626324b6e3eada38f06ee9dad91748b2"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/parts/part-00046.npz",
+      "sha256": "65e22a50f29be643fdce66da8c87402cf88278498d0fd36bd98e9297fa454274"
+    }
+  ],
+  "geometry_sha256": "8f9f47785567981cc13c27646241a13bfcde5572f6a160cb74eb68bc58788bf4",
+  "labels_sha256": "7766a6d145c09564e83f68b5545679a88319f58b7eff8192280579351722a2e4",
+  "builder_sha256": "f7c88310dfbe8f8d500ca56b91d6d1980501e2430bcffbc4915dcb131cc982ea",
+  "contract_sha256": "1826efd9fd97029ea970b29ce9e5d230638f806f747482a279e6eb285608860d",
+  "background_current_missing_retained_target": 66,
+  "current_box_max_absolute_difference": 7.002458572387695,
+  "current_box_exact_retained_targets": 0,
+  "empty_map_targets": 0,
+  "max_history_time_deviation_seconds": 0.15083000000000002,
+  "target_history_source": "original retained perception; unchanged",
+  "neighbor_history_source": "same-condition regenerated perception; no GT positions",
+  "future_labels_in_geometry": false,
+  "seconds": 344.10395765304565
+}

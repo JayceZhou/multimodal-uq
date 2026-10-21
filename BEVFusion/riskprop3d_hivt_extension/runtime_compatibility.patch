@@ -1,0 +1,98 @@
+diff --git a/HiVT_modified/metrics/ade.py b/HiVT_modified/metrics/ade.py
+index b69db78..f9a8b10 100644
+--- a/HiVT_modified/metrics/ade.py
++++ b/HiVT_modified/metrics/ade.py
+@@ -20,11 +20,10 @@ from torchmetrics import Metric
+ class ADE(Metric):
+ 
+     def __init__(self,
+-                 compute_on_step: bool = True,
+                  dist_sync_on_step: bool = False,
+                  process_group: Optional[Any] = None,
+                  dist_sync_fn: Callable = None) -> None:
+-        super(ADE, self).__init__(compute_on_step=compute_on_step, dist_sync_on_step=dist_sync_on_step,
++        super(ADE, self).__init__(dist_sync_on_step=dist_sync_on_step,
+                                   process_group=process_group, dist_sync_fn=dist_sync_fn)
+         self.add_state('sum', default=torch.tensor(0.0), dist_reduce_fx='sum')
+         self.add_state('count', default=torch.tensor(0), dist_reduce_fx='sum')
+diff --git a/HiVT_modified/metrics/fde.py b/HiVT_modified/metrics/fde.py
+index 3faf818..1898d0f 100644
+--- a/HiVT_modified/metrics/fde.py
++++ b/HiVT_modified/metrics/fde.py
+@@ -20,11 +20,10 @@ from torchmetrics import Metric
+ class FDE(Metric):
+ 
+     def __init__(self,
+-                 compute_on_step: bool = True,
+                  dist_sync_on_step: bool = False,
+                  process_group: Optional[Any] = None,
+                  dist_sync_fn: Callable = None) -> None:
+-        super(FDE, self).__init__(compute_on_step=compute_on_step, dist_sync_on_step=dist_sync_on_step,
++        super(FDE, self).__init__(dist_sync_on_step=dist_sync_on_step,
+                                   process_group=process_group, dist_sync_fn=dist_sync_fn)
+         self.add_state('sum', default=torch.tensor(0.0), dist_reduce_fx='sum')
+         self.add_state('count', default=torch.tensor(0), dist_reduce_fx='sum')
+diff --git a/HiVT_modified/metrics/mr.py b/HiVT_modified/metrics/mr.py
+index 4c35d6e..9a7694f 100644
+--- a/HiVT_modified/metrics/mr.py
++++ b/HiVT_modified/metrics/mr.py
+@@ -21,11 +21,10 @@ class MR(Metric):
+ 
+     def __init__(self,
+                  miss_threshold: float = 2.0,
+-                 compute_on_step: bool = True,
+                  dist_sync_on_step: bool = False,
+                  process_group: Optional[Any] = None,
+                  dist_sync_fn: Callable = None) -> None:
+-        super(MR, self).__init__(compute_on_step=compute_on_step, dist_sync_on_step=dist_sync_on_step,
++        super(MR, self).__init__(dist_sync_on_step=dist_sync_on_step,
+                                  process_group=process_group, dist_sync_fn=dist_sync_fn)
+         self.add_state('sum', default=torch.tensor(0.0), dist_reduce_fx='sum')
+         self.add_state('count', default=torch.tensor(0), dist_reduce_fx='sum')
+diff --git a/HiVT_modified/models/local_encoder.py b/HiVT_modified/models/local_encoder.py
+index 1ca328d..cdd875c 100644
+--- a/HiVT_modified/models/local_encoder.py
++++ b/HiVT_modified/models/local_encoder.py
+@@ -272,17 +272,20 @@ class TemporalEncoderLayer(nn.Module):
+     def forward(self,
+                 src: torch.Tensor,
+                 src_mask: Optional[torch.Tensor] = None,
+-                src_key_padding_mask: Optional[torch.Tensor] = None) -> torch.Tensor:
++                src_key_padding_mask: Optional[torch.Tensor] = None,
++                is_causal: bool = False) -> torch.Tensor:
+         x = src
+-        x = x + self._sa_block(self.norm1(x), src_mask, src_key_padding_mask)
++        x = x + self._sa_block(self.norm1(x), src_mask, src_key_padding_mask, is_causal)
+         x = x + self._ff_block(self.norm2(x))
+         return x
+ 
+     def _sa_block(self,
+                   x: torch.Tensor,
+                   attn_mask: Optional[torch.Tensor],
+-                  key_padding_mask: Optional[torch.Tensor]) -> torch.Tensor:
+-        x = self.self_attn(x, x, x, attn_mask=attn_mask, key_padding_mask=key_padding_mask, need_weights=False)[0]
++                  key_padding_mask: Optional[torch.Tensor],
++                  is_causal: bool) -> torch.Tensor:
++        x = self.self_attn(x, x, x, attn_mask=attn_mask, key_padding_mask=key_padding_mask,
++                           need_weights=False, is_causal=is_causal)[0]
+         return self.dropout1(x)
+ 
+     def _ff_block(self, x: torch.Tensor) -> torch.Tensor:
+diff --git a/HiVT_modified/utils.py b/HiVT_modified/utils.py
+index 3f9c091..b6dcfa1 100644
+--- a/HiVT_modified/utils.py
++++ b/HiVT_modified/utils.py
+@@ -51,11 +51,11 @@ class TemporalData(Data):
+             for t in range(self.x.size(1)):
+                 self[f'edge_attr_{t}'] = edge_attrs[t]
+ 
+-    def __inc__(self, key, value):
++    def __inc__(self, key, value, *args, **kwargs):
+         if key == 'lane_actor_index':
+             return torch.tensor([[self['lane_vectors'].size(0)], [self.num_nodes]])
+         else:
+-            return super().__inc__(key, value)
++            return super().__inc__(key, value, *args, **kwargs)
+ 
+ 
+ class DistanceDropEdge(object):

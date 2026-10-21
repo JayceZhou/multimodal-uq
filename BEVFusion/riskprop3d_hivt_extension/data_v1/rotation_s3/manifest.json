@@ -1,0 +1,374 @@
+{
+  "condition": "rotation_s3",
+  "targets": 17702,
+  "scenes": 70,
+  "source_tracks": "outputs/riskprop3d_final_confirmation/tracks/external/rotation_s3.npz",
+  "source_tracks_sha256": "ac072f4b514ecbbc470f459438c7e74bd61e314a81eea549e4366f6931c4a30d",
+  "sources": [
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_00/parts/part-00000.npz",
+      "sha256": "fa4c18e89f64a0268f41082af2d1814ccc29298c6af751b1c0c7344740383232"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_00/parts/part-00001.npz",
+      "sha256": "2108b14a1c20cfd08b10692f6d914fb34500954b7e48f461357927d995e19b8a"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_00/parts/part-00002.npz",
+      "sha256": "0654a456e2272afcc16c133410c8c43b4d3a0301842d143648d60d357954904b"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_00/parts/part-00003.npz",
+      "sha256": "6088cd08d8f7126f42c635e2280f11031178b74c970eb2ee1d6355e825ae863d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_00/parts/part-00004.npz",
+      "sha256": "7248d7a68a1984bdecb9f7eaf5e06c5f2d6a8648dc61342b3d31dfd72b594d12"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_00/parts/part-00005.npz",
+      "sha256": "75ca14a922d72548c348513d9a8560327d1d4648d624c593e4235cfe26796f23"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_00/parts/part-00006.npz",
+      "sha256": "1c36e2644b8b839b70736f84b5aa87eb9b658c76f860c9349ee85a4d03c92338"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_00/parts/part-00007.npz",
+      "sha256": "f3ca3b7a16fcc7d5fe602c88ec216146d34b635d4a3ddc6396dbf11fe5cd19c9"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_00/parts/part-00008.npz",
+      "sha256": "c1487d255f71ba0acf07610a3cea2affd7195b5f7e7fabe1d01cdff4ec3cdfea"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_00/parts/part-00009.npz",
+      "sha256": "5899390d0775c5712924a3810e8e0587ff3d116284ff1167a701c94672aa8baa"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_00/parts/part-00010.npz",
+      "sha256": "ab39d3ba0c4fb6b60e434b3efa1a31ba6f1da664e3dc135f550fe0b9c69b1773"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_00/parts/part-00011.npz",
+      "sha256": "c1d437bd9c66d599bdad47eb69c8a6129584a83b22e937aa7eb744b6faeb13d1"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_00/parts/part-00012.npz",
+      "sha256": "eb8be8dee577da48d98699f4295b383f91f4aea22787ec5409d19245a7544451"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_00/parts/part-00013.npz",
+      "sha256": "cbd3b960fc27283b0aaa5fe7c68a8bdcb9427226a8c986a16b1d1b07be6625f6"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_00/parts/part-00014.npz",
+      "sha256": "57f6292b21b5b621ef702161e30dadac31ff83c367a70879837c6a3e57e11054"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_00/parts/part-00015.npz",
+      "sha256": "cbba11db8280358ddba007ef42f566bea6f4bb57e24bba14ba9f7ba8ef49bfd7"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_00/parts/part-00016.npz",
+      "sha256": "edc5ca8d7da28ae0dd9ce64584e077667aa6f436264ed730cbd3367526fa5a4b"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_00/parts/part-00017.npz",
+      "sha256": "f363ed1871aa23fb42023e2caf685cd77b00e7005f505c015fe5180ebc385a51"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_00/parts/part-00018.npz",
+      "sha256": "78ee62adbebcb73a0233a8656ff1b2812f913a2cb8da4ec70f1d2126eeff9deb"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_00/parts/part-00019.npz",
+      "sha256": "49014be373c17bf61815501bf5189ecf47caae25e7a0591e1b2e279898714843"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_00/parts/part-00020.npz",
+      "sha256": "5fcb9fb4c515d2927b8902365e90e6f04d912b79d6c5d01ff329f71879b84564"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_00/parts/part-00021.npz",
+      "sha256": "275ec41d2473498687061693bc0bbb2e33969cae2935af06ec7dfca998c5286d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_00/parts/part-00022.npz",
+      "sha256": "5e3bd17d585ff36514ee16db6f7993b8ba8ba1b535ab9cd36f12f0857796cd95"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_00/parts/part-00023.npz",
+      "sha256": "cd686ca7160a6aca6a7bf9c1b8c94ebf9a4cc98f3a0d4a23268a0506ceaed8f9"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_00/parts/part-00024.npz",
+      "sha256": "28b43d644ba24d727dba994cdee12158d37038092f372375132fcca1a1b25bce"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_00/parts/part-00025.npz",
+      "sha256": "b71377ddc8a332cc4078878f3f81360b86fb332a61857215d1710799e15a1077"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_00/parts/part-00026.npz",
+      "sha256": "6f3a523dc661435eb94ae62b9c00c1317f0f3f9556652fba474102fcc3318818"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_00/parts/part-00027.npz",
+      "sha256": "d777f9250dd4a3c4f8c480beda5a3640d384980b65f87e131d216c8cc8c2ff74"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_00/parts/part-00028.npz",
+      "sha256": "81d443e39aef84eb3c6112bace351886b195cc46fe6a513cc993212150c14ff2"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_00/parts/part-00029.npz",
+      "sha256": "e92979dda60dbd2a0f3ea37dee3845f7a1155dbf9494629bafdccf9b1c259469"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_00/parts/part-00030.npz",
+      "sha256": "9a4f06ba7d41c318339821a0de0383ea89f3ed4a11784ae883e5fcb1da0a7fab"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_00/parts/part-00031.npz",
+      "sha256": "5b56d4c7700d2d45d3f719d6c7a3d7e0ff7b3b1d8131ab5f63e55548c863d28d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_00/parts/part-00032.npz",
+      "sha256": "c593520a26e32bff959a67c0183d91f408eb8b714cb0d504fecc80dc06fe909d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_00/parts/part-00033.npz",
+      "sha256": "357ae2a0f93b45f91512e409986360fa9926bde43a3901810c2e65252eee6950"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_00/parts/part-00034.npz",
+      "sha256": "d3d47523e25c9dbbc810d5c3e0ad72a8a820ce2bdc8ac5e72c6e628913c192e9"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_00/parts/part-00035.npz",
+      "sha256": "67d778458e2fbaad0238484fa776953f39fae3cd9090c5fa0ef585ffdc985789"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_00/parts/part-00036.npz",
+      "sha256": "22b989eab96000df597eeff9c78e1381a2458fcd2a6efa07b4d575a5f2bd9e43"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_00/parts/part-00037.npz",
+      "sha256": "e44a16b9b6ce908c3fc131a2f417c860b0b3b5f5586e4dfe41e9d2e1234600e9"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_00/parts/part-00038.npz",
+      "sha256": "8695e741179cfa0cb91ff193373877974914b3e25ad4b0d90f86cd3e126e467a"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_00/parts/part-00039.npz",
+      "sha256": "a87a9a234503c1e93024c6ec43754486f9e74fb6e43f59e8c5f160623b4d4db8"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_00/parts/part-00040.npz",
+      "sha256": "7c389b8a9f093762c15f3bc651e5129d388ac9519371ec4d3eb0f5f863da6828"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_00/parts/part-00041.npz",
+      "sha256": "8d3d30420d32f6d83226bfc4ac7801ac802c3665fc4e4b062d23d1b85a849866"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_00/parts/part-00042.npz",
+      "sha256": "0de2d84e93c3e1ea8478f77a6c3bad46992a032453e7e08adc888dab63011624"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_00/parts/part-00043.npz",
+      "sha256": "9b8f571126cdef2cb99165b912f1e417ad7fcdb045c6ddf74f87e3a1b4de1cd9"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_01/parts/part-00000.npz",
+      "sha256": "598b88ae9f93bcdaf62bde8a095499a23d637872f08d812fe3e468cef8b256f1"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_01/parts/part-00001.npz",
+      "sha256": "452bad96262177d343bd6a41d2c8930b9b80beabdcd72bca4592f590612b2100"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_01/parts/part-00002.npz",
+      "sha256": "6c3773d26b1aa5c5268d577ac9a5299bac052bc99f68bbf3756c7724a48b34d7"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_01/parts/part-00003.npz",
+      "sha256": "75f6cd765d237008676517cca856a067435f6f5c845b67fa8449b8821cfa1b18"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_01/parts/part-00004.npz",
+      "sha256": "f46cc50b9de5ad8bbe8ae5f2f6e3a691825ed7b46f52d0f3c8e36f73afc5763a"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_01/parts/part-00005.npz",
+      "sha256": "b3981bdd110deee537960e98df494e6c9bef8fdf4b962444315e3c2a0a3f6dd0"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_01/parts/part-00006.npz",
+      "sha256": "c4f969b1bab2868e74c5ac3dbea663a4e9a51e0a5765ea386a5c2a5e64908bb4"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_01/parts/part-00007.npz",
+      "sha256": "dad9a3d1ef13ba788fe4f9185f71f826a7ab280c27258853d1aed7a09f33107c"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_01/parts/part-00008.npz",
+      "sha256": "a9e7c48b7015dbbcd41f2c8c52e8b69f63b2c4143091f6122c76fe9535e211ae"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_01/parts/part-00009.npz",
+      "sha256": "d46959f377bf1f1c88995d858e47e69917f531623e4b8d5e1a44920b8ae83ecc"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_01/parts/part-00010.npz",
+      "sha256": "fe4fe2e9e4a64c864bb645ecc6a6fc484e7d5b80354a007f66e8dc1003645300"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_01/parts/part-00011.npz",
+      "sha256": "9fe9ff4539c3e5353718553a5fb0eee74d85e2fcabba1e1c8fd21f39caf451b8"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_01/parts/part-00012.npz",
+      "sha256": "aa5eb340a2275dc4d9f439d11754f780457f9ef1085be636d71b8c733efd3b7d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_01/parts/part-00013.npz",
+      "sha256": "f0c101b6dd9d88dd416c4b0c155ad10da17d949e116e8178860b289fc8dc8c04"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_01/parts/part-00014.npz",
+      "sha256": "95df21290db996f7bd1709c387dc871d801746a4996728bf1e00357c1c62deee"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_01/parts/part-00015.npz",
+      "sha256": "e3686394b1cc93b0919cecac9a2a9ac4d7c9b54d8fa0262d5eba7d908c1c334c"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_01/parts/part-00016.npz",
+      "sha256": "23404afb6194005f2a2946a1027c5cdd3c780ece9f0765c4ece74a211bfcf1f4"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_01/parts/part-00017.npz",
+      "sha256": "c526c71206e806ebe6c64364e7a02b9d3434de0b11d99bde31442c2d5d3538ab"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_01/parts/part-00018.npz",
+      "sha256": "aa94f1379e3fabbf3210725d9f2c36bad5f63b32da4ce00cca5dd917418b761d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_01/parts/part-00019.npz",
+      "sha256": "09f43c5ef8891d8bed8b0be2ad572f635169cac73032810c09aa4fe3d9296c79"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_01/parts/part-00020.npz",
+      "sha256": "4ff97f0c7f288db71574b8fcf031b378fdcff5507d26e01696d0e1fa77f9611d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_01/parts/part-00021.npz",
+      "sha256": "870139f300e9632207e9f1d428005bbf8054a63849f8983eb8a7522574e2bc02"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_01/parts/part-00022.npz",
+      "sha256": "aa0ba07303e64c3210acab602588d137aa5b3a2186d44a9710f1e0c8b1e8de09"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_01/parts/part-00023.npz",
+      "sha256": "f7500430e6969463fb037dc2d4609df59c7af3591c4491e1c2181b1f64255718"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_01/parts/part-00024.npz",
+      "sha256": "f5f4b90232f9f7d7855c43664d91b5ce24419bf6ccd9a0c7d75c0b2d3da330d7"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_01/parts/part-00025.npz",
+      "sha256": "fa959ff239d77d3cd2d61839a1a65b9dbb5957624ead66edb7ab13fffdfdb718"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_01/parts/part-00026.npz",
+      "sha256": "4b442779e1b5533bc5392a4cc260c7c22f731869a183c9d4edc3e1e4078afe8c"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_01/parts/part-00027.npz",
+      "sha256": "82fc5832041fb30341632e26addcd5a6c2995db17f35924e8c51e9ec4d87ce02"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_01/parts/part-00028.npz",
+      "sha256": "fbc8dc5a5d22e9fb3ffa534a197d19e8db8ef73f89e8469405400f37ddb6f1a8"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_01/parts/part-00029.npz",
+      "sha256": "1908f21e81497993a49aaeb3db62d5a2a605f9bbab6a14625d720a0faa804631"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_01/parts/part-00030.npz",
+      "sha256": "121b9141ab11de62dd19e729d1e650fee5dbcbfa7963ec37acadf7657feb2c22"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_01/parts/part-00031.npz",
+      "sha256": "2c5b20bbfbdaec4357f4c613f91e6f8d12d7f3fd71ef9f3d342798c9db76c910"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_01/parts/part-00032.npz",
+      "sha256": "859656a768c20006931459cb700bc5b108145247835e361ca972cd0837bd82fe"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_01/parts/part-00033.npz",
+      "sha256": "709b45c20dae75dc299f06764d95716e8a3d06ccd774d1f8ac3db89aa1985a36"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_01/parts/part-00034.npz",
+      "sha256": "1fecd5367bcadb7f1918803b17d171e912d256a40f369a514144eaf4f20076ec"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_01/parts/part-00035.npz",
+      "sha256": "d64043b0792067180192d2ab589f47c2da406e9bdfc2303d526819dd9c8ddc65"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_01/parts/part-00036.npz",
+      "sha256": "799d3291154e3afdb868a5f2e9fd3ffb073261bcce74c9e52ff6719813aa5269"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_01/parts/part-00037.npz",
+      "sha256": "f0f4a1e01cc39245b19cf0f0fb406fb8d6f7f57941f31a6f81d1a2449bbff570"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_01/parts/part-00038.npz",
+      "sha256": "c9eeed30fa423ba5e9dbdedcb8ab2851ddc13eefcaa85a2cb2439a862c630513"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_01/parts/part-00039.npz",
+      "sha256": "8954a2be384ee50ebccffe66c809c40cc3cceba3617a058480f2ffc721b72710"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_01/parts/part-00040.npz",
+      "sha256": "0fdbc2b13c4979f0fc4d0f585af4a97c3866c94de478a8b5bd134e1c39f608c4"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_01/parts/part-00041.npz",
+      "sha256": "9d492b71072f8a3a366fede50ca42fad1860e457d51ed3a05d0457b1960a09ba"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_01/parts/part-00042.npz",
+      "sha256": "725facbf9620d66ed8f920a4cc4e89ad0ed33ae9347a5a6e943d7539f3f0d019"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_01/parts/part-00043.npz",
+      "sha256": "029afc0fe0ab2aef53a9099f011c6fd954c5b6c3153efc61144b19903bd904fb"
+    }
+  ],
+  "geometry_sha256": "adc194d18b5a0af3145e70bb1a3f15ba820538fddaa98d10a361abc0655af1bc",
+  "labels_sha256": "416dbafb9b3b2ac41ddcb72a6b839e15f11995cdbb062833ecdc36be30ca81c8",
+  "builder_sha256": "f7c88310dfbe8f8d500ca56b91d6d1980501e2430bcffbc4915dcb131cc982ea",
+  "contract_sha256": "1826efd9fd97029ea970b29ce9e5d230638f806f747482a279e6eb285608860d",
+  "background_current_missing_retained_target": 34,
+  "current_box_max_absolute_difference": 8.9091796875,
+  "current_box_exact_retained_targets": 0,
+  "empty_map_targets": 0,
+  "max_history_time_deviation_seconds": 0.149733,
+  "target_history_source": "original retained perception; unchanged",
+  "neighbor_history_source": "same-condition regenerated perception; no GT positions",
+  "future_labels_in_geometry": false,
+  "seconds": 183.2338583469391
+}

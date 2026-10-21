@@ -1,0 +1,60 @@
+clean:
+  enabled: true
+
+corruption:
+  family: degradation
+  type: camera_lowlight
+  severity: 0
+  seed: 20260707
+  affected_sensors: all
+  parameters: {}
+
+severities:
+  camera_lowlight:
+    legacy_candidate:
+      1: {exposure_scale: 0.70, gamma: 1.20}
+      2: {exposure_scale: 0.40, gamma: 1.60}
+      3: {exposure_scale: 0.20, gamma: 2.20}
+    calibrated_candidate:
+      1: {exposure_scale: 0.80, gamma: 1.10}
+      2: {exposure_scale: 0.60, gamma: 1.30}
+      3: {exposure_scale: 0.40, gamma: 1.60}
+    formal_candidate:
+      1: {exposure_scale: 0.80, gamma: 1.10}
+      2: {exposure_scale: 0.60, gamma: 1.30}
+      3: {exposure_scale: 0.50, gamma: 1.45}
+  lidar_dropout:
+    1: {drop_ratio: 0.25}
+    2: {drop_ratio: 0.50}
+    3: {drop_ratio: 0.75}
+  lidar_beam_reduction:
+    1: {retained_beams: 24}
+    2: {retained_beams: 16}
+    3: {retained_beams: 8}
+  camera_extrinsic_translation:
+    1: {translation_m: 0.10, direction: [1.0, 0.0, 0.0]}
+    2: {translation_m: 0.25, direction: [1.0, 0.0, 0.0]}
+    3: {translation_m: 0.50, direction: [1.0, 0.0, 0.0]}
+  camera_extrinsic_rotation:
+    1: {rotation_deg: 1.0, axis: [0.0, 0.0, 1.0]}
+    2: {rotation_deg: 3.0, axis: [0.0, 0.0, 1.0]}
+    3: {rotation_deg: 5.0, axis: [0.0, 0.0, 1.0]}
+  camera_temporal_offset:
+    1: {previous_frames: 1}
+    2: {previous_frames: 2}
+    3: {previous_frames: 3}
+  feature_branch_missing:
+    camera_missing: {severity: 1}
+    lidar_missing: {severity: 1}
+
+taxonomy:
+  families: [degradation, missing, conflict, complementarity_control]
+  implemented_types:
+    - camera_lowlight
+    - lidar_dropout
+    - lidar_beam_reduction
+    - camera_missing
+    - lidar_missing
+    - camera_extrinsic_translation
+    - camera_extrinsic_rotation
+    - camera_temporal_offset

@@ -1,0 +1,31 @@
+# Stage 3 target-level structured uncertainty. Default-off unless a tool loads it.
+seed: 20260708
+
+stage3_target_uq:
+  enabled: false
+  branches: [camera, lidar, fusion]
+  variants: [deterministic, fixed, diagonal, structured]
+  class_count: 10
+  probability_source: pre_nms_logits
+  freeze_base: true
+  train_reliability_conflict_gating: false
+  use_official_val_for_selection: false
+  lambdas:
+    cls: 1.0
+    xy: 1.0
+    z: 1.0
+    size: 1.0
+    yaw: 1.0
+    vel: 1.0
+  numerical:
+    eps: 0.0001
+    fixed_log_var: 0.0
+    variance_log_clamp: [-20.0, 20.0]
+  calibration:
+    split: stage3_label_cal
+    class_temperature: 1.0
+    existence_temperature: 1.0
+    covariance_scale: 1.0
+    yaw_kappa_scale: 1.0
+  outputs:
+    root: outputs/stage3/target_uq

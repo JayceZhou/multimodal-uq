@@ -1,0 +1,169 @@
+{
+  "time_beijing": "2026-10-13T21:58:43.473852+08:00",
+  "status": "INPUTS_MISSING",
+  "source_commit": "0a11ee4b925e4967f2f889079d4086b663d396dc",
+  "plan_sha256": "4840d288b47ee59dc1a2ce8fd3e1d549d21a76489a3ec04f439b4157d3f75f36",
+  "runner_sha256": "f30d1bb7d5779aae2ed1e49ec42d0b54d453d7f9c4bffefb79e1f99969a2ef4e",
+  "required_inputs": [
+    {
+      "path": "/home/zhousc/multimodal-uq/BEVFusion/outputs/riskprop3d_level1_matched_law/frozen_config.json",
+      "exists": true,
+      "expected_sha256": null,
+      "sha256": "336a97a7515c20699637fddda90d4f910a95edc3ee2aeba15dcfd864f26939ec",
+      "valid": true
+    },
+    {
+      "path": "/home/zhousc/multimodal-uq/BEVFusion/outputs/probset3d_v3/f1_formal/checkpoints/seed_20260731.pt",
+      "exists": false,
+      "expected_sha256": "087b3c4c63d40ab3314e1a6730c220384ea0212c83c4f3a895b083145679ffbc",
+      "sha256": null,
+      "valid": false
+    },
+    {
+      "path": "/home/zhousc/multimodal-uq/BEVFusion/outputs/probset3d_v3/f1_formal/checkpoints/seed_20260801.pt",
+      "exists": false,
+      "expected_sha256": "1781113c58cd5fb11d81befcd7f28be346ead4d431f18b71d2c1b74ca05f2f90",
+      "sha256": null,
+      "valid": false
+    },
+    {
+      "path": "/home/zhousc/multimodal-uq/BEVFusion/outputs/probset3d_v3/f1_formal/checkpoints/seed_20260802.pt",
+      "exists": false,
+      "expected_sha256": "ddf350e5dc5ea02aa87831b0cfb26b63b3b4ba555081048b3c0fd625cab60a5f",
+      "sha256": null,
+      "valid": false
+    },
+    {
+      "path": "/home/zhousc/multimodal-uq/BEVFusion/outputs/riskprop3d_r1/prepare_manifest.json",
+      "exists": true,
+      "expected_sha256": null,
+      "sha256": "a2f65bb6a0f8cf9bd25503308ca9e872a25192966d91726cae1b8559471da3f8",
+      "valid": true
+    },
+    {
+      "path": "/home/zhousc/multimodal-uq/BEVFusion/outputs/probset3d_v3/f1_authority/run_a/manifest.json",
+      "exists": false,
+      "expected_sha256": "af91451de4d16524941da82a1caa7329067564dcf0967bb5b1f9f2563013b672",
+      "sha256": null,
+      "valid": false
+    },
+    {
+      "path": "/home/zhousc/multimodal-uq/BEVFusion/outputs/probset3d_v3/f1_formal/baseline.json",
+      "exists": false,
+      "expected_sha256": null,
+      "sha256": null,
+      "valid": false
+    },
+    {
+      "path": "/home/zhousc/multimodal-uq/BEVFusion/outputs/riskprop3d_r0/tracks/train.npz",
+      "exists": true,
+      "expected_sha256": null,
+      "sha256": "9df0c6b310b34cd0b4f8a20c67601cd1eeb874b171ab2d16eec72a8213f61798",
+      "valid": true
+    },
+    {
+      "path": "/home/zhousc/multimodal-uq/BEVFusion/outputs/riskprop3d_r1/scenes/train.npz",
+      "exists": true,
+      "expected_sha256": "6543660cc99dd4196fab498cba91fa36fb7dbdbd9c676da481d168c83035e179",
+      "sha256": "6543660cc99dd4196fab498cba91fa36fb7dbdbd9c676da481d168c83035e179",
+      "valid": true
+    },
+    {
+      "path": "/home/zhousc/multimodal-uq/BEVFusion/outputs/riskprop3d_r0/tracks/label_cal.npz",
+      "exists": true,
+      "expected_sha256": null,
+      "sha256": "be61da137da7c5d7aa34f38dd695ad9b1b98433a7b37adb8c6dd3de957e3f128",
+      "valid": true
+    },
+    {
+      "path": "/home/zhousc/multimodal-uq/BEVFusion/outputs/riskprop3d_r1/scenes/label_cal.npz",
+      "exists": true,
+      "expected_sha256": "2b4f7a95280c1372ec233119addc5e0d3fec15fe7e6e807a1aebed05523474e9",
+      "sha256": "2b4f7a95280c1372ec233119addc5e0d3fec15fe7e6e807a1aebed05523474e9",
+      "valid": true
+    },
+    {
+      "path": "/home/zhousc/multimodal-uq/BEVFusion/outputs/riskprop3d_r0/tracks/clean_s0.npz",
+      "exists": true,
+      "expected_sha256": "82cfa0fba2969daf0d649e1b0b67d56e5d3aa924532150a53b6945dab878df99",
+      "sha256": "82cfa0fba2969daf0d649e1b0b67d56e5d3aa924532150a53b6945dab878df99",
+      "valid": true
+    },
+    {
+      "path": "/home/zhousc/multimodal-uq/BEVFusion/outputs/riskprop3d_r1/scenes/clean_s0.npz",
+      "exists": true,
+      "expected_sha256": "efe5b1d08b35517c8e481738b68d850401d00c9d2d17ebb47de8f7875587e180",
+      "sha256": "efe5b1d08b35517c8e481738b68d850401d00c9d2d17ebb47de8f7875587e180",
+      "valid": true
+    }
+  ],
+  "row_inventory": {
+    "train": {
+      "rows": 295718,
+      "vehicle_rows": 162919,
+      "vehicle_scenes": 559
+    },
+    "label_cal": {
+      "rows": 39192,
+      "vehicle_rows": 22188,
+      "vehicle_scenes": 69
+    },
+    "clean_s0": {
+      "rows": 34856,
+      "vehicle_rows": 18230,
+      "vehicle_scenes": 70
+    }
+  },
+  "blockers": [
+    "/home/zhousc/multimodal-uq/BEVFusion/outputs/probset3d_v3/f1_formal/checkpoints/seed_20260731.pt",
+    "/home/zhousc/multimodal-uq/BEVFusion/outputs/probset3d_v3/f1_formal/checkpoints/seed_20260801.pt",
+    "/home/zhousc/multimodal-uq/BEVFusion/outputs/probset3d_v3/f1_formal/checkpoints/seed_20260802.pt",
+    "/home/zhousc/multimodal-uq/BEVFusion/outputs/probset3d_v3/f1_authority/run_a/manifest.json",
+    "/home/zhousc/multimodal-uq/BEVFusion/outputs/probset3d_v3/f1_formal/baseline.json",
+    "native HiVT GPU runtime smoke"
+  ],
+  "packages": {
+    "torch": "2.4.1",
+    "torch-geometric": "2.5.3",
+    "torch-scatter": "2.1.2+pt24cu124",
+    "torch-sparse": "0.6.18+pt24cu124",
+    "pytorch-lightning": "2.3.3",
+    "torchmetrics": "1.4.3",
+    "lightning-utilities": "0.11.9"
+  },
+  "gpu_smoke": {
+    "status": "FAIL",
+    "error_type": "ValueError",
+    "error": "Unexpected keyword arguments: `compute_on_step`"
+  },
+  "formal_training_started": false,
+  "stochastic_law_results_read": false,
+  "sealed_test_accessed": false,
+  "source_hashes": {
+    "HiVT_modified/datamodules/__init__.py": "f2852b4b7cc639e858fcfb147c64679a3128a5283804cc892a06f85ef7bcf4e5",
+    "HiVT_modified/datamodules/argoverse_v1_datamodule.py": "06561c53224a20d12522d63367b48445fb7bf6d59b0f71d2ed9d88ce09b89bd6",
+    "HiVT_modified/datamodules/nuscenes_datamodule.py": "4918b769aef419ab4c876406e72a8b7c3d448dc7dbd56d728adc29f43e5e485c",
+    "HiVT_modified/datasets/__init__.py": "4cdd47fbfd0af290df18d17b5900610065d82dcf7df6b568a165f02c26319782",
+    "HiVT_modified/datasets/argoverse_v1_dataset.py": "dbd6d3adcff7d9bbebf5023502b2412b2f9824a993719961a27eebe89e59eb0c",
+    "HiVT_modified/datasets/nuscenes_dataset.py": "ab2f94c0df6ef52eda5777a38361e9bf0e1b7a31601a2ef70af76ce76466620c",
+    "HiVT_modified/eval.py": "600b4fac11f3d2f23436ea896a6668cc8e3e323f8f3e328d4ee9556f5acebe41",
+    "HiVT_modified/losses/__init__.py": "9977161797dba4de90870d8959594ae81f7106d23b3d7482c6a05d1ab275776f",
+    "HiVT_modified/losses/laplace_nll_loss.py": "b5eb09521d2a1779c20b7585028b7096f1e1c8d452b713d3f1ac9b4d81dea08f",
+    "HiVT_modified/losses/soft_target_cross_entropy_loss.py": "176f2b2ac833eb99e909ea159cf613ae9c1b9b25552edc890abebe4cd30d52a1",
+    "HiVT_modified/metrics/__init__.py": "36fa4afb68817285075f893b57fc0920bd4a50cbd080f818a5d46946fe3cb406",
+    "HiVT_modified/metrics/ade.py": "7e082d314e5165206e837d5a830b81ad5101b35893c742d74bdbb99cd5461418",
+    "HiVT_modified/metrics/fde.py": "875ab010c8f48f77d1c52a8c7d6f7585ddfe9b410ca5861ac51f2d378bdd8c30",
+    "HiVT_modified/metrics/mr.py": "fa087540b78c05c70dfdc8e4842bc6d0484bb486a8497e355f61df99858e397d",
+    "HiVT_modified/models/__init__.py": "cf6ec6ad098d3f8f234147c7150a00208d40802d8f5809bea499ea1f8fb4a63b",
+    "HiVT_modified/models/decoder.py": "d3818d089679b71c57d1dff5434a8b5fdb9e2420601e89178351b0c80b0999ee",
+    "HiVT_modified/models/embedding.py": "0d6ba544e4733ec92b466caa38a0ed848b067bce6a0b0d4cdb18b4081f4a5281",
+    "HiVT_modified/models/global_interactor.py": "7769fa9de42b1a637ebf2166fc25a536b93f622cc996d1cf9aeeb19653aa14ba",
+    "HiVT_modified/models/hivt.py": "37252f1c9324daaf1c81a2f4df49d782891a482c9fe68d3a4504dd1623426c00",
+    "HiVT_modified/models/local_encoder.py": "98b3a6b150d30e6b4c9d7b2578366d89ebce14cf6a536484ed85de5a2bd6bf8d",
+    "HiVT_modified/models/local_encoder_std.py": "d8a68653172e5b7d19d415875c2bd8c43a3297a2f99d682e6ad44fc7806cd3ee",
+    "HiVT_modified/models/num_nodes.py": "0ded21ab1b0391c5044ae0ccd682e6b0b6c3da3cf94707af60457bfe5bc4b22c",
+    "HiVT_modified/models/softmax.py": "7ec6751dd51f803d1ef0af9a39bab963c7006d0e8baa2c9b6ddec31179453f71",
+    "HiVT_modified/train.py": "4593982969ccd054558a31d1336b87b843b852027b630cf846c5c97891bbfed3",
+    "HiVT_modified/utils.py": "38a173c72cf05877fdfe27d5a25656457a43530c9884e625803c638acd3f1163"
+  }
+}

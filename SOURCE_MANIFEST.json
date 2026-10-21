@@ -1,0 +1,3834 @@
+{
+  "source_commit": "7a90bc03da371421e6e95fef74045234498bd63d",
+  "source_state": "working-tree snapshot; original files retained",
+  "files": [
+    {
+      "path": "BEVFusion/LICENSE",
+      "source": "BEVFusion/LICENSE",
+      "bytes": 11400,
+      "sha256": "02c5c55e19772184872c6c455553b15e4acac4b3a757550e7374f47723868ce1"
+    },
+    {
+      "path": "BEVFusion/README.md",
+      "source": "BEVFusion/README.md",
+      "bytes": 13074,
+      "sha256": "dc44db55ed48eda88afcfcfdc0e1c9d75dccc2ed3f803c330a93e0842c5bb99c"
+    },
+    {
+      "path": "BEVFusion/assets/demo.gif",
+      "source": "BEVFusion/assets/demo.gif",
+      "bytes": 9148272,
+      "sha256": "805798124fbb01063aeb1e520f309d19297168cb7a27586a3273c0a154818720"
+    },
+    {
+      "path": "BEVFusion/configs/av2/detector_migration_d0_v1.yaml",
+      "source": "BEVFusion/configs/av2/detector_migration_d0_v1.yaml",
+      "bytes": 8663,
+      "sha256": "1c9d95cde5965f0027168b6e12b164bfa0f56ee487cef01ba0e81a8f6647d4a5"
+    },
+    {
+      "path": "BEVFusion/configs/default.yaml",
+      "source": "BEVFusion/configs/default.yaml",
+      "bytes": 382,
+      "sha256": "20bc613b189b066151204b68d9033bbe270ae5877b248daa7c4097642cefef9c"
+    },
+    {
+      "path": "BEVFusion/configs/nuscenes/default.yaml",
+      "source": "BEVFusion/configs/nuscenes/default.yaml",
+      "bytes": 6688,
+      "sha256": "1e622fee01aebaeb41033f9a5e66b890768b95822176edc48f13dba29a1cf4fd"
+    },
+    {
+      "path": "BEVFusion/configs/nuscenes/det/centerhead/default.yaml",
+      "source": "BEVFusion/configs/nuscenes/det/centerhead/default.yaml",
+      "bytes": 1741,
+      "sha256": "3425d0b897d240c41ab49406bc84f340cec4fff960cbd2028673fd120f7e7826"
+    },
+    {
+      "path": "BEVFusion/configs/nuscenes/det/centerhead/lssfpn/camera+radar/default.yaml",
+      "source": "BEVFusion/configs/nuscenes/det/centerhead/lssfpn/camera+radar/default.yaml",
+      "bytes": 1695,
+      "sha256": "7cfa7b1b0bd9e7c0033ddd7be86bd9c3a872e49712b58ef5a222a9f4fb249d1b"
+    },
+    {
+      "path": "BEVFusion/configs/nuscenes/det/centerhead/lssfpn/camera+radar/resnet50/default.yaml",
+      "source": "BEVFusion/configs/nuscenes/det/centerhead/lssfpn/camera+radar/resnet50/default.yaml",
+      "bytes": 1777,
+      "sha256": "9ff2e97236db50bd5ff9a4bc9852ff78ec3ecd433561a3ba53a976e2f086d639"
+    },
+    {
+      "path": "BEVFusion/configs/nuscenes/det/centerhead/lssfpn/camera+radar/resnet50/dlss.yaml",
+      "source": "BEVFusion/configs/nuscenes/det/centerhead/lssfpn/camera+radar/resnet50/dlss.yaml",
+      "bytes": 288,
+      "sha256": "1ca0752066242a5ca5eb9fe530d13a4d32b2ca9a1bcf4e9f41f510ed0aeb7eb3"
+    },
+    {
+      "path": "BEVFusion/configs/nuscenes/det/centerhead/lssfpn/camera/256x704/default.yaml",
+      "source": "BEVFusion/configs/nuscenes/det/centerhead/lssfpn/camera/256x704/default.yaml",
+      "bytes": 24,
+      "sha256": "838cc86a03086962d30b2fd9ce97ea4462912e40cba4e09ea49a1e16f6e2b313"
+    },
+    {
+      "path": "BEVFusion/configs/nuscenes/det/centerhead/lssfpn/camera/256x704/resnet/bevdepth.yaml",
+      "source": "BEVFusion/configs/nuscenes/det/centerhead/lssfpn/camera/256x704/resnet/bevdepth.yaml",
+      "bytes": 449,
+      "sha256": "673817d0ddeb68df7890ef2ca5cda947ebace54eeb9ff5c001be5fa95a9f893e"
+    },
+    {
+      "path": "BEVFusion/configs/nuscenes/det/centerhead/lssfpn/camera/256x704/resnet/default.yaml",
+      "source": "BEVFusion/configs/nuscenes/det/centerhead/lssfpn/camera/256x704/resnet/default.yaml",
+      "bytes": 1143,
+      "sha256": "70722b1fb4e4f619e5d894fbbc00c4ecc46e7ea0a23785ddc745450d279f6b46"
+    },
+    {
+      "path": "BEVFusion/configs/nuscenes/det/centerhead/lssfpn/camera/256x704/swint/default.yaml",
+      "source": "BEVFusion/configs/nuscenes/det/centerhead/lssfpn/camera/256x704/swint/default.yaml",
+      "bytes": 1951,
+      "sha256": "10c7d8d5256549b404de44cc51699d64e5e0fe2bacf5ca14fc8429a0fba84ed1"
+    },
+    {
+      "path": "BEVFusion/configs/nuscenes/det/centerhead/lssfpn/camera/default.yaml",
+      "source": "BEVFusion/configs/nuscenes/det/centerhead/lssfpn/camera/default.yaml",
+      "bytes": 659,
+      "sha256": "61af3caec8cb781e8ee2152f7e4a9496f2b823fe40cf4bb97f28818d94537898"
+    },
+    {
+      "path": "BEVFusion/configs/nuscenes/det/centerhead/lssfpn/default.yaml",
+      "source": "BEVFusion/configs/nuscenes/det/centerhead/lssfpn/default.yaml",
+      "bytes": 989,
+      "sha256": "65d0e3097f273e55752ab6ae7d6e19b34b2c288f881b9ae4186bbe7f4865fedb"
+    },
+    {
+      "path": "BEVFusion/configs/nuscenes/det/default.yaml",
+      "source": "BEVFusion/configs/nuscenes/det/default.yaml",
+      "bytes": 5417,
+      "sha256": "2d509e882758ec5ade9073879e7d973b4467e323699f7ade37b0a896a49ab2e2"
+    },
+    {
+      "path": "BEVFusion/configs/nuscenes/det/transfusion/default.yaml",
+      "source": "BEVFusion/configs/nuscenes/det/transfusion/default.yaml",
+      "bytes": 2044,
+      "sha256": "772e0abef1a86a42f28511ab208dda3b0e3860eb2bbb4e42d70e04fe53b3c2d9"
+    },
+    {
+      "path": "BEVFusion/configs/nuscenes/det/transfusion/secfpn/camera+lidar/default.yaml",
+      "source": "BEVFusion/configs/nuscenes/det/transfusion/secfpn/camera+lidar/default.yaml",
+      "bytes": 1457,
+      "sha256": "ea024e79ec783224e8af44df3fb8f01612042e7db6d99c4c12fa91e70b044245"
+    },
+    {
+      "path": "BEVFusion/configs/nuscenes/det/transfusion/secfpn/camera+lidar/swint_v0p075/convfuser.yaml",
+      "source": "BEVFusion/configs/nuscenes/det/transfusion/secfpn/camera+lidar/swint_v0p075/convfuser.yaml",
+      "bytes": 86,
+      "sha256": "cb7bbbc25e8fdf67c2e914b11661828b684312300deb2afc410793192713e04b"
+    },
+    {
+      "path": "BEVFusion/configs/nuscenes/det/transfusion/secfpn/camera+lidar/swint_v0p075/default.yaml",
+      "source": "BEVFusion/configs/nuscenes/det/transfusion/secfpn/camera+lidar/swint_v0p075/default.yaml",
+      "bytes": 1287,
+      "sha256": "8a44af33588b4badbf17f62739d00d2dbaab84313b3aa7eb626a4ecb8552ebb3"
+    },
+    {
+      "path": "BEVFusion/configs/nuscenes/det/transfusion/secfpn/camera+lidar/swint_v0p075/stage1_frozen.yaml",
+      "source": "BEVFusion/configs/nuscenes/det/transfusion/secfpn/camera+lidar/swint_v0p075/stage1_frozen.yaml",
+      "bytes": 260,
+      "sha256": "cab754684756ebd13a8732817fc1ba7dea739560a87810a793fede33fff3c5e0"
+    },
+    {
+      "path": "BEVFusion/configs/nuscenes/det/transfusion/secfpn/default.yaml",
+      "source": "BEVFusion/configs/nuscenes/det/transfusion/secfpn/default.yaml",
+      "bytes": 821,
+      "sha256": "b92f9e99cf5c99cbf28ac80790eb12bb202699fb7dc77b0237639f386d13ec00"
+    },
+    {
+      "path": "BEVFusion/configs/nuscenes/det/transfusion/secfpn/lidar/default.yaml",
+      "source": "BEVFusion/configs/nuscenes/det/transfusion/secfpn/lidar/default.yaml",
+      "bytes": 61,
+      "sha256": "11d34b5fb66f3a1cb53c51da3a48d94b339f324260b003ee7d5c7e4b9b10a02a"
+    },
+    {
+      "path": "BEVFusion/configs/nuscenes/det/transfusion/secfpn/lidar/pointpillars.yaml",
+      "source": "BEVFusion/configs/nuscenes/det/transfusion/secfpn/lidar/pointpillars.yaml",
+      "bytes": 1217,
+      "sha256": "53b0df8908a1df37e18f39e9319b751c2562405fa57ea1f277307f683a528b11"
+    },
+    {
+      "path": "BEVFusion/configs/nuscenes/det/transfusion/secfpn/lidar/voxelnet.yaml",
+      "source": "BEVFusion/configs/nuscenes/det/transfusion/secfpn/lidar/voxelnet.yaml",
+      "bytes": 665,
+      "sha256": "a613545c58521bd44a28546d11f4b7fa3c3cbeb49ef27dc358000684b4b7f2fd"
+    },
+    {
+      "path": "BEVFusion/configs/nuscenes/det/transfusion/secfpn/lidar/voxelnet_0p075.yaml",
+      "source": "BEVFusion/configs/nuscenes/det/transfusion/secfpn/lidar/voxelnet_0p075.yaml",
+      "bytes": 883,
+      "sha256": "8b8e9a057d7b39ca4ab97c3a17b37ce14bfa5615e0becaaf2a70fab04ee12d64"
+    },
+    {
+      "path": "BEVFusion/configs/nuscenes/seg/camera-bev256d2.yaml",
+      "source": "BEVFusion/configs/nuscenes/seg/camera-bev256d2.yaml",
+      "bytes": 1970,
+      "sha256": "109b04415dab313c60a395426e68a7560e4f283cdaf61d86e26d27249c617466"
+    },
+    {
+      "path": "BEVFusion/configs/nuscenes/seg/default.yaml",
+      "source": "BEVFusion/configs/nuscenes/seg/default.yaml",
+      "bytes": 303,
+      "sha256": "084a67c8b691744a3aed7e54af3ebaa8e2c4b2f3d4dd297e7ed5181d7d83aa67"
+    },
+    {
+      "path": "BEVFusion/configs/nuscenes/seg/fusion-bev256d2-lss.yaml",
+      "source": "BEVFusion/configs/nuscenes/seg/fusion-bev256d2-lss.yaml",
+      "bytes": 2998,
+      "sha256": "ac6a42e018269123b2c70a9af1b6e5990a644327c4c600171d4a7885ec453c1a"
+    },
+    {
+      "path": "BEVFusion/configs/nuscenes/seg/lidar-centerpoint-bev128.yaml",
+      "source": "BEVFusion/configs/nuscenes/seg/lidar-centerpoint-bev128.yaml",
+      "bytes": 1487,
+      "sha256": "8771fa295a966e7f2dd4199d43f35b4dc6536fffc29377557cb1fc84795a1320"
+    },
+    {
+      "path": "BEVFusion/configs/stage2/corruptions.yaml",
+      "source": "BEVFusion/configs/stage2/corruptions.yaml",
+      "bytes": 1756,
+      "sha256": "41af481bf87f954ebd0dd7013a71fd9b6e69040d2174dd679464799ce0e6be67"
+    },
+    {
+      "path": "BEVFusion/configs/stage3/preliminary_stage45_baseline.yaml",
+      "source": "BEVFusion/configs/stage3/preliminary_stage45_baseline.yaml",
+      "bytes": 434,
+      "sha256": "10dfc7fe2e0b2d08294afa79a1d15e2ee74cdfcf2a1c34e0aafcd95da1067d63"
+    },
+    {
+      "path": "BEVFusion/configs/stage3/target_uq/default.yaml",
+      "source": "BEVFusion/configs/stage3/target_uq/default.yaml",
+      "bytes": 760,
+      "sha256": "699235b77c536f39a4e3877ed2001032c68cf2201c57ce23290a0315d59d7673"
+    },
+    {
+      "path": "BEVFusion/docker/Dockerfile",
+      "source": "BEVFusion/docker/Dockerfile",
+      "bytes": 947,
+      "sha256": "62bdb3f5d621a0d6f135f2a7d7559547e18daaacf3a48e1b2e627aae4ed9a3fa"
+    },
+    {
+      "path": "BEVFusion/environment/bev-stage1.yml",
+      "source": "BEVFusion/environment/bev-stage1.yml",
+      "bytes": 432,
+      "sha256": "7863296368dc7c6398e1c27484416cca61a6221ec699e8e2ff6378f04ab62c90"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/__init__.py",
+      "source": "BEVFusion/mmdet3d/__init__.py",
+      "bytes": 441,
+      "sha256": "a69554ff64dbbabfddddcbe79cd01c9750b22a3808b098c858cddb3da436a86c"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/apis/__init__.py",
+      "source": "BEVFusion/mmdet3d/apis/__init__.py",
+      "bytes": 41,
+      "sha256": "fe214afe922411de807a35e229f17952c9f821ae9d56e98dd77a39a3a1f6b66e"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/apis/stage1_export.py",
+      "source": "BEVFusion/mmdet3d/apis/stage1_export.py",
+      "bytes": 9821,
+      "sha256": "8afbc7c463a7f75e7f2512ff911f227aedc28c8397882726608d04e26d9a9e7f"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/apis/stage2_manifest.py",
+      "source": "BEVFusion/mmdet3d/apis/stage2_manifest.py",
+      "bytes": 5430,
+      "sha256": "f8ba3fcb5ba4bf8fd771eb5ad7d6304b69a74c13fa353c8af76d285cf8f06f58"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/apis/test.py",
+      "source": "BEVFusion/mmdet3d/apis/test.py",
+      "bytes": 1429,
+      "sha256": "70ca9a69c69e1b161070012887d6993505302e32d3fe0b7b1ddaa46abfa5c073"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/apis/train.py",
+      "source": "BEVFusion/mmdet3d/apis/train.py",
+      "bytes": 5342,
+      "sha256": "196c5c46c34f56e7d06b3c2d6dae2edaa2370e11c4acae4859640a67bce18ceb"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/core/__init__.py",
+      "source": "BEVFusion/mmdet3d/core/__init__.py",
+      "bytes": 257,
+      "sha256": "26970f94f58e444f37088b11cb0aeb258e7ea6b423ced6bac9012c10497e1443"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/core/anchor/__init__.py",
+      "source": "BEVFusion/mmdet3d/core/anchor/__init__.py",
+      "bytes": 347,
+      "sha256": "bdad924d32d0cc0ced724ebea9bb3fe3ddd2f69c0cb4e34cc461062a17224a29"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/core/anchor/anchor_3d_generator.py",
+      "source": "BEVFusion/mmdet3d/core/anchor/anchor_3d_generator.py",
+      "bytes": 16909,
+      "sha256": "6bb8ddda0e05d296f38febf33901e1112c890a0bf9f59db7fe445c0d4dcdc846"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/core/bbox/__init__.py",
+      "source": "BEVFusion/mmdet3d/core/bbox/__init__.py",
+      "bytes": 890,
+      "sha256": "cb4f3dd645f33b8c2718c9c428f53c0ee6e6529c44fbbac6456e3a85e2f4f622"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/core/bbox/assigners/__init__.py",
+      "source": "BEVFusion/mmdet3d/core/bbox/assigners/__init__.py",
+      "bytes": 253,
+      "sha256": "ded15591417bdde9d2dd1a56ba9861d7cd0049c90ed965bbc5d65d2292b399a5"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/core/bbox/assigners/hungarian_assigner.py",
+      "source": "BEVFusion/mmdet3d/core/bbox/assigners/hungarian_assigner.py",
+      "bytes": 6663,
+      "sha256": "7d99174b406f4e8b3d041def387ec7b93bedb505686a410c332b3e75abc5ed9d"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/core/bbox/assigners/hungarian_assigner_3d.py",
+      "source": "BEVFusion/mmdet3d/core/bbox/assigners/hungarian_assigner_3d.py",
+      "bytes": 5939,
+      "sha256": "bec80f93f23052169c62d449840f180081398858f035378cb14e18a2da7a6023"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/core/bbox/box_np_ops.py",
+      "source": "BEVFusion/mmdet3d/core/bbox/box_np_ops.py",
+      "bytes": 32908,
+      "sha256": "ad141116141d70eadfe743ae0643521231046d41be49aea93a222593b3e68527"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/core/bbox/coders/__init__.py",
+      "source": "BEVFusion/mmdet3d/core/bbox/coders/__init__.py",
+      "bytes": 671,
+      "sha256": "eb44897508bcf0b95efb7a89ecf7da47c62422e4464eb0263c2f631dba100748"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/core/bbox/coders/anchor_free_bbox_coder.py",
+      "source": "BEVFusion/mmdet3d/core/bbox/coders/anchor_free_bbox_coder.py",
+      "bytes": 4223,
+      "sha256": "3eaa04f2d0246282b3953aefb9a43044887e0d8f742f1265e4d0d5c5ecb532a6"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/core/bbox/coders/centerpoint_bbox_coders.py",
+      "source": "BEVFusion/mmdet3d/core/bbox/coders/centerpoint_bbox_coders.py",
+      "bytes": 8425,
+      "sha256": "9b2924117b5149d42470c4c866068a979a811e535f1b54b54caa7b6e241ce0e2"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/core/bbox/coders/delta_xyzwhlr_bbox_coder.py",
+      "source": "BEVFusion/mmdet3d/core/bbox/coders/delta_xyzwhlr_bbox_coder.py",
+      "bytes": 3048,
+      "sha256": "bb2ff1af16942212cc3a115e1eafdc3163ed5d301038ca0a2e0e0dbd732271f6"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/core/bbox/coders/groupfree3d_bbox_coder.py",
+      "source": "BEVFusion/mmdet3d/core/bbox/coders/groupfree3d_bbox_coder.py",
+      "bytes": 6807,
+      "sha256": "bdfe33aa7eb7f52528dc91a40dfc95040c07648a8cdce95a7b9b0ac9558c64fd"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/core/bbox/coders/nms_free_coder.py",
+      "source": "BEVFusion/mmdet3d/core/bbox/coders/nms_free_coder.py",
+      "bytes": 4223,
+      "sha256": "f6e5fed18b04f72cd3655d100875db3626e51e9881011ecf149056019fd4967c"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/core/bbox/coders/partial_bin_based_bbox_coder.py",
+      "source": "BEVFusion/mmdet3d/core/bbox/coders/partial_bin_based_bbox_coder.py",
+      "bytes": 8910,
+      "sha256": "6fcff2b1f016aa10dc4a8e3107714a1285c842370c3cc06864241d02efe7c134"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/core/bbox/coders/transfusion_bbox_coder.py",
+      "source": "BEVFusion/mmdet3d/core/bbox/coders/transfusion_bbox_coder.py",
+      "bytes": 7088,
+      "sha256": "f2ca62e53a36180fa208cfae4809b90b38acfaf11c52eef69868fa79b7399f06"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/core/bbox/iou_calculators/__init__.py",
+      "source": "BEVFusion/mmdet3d/core/bbox/iou_calculators/__init__.py",
+      "bytes": 391,
+      "sha256": "e80f249c43f2c4d6f9dade2e777d82d808ef9db4157299a000369bbd8751c9c0"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/core/bbox/iou_calculators/iou3d_calculator.py",
+      "source": "BEVFusion/mmdet3d/core/bbox/iou_calculators/iou3d_calculator.py",
+      "bytes": 12121,
+      "sha256": "b8bc9511b9eb230f3185c9031cee54eafb070bfb329867d3659500af2257747a"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/core/bbox/match_costs/__init__.py",
+      "source": "BEVFusion/mmdet3d/core/bbox/match_costs/__init__.py",
+      "bytes": 142,
+      "sha256": "a4990cde4180c62ed13cf33dfeb6622f078329af6e57b2f5ae3175623f645eb8"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/core/bbox/match_costs/match_cost.py",
+      "source": "BEVFusion/mmdet3d/core/bbox/match_costs/match_cost.py",
+      "bytes": 844,
+      "sha256": "f97d47c94675a3f0964571aabbc63ba4a1ceab80c23cf47db75875c250313223"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/core/bbox/samplers/__init__.py",
+      "source": "BEVFusion/mmdet3d/core/bbox/samplers/__init__.py",
+      "bytes": 508,
+      "sha256": "4bcbff640e0ee7dd65634c789e85a1bb5473829c6abb196de22530c8caaa7153"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/core/bbox/samplers/iou_neg_piecewise_sampler.py",
+      "source": "BEVFusion/mmdet3d/core/bbox/samplers/iou_neg_piecewise_sampler.py",
+      "bytes": 6501,
+      "sha256": "184505d7b840f45ac216018806dbfb8188abcf43047542b713598ee2c527d35c"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/core/bbox/structures/__init__.py",
+      "source": "BEVFusion/mmdet3d/core/bbox/structures/__init__.py",
+      "bytes": 759,
+      "sha256": "aff7158f8179ef6cbe667a57d62a82cc66842ef108f556dd8525b65888e05c4b"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/core/bbox/structures/base_box3d.py",
+      "source": "BEVFusion/mmdet3d/core/bbox/structures/base_box3d.py",
+      "bytes": 16325,
+      "sha256": "043f9d20a8973cd8c93d55753f414538820d7361740846e2fd59de3233b6a664"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/core/bbox/structures/box_3d_mode.py",
+      "source": "BEVFusion/mmdet3d/core/bbox/structures/box_3d_mode.py",
+      "bytes": 5959,
+      "sha256": "b31632aa6a516e2ce8f3fe1933c74dc2df654ce23132d9e2a1cb10391d61860c"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/core/bbox/structures/cam_box3d.py",
+      "source": "BEVFusion/mmdet3d/core/bbox/structures/cam_box3d.py",
+      "bytes": 12372,
+      "sha256": "6906465a245e996a2302b8010df3cb860d04f7f73ef481b088d76522a95845a9"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/core/bbox/structures/coord_3d_mode.py",
+      "source": "BEVFusion/mmdet3d/core/bbox/structures/coord_3d_mode.py",
+      "bytes": 10760,
+      "sha256": "d172fd9b06c33a186fb24aa4cd7d177545994ca1db0a1ebd1eea482e6a0e30f3"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/core/bbox/structures/depth_box3d.py",
+      "source": "BEVFusion/mmdet3d/core/bbox/structures/depth_box3d.py",
+      "bytes": 13447,
+      "sha256": "90370308d944e2a464e889e5633e1573294c972169d4df32d4955b9b53862216"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/core/bbox/structures/lidar_box3d.py",
+      "source": "BEVFusion/mmdet3d/core/bbox/structures/lidar_box3d.py",
+      "bytes": 10348,
+      "sha256": "bec331e80a89c51aa0f7485cad2830fb2e31133a9dccff0079e76d3e65db08d0"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/core/bbox/structures/utils.py",
+      "source": "BEVFusion/mmdet3d/core/bbox/structures/utils.py",
+      "bytes": 7769,
+      "sha256": "e9ed7933a85e6b48f12d4811648dc09126f46f214b01e9442171266c5f20a5d3"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/core/bbox/util.py",
+      "source": "BEVFusion/mmdet3d/core/bbox/util.py",
+      "bytes": 1414,
+      "sha256": "d6f9152c0e15c232fcdddaa707a81ec4595d31bad0f4db67be3e64cd1e687251"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/core/points/__init__.py",
+      "source": "BEVFusion/mmdet3d/core/points/__init__.py",
+      "bytes": 935,
+      "sha256": "1c28c5f1e918716247eee602e73bee014585f8bddf8ffca1b3f4d973ac45dfdd"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/core/points/base_points.py",
+      "source": "BEVFusion/mmdet3d/core/points/base_points.py",
+      "bytes": 16477,
+      "sha256": "47b945e34c91fb35b355a45fb8f33b280b212e7f0b444859951296e2a223751a"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/core/points/cam_points.py",
+      "source": "BEVFusion/mmdet3d/core/points/cam_points.py",
+      "bytes": 2795,
+      "sha256": "2fe19d1d43c2831fbbfe24a0dc1b9c824f35358d766cae901ce7acf22633c3de"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/core/points/depth_points.py",
+      "source": "BEVFusion/mmdet3d/core/points/depth_points.py",
+      "bytes": 2797,
+      "sha256": "3b7b2a4909de06edd5ed929073dc46b6dba258bef9edf7272a10bcbed8b616aa"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/core/points/lidar_points.py",
+      "source": "BEVFusion/mmdet3d/core/points/lidar_points.py",
+      "bytes": 2797,
+      "sha256": "a759cd7dd1a4e0f090597aed28880ee3c033b96380db176a2bac28c16d8f8059"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/core/points/radar_points.py",
+      "source": "BEVFusion/mmdet3d/core/points/radar_points.py",
+      "bytes": 5016,
+      "sha256": "f422b21961a90dc1003283414cfe411f7930c4364faa16845b6e797f635f37d9"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/core/post_processing/__init__.py",
+      "source": "BEVFusion/mmdet3d/core/post_processing/__init__.py",
+      "bytes": 486,
+      "sha256": "c024e592e1c0d7854ceb1a55429abdc81f9555de8edf340bab0bab34667e5603"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/core/post_processing/box3d_nms.py",
+      "source": "BEVFusion/mmdet3d/core/post_processing/box3d_nms.py",
+      "bytes": 7701,
+      "sha256": "f466f0af8b178c2f42c467ade46148b07ad0c37cb5a26064527c83f62f9731c2"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/core/utils/__init__.py",
+      "source": "BEVFusion/mmdet3d/core/utils/__init__.py",
+      "bytes": 49,
+      "sha256": "667e5b82b525e4a614bdcd82f017be793977ebb34ad46adf6aa04c50478d4359"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/core/utils/gaussian.py",
+      "source": "BEVFusion/mmdet3d/core/utils/gaussian.py",
+      "bytes": 2439,
+      "sha256": "fbccf46a5c0c347dc715b9f30f142870bb9b76ce04d0f42d0e01eb9a7ea1a4e5"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/core/utils/visualize.py",
+      "source": "BEVFusion/mmdet3d/core/utils/visualize.py",
+      "bytes": 5080,
+      "sha256": "a020ead1fe02f9461e9009630b39005d68159b0722240880c6986061b77a471d"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/core/voxel/__init__.py",
+      "source": "BEVFusion/mmdet3d/core/voxel/__init__.py",
+      "bytes": 142,
+      "sha256": "0414cfef3833c470a3d3a0e0e3af4b49f74bfd68b13bd7e69caaefec4f84396e"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/core/voxel/builder.py",
+      "source": "BEVFusion/mmdet3d/core/voxel/builder.py",
+      "bytes": 410,
+      "sha256": "92d548df4860b7f003ef868c2b3b89fc19dfb2b592cec35c3934c8af2df64d8b"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/core/voxel/voxel_generator.py",
+      "source": "BEVFusion/mmdet3d/core/voxel/voxel_generator.py",
+      "bytes": 10901,
+      "sha256": "6a10af0d64b6dedd926bdd157b52e79331de5bfffa956c825ae6579a712593e8"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/datasets/__init__.py",
+      "source": "BEVFusion/mmdet3d/datasets/__init__.py",
+      "bytes": 206,
+      "sha256": "fbee53e0e5552e2f9906aa7276ec6b3a2d1d218ce321ddd92a1ab37555e97023"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/datasets/av2_dataset.py",
+      "source": "BEVFusion/mmdet3d/datasets/av2_dataset.py",
+      "bytes": 10294,
+      "sha256": "08bcb217612c5613d48510fda7b73625bcb6fcc0b02e23cd629b501f64aa62f4"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/datasets/av2_geometry.py",
+      "source": "BEVFusion/mmdet3d/datasets/av2_geometry.py",
+      "bytes": 8136,
+      "sha256": "c7ea994d6293cbdca5967b52fe876a4d72907d971ef32b89bea6b397d553688b"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/datasets/builder.py",
+      "source": "BEVFusion/mmdet3d/datasets/builder.py",
+      "bytes": 1704,
+      "sha256": "d73755026cf31eb425f7bdfbccd5db2bbabe5e3b4948c36b156ed23338957e36"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/datasets/custom_3d.py",
+      "source": "BEVFusion/mmdet3d/datasets/custom_3d.py",
+      "bytes": 10706,
+      "sha256": "c99957f47f7e805ab509881c13244d43cf1bd129d857978db4e72502d93e960c"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/datasets/dataset_wrappers.py",
+      "source": "BEVFusion/mmdet3d/datasets/dataset_wrappers.py",
+      "bytes": 2529,
+      "sha256": "440ec62a501477d373e3bc7a10f12d80258e1e183def86346e8f8e94f9925af7"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/datasets/nuscenes_dataset.py",
+      "source": "BEVFusion/mmdet3d/datasets/nuscenes_dataset.py",
+      "bytes": 24552,
+      "sha256": "2a46d2fcd07d22cdb4b47f41b42af45358538742bd51cf564928c189cfad4110"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/datasets/pipelines/__init__.py",
+      "source": "BEVFusion/mmdet3d/datasets/pipelines/__init__.py",
+      "bytes": 241,
+      "sha256": "c8b2e6f644ee16c256c8d2236b51b85c84548e7246f149bccb37ef8b975da166"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/datasets/pipelines/av2_loading.py",
+      "source": "BEVFusion/mmdet3d/datasets/pipelines/av2_loading.py",
+      "bytes": 6839,
+      "sha256": "e4eb90b7001dbc5e64f149c07c01f0e8d91dc76720e8085dc9fe2990e1dc510e"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/datasets/pipelines/dbsampler.py",
+      "source": "BEVFusion/mmdet3d/datasets/pipelines/dbsampler.py",
+      "bytes": 11272,
+      "sha256": "f1f620fcd5eda00a377552feaa937c08e6901abcc2d5d6fe40f5565b182f36a2"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/datasets/pipelines/formating.py",
+      "source": "BEVFusion/mmdet3d/datasets/pipelines/formating.py",
+      "bytes": 7349,
+      "sha256": "4297a83e2f3cd2e1c9a530dcdca4e2e2aa40bcf68a3cbfed367bab28ceb85d0c"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/datasets/pipelines/loading.py",
+      "source": "BEVFusion/mmdet3d/datasets/pipelines/loading.py",
+      "bytes": 29994,
+      "sha256": "bd83fbf822c2c01f4d8a2f975d5e2c88524a7e751def828a59b8c2eb3643cccb"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/datasets/pipelines/loading_utils.py",
+      "source": "BEVFusion/mmdet3d/datasets/pipelines/loading_utils.py",
+      "bytes": 3778,
+      "sha256": "4cdd4a73ecd1d5d2b1466352d32d2954b8e8a466abcebe98b9d3871a06663c49"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/datasets/pipelines/stage2_corruptions.py",
+      "source": "BEVFusion/mmdet3d/datasets/pipelines/stage2_corruptions.py",
+      "bytes": 20569,
+      "sha256": "bdd3dc9002c22159de48c123ccdc9d101d5591fd1652c3df981dbd6a0873e970"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/datasets/pipelines/stage3_condition.py",
+      "source": "BEVFusion/mmdet3d/datasets/pipelines/stage3_condition.py",
+      "bytes": 1990,
+      "sha256": "4e7199886de2195d64d67885c489cc77c77a75e9ecca33d82e19194e7be4f25b"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/datasets/pipelines/transforms_3d.py",
+      "source": "BEVFusion/mmdet3d/datasets/pipelines/transforms_3d.py",
+      "bytes": 39724,
+      "sha256": "e26d20d15400e8ce19038b66783aba8acbc5bb17b10c2465c28fc133d75b68b1"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/datasets/pipelines/utils.py",
+      "source": "BEVFusion/mmdet3d/datasets/pipelines/utils.py",
+      "bytes": 15901,
+      "sha256": "297a580e363a380235e66a1f3cffcc0006beff8fc9bb52022730342cb28b64bd"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/datasets/utils.py",
+      "source": "BEVFusion/mmdet3d/datasets/utils.py",
+      "bytes": 918,
+      "sha256": "e65e17600c0b21a9459326ac4d08a900598684a25866a7d7f9452dec5dba5fc1"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/models/__init__.py",
+      "source": "BEVFusion/mmdet3d/models/__init__.py",
+      "bytes": 190,
+      "sha256": "336860eb60e1d71ca97e0d1b369dd2c217382c130b679bbeae82d33175aeb037"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/models/backbones/__init__.py",
+      "source": "BEVFusion/mmdet3d/models/backbones/__init__.py",
+      "bytes": 422,
+      "sha256": "ce5ae7693b4afe4ed043e901912a461aa8587c0260dcae158d53a18916dccbf3"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/models/backbones/dla.py",
+      "source": "BEVFusion/mmdet3d/models/backbones/dla.py",
+      "bytes": 11316,
+      "sha256": "a1c2bb1877d92fb014348312673cba8096b566927c2633439d73fc7a98b13987"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/models/backbones/pillar_encoder.py",
+      "source": "BEVFusion/mmdet3d/models/backbones/pillar_encoder.py",
+      "bytes": 9376,
+      "sha256": "f3064636f2be217838ce0f4fe5f708c30f089a19fe01fabaf6fbe9b85449e380"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/models/backbones/radar_encoder.py",
+      "source": "BEVFusion/mmdet3d/models/backbones/radar_encoder.py",
+      "bytes": 8779,
+      "sha256": "7ac1c8922eea69bd94cc5e4c4891195e6cf7434730844e52d27f544c41f251e3"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/models/backbones/resnet.py",
+      "source": "BEVFusion/mmdet3d/models/backbones/resnet.py",
+      "bytes": 1022,
+      "sha256": "ea5ab5fb1ba25a91c9a2266059aff6262ad0cecaf9ae90720c73e6130bcbc79e"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/models/backbones/second.py",
+      "source": "BEVFusion/mmdet3d/models/backbones/second.py",
+      "bytes": 3189,
+      "sha256": "d4b0c7fa8d8d940924d45468c9870c87c0c60f087a03070c674cfb849bcba4fd"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/models/backbones/sparse_encoder.py",
+      "source": "BEVFusion/mmdet3d/models/backbones/sparse_encoder.py",
+      "bytes": 8276,
+      "sha256": "e004597d3a103f8e3b6b038df2b25ed3529e623b35105a7a57d88654e46b91cb"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/models/backbones/vovnet.py",
+      "source": "BEVFusion/mmdet3d/models/backbones/vovnet.py",
+      "bytes": 10896,
+      "sha256": "5c10cff9db5f65d3d57bd13010f8be94d9a7ca3788527fd7f38a22f5d0968042"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/models/builder.py",
+      "source": "BEVFusion/mmdet3d/models/builder.py",
+      "bytes": 835,
+      "sha256": "27be6b12431192c03eab50a900a782bce8874340f5d00d3cac61e5d021c741ed"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/models/crc_target_uq.py",
+      "source": "BEVFusion/mmdet3d/models/crc_target_uq.py",
+      "bytes": 26723,
+      "sha256": "41f073d59fade01b622b0f1d38302440e572f2fce0ddb067ca810011036b81ee"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/models/fusers/__init__.py",
+      "source": "BEVFusion/mmdet3d/models/fusers/__init__.py",
+      "bytes": 39,
+      "sha256": "df4203988b28ff84c206832ad32e052a22d2741c22fbcd3168fc025fc8bf354a"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/models/fusers/add.py",
+      "source": "BEVFusion/mmdet3d/models/fusers/add.py",
+      "bytes": 1237,
+      "sha256": "b29ba37e8527af5cfcca5837f9c20bfe00ede40fc4b4267b5afae4ff871bdf75"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/models/fusers/conv.py",
+      "source": "BEVFusion/mmdet3d/models/fusers/conv.py",
+      "bytes": 647,
+      "sha256": "7d2de3cb072de5ce0e3f8e75bca53583c517e68cb8d78801378cd980ee6de7ac"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/models/fusion_models/__init__.py",
+      "source": "BEVFusion/mmdet3d/models/fusion_models/__init__.py",
+      "bytes": 67,
+      "sha256": "7d365d40f1885f680ea2ae84a3e78b35cfb4d9e96f73f8da36378431a1ac76ef"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/models/fusion_models/base.py",
+      "source": "BEVFusion/mmdet3d/models/fusion_models/base.py",
+      "bytes": 3752,
+      "sha256": "1c59911d753b8f6ef86779c5a0c05e83e9b18da2525ffb6b60ba03068ff7795c"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/models/fusion_models/bevfusion.py",
+      "source": "BEVFusion/mmdet3d/models/fusion_models/bevfusion.py",
+      "bytes": 19318,
+      "sha256": "d3ec15d31217e85443438603028b762b0f0779a0df2d9795fe255c0d2be7c7f7"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/models/fusion_models/stage2_missing_hook.py",
+      "source": "BEVFusion/mmdet3d/models/fusion_models/stage2_missing_hook.py",
+      "bytes": 2052,
+      "sha256": "81af0863952c6cdc8fdafe2a042e7f438dbcb1b3155ab58d123ecce67a14b142"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/models/fusion_models/stage3.py",
+      "source": "BEVFusion/mmdet3d/models/fusion_models/stage3.py",
+      "bytes": 9083,
+      "sha256": "af94bfffc86b8ce75401e81ec73cc219458d0bccffce1c6148f28c2779176473"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/models/heads/__init__.py",
+      "source": "BEVFusion/mmdet3d/models/heads/__init__.py",
+      "bytes": 40,
+      "sha256": "764d9e24c17152e07f904d036a539d2a0c4b845f3ed985aad33ec7f54c444c58"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/models/heads/bbox/__init__.py",
+      "source": "BEVFusion/mmdet3d/models/heads/bbox/__init__.py",
+      "bytes": 54,
+      "sha256": "a8d55addea0e6a0b23d772e74f2b211787caa4abed06e4a96d8988fc947b7de5"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/models/heads/bbox/centerpoint.py",
+      "source": "BEVFusion/mmdet3d/models/heads/bbox/centerpoint.py",
+      "bytes": 34164,
+      "sha256": "b05c3bad788134f88095497d2ea53935d4f18d631bc7a9db37585e5ded45a334"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/models/heads/bbox/transfusion.py",
+      "source": "BEVFusion/mmdet3d/models/heads/bbox/transfusion.py",
+      "bytes": 37468,
+      "sha256": "4437d06c6f65a62e1f7edd0a1cb2db16982010bf718bdf314e08b7a87115ad46"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/models/heads/segm/__init__.py",
+      "source": "BEVFusion/mmdet3d/models/heads/segm/__init__.py",
+      "bytes": 23,
+      "sha256": "7b60346db8473c7cfc86753057d75395262ce4653bc8b9bd05ac847342a2fd3c"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/models/heads/segm/vanilla.py",
+      "source": "BEVFusion/mmdet3d/models/heads/segm/vanilla.py",
+      "bytes": 4056,
+      "sha256": "4ae1c5f17fda34597bb5193a2e587d5aa0083277fe29ed0270d0115ab0fb867e"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/models/losses/__init__.py",
+      "source": "BEVFusion/mmdet3d/models/losses/__init__.py",
+      "bytes": 158,
+      "sha256": "38a3c45c49297acab92bfd9055306a7a694e63c838c90d1a6ec2de7c307430ef"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/models/necks/__init__.py",
+      "source": "BEVFusion/mmdet3d/models/necks/__init__.py",
+      "bytes": 140,
+      "sha256": "6464781531b9228f95698692012cbdfa40b1745de14f0ba1488681939a3813f5"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/models/necks/detectron_fpn.py",
+      "source": "BEVFusion/mmdet3d/models/necks/detectron_fpn.py",
+      "bytes": 5734,
+      "sha256": "7353c0ec3bd16169eff975c46f1aa8aaeb8eaa6580f872d5708ee6736f32aba5"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/models/necks/generalized_lss.py",
+      "source": "BEVFusion/mmdet3d/models/necks/generalized_lss.py",
+      "bytes": 3322,
+      "sha256": "098ebbdd8c291cc4eb35929a7ceb9bc47fa7304d07de0a9c39e22de1ec779e3b"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/models/necks/lss.py",
+      "source": "BEVFusion/mmdet3d/models/necks/lss.py",
+      "bytes": 1867,
+      "sha256": "a77711642ef7c17f75c4d73d06ae0eb4c10b12f7931ca79276dcda15ac411475"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/models/necks/second.py",
+      "source": "BEVFusion/mmdet3d/models/necks/second.py",
+      "bytes": 3453,
+      "sha256": "785fe7bb1ec81b9c5bf44d7dd845b413c79ebaf1eedef177639c250009e788d1"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/models/target_uq.py",
+      "source": "BEVFusion/mmdet3d/models/target_uq.py",
+      "bytes": 34504,
+      "sha256": "5d4ab18201ba8f25e9ba1c144df141123d116d7c1a5d93120970be87abb00199"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/models/utils/__init__.py",
+      "source": "BEVFusion/mmdet3d/models/utils/__init__.py",
+      "bytes": 27,
+      "sha256": "c23b2b863e07fc072ac306de6c037c6faf10040f0bea9d7fd767641b6f7de7ec"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/models/utils/flops_counter.py",
+      "source": "BEVFusion/mmdet3d/models/utils/flops_counter.py",
+      "bytes": 3206,
+      "sha256": "8a38a021829a08e5f190269e985038a45b1eb22d53b6776f986cd12122aab83d"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/models/utils/transformer.py",
+      "source": "BEVFusion/mmdet3d/models/utils/transformer.py",
+      "bytes": 25835,
+      "sha256": "09b2209fd0f453381024c8ae4bf1edece51ddd0ab357d2cb32ab12bd16a8f104"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/models/vtransforms/__init__.py",
+      "source": "BEVFusion/mmdet3d/models/vtransforms/__init__.py",
+      "bytes": 73,
+      "sha256": "e6fa30e2b85a532308aa181ca40eb72cc04f8a0cb75c3d2947bb1e2ccead7f84"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/models/vtransforms/aware_bevdepth.py",
+      "source": "BEVFusion/mmdet3d/models/vtransforms/aware_bevdepth.py",
+      "bytes": 24234,
+      "sha256": "ed24378b38b2a788148c6f75e01cb4b48d1f97ec755407e2ef1b0e3737fbbfc7"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/models/vtransforms/base.py",
+      "source": "BEVFusion/mmdet3d/models/vtransforms/base.py",
+      "bytes": 11499,
+      "sha256": "47b5145b6d357228fbd290c4fb5544223ce0119a771cb84fcab190a1b047e974"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/models/vtransforms/depth_lss.py",
+      "source": "BEVFusion/mmdet3d/models/vtransforms/depth_lss.py",
+      "bytes": 3177,
+      "sha256": "c44959132bd9ec3c4ff76b1ef62401e3da9e43904ca051632d5003ead44efff4"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/models/vtransforms/lss.py",
+      "source": "BEVFusion/mmdet3d/models/vtransforms/lss.py",
+      "bytes": 2359,
+      "sha256": "24fd303aff597b4c8b71d053b521b0ddb7baff69c0fd06e5098e85c5f2cbd1d9"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/__init__.py",
+      "source": "BEVFusion/mmdet3d/ops/__init__.py",
+      "bytes": 2509,
+      "sha256": "9084c5a3bc667bd744af924855ef44ffd9b8b78b6c0a49ed94c5714326f0098e"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/ball_query/__init__.py",
+      "source": "BEVFusion/mmdet3d/ops/ball_query/__init__.py",
+      "bytes": 61,
+      "sha256": "957d20dc6a9b26bdccf26dc7f8580591e5441a03385e2644a5a9d3ce5cab7a9d"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/ball_query/ball_query.py",
+      "source": "BEVFusion/mmdet3d/ops/ball_query/ball_query.py",
+      "bytes": 1482,
+      "sha256": "0de1f3f50114186152c33657409a77ff078281bb4f4801389247c5c7367ba19f"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/ball_query/src/ball_query_cpu.cpp",
+      "source": "BEVFusion/mmdet3d/ops/ball_query/src/ball_query_cpu.cpp",
+      "bytes": 1734,
+      "sha256": "ee32f8ab5f4ad4d45b99d31b3b30c1b4eb28a891d7e3df52b16f972f6d072d04"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/ball_query/src/ball_query_cuda.cu",
+      "source": "BEVFusion/mmdet3d/ops/ball_query/src/ball_query_cuda.cu",
+      "bytes": 2526,
+      "sha256": "d8e8466dbf2d3f2135730c1d77111c21c3882886d3638bbd1326cd0536d478fd"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/bev_pool/__init__.py",
+      "source": "BEVFusion/mmdet3d/ops/bev_pool/__init__.py",
+      "bytes": 31,
+      "sha256": "ca521fab23b8570c3a196350e411b8733877bfedd0221d2a5fea9f56c09133f4"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/bev_pool/bev_pool.py",
+      "source": "BEVFusion/mmdet3d/ops/bev_pool/bev_pool.py",
+      "bytes": 2638,
+      "sha256": "111cceed3ad2381864e298284309e7aad7a2014ed3671b8ebe4ead1957ab0f1f"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/bev_pool/src/bev_pool_cpu.cpp",
+      "source": "BEVFusion/mmdet3d/ops/bev_pool/src/bev_pool_cpu.cpp",
+      "bytes": 3375,
+      "sha256": "db6542146e527161e8c6e552f117c50c7863b5d3aa11533f03e991c5f6de895a"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/bev_pool/src/bev_pool_cuda.cu",
+      "source": "BEVFusion/mmdet3d/ops/bev_pool/src/bev_pool_cuda.cu",
+      "bytes": 4367,
+      "sha256": "e1c4c668ae6a97b8ddf245187c81d94db1aaaff32b92050655cbb297c4e792b0"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/feature_decorator/__init__.py",
+      "source": "BEVFusion/mmdet3d/ops/feature_decorator/__init__.py",
+      "bytes": 48,
+      "sha256": "12a44dad26ad2a8703ccea1f36972c70b91bc3af85fb74a9b31673c03023b1c2"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/feature_decorator/feature_decorator.py",
+      "source": "BEVFusion/mmdet3d/ops/feature_decorator/feature_decorator.py",
+      "bytes": 709,
+      "sha256": "510500135fec18cc0f02e8ccb9144da997d0e6f2bdc575eb7f7546a405e8349a"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/feature_decorator/src/feature_decorator.cpp",
+      "source": "BEVFusion/mmdet3d/ops/feature_decorator/src/feature_decorator.cpp",
+      "bytes": 1374,
+      "sha256": "46367edc91f1c49da3fdedd7d620ea12e1767a59fac9ea3edc0ee77296790161"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/feature_decorator/src/feature_decorator_cuda.cu",
+      "source": "BEVFusion/mmdet3d/ops/feature_decorator/src/feature_decorator_cuda.cu",
+      "bytes": 1853,
+      "sha256": "dc1f04188e5147466d30ae96ea8204d01eda37aaa76cff43cc06dc32c9064c13"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/furthest_point_sample/__init__.py",
+      "source": "BEVFusion/mmdet3d/ops/furthest_point_sample/__init__.py",
+      "bytes": 223,
+      "sha256": "1f7d24a43951dba48ebb4175bab5493f07ab74718b389ef2af29d5950e93d7ae"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/furthest_point_sample/furthest_point_sample.py",
+      "source": "BEVFusion/mmdet3d/ops/furthest_point_sample/furthest_point_sample.py",
+      "bytes": 2367,
+      "sha256": "c9235ad2c3181d2a78bcfbc6efde933acf4f5e1a787590f08cb4c370d32da118"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/furthest_point_sample/points_sampler.py",
+      "source": "BEVFusion/mmdet3d/ops/furthest_point_sample/points_sampler.py",
+      "bytes": 5260,
+      "sha256": "3e6f0f00dcb81c93377dfcf5c2f9c9002f4c7dfa193101d3c9da86b266f54d82"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/furthest_point_sample/src/furthest_point_sample_cpu.cpp",
+      "source": "BEVFusion/mmdet3d/ops/furthest_point_sample/src/furthest_point_sample_cpu.cpp",
+      "bytes": 2773,
+      "sha256": "003c81f4d04d2ebed40b04bc8da8115b6f18e1a1655a8aa062d023ee61f76c8a"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/furthest_point_sample/src/furthest_point_sample_cuda.cu",
+      "source": "BEVFusion/mmdet3d/ops/furthest_point_sample/src/furthest_point_sample_cuda.cu",
+      "bytes": 10919,
+      "sha256": "de6d3b16953c02ddcb22376f423848b21f4883e924b0523dd418601e74a3e819"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/furthest_point_sample/utils.py",
+      "source": "BEVFusion/mmdet3d/ops/furthest_point_sample/utils.py",
+      "bytes": 1051,
+      "sha256": "e8b09d70657e09678717c89a3bc5ce92a5d7641a2ce41a00fc3895a4ba9f7f47"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/gather_points/__init__.py",
+      "source": "BEVFusion/mmdet3d/ops/gather_points/__init__.py",
+      "bytes": 70,
+      "sha256": "b9436dc82fe1d2cbd8a1eb7d90c57a0d9d97c3fe5641ea307bc5bf844310e02c"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/gather_points/gather_points.py",
+      "source": "BEVFusion/mmdet3d/ops/gather_points/gather_points.py",
+      "bytes": 1393,
+      "sha256": "57ce855e19e275aee738dd723d954e925f7bd8c3af93a9965877425841cac894"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/gather_points/src/gather_points_cpu.cpp",
+      "source": "BEVFusion/mmdet3d/ops/gather_points/src/gather_points_cpu.cpp",
+      "bytes": 2428,
+      "sha256": "4a830da223e96bf6b09d38b95652edf6a430fd8d40a48dc8f91eb7c7f0710a58"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/gather_points/src/gather_points_cuda.cu",
+      "source": "BEVFusion/mmdet3d/ops/gather_points/src/gather_points_cuda.cu",
+      "bytes": 3099,
+      "sha256": "ebc84d76ac0e1bf4db325f3249789e9636b0cc4b5524a6548aa9114f78605622"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/group_points/__init__.py",
+      "source": "BEVFusion/mmdet3d/ops/group_points/__init__.py",
+      "bytes": 133,
+      "sha256": "f57b30f760f023ea3881f1a702c9997b27ec36b2abe5f98b93998bd7181346d5"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/group_points/group_points.py",
+      "source": "BEVFusion/mmdet3d/ops/group_points/group_points.py",
+      "bytes": 7540,
+      "sha256": "20662eb6aa729abf40ae50fb8801736d1df5ec66bb9fd4328e10218adc230ee3"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/group_points/src/group_points_cpu.cpp",
+      "source": "BEVFusion/mmdet3d/ops/group_points/src/group_points_cpu.cpp",
+      "bytes": 2546,
+      "sha256": "9f71208cc906b856035aeeac42572e1c2131a00d140aba2a36042e4f9abc7880"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/group_points/src/group_points_cuda.cu",
+      "source": "BEVFusion/mmdet3d/ops/group_points/src/group_points_cuda.cu",
+      "bytes": 3884,
+      "sha256": "5061d3e574d41d300ff17fde88b4af46387ce5a89cb36eea9a5d1b9ba8726de6"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/interpolate/__init__.py",
+      "source": "BEVFusion/mmdet3d/ops/interpolate/__init__.py",
+      "bytes": 125,
+      "sha256": "d0c9766c062914a82b96b7690ebfeec79a57bab00671242eb6bebc88b9c325ab"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/interpolate/src/interpolate.cpp",
+      "source": "BEVFusion/mmdet3d/ops/interpolate/src/interpolate.cpp",
+      "bytes": 4163,
+      "sha256": "e7a610eeed1ceaf5e9595da7a610d45a409aab8798313677c87eb937ec0aaf2e"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/interpolate/src/three_interpolate_cuda.cu",
+      "source": "BEVFusion/mmdet3d/ops/interpolate/src/three_interpolate_cuda.cu",
+      "bytes": 3718,
+      "sha256": "38c057034e7f8f9748a98426b00b36692a97b63ae795aa116602bbe18ddf61ce"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/interpolate/src/three_nn_cuda.cu",
+      "source": "BEVFusion/mmdet3d/ops/interpolate/src/three_nn_cuda.cu",
+      "bytes": 2513,
+      "sha256": "a5e586ba3092fcf7e928a2276f8e695b2a9e220e96e99a6d7fc9e01d9b186bf3"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/interpolate/three_interpolate.py",
+      "source": "BEVFusion/mmdet3d/ops/interpolate/three_interpolate.py",
+      "bytes": 1934,
+      "sha256": "96f7858d44a97b7c9d25a7dbedc711589f29b5bf30d5e82ff91a0dbecf7a4b59"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/interpolate/three_nn.py",
+      "source": "BEVFusion/mmdet3d/ops/interpolate/three_nn.py",
+      "bytes": 1293,
+      "sha256": "72a42b35b0e0c110c6a31d87e0b3c0c939a69acb44119316afb278ec6d278501"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/iou3d/__init__.py",
+      "source": "BEVFusion/mmdet3d/ops/iou3d/__init__.py",
+      "bytes": 122,
+      "sha256": "548c9f2ee51f28f6658d7d97d820c445a88f0770b013d6000b950ca56510343d"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/iou3d/iou3d_utils.py",
+      "source": "BEVFusion/mmdet3d/ops/iou3d/iou3d_utils.py",
+      "bytes": 2207,
+      "sha256": "4d19d5cd94b82bf45f5066106bd0d4b8036c64190b60ff4ae259924a5524b8d6"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/iou3d/src/iou3d.cpp",
+      "source": "BEVFusion/mmdet3d/ops/iou3d/src/iou3d.cpp",
+      "bytes": 6818,
+      "sha256": "52015b76152f40df0e7a40c4a12b44ec61bac1fedb8f7c2e29a34c790e3fc30c"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/iou3d/src/iou3d_kernel.cu",
+      "source": "BEVFusion/mmdet3d/ops/iou3d/src/iou3d_kernel.cu",
+      "bytes": 15385,
+      "sha256": "c7b3c34c62b33c5488580485dbb297392305f50ccd0f82b1fb46431b1b287546"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/knn/__init__.py",
+      "source": "BEVFusion/mmdet3d/ops/knn/__init__.py",
+      "bytes": 40,
+      "sha256": "dac4407046d1edf2ab41dfd93b9393548b58a9644ea4eba9321c36fb69bcda8b"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/knn/knn.py",
+      "source": "BEVFusion/mmdet3d/ops/knn/knn.py",
+      "bytes": 2313,
+      "sha256": "c0e7204f66f0c171e141a162636035b830df7f33a5ce987a78f2c054e6c7dbfb"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/knn/src/knn_cpu.cpp",
+      "source": "BEVFusion/mmdet3d/ops/knn/src/knn_cpu.cpp",
+      "bytes": 1332,
+      "sha256": "9ac411c5f1ec751b8e4cd076c8a835063535463b1da066a6ff4bf73b23ea2e8a"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/knn/src/knn_cuda.cu",
+      "source": "BEVFusion/mmdet3d/ops/knn/src/knn_cuda.cu",
+      "bytes": 3141,
+      "sha256": "481101d39480a556ac07a65a7ec605ac1068aa4cdecf24e273d3e5b528d958a7"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/norm.py",
+      "source": "BEVFusion/mmdet3d/ops/norm.py",
+      "bytes": 4990,
+      "sha256": "8a6961db57cab2ac7ad9c457278d572b1399868f1063cce28e840d0ae66b204f"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/paconv/__init__.py",
+      "source": "BEVFusion/mmdet3d/ops/paconv/__init__.py",
+      "bytes": 142,
+      "sha256": "72ef634f94cc044d69b663b432f90e4c7971c0e28fadd776e06e273af2a3f023"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/paconv/assign_score.py",
+      "source": "BEVFusion/mmdet3d/ops/paconv/assign_score.py",
+      "bytes": 4151,
+      "sha256": "57484461778607140de86b950e8752fe3b8b0038cf9ae8b537a9f0113e46fc16"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/paconv/paconv.py",
+      "source": "BEVFusion/mmdet3d/ops/paconv/paconv.py",
+      "bytes": 15524,
+      "sha256": "d67ce8bf722ec3ca4cf9e86eaee21e6dacedd42bdd45abd51cb39b7e7bcd0bd1"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/paconv/src/assign_score_withk.cpp",
+      "source": "BEVFusion/mmdet3d/ops/paconv/src/assign_score_withk.cpp",
+      "bytes": 1096,
+      "sha256": "b1cdc61fd0821518d28bb8057f9cba97ee9f03bc9d6d0218cecd9f75682ca4bf"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/paconv/src/assign_score_withk_cuda.cu",
+      "source": "BEVFusion/mmdet3d/ops/paconv/src/assign_score_withk_cuda.cu",
+      "bytes": 9402,
+      "sha256": "5cd09c2eef12746a44327773c77f37f2c09b4bdea995accd9cfcb80f7a8b3f00"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/paconv/utils.py",
+      "source": "BEVFusion/mmdet3d/ops/paconv/utils.py",
+      "bytes": 3698,
+      "sha256": "04b7486c3cb0b9a162126d4ce684aeab00099ae3a8c7ba2c8927e32edfc0c713"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/pointnet_modules/__init__.py",
+      "source": "BEVFusion/mmdet3d/ops/pointnet_modules/__init__.py",
+      "bytes": 475,
+      "sha256": "c2fb3adc1b1b069d0e998289ef9780c6dce370549ca038da25235fb437fdd2c2"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/pointnet_modules/builder.py",
+      "source": "BEVFusion/mmdet3d/ops/pointnet_modules/builder.py",
+      "bytes": 1218,
+      "sha256": "27e6b0ae0139e974b4f112d33917ef28ce9bf87d59788d3e0ce5089fa9793232"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/pointnet_modules/paconv_sa_module.py",
+      "source": "BEVFusion/mmdet3d/ops/pointnet_modules/paconv_sa_module.py",
+      "bytes": 12351,
+      "sha256": "3561c26872a4b80d1894eb3cffefb6df1af54be9864c247b48faae1e4eb6e313"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/pointnet_modules/point_fp_module.py",
+      "source": "BEVFusion/mmdet3d/ops/pointnet_modules/point_fp_module.py",
+      "bytes": 2669,
+      "sha256": "e590716bbc12782a3a665bc1a1062cf391ae1e4b31a17ceabf5546a4edd53845"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/pointnet_modules/point_sa_module.py",
+      "source": "BEVFusion/mmdet3d/ops/pointnet_modules/point_sa_module.py",
+      "bytes": 13032,
+      "sha256": "d2d76da33e0323f23238becb5aace916d0a32632f800eca269432187b5c7212b"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/roiaware_pool3d/__init__.py",
+      "source": "BEVFusion/mmdet3d/ops/roiaware_pool3d/__init__.py",
+      "bytes": 238,
+      "sha256": "ba51e3f69012a646994d7d5d9480618360b54a49317ec99166d8309a22082912"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/roiaware_pool3d/points_in_boxes.py",
+      "source": "BEVFusion/mmdet3d/ops/roiaware_pool3d/points_in_boxes.py",
+      "bytes": 4327,
+      "sha256": "fed28b1bcda208c531c68f116536e7d2320e5d2fb5f42d8b1b25e5ad0735dae5"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/roiaware_pool3d/roiaware_pool3d.py",
+      "source": "BEVFusion/mmdet3d/ops/roiaware_pool3d/roiaware_pool3d.py",
+      "bytes": 3504,
+      "sha256": "f410dad8a20e59170b2d7f837333c2696905a60d8db2547562b5aed500fbd076"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/roiaware_pool3d/src/points_in_boxes_cpu.cpp",
+      "source": "BEVFusion/mmdet3d/ops/roiaware_pool3d/src/points_in_boxes_cpu.cpp",
+      "bytes": 2546,
+      "sha256": "d6117b8400a6fdbacd968f07153696b2fcb683604c82695a76ea5ecb094d161a"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/roiaware_pool3d/src/points_in_boxes_cuda.cu",
+      "source": "BEVFusion/mmdet3d/ops/roiaware_pool3d/src/points_in_boxes_cuda.cu",
+      "bytes": 7682,
+      "sha256": "f61e0dc23642ada3828050199ca197065865fc84c7f85f94e9a34546619ea1ae"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/roiaware_pool3d/src/roiaware_pool3d.cpp",
+      "source": "BEVFusion/mmdet3d/ops/roiaware_pool3d/src/roiaware_pool3d.cpp",
+      "bytes": 5910,
+      "sha256": "9ba8177cc1dcd1013eb1baab712d3f58b314ebefc3a8cea112d61b9b6a92522c"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/roiaware_pool3d/src/roiaware_pool3d_kernel.cu",
+      "source": "BEVFusion/mmdet3d/ops/roiaware_pool3d/src/roiaware_pool3d_kernel.cu",
+      "bytes": 15046,
+      "sha256": "dedb41d0ee744df2593fcac933061f4b11fb31cc61c9e77025a202158c758ffb"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/sparse_block.py",
+      "source": "BEVFusion/mmdet3d/ops/sparse_block.py",
+      "bytes": 5487,
+      "sha256": "0cd0455465b815cb8ef893875e6fbba9477e75fbf4776ce7dd6b68da0aa1d56f"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/spconv/__init__.py",
+      "source": "BEVFusion/mmdet3d/ops/spconv/__init__.py",
+      "bytes": 1256,
+      "sha256": "676f3fef1b9277829e730e2c29eed8a6151178ee4b7a6fab1864afef228aa005"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/spconv/conv.py",
+      "source": "BEVFusion/mmdet3d/ops/spconv/conv.py",
+      "bytes": 13449,
+      "sha256": "ccd39bf8adf5bd3a5d41058fa83b59b53184dacb9c8ebfbf31ab9ec60a1e241e"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/spconv/functional.py",
+      "source": "BEVFusion/mmdet3d/ops/spconv/functional.py",
+      "bytes": 4034,
+      "sha256": "f783f1af731dd49e1e7e6f1f21a4bf22120e7c0894200e6eb069249ece389932"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/spconv/include/paramsgrid.h",
+      "source": "BEVFusion/mmdet3d/ops/spconv/include/paramsgrid.h",
+      "bytes": 2053,
+      "sha256": "7fa741eaf5fddd129301f58173701955eb548f0fab28908fcd34799dd73ef705"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/spconv/include/prettyprint.h",
+      "source": "BEVFusion/mmdet3d/ops/spconv/include/prettyprint.h",
+      "bytes": 16041,
+      "sha256": "42a386a8554df9dabfd39b748b27846a96b8cd65522832cbee0c760980d2fe05"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/spconv/include/pybind11_utils.h",
+      "source": "BEVFusion/mmdet3d/ops/spconv/include/pybind11_utils.h",
+      "bytes": 1905,
+      "sha256": "39ed17061fa5f8075e64234c3479cbc69c97f72600103b5001a823f18876280e"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/spconv/include/spconv/fused_spconv_ops.h",
+      "source": "BEVFusion/mmdet3d/ops/spconv/include/spconv/fused_spconv_ops.h",
+      "bytes": 5585,
+      "sha256": "998cd719e6ff0fad5f0774cf85df50c09a4ab93a1a1d5454454e1985aa97ed15"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/spconv/include/spconv/geometry.h",
+      "source": "BEVFusion/mmdet3d/ops/spconv/include/spconv/geometry.h",
+      "bytes": 10215,
+      "sha256": "fc40b32915d67946daab8589d83426829d544c7bb722295d27d1a0195531ddc6"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/spconv/include/spconv/indice.cu.h",
+      "source": "BEVFusion/mmdet3d/ops/spconv/include/spconv/indice.cu.h",
+      "bytes": 9128,
+      "sha256": "b7eb3488fc02c84a5395ed7e30279da6cbac29b82edad816ad4163cafd7db4f7"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/spconv/include/spconv/indice.h",
+      "source": "BEVFusion/mmdet3d/ops/spconv/include/spconv/indice.h",
+      "bytes": 3772,
+      "sha256": "e30cad21660b89de931a293ed38bdbcc701313bad28f80f1a47cca977f77f132"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/spconv/include/spconv/maxpool.h",
+      "source": "BEVFusion/mmdet3d/ops/spconv/include/spconv/maxpool.h",
+      "bytes": 1425,
+      "sha256": "bc14a28fba753c65ca73aec5959785bcced8ec21f07dd780bcd96c06d426b2a2"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/spconv/include/spconv/mp_helper.h",
+      "source": "BEVFusion/mmdet3d/ops/spconv/include/spconv/mp_helper.h",
+      "bytes": 1192,
+      "sha256": "305b41c14369519e91e82257832eb7ab51bb6db2b40cd2441fe12157a5c2c8db"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/spconv/include/spconv/point2voxel.h",
+      "source": "BEVFusion/mmdet3d/ops/spconv/include/spconv/point2voxel.h",
+      "bytes": 14425,
+      "sha256": "5ee03e6470c5f2ffd6aaf91d995ca5720238a34268ef54fb782ae651b0cc39b3"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/spconv/include/spconv/pool_ops.h",
+      "source": "BEVFusion/mmdet3d/ops/spconv/include/spconv/pool_ops.h",
+      "bytes": 3902,
+      "sha256": "b3ee00601d15da0dcf49340a26a12e460c8ffc895d71516226c58c7811546841"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/spconv/include/spconv/reordering.cu.h",
+      "source": "BEVFusion/mmdet3d/ops/spconv/include/spconv/reordering.cu.h",
+      "bytes": 5742,
+      "sha256": "1fc67b34b96dd985dd63ddb78f0452876bd53d3a775ae9ba7086f74d09ee6900"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/spconv/include/spconv/reordering.h",
+      "source": "BEVFusion/mmdet3d/ops/spconv/include/spconv/reordering.h",
+      "bytes": 1369,
+      "sha256": "bd793f1f248f3e65b9c7eb6a088ac491f678576509d40bd063bddefb500346c0"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/spconv/include/spconv/spconv_ops.h",
+      "source": "BEVFusion/mmdet3d/ops/spconv/include/spconv/spconv_ops.h",
+      "bytes": 26723,
+      "sha256": "33f6f325964f4b58708ee573b5eca3b2eb09e4e777168fc29c8ff0afa9324045"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/spconv/include/tensorview/helper_kernel.cu.h",
+      "source": "BEVFusion/mmdet3d/ops/spconv/include/tensorview/helper_kernel.cu.h",
+      "bytes": 2323,
+      "sha256": "b54469828bc527af576558575380c6457102946c1c591b8e1b1c245994ddcbc9"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/spconv/include/tensorview/helper_launch.h",
+      "source": "BEVFusion/mmdet3d/ops/spconv/include/tensorview/helper_launch.h",
+      "bytes": 550,
+      "sha256": "1d2b3e7a409240d4fd4b4f1d10f499d0b58412a22f6246785b5f756faf15b156"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/spconv/include/tensorview/tensorview.h",
+      "source": "BEVFusion/mmdet3d/ops/spconv/include/tensorview/tensorview.h",
+      "bytes": 38563,
+      "sha256": "13078815185cbc4283334e40ac8bfd9b1f597a8779fd94bb4d343be8ae00ddd6"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/spconv/include/torch_utils.h",
+      "source": "BEVFusion/mmdet3d/ops/spconv/include/torch_utils.h",
+      "bytes": 2140,
+      "sha256": "f3b1d8a82cea9eaa407928d541550610cd726beaa85e302c2cd8558d27474f72"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/spconv/include/utility/timer.h",
+      "source": "BEVFusion/mmdet3d/ops/spconv/include/utility/timer.h",
+      "bytes": 1699,
+      "sha256": "cff795b6d73fa97d12e775a727f6f28c28227979d3024ef32102e34938d5b62b"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/spconv/modules.py",
+      "source": "BEVFusion/mmdet3d/ops/spconv/modules.py",
+      "bytes": 6962,
+      "sha256": "3fa877275eba2f8e9381f083970a10fc0aa6a0a3d4b885fd5569c25d6b868a92"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/spconv/ops.py",
+      "source": "BEVFusion/mmdet3d/ops/spconv/ops.py",
+      "bytes": 6584,
+      "sha256": "729843923f562f01116cf2a105563f821c895c751b4dbdd03450bd9d97151baf"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/spconv/pool.py",
+      "source": "BEVFusion/mmdet3d/ops/spconv/pool.py",
+      "bytes": 2981,
+      "sha256": "5981a5e86f18bb9a801231a485067ed6f2b3181cc28a45aa949d06936711d743"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/spconv/src/all.cc",
+      "source": "BEVFusion/mmdet3d/ops/spconv/src/all.cc",
+      "bytes": 2320,
+      "sha256": "8f44452750aff66a071596be523ff29cc899c874983c415c01b787bfb006caf9"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/spconv/src/indice_cpu.cc",
+      "source": "BEVFusion/mmdet3d/ops/spconv/src/indice_cpu.cc",
+      "bytes": 3774,
+      "sha256": "f24da5eec200ff7e50a6fc7ac3f31ad87a83288fb7119e04917f8599975c1257"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/spconv/src/indice_cuda.cu",
+      "source": "BEVFusion/mmdet3d/ops/spconv/src/indice_cuda.cu",
+      "bytes": 7369,
+      "sha256": "a28ad01170f09ea033abdf9560fc05f52bb8c376be9478061a56f807eb1dff8e"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/spconv/src/maxpool_cpu.cc",
+      "source": "BEVFusion/mmdet3d/ops/spconv/src/maxpool_cpu.cc",
+      "bytes": 3069,
+      "sha256": "260e9940287fee9b055e4231d0e74a09751e069d964c2953baf7120422a867ed"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/spconv/src/maxpool_cuda.cu",
+      "source": "BEVFusion/mmdet3d/ops/spconv/src/maxpool_cuda.cu",
+      "bytes": 18733,
+      "sha256": "c8be5dde1cef5f9f1043c8fd973a55e96aaf82c93e29e66873548363da7f74c9"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/spconv/src/reordering_cpu.cc",
+      "source": "BEVFusion/mmdet3d/ops/spconv/src/reordering_cpu.cc",
+      "bytes": 2328,
+      "sha256": "4eec7152f40ad9f93466c728ecf243c8d66da881ae3ffca5ed7952f990185b47"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/spconv/src/reordering_cuda.cu",
+      "source": "BEVFusion/mmdet3d/ops/spconv/src/reordering_cuda.cu",
+      "bytes": 6322,
+      "sha256": "769a6d0793b8f8ca8733d8a8a095703ff7e12183b70789f9d134a85b417f4fd2"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/spconv/structure.py",
+      "source": "BEVFusion/mmdet3d/ops/spconv/structure.py",
+      "bytes": 2087,
+      "sha256": "27648d82da37b070618eb3d187c53c6710d10bbbb896d3e78c5cd983ad0f97e7"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/spconv/test_utils.py",
+      "source": "BEVFusion/mmdet3d/ops/spconv/test_utils.py",
+      "bytes": 7057,
+      "sha256": "579b7b8f5ba080f3831fd4f01a1afc6c7fa134ebd1345cf17476e836e12e26db"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/voxel/__init__.py",
+      "source": "BEVFusion/mmdet3d/ops/voxel/__init__.py",
+      "bytes": 190,
+      "sha256": "541ad177546425e37e7cf4fe21c93b78c79dd3150a44cf99c1029404809d7764"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/voxel/scatter_points.py",
+      "source": "BEVFusion/mmdet3d/ops/voxel/scatter_points.py",
+      "bytes": 4092,
+      "sha256": "b3e1f5dc8d32a096d814534b694a4493d2c7227aa58d407a117367b3dc33d5b0"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/voxel/src/scatter_points_cpu.cpp",
+      "source": "BEVFusion/mmdet3d/ops/voxel/src/scatter_points_cpu.cpp",
+      "bytes": 4058,
+      "sha256": "0e7f2e0ab875ddc2c28dfb7dea563b17d172bcbb24742ebac9477f6cade44ba0"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/voxel/src/scatter_points_cuda.cu",
+      "source": "BEVFusion/mmdet3d/ops/voxel/src/scatter_points_cuda.cu",
+      "bytes": 11408,
+      "sha256": "b4444861648e685799ac45e454f0b88a007b178b0f34c5f2fd665be053649826"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/voxel/src/voxelization.cpp",
+      "source": "BEVFusion/mmdet3d/ops/voxel/src/voxelization.cpp",
+      "bytes": 510,
+      "sha256": "d66e0b9d3a86c2d19364144e0ac0ab799cbf62cc4f18959c9f2aaf7bd4a0d00c"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/voxel/src/voxelization.h",
+      "source": "BEVFusion/mmdet3d/ops/voxel/src/voxelization.h",
+      "bytes": 6607,
+      "sha256": "6259f78ab5be1b31fd7bca3f96987cfb8ad4c3616d38cbb4b3ec05edef9518a3"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/voxel/src/voxelization_cpu.cpp",
+      "source": "BEVFusion/mmdet3d/ops/voxel/src/voxelization_cpu.cpp",
+      "bytes": 5972,
+      "sha256": "4a1dae035bc577d6c798b2969fa25c3c211249be6282586dcb0a3eafaf9c3e43"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/voxel/src/voxelization_cuda.cu",
+      "source": "BEVFusion/mmdet3d/ops/voxel/src/voxelization_cuda.cu",
+      "bytes": 19764,
+      "sha256": "796ca4f4a7476e0ac1cc2331fa52424d063ea3a2acca9a95c1c9fa9be82bc7d2"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/ops/voxel/voxelize.py",
+      "source": "BEVFusion/mmdet3d/ops/voxel/voxelize.py",
+      "bytes": 6375,
+      "sha256": "9162f00e18a0b57cbfd07aaf40bcf347346a83580389c6597910cc5bf685f702"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/runner/__init__.py",
+      "source": "BEVFusion/mmdet3d/runner/__init__.py",
+      "bytes": 55,
+      "sha256": "2ce9a7637dcf50daf6ec0494242e81ef73996cc7a05d02cfe756f2848f9c84a3"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/runner/epoch_based_runner.py",
+      "source": "BEVFusion/mmdet3d/runner/epoch_based_runner.py",
+      "bytes": 448,
+      "sha256": "0727f169d7ac71d628eaf8abe550fa87fcb9409111d5c13327e26a768c027da3"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/utils/__init__.py",
+      "source": "BEVFusion/mmdet3d/utils/__init__.py",
+      "bytes": 292,
+      "sha256": "0d752020419c4cc431f95fc9ea172e550013361568c20390b29d5e758fef4827"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/utils/config.py",
+      "source": "BEVFusion/mmdet3d/utils/config.py",
+      "bytes": 552,
+      "sha256": "89b4f48a751a0f6767a542f441f40e5e0b5b7035607e5c72380f441140895153"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/utils/logger.py",
+      "source": "BEVFusion/mmdet3d/utils/logger.py",
+      "bytes": 1046,
+      "sha256": "ada7fc7f595c6222e80371381e892557ad3c8aab77de9bf6e524ddcdbfe5db36"
+    },
+    {
+      "path": "BEVFusion/mmdet3d/utils/syncbn.py",
+      "source": "BEVFusion/mmdet3d/utils/syncbn.py",
+      "bytes": 410,
+      "sha256": "8f257f738e4ebd05c0f31383564a37fa5bf51205524e076e7f9694130948cec9"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_final_confirmation/access_log.jsonl",
+      "source": "BEVFusion/outputs/riskprop3d_final_confirmation/access_log.jsonl",
+      "bytes": 5699,
+      "sha256": "7bf757fbd214c830357b727e47a5d7902a833330375e420504859e74fb00196f"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_final_confirmation/attributes/result.json",
+      "source": "BEVFusion/outputs/riskprop3d_final_confirmation/attributes/result.json",
+      "bytes": 61458,
+      "sha256": "1051f0c16ae9746309f05dbd3ff2c6ea7192ec6a9ee5b684f751fdfb6e74e0e5"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_final_confirmation/claim_freeze.json",
+      "source": "BEVFusion/outputs/riskprop3d_final_confirmation/claim_freeze.json",
+      "bytes": 1919,
+      "sha256": "34334be6b6485e37484279022432f3f29fa02c69b8e34f3dc57da44eeea0a416"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_final_confirmation/exports/external/rotation_s2/shard-00-of-04/accepted.json",
+      "source": "BEVFusion/outputs/riskprop3d_final_confirmation/exports/external/rotation_s2/shard-00-of-04/accepted.json",
+      "bytes": 7277,
+      "sha256": "9e7baa1bdb047ce342c2b8c68b32d8c076bf4898f5b75cc9d2184bab5752df33"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_final_confirmation/exports/external/rotation_s2/shard-01-of-04/accepted.json",
+      "source": "BEVFusion/outputs/riskprop3d_final_confirmation/exports/external/rotation_s2/shard-01-of-04/accepted.json",
+      "bytes": 7277,
+      "sha256": "23ef9b80c3a1a5b0612a222ccd233aa7eeb6b3fa67df571fc2aac1a7b9298fbc"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_final_confirmation/exports/external/rotation_s2/shard-02-of-04/accepted.json",
+      "source": "BEVFusion/outputs/riskprop3d_final_confirmation/exports/external/rotation_s2/shard-02-of-04/accepted.json",
+      "bytes": 7277,
+      "sha256": "f01904d247dcc0856daa9a8146bc4775dc3ead3510403be2843ee3a928e1442f"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_final_confirmation/exports/external/rotation_s2/shard-03-of-04/accepted.json",
+      "source": "BEVFusion/outputs/riskprop3d_final_confirmation/exports/external/rotation_s2/shard-03-of-04/accepted.json",
+      "bytes": 7277,
+      "sha256": "0cbcb4d97715d0d407abb13c449ea50022be44deade98740211dd442a3f1d9ed"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_final_confirmation/exports/external/rotation_s3/shard-00-of-04/accepted.json",
+      "source": "BEVFusion/outputs/riskprop3d_final_confirmation/exports/external/rotation_s3/shard-00-of-04/accepted.json",
+      "bytes": 7277,
+      "sha256": "b0cb8e85a6df0545f96a48515ce383deabc3643c20d7b08f0fd1fa3f49529924"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_final_confirmation/exports/external/rotation_s3/shard-01-of-04/accepted.json",
+      "source": "BEVFusion/outputs/riskprop3d_final_confirmation/exports/external/rotation_s3/shard-01-of-04/accepted.json",
+      "bytes": 7277,
+      "sha256": "38539b7fd96eaacae0a502cf1cf5dafeb7077b09d3102e27f8e99275b49104ed"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_final_confirmation/exports/external/rotation_s3/shard-02-of-04/accepted.json",
+      "source": "BEVFusion/outputs/riskprop3d_final_confirmation/exports/external/rotation_s3/shard-02-of-04/accepted.json",
+      "bytes": 7277,
+      "sha256": "c8d6df759763a243eb01a15fb439124d34317607717aed83bfaec7b8ef405c2c"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_final_confirmation/exports/external/rotation_s3/shard-03-of-04/accepted.json",
+      "source": "BEVFusion/outputs/riskprop3d_final_confirmation/exports/external/rotation_s3/shard-03-of-04/accepted.json",
+      "bytes": 7277,
+      "sha256": "4667c2a50b0e8c03401ca5d1ea339e5394e79302bcf32758af2e8babc3ba70aa"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_final_confirmation/exports/external/temporal_s2/shard-00-of-04/accepted.json",
+      "source": "BEVFusion/outputs/riskprop3d_final_confirmation/exports/external/temporal_s2/shard-00-of-04/accepted.json",
+      "bytes": 7370,
+      "sha256": "6cafb7475aceefd368ec4f8d1fdfe4e86c61f1c9d1bdb5bd44d9d853aaaf8951"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_final_confirmation/exports/external/temporal_s2/shard-01-of-04/accepted.json",
+      "source": "BEVFusion/outputs/riskprop3d_final_confirmation/exports/external/temporal_s2/shard-01-of-04/accepted.json",
+      "bytes": 7370,
+      "sha256": "04630175b998c0aa0f65c7b4eef12aa0f3413f559c39f4ad7da46e71fb60523e"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_final_confirmation/exports/external/temporal_s2/shard-02-of-04/accepted.json",
+      "source": "BEVFusion/outputs/riskprop3d_final_confirmation/exports/external/temporal_s2/shard-02-of-04/accepted.json",
+      "bytes": 7369,
+      "sha256": "709f9dc068942d4be17352e1bf1002891f363207f086b29558b73082b901a515"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_final_confirmation/exports/external/temporal_s2/shard-03-of-04/accepted.json",
+      "source": "BEVFusion/outputs/riskprop3d_final_confirmation/exports/external/temporal_s2/shard-03-of-04/accepted.json",
+      "bytes": 7369,
+      "sha256": "858aed19f00bb81dbe95637be9c47c5992be42c66ce5fdfbf0ab69dcaf576714"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_final_confirmation/exports/external/temporal_s3/shard-00-of-04/accepted.json",
+      "source": "BEVFusion/outputs/riskprop3d_final_confirmation/exports/external/temporal_s3/shard-00-of-04/accepted.json",
+      "bytes": 7370,
+      "sha256": "68d72cc6981c4c098b4ece66b026636276f963c044f34d66db2a5f25b4b8cefe"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_final_confirmation/exports/external/temporal_s3/shard-01-of-04/accepted.json",
+      "source": "BEVFusion/outputs/riskprop3d_final_confirmation/exports/external/temporal_s3/shard-01-of-04/accepted.json",
+      "bytes": 7370,
+      "sha256": "73c07704912945032b6544f5c895b5d9bf69e19229e40fa73ee463a9c85a86aa"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_final_confirmation/exports/external/temporal_s3/shard-02-of-04/accepted.json",
+      "source": "BEVFusion/outputs/riskprop3d_final_confirmation/exports/external/temporal_s3/shard-02-of-04/accepted.json",
+      "bytes": 7370,
+      "sha256": "14faf1761b021db7dd8cb8711dd80f29035104edda9b7436e1fffba66814a6dc"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_final_confirmation/exports/external/temporal_s3/shard-03-of-04/accepted.json",
+      "source": "BEVFusion/outputs/riskprop3d_final_confirmation/exports/external/temporal_s3/shard-03-of-04/accepted.json",
+      "bytes": 7370,
+      "sha256": "ff4746a77de5d2fb03e7136767aab2568146750de22d1cf57f62b23fa294d1a6"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_final_confirmation/exports/external/translation_s3/shard-00-of-04/accepted.json",
+      "source": "BEVFusion/outputs/riskprop3d_final_confirmation/exports/external/translation_s3/shard-00-of-04/accepted.json",
+      "bytes": 7349,
+      "sha256": "590278f01b6e62ed76b6a87e13e9cd9eed1612fcfb85045bdf0626c804257d1d"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_final_confirmation/exports/external/translation_s3/shard-01-of-04/accepted.json",
+      "source": "BEVFusion/outputs/riskprop3d_final_confirmation/exports/external/translation_s3/shard-01-of-04/accepted.json",
+      "bytes": 7349,
+      "sha256": "7a0519943329c31cd27cf89181cc46d8ed10eef26a7d8262b6b0e93f9242d04e"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_final_confirmation/exports/external/translation_s3/shard-02-of-04/accepted.json",
+      "source": "BEVFusion/outputs/riskprop3d_final_confirmation/exports/external/translation_s3/shard-02-of-04/accepted.json",
+      "bytes": 7349,
+      "sha256": "338ed08f6ec59d1da75d0a0b806f3c505147ed2ad193329a41b3de2ca55a9766"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_final_confirmation/exports/external/translation_s3/shard-03-of-04/accepted.json",
+      "source": "BEVFusion/outputs/riskprop3d_final_confirmation/exports/external/translation_s3/shard-03-of-04/accepted.json",
+      "bytes": 7349,
+      "sha256": "cc51d33db47519ddbad97ffdae5189972269087c0ee2ae5425bd38837afab041"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_final_confirmation/exports/official/clean/shard-00-of-04/accepted.json",
+      "source": "BEVFusion/outputs/riskprop3d_final_confirmation/exports/official/clean/shard-00-of-04/accepted.json",
+      "bytes": 14002,
+      "sha256": "c71ab74890201d667d78be7c858b680276c8a4393cc8a42197fc0a05aad48be5"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_final_confirmation/exports/official/clean/shard-01-of-04/accepted.json",
+      "source": "BEVFusion/outputs/riskprop3d_final_confirmation/exports/official/clean/shard-01-of-04/accepted.json",
+      "bytes": 14003,
+      "sha256": "edc1d6da03c666689ba81fca945024335f00d1ea40e6bff847f0f3ffcfc5ba53"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_final_confirmation/exports/official/clean/shard-02-of-04/accepted.json",
+      "source": "BEVFusion/outputs/riskprop3d_final_confirmation/exports/official/clean/shard-02-of-04/accepted.json",
+      "bytes": 14002,
+      "sha256": "18cdba71f2871359518816527338987caa70828b714e7d228eaf3c311c3ada9c"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_final_confirmation/exports/official/clean/shard-03-of-04/accepted.json",
+      "source": "BEVFusion/outputs/riskprop3d_final_confirmation/exports/official/clean/shard-03-of-04/accepted.json",
+      "bytes": 13739,
+      "sha256": "969dc4800f75980f21b7d6824b7a6c75c16495ba03d0464474def09db17422f1"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_final_confirmation/external/result.json",
+      "source": "BEVFusion/outputs/riskprop3d_final_confirmation/external/result.json",
+      "bytes": 114015,
+      "sha256": "ae7ff156b2148921ab438ca66b0a0267fd63338f50b561d75ba42aeed741d8ff"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_final_confirmation/freeze_manifest.json",
+      "source": "BEVFusion/outputs/riskprop3d_final_confirmation/freeze_manifest.json",
+      "bytes": 7949,
+      "sha256": "89b7bf9e79ca01c31fd1bd6a983b519fee459aec01334b5d01a44949c6f93bf4"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_final_confirmation/inputs/dev_camera_history.json",
+      "source": "BEVFusion/outputs/riskprop3d_final_confirmation/inputs/dev_camera_history.json",
+      "bytes": 14112872,
+      "sha256": "961290ce0489ff287b290fceb2be944aece462603f16b2115f0656394665f022"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_final_confirmation/official/result.json",
+      "source": "BEVFusion/outputs/riskprop3d_final_confirmation/official/result.json",
+      "bytes": 26559,
+      "sha256": "a2dfa3cabac8a2338fd6025c4c81686abf913016bf69e048be28c3d4f0fceaac"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_final_confirmation/tracks/external/rotation_s2.json",
+      "source": "BEVFusion/outputs/riskprop3d_final_confirmation/tracks/external/rotation_s2.json",
+      "bytes": 1137,
+      "sha256": "f2e36626fc68ec8132f59e4c6e4cda5ff3a65164bf9e3b7ce7b8b7070869a972"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_final_confirmation/tracks/external/rotation_s3.json",
+      "source": "BEVFusion/outputs/riskprop3d_final_confirmation/tracks/external/rotation_s3.json",
+      "bytes": 1137,
+      "sha256": "17067efe52ed96cb123d838d178105e47758955fd8b3d7f7c44e949e7c3f4af4"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_final_confirmation/tracks/external/temporal_s2.json",
+      "source": "BEVFusion/outputs/riskprop3d_final_confirmation/tracks/external/temporal_s2.json",
+      "bytes": 1137,
+      "sha256": "ea13a4a425ddf46ca0d51c02e9a53996e96a0155323cb74ba7058dc5a8a07952"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_final_confirmation/tracks/external/temporal_s3.json",
+      "source": "BEVFusion/outputs/riskprop3d_final_confirmation/tracks/external/temporal_s3.json",
+      "bytes": 1137,
+      "sha256": "7ae508b7c1ecabc74665b612b042aeacb970a686f430700ae3e51f6721108edc"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_final_confirmation/tracks/external/translation_s3.json",
+      "source": "BEVFusion/outputs/riskprop3d_final_confirmation/tracks/external/translation_s3.json",
+      "bytes": 1152,
+      "sha256": "a2dd5c598a30a44d54e6cf7c8744f0e44aafdcabd976464025b8168da1397e5d"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_final_confirmation/tracks/official/clean.json",
+      "source": "BEVFusion/outputs/riskprop3d_final_confirmation/tracks/official/clean.json",
+      "bytes": 1107,
+      "sha256": "329ed4781838cb0fb7804c3dd2497b19014004f0380741f3ddec9a413abecbbe"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_level1_matched_law/FIGURE_CONTRACT.md",
+      "source": "BEVFusion/outputs/riskprop3d_level1_matched_law/FIGURE_CONTRACT.md",
+      "bytes": 589,
+      "sha256": "45bac0e25740cce6756680374b643041582fdf54601a9c4c281f9d3688a12ea3"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_level1_matched_law/README.md",
+      "source": "BEVFusion/outputs/riskprop3d_level1_matched_law/README.md",
+      "bytes": 1141,
+      "sha256": "da5c936cf31bc014207757b7d1fb98d9b3bc02a07f3d442086ff734d5fe8e69d"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_level1_matched_law/RESULTS_REPORT.md",
+      "source": "BEVFusion/outputs/riskprop3d_level1_matched_law/RESULTS_REPORT.md",
+      "bytes": 4828,
+      "sha256": "2433743775fc37b75fd27d38c5608e06cfbb9a52ba025e9c18499fc807ddbb6c"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_level1_matched_law/RESULTS_REPORT_ZH.md",
+      "source": "BEVFusion/outputs/riskprop3d_level1_matched_law/RESULTS_REPORT_ZH.md",
+      "bytes": 5001,
+      "sha256": "7a554e0903d41548033407970f66245acdb47208c13d67aa79ff61d0f19fefad"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_level1_matched_law/bootstrap_summary.csv",
+      "source": "BEVFusion/outputs/riskprop3d_level1_matched_law/bootstrap_summary.csv",
+      "bytes": 48126,
+      "sha256": "700bea1d3fc6f0ca8a32f01ce4da3774783352edff915241c800ae8103abc243"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_level1_matched_law/condition_seed_summary.csv",
+      "source": "BEVFusion/outputs/riskprop3d_level1_matched_law/condition_seed_summary.csv",
+      "bytes": 99588,
+      "sha256": "470ff1a13073b9956e530baca79b61bcc61d8a16e3d37285735f1042fd29d5a7"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_level1_matched_law/figure_source_data.csv",
+      "source": "BEVFusion/outputs/riskprop3d_level1_matched_law/figure_source_data.csv",
+      "bytes": 2849,
+      "sha256": "5255077d433982904841be3b8ab7b2cf90b8a2e79fb6ec6f6f233dd6e18b3dcc"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_level1_matched_law/figures/matched_law_factorial.pdf",
+      "source": "BEVFusion/outputs/riskprop3d_level1_matched_law/figures/matched_law_factorial.pdf",
+      "bytes": 17961,
+      "sha256": "eabcdb3aa6db0ea93cb8d75f6094e24e82d7aa56f18a8eb58d4486da0c435db3"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_level1_matched_law/figures/matched_law_factorial.png",
+      "source": "BEVFusion/outputs/riskprop3d_level1_matched_law/figures/matched_law_factorial.png",
+      "bytes": 70831,
+      "sha256": "3ed74d455030abbbf8eea736ce5eae230d65fd55ec12a926b5a1eb8f5737ea9c"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_level1_matched_law/figures/matched_law_factorial.svg",
+      "source": "BEVFusion/outputs/riskprop3d_level1_matched_law/figures/matched_law_factorial.svg",
+      "bytes": 17298,
+      "sha256": "146f45fa7ec238e3a801a95c475e871b3d3aaefb2b2e54abb77df6a15231f59d"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_level1_matched_law/figures/matched_law_factorial.tiff",
+      "source": "BEVFusion/outputs/riskprop3d_level1_matched_law/figures/matched_law_factorial.tiff",
+      "bytes": 28653086,
+      "sha256": "a86888af7c45a635f970de069f18f1082e1f878c98e3be1b4d59b06b5374c582"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_level1_matched_law/figures/matched_law_primary.pdf",
+      "source": "BEVFusion/outputs/riskprop3d_level1_matched_law/figures/matched_law_primary.pdf",
+      "bytes": 24011,
+      "sha256": "0009754acc7af926887ab20340fb30d5ff3bb0ccf400bd99e24e47e0fe44019f"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_level1_matched_law/figures/matched_law_primary.png",
+      "source": "BEVFusion/outputs/riskprop3d_level1_matched_law/figures/matched_law_primary.png",
+      "bytes": 99668,
+      "sha256": "80dbe68d77658d5245bf2d2fa4aaa221393a982ef99dca4940473eb0486d8070"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_level1_matched_law/figures/matched_law_primary.svg",
+      "source": "BEVFusion/outputs/riskprop3d_level1_matched_law/figures/matched_law_primary.svg",
+      "bytes": 25550,
+      "sha256": "4a86b143fac0faaf9112b0d35962918eda0821d3f17f013ebf57f8bfd114bdd9"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_level1_matched_law/figures/matched_law_primary.tiff",
+      "source": "BEVFusion/outputs/riskprop3d_level1_matched_law/figures/matched_law_primary.tiff",
+      "bytes": 29694374,
+      "sha256": "133714d3b032730112392476516f179c437dea8aa1645038b1b95e924fa2bf00"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_level1_matched_law/frozen_config.json",
+      "source": "BEVFusion/outputs/riskprop3d_level1_matched_law/frozen_config.json",
+      "bytes": 13170,
+      "sha256": "336a97a7515c20699637fddda90d4f910a95edc3ee2aeba15dcfd864f26939ec"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_level1_matched_law/integrity_report.json",
+      "source": "BEVFusion/outputs/riskprop3d_level1_matched_law/integrity_report.json",
+      "bytes": 901,
+      "sha256": "da243d2a305720ef629d381aae1e4a399b028087be54efa7be47f16fd0c7f1d1"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_level1_matched_law/manifest.json",
+      "source": "BEVFusion/outputs/riskprop3d_level1_matched_law/manifest.json",
+      "bytes": 9764,
+      "sha256": "110a01794c3368b80678333ef48701d183840bc01730eaa27dee46e22faebdb0"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_level1_matched_law/mc_sensitivity_summary.csv",
+      "source": "BEVFusion/outputs/riskprop3d_level1_matched_law/mc_sensitivity_summary.csv",
+      "bytes": 617,
+      "sha256": "63730a175931489a6dc55c7a3b2e6c5e0cbbd3789e9dc7a1f265c976d7a8a22f"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_level1_matched_law/packaging_shim.json",
+      "source": "BEVFusion/outputs/riskprop3d_level1_matched_law/packaging_shim.json",
+      "bytes": 500,
+      "sha256": "87c38abd3cc81272718b975cb7ebdaafdfd36a8e278331e50306ed658e0a8e32"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_level1_matched_law/result.json",
+      "source": "BEVFusion/outputs/riskprop3d_level1_matched_law/result.json",
+      "bytes": 89845,
+      "sha256": "2baecd10d9081b702d9e3baa243411b43d32905b8d327b7aa12b02cdc865899f"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_level1_matched_law/sampler_validation.json",
+      "source": "BEVFusion/outputs/riskprop3d_level1_matched_law/sampler_validation.json",
+      "bytes": 946,
+      "sha256": "09c60b930f1d1ccf41dfc5cdfd060b3ccd38736ac22b8ccba6ec9e473f3bda41"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_level1_matched_law/scene_level_metrics.h5",
+      "source": "BEVFusion/outputs/riskprop3d_level1_matched_law/scene_level_metrics.h5",
+      "bytes": 455554,
+      "sha256": "4a110916c4ae4d7253a53b222ae1b8c4e298695dfe1e9314d036375c0212cade"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_level1_matched_law_invalid_freeze_v1/frozen_config.json",
+      "source": "BEVFusion/outputs/riskprop3d_level1_matched_law_invalid_freeze_v1/frozen_config.json",
+      "bytes": 12721,
+      "sha256": "04b849386576b0749c40ee7c800d61dd4892dedb02a4007b5d794ec261d228ba"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_level1_matched_law_invalid_freeze_v2/frozen_config.json",
+      "source": "BEVFusion/outputs/riskprop3d_level1_matched_law_invalid_freeze_v2/frozen_config.json",
+      "bytes": 13010,
+      "sha256": "12fdff70e7a044b32d7cfc993c8e614d84b5891e57c8b985bbba384cca343b70"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_process_noise_sensitivity/FIGURE_CONTRACT.md",
+      "source": "BEVFusion/outputs/riskprop3d_process_noise_sensitivity/FIGURE_CONTRACT.md",
+      "bytes": 1487,
+      "sha256": "5d2bfbc18a9ee34851fc1d7910fcff673ec6d1a7f77e00b70f31b86204b8672d"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_process_noise_sensitivity/RESULTS_REPORT.md",
+      "source": "BEVFusion/outputs/riskprop3d_process_noise_sensitivity/RESULTS_REPORT.md",
+      "bytes": 8475,
+      "sha256": "9a8dc39272458bbacf1a05b29fdad9cb93213ba68c1fa9fbbe8621442c44ad55"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_process_noise_sensitivity/figure_process_noise_sensitivity.pdf",
+      "source": "BEVFusion/outputs/riskprop3d_process_noise_sensitivity/figure_process_noise_sensitivity.pdf",
+      "bytes": 22552,
+      "sha256": "22241832c3687ed6ac7eab95ed9a163a28aaa9d940d3ed7003ae722264efd296"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_process_noise_sensitivity/figure_process_noise_sensitivity.png",
+      "source": "BEVFusion/outputs/riskprop3d_process_noise_sensitivity/figure_process_noise_sensitivity.png",
+      "bytes": 144419,
+      "sha256": "057e876132d1137d68775ee1ba7354fe100404bd9fba987ce05b4b28d63119e3"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_process_noise_sensitivity/figure_process_noise_sensitivity.svg",
+      "source": "BEVFusion/outputs/riskprop3d_process_noise_sensitivity/figure_process_noise_sensitivity.svg",
+      "bytes": 27874,
+      "sha256": "c7e1177afe1b64b7c7e9909c23d9f936651137cecc5dfff38bbf2ac317376dfe"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_process_noise_sensitivity/figure_process_noise_sensitivity.tiff",
+      "source": "BEVFusion/outputs/riskprop3d_process_noise_sensitivity/figure_process_noise_sensitivity.tiff",
+      "bytes": 28159658,
+      "sha256": "c83a7b808693d35fab87dd71b2bb1bc984f9568bda5f4c0c6295b748f36a3b34"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_process_noise_sensitivity/figure_source_data.csv",
+      "source": "BEVFusion/outputs/riskprop3d_process_noise_sensitivity/figure_source_data.csv",
+      "bytes": 3422,
+      "sha256": "b83a895ec93006efdfd65c5ef3d97a1d4465cded0c91957370c4e6395df643bc"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_process_noise_sensitivity/protocol.json",
+      "source": "BEVFusion/outputs/riskprop3d_process_noise_sensitivity/protocol.json",
+      "bytes": 3093,
+      "sha256": "be5bb8b30998bf4b01ee61719cf2f484d609b9fa54f7d1233a8ff35d9a455cf1"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_process_noise_sensitivity/result.json",
+      "source": "BEVFusion/outputs/riskprop3d_process_noise_sensitivity/result.json",
+      "bytes": 8285,
+      "sha256": "4b097a08d97f10923656a7a689148eb647c6a79b229e6e886ff2eccbf82121a6"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_r0/predictor.pt",
+      "source": "BEVFusion/outputs/riskprop3d_r0/predictor.pt",
+      "bytes": 111106,
+      "sha256": "c8aaeade1dfae025b908233faf23ea7a293be151b8dd38edbd773002d72cbab2"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_r0/result.json",
+      "source": "BEVFusion/outputs/riskprop3d_r0/result.json",
+      "bytes": 56672,
+      "sha256": "9d8ff660c264b74142ae8a4635645f8240b3bf153b3c2230b9f72cc7b64fd232"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_r1/checkpoints/replicate_0.pt",
+      "source": "BEVFusion/outputs/riskprop3d_r1/checkpoints/replicate_0.pt",
+      "bytes": 1240905,
+      "sha256": "faf676b212c68d1978dcab1e6ef23f2fe0da1745201c7ef8d9c13a48f6378b84"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_r1/checkpoints/replicate_1.pt",
+      "source": "BEVFusion/outputs/riskprop3d_r1/checkpoints/replicate_1.pt",
+      "bytes": 1240905,
+      "sha256": "e1e5ef4795006fe1a19e2713266f58e38a1a1dc101269fc2746858a7fe32bc6f"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_r1/checkpoints/replicate_2.pt",
+      "source": "BEVFusion/outputs/riskprop3d_r1/checkpoints/replicate_2.pt",
+      "bytes": 1240905,
+      "sha256": "bc1980ae3c1eee5f51cafa5d402e7ab2c01e0d0ab96c677e1a586d26b3be8f2b"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_r1/prepare_manifest.json",
+      "source": "BEVFusion/outputs/riskprop3d_r1/prepare_manifest.json",
+      "bytes": 32149,
+      "sha256": "a2f65bb6a0f8cf9bd25503308ca9e872a25192966d91726cae1b8559471da3f8"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_r1/result.json",
+      "source": "BEVFusion/outputs/riskprop3d_r1/result.json",
+      "bytes": 9442,
+      "sha256": "5581e71b9eaa18864950b9fcbb0b87ad99e84770482b55e66f9fa5fe4fa3f262"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_r15/result.json",
+      "source": "BEVFusion/outputs/riskprop3d_r15/result.json",
+      "bytes": 16848,
+      "sha256": "f24702f8f3c8ed49e5aaebcf11242eedcc1571f4093fce8979a2b1a425e314b0"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_r2_core/checkpoints/replicate_0.pt",
+      "source": "BEVFusion/outputs/riskprop3d_r2_core/checkpoints/replicate_0.pt",
+      "bytes": 1702502,
+      "sha256": "6cf412ff2a90ea3c435c381d27f95d526f0ec0899731079e990dcd388c42a1e4"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_r2_core/checkpoints/replicate_1.pt",
+      "source": "BEVFusion/outputs/riskprop3d_r2_core/checkpoints/replicate_1.pt",
+      "bytes": 1702502,
+      "sha256": "e09abc6f013be8ce869e3a29df20c6590a316fc4f31073ba7c2c1aecaeafb893"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_r2_core/checkpoints/replicate_2.pt",
+      "source": "BEVFusion/outputs/riskprop3d_r2_core/checkpoints/replicate_2.pt",
+      "bytes": 1702502,
+      "sha256": "9f5d39755046a8df2dba3f27ec644288ec09a7614518d215cac0ff0609647302"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_r2_core/prepare_manifest.json",
+      "source": "BEVFusion/outputs/riskprop3d_r2_core/prepare_manifest.json",
+      "bytes": 5321,
+      "sha256": "e82670fc2d9aee5345b2dec59577cea819000e226e4b2b7352483ccfd77c1136"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_r2_core/result.json",
+      "source": "BEVFusion/outputs/riskprop3d_r2_core/result.json",
+      "bytes": 65482,
+      "sha256": "21776529d072a191a8180c83463cbedfb88f4ec33671aae911544e10b82a93f6"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_r2d/checkpoints/replicate_0.pt",
+      "source": "BEVFusion/outputs/riskprop3d_r2d/checkpoints/replicate_0.pt",
+      "bytes": 203602,
+      "sha256": "bcafcf1d35f2f8fb71df59a8f21c3b02294a15bc7632c660f0dbcf2ab91f98d4"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_r2d/checkpoints/replicate_1.pt",
+      "source": "BEVFusion/outputs/riskprop3d_r2d/checkpoints/replicate_1.pt",
+      "bytes": 203602,
+      "sha256": "051e8fa6330891fc4513c7190493435179e8a96254fafc22eed7cfa652da7f4f"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_r2d/checkpoints/replicate_2.pt",
+      "source": "BEVFusion/outputs/riskprop3d_r2d/checkpoints/replicate_2.pt",
+      "bytes": 203602,
+      "sha256": "5bce042ae956580363f070373ed60c4c968251583991867419014c9ae242726b"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_r2d/prepare_manifest.json",
+      "source": "BEVFusion/outputs/riskprop3d_r2d/prepare_manifest.json",
+      "bytes": 4092,
+      "sha256": "fe8b11db76283a712fac7656acfe4a0f6dad2f16b0fb514cb25a8d637a4ced07"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_r2d/result.json",
+      "source": "BEVFusion/outputs/riskprop3d_r2d/result.json",
+      "bytes": 15047,
+      "sha256": "a6d4729fc320109ccfc40b1ac80ea93c28df77bddeaf803571cebf3ce148d2bd"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_r3p/checkpoints/replicate_0.pt",
+      "source": "BEVFusion/outputs/riskprop3d_r3p/checkpoints/replicate_0.pt",
+      "bytes": 409554,
+      "sha256": "05f5b2ee1011d1720bad1fd60349e5c75cdaa02b2fbc77e4a80c2f8dd95d1313"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_r3p/checkpoints/replicate_1.pt",
+      "source": "BEVFusion/outputs/riskprop3d_r3p/checkpoints/replicate_1.pt",
+      "bytes": 409554,
+      "sha256": "ebdc3cda92afc7b3efe4687f34a18e00478cc3bcbb9fe944bf91f1ab623fa9b6"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_r3p/checkpoints/replicate_2.pt",
+      "source": "BEVFusion/outputs/riskprop3d_r3p/checkpoints/replicate_2.pt",
+      "bytes": 409554,
+      "sha256": "6073adfc30b99da2212147e547dc88cccb5de52032d0ced71c1ec397a20f837b"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_r3p/prepare_manifest.json",
+      "source": "BEVFusion/outputs/riskprop3d_r3p/prepare_manifest.json",
+      "bytes": 3938,
+      "sha256": "2acd35f1caa138f0cce8412b70bf711ab2e8106b26beb658f04863f5449960b0"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_r3p/result.json",
+      "source": "BEVFusion/outputs/riskprop3d_r3p/result.json",
+      "bytes": 22623,
+      "sha256": "eaa7ac63d0b7aa7b84aa72b0e1f3053d96875a34e490a6400a9c496bb2a863bf"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_upstream_downstream_analysis/RESULTS_REPORT.md",
+      "source": "BEVFusion/outputs/riskprop3d_upstream_downstream_analysis/RESULTS_REPORT.md",
+      "bytes": 4288,
+      "sha256": "69651dc99f164eff6ccdfedcfb82e59e572b13e61dea99d51ba31731dc7e5482"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_upstream_downstream_analysis/condition_severity_table.csv",
+      "source": "BEVFusion/outputs/riskprop3d_upstream_downstream_analysis/condition_severity_table.csv",
+      "bytes": 7906,
+      "sha256": "a78570760fee582f6b0ea3ff4038a0adf55488307a867286669fcf535e706f54"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_upstream_downstream_analysis/figure_upstream_downstream_transfer.pdf",
+      "source": "BEVFusion/outputs/riskprop3d_upstream_downstream_analysis/figure_upstream_downstream_transfer.pdf",
+      "bytes": 54473,
+      "sha256": "fbd66ce5deeadf627dad5b8ef3a835fb6002ca255d59e64deace2fff9ded6097"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_upstream_downstream_analysis/figure_upstream_downstream_transfer.png",
+      "source": "BEVFusion/outputs/riskprop3d_upstream_downstream_analysis/figure_upstream_downstream_transfer.png",
+      "bytes": 217007,
+      "sha256": "8590cb56dfc9fc0d1262b7a41a567baec2963bab8348b7a877d48440f23122de"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_upstream_downstream_analysis/figure_upstream_downstream_transfer.svg",
+      "source": "BEVFusion/outputs/riskprop3d_upstream_downstream_analysis/figure_upstream_downstream_transfer.svg",
+      "bytes": 119076,
+      "sha256": "75930eacbed8e9d1e91e1efb87b41a46efc61526d408b7e8467ab456123b2263"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_upstream_downstream_analysis/figure_upstream_downstream_transfer.tiff",
+      "source": "BEVFusion/outputs/riskprop3d_upstream_downstream_analysis/figure_upstream_downstream_transfer.tiff",
+      "bytes": 32427926,
+      "sha256": "73d2ad022ea1d1076e3862ab51a057322e6478d5229eb74ec6aec1fa7a03d0f2"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_upstream_downstream_analysis/result.json",
+      "source": "BEVFusion/outputs/riskprop3d_upstream_downstream_analysis/result.json",
+      "bytes": 14560,
+      "sha256": "92b7bbd87eff3a7b00e2741a671736ab4a7d7391a325e35cacd2c21de2db98d3"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_upstream_downstream_analysis/seed_cell_source_data.csv",
+      "source": "BEVFusion/outputs/riskprop3d_upstream_downstream_analysis/seed_cell_source_data.csv",
+      "bytes": 17144,
+      "sha256": "1d7e588defd64c7a79a0f48477daace10e42ca23c1d629627263fda119fbdf1c"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_upstream_downstream_analysis/spearman_cluster_bootstrap.csv",
+      "source": "BEVFusion/outputs/riskprop3d_upstream_downstream_analysis/spearman_cluster_bootstrap.csv",
+      "bytes": 1286,
+      "sha256": "1bb33d1953dcb7908fcc12b6e40a32c54ad060955a7a9f0a46a14ed133ef812b"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_upstream_downstream_analysis/transfer_classification.csv",
+      "source": "BEVFusion/outputs/riskprop3d_upstream_downstream_analysis/transfer_classification.csv",
+      "bytes": 15016,
+      "sha256": "5bb26eefc275834a6463ee339283d2cffdd195aaed49b8b4c1b27f89006e10d9"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_upstream_downstream_export/README.md",
+      "source": "BEVFusion/outputs/riskprop3d_upstream_downstream_export/README.md",
+      "bytes": 2660,
+      "sha256": "e653b0b36b28e7fea8349f9253a28073c1d1fa92c420ca1dcd9f3c704c7e58bd"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_upstream_downstream_export/condition_seed_summary.csv",
+      "source": "BEVFusion/outputs/riskprop3d_upstream_downstream_export/condition_seed_summary.csv",
+      "bytes": 17672,
+      "sha256": "471e53d2eb29e202b62c7abf71231fac6e5fb93a105738dd03f03728d31626f5"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_upstream_downstream_export/manifest.json",
+      "source": "BEVFusion/outputs/riskprop3d_upstream_downstream_export/manifest.json",
+      "bytes": 38794,
+      "sha256": "642f031dcefe78ab8b8c39fe4e7ab8ba600ec73a9b4881da173e0d5fd8fedd3e"
+    },
+    {
+      "path": "BEVFusion/outputs/riskprop3d_upstream_downstream_export/schema.json",
+      "source": "BEVFusion/outputs/riskprop3d_upstream_downstream_export/schema.json",
+      "bytes": 2061,
+      "sha256": "7105811b6b1b1a80e2010aaf97fe46dc8c44c9f3821f0fad9ecd83c4a2a63eb7"
+    },
+    {
+      "path": "BEVFusion/patches/mmcv-1.4.0-torch2.patch",
+      "source": "BEVFusion/patches/mmcv-1.4.0-torch2.patch",
+      "bytes": 1270,
+      "sha256": "7e5c70d2a46afa65174c95864453c079ecb9931bc323454cafbe08e2b4404331"
+    },
+    {
+      "path": "BEVFusion/probset3d/P0_DATA_SPLIT_AUTHORITY.json",
+      "source": "BEVFusion/probset3d/P0_DATA_SPLIT_AUTHORITY.json",
+      "bytes": 3212,
+      "sha256": "381b7265d9aa5a1a52618b918ac4a5ea21ca47b48c23995ba58de5640b87f4a9"
+    },
+    {
+      "path": "BEVFusion/probset3d/__init__.py",
+      "source": "BEVFusion/probset3d/__init__.py",
+      "bytes": 68,
+      "sha256": "409e72fcabfb1330ca493dc50c51b0eb9b68cd99de3fb2e3202e12b2dfeca78c"
+    },
+    {
+      "path": "BEVFusion/probset3d/f1/__init__.py",
+      "source": "BEVFusion/probset3d/f1/__init__.py",
+      "bytes": 41,
+      "sha256": "4227cfacca14d790f28e0cafa0610679553693a0dca8a841a7e36df8808e688c"
+    },
+    {
+      "path": "BEVFusion/probset3d/f1/implementation/__init__.py",
+      "source": "BEVFusion/probset3d/f1/implementation/__init__.py",
+      "bytes": 54,
+      "sha256": "b6bb2499f28b2a818ddc2867ece557eb4e82389daabd95595df9d0b34c0a7abb"
+    },
+    {
+      "path": "BEVFusion/probset3d/f1/implementation/probabilistic_query.py",
+      "source": "BEVFusion/probset3d/f1/implementation/probabilistic_query.py",
+      "bytes": 15256,
+      "sha256": "4069ccd9825f5b0b146841e3533c364e121df0f74ae55304045a48b210bed0a3"
+    },
+    {
+      "path": "BEVFusion/probset3d/f1/implementation/synthetic_acceptance.py",
+      "source": "BEVFusion/probset3d/f1/implementation/synthetic_acceptance.py",
+      "bytes": 21655,
+      "sha256": "78a190131c3b509694b7dd7827b34b40c21356b3a6701fb232535ae025756932"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_final_confirmation/README.md",
+      "source": "BEVFusion/riskprop3d_final_confirmation/README.md",
+      "bytes": 2404,
+      "sha256": "15c7a351147c87dd9ca9e719f7168d831f663b0ba9c73a2a7b3635372fe6b7d9"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/DATA_CONTRACT.md",
+      "source": "BEVFusion/riskprop3d_hivt_extension/DATA_CONTRACT.md",
+      "bytes": 2295,
+      "sha256": "1826efd9fd97029ea970b29ce9e5d230638f806f747482a279e6eb285608860d"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/EXECUTION_STATUS.md",
+      "source": "BEVFusion/riskprop3d_hivt_extension/EXECUTION_STATUS.md",
+      "bytes": 5448,
+      "sha256": "696980f6cc5e53ac0172f1b1e321f6aafe785d94ee47076dfb8303f3033c6118"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/H0_attempt1_preflight.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/H0_attempt1_preflight.json",
+      "bytes": 8273,
+      "sha256": "a1672c264c5712f29273a667514efe2d07852ea6d478daa02c0f559eeb9125e8"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/H0_attempt2_preflight.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/H0_attempt2_preflight.json",
+      "bytes": 8281,
+      "sha256": "1f2f38e9b73da7933d07a01dce75e60dbe4ea107704d435b7bf9874f296d6948"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/H0_attempt3_preflight.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/H0_attempt3_preflight.json",
+      "bytes": 8383,
+      "sha256": "79bb158daea26128e2e9959a77fd2e6704273821fc8608a29b64788b313a2c14"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/RECOVERY_PROTOCOL.md",
+      "source": "BEVFusion/riskprop3d_hivt_extension/RECOVERY_PROTOCOL.md",
+      "bytes": 4304,
+      "sha256": "3f242924f4b918acc42acbfa9a9869a61af2b8e514047af0ee35c7c158d8182f"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/RECOVERY_REPORT.md",
+      "source": "BEVFusion/riskprop3d_hivt_extension/RECOVERY_REPORT.md",
+      "bytes": 4556,
+      "sha256": "00b1a4a0741d447595ac8f055d9db8b1ba3a36b40b0474e3fb59892779fce01a"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/REPORT.md",
+      "source": "BEVFusion/riskprop3d_hivt_extension/REPORT.md",
+      "bytes": 11016,
+      "sha256": "8ffd2189086774d5e23527a8f6e18d0f16306b3cc42ee7beaf89400cf11b82c3"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/STARTUP_REPORT.md",
+      "source": "BEVFusion/riskprop3d_hivt_extension/STARTUP_REPORT.md",
+      "bytes": 4652,
+      "sha256": "274451ac831b0769186f2facbdb4c2d8544b97178081149d0597098f9368412b"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/SUPPLEMENTARY_PLAN.md",
+      "source": "BEVFusion/riskprop3d_hivt_extension/SUPPLEMENTARY_PLAN.md",
+      "bytes": 27272,
+      "sha256": "810e749e92e77b6c4b10cd0a22925481667e2ba36354551004e4bf104e2adc20"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/TIME_AUDIT_NOTE.md",
+      "source": "BEVFusion/riskprop3d_hivt_extension/TIME_AUDIT_NOTE.md",
+      "bytes": 897,
+      "sha256": "e5aba8ae0e4f023a119dc75e80402a70be285537861a4dbbbfbef55e6050d37b"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/audit_data.py",
+      "source": "BEVFusion/riskprop3d_hivt_extension/audit_data.py",
+      "bytes": 7420,
+      "sha256": "628fade8c20a80ad2163c32930ef78e435fb0d944103f6f4835cbc7d827ed944"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/build_context.py",
+      "source": "BEVFusion/riskprop3d_hivt_extension/build_context.py",
+      "bytes": 12727,
+      "sha256": "f7c88310dfbe8f8d500ca56b91d6d1980501e2430bcffbc4915dcb131cc982ea"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/context_export.py",
+      "source": "BEVFusion/riskprop3d_hivt_extension/context_export.py",
+      "bytes": 3426,
+      "sha256": "a3cf0144640835844afb5e554070c747b7599b246738928f3d5cd5730968a272"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/context_recovery_v1/freeze.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/context_recovery_v1/freeze.json",
+      "bytes": 3885,
+      "sha256": "61f67e28b6636483bd80e4e717017e8c23daab00739258e8323f91385ac21172"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_00/accepted.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_00/accepted.json",
+      "bytes": 8451,
+      "sha256": "de43c55e4efb6b4e609befa98cdb9c4908cb14546472d6d111090a9f1e001b9c"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_01/accepted.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_01/accepted.json",
+      "bytes": 8452,
+      "sha256": "cc2ff0d2fef06fcd2d1cba80cd88b70d536a1c3f7bdbc0bf0a8969fb810e90e4"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/accepted.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_00/accepted.json",
+      "bytes": 9185,
+      "sha256": "e0c336bbc4487e7a1485b40f2759b12526fe6c2d2d2261feee68574553fd6622"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/accepted.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_01/accepted.json",
+      "bytes": 9185,
+      "sha256": "36be080647e91e9508f4a0adbd8e70a53bf61784bbf8d978e14de8fb836da4ef"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/accepted.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_02/accepted.json",
+      "bytes": 9185,
+      "sha256": "8b922640a65a860373dbcb00cb679cd90348519fcccb0ac9f50c94475de7ec68"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/accepted.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/context_recovery_v1/raw/official_clean_03/accepted.json",
+      "bytes": 9003,
+      "sha256": "dacfb6935a8f7de7dbecc5a8bca3e88ba4fbafef6b6057b841deba5db363e338"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_00/accepted.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_00/accepted.json",
+      "bytes": 8451,
+      "sha256": "6fa51cd9d108d3cbb5f7e50cf1a0300992d6c0bc73618f706be9ccaf3fb422a2"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_01/accepted.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/context_recovery_v1/raw/rotation_s3_01/accepted.json",
+      "bytes": 8452,
+      "sha256": "fd755a96fae322734a7cf7338fa8d10929ae2ac1c638e0d592bd36fb823b3d1d"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/controls_v1/run_0/clean_s0/complete.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/controls_v1/run_0/clean_s0/complete.json",
+      "bytes": 83725,
+      "sha256": "1aad71307d8034f397e3b8aa5f1e26a315979e3e9b59da1a716983f84d756c83"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/controls_v1/run_0/dropout_s3/complete.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/controls_v1/run_0/dropout_s3/complete.json",
+      "bytes": 82411,
+      "sha256": "27644cab82f75673f5ca50158067cc74e7d39bdf7afd06f2c4a128f3a018af0e"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/controls_v1/run_0/official_clean/complete.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/controls_v1/run_0/official_clean/complete.json",
+      "bytes": 176874,
+      "sha256": "65f899fb85879fab7a7a1a52e9f425adee3f963167727c0d4ccc79e9622012eb"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/controls_v1/run_0/rotation_s3/complete.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/controls_v1/run_0/rotation_s3/complete.json",
+      "bytes": 81389,
+      "sha256": "9ceabac276a929e2c1038776ddf71e39d7cb1a2ac0430a81dd04307607bbc137"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/controls_v1/run_1/clean_s0/complete.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/controls_v1/run_1/clean_s0/complete.json",
+      "bytes": 83726,
+      "sha256": "f8d91771a15a4b88d852b5dbec7a7ccab8191df0cea273c23b1764176deea7e2"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/controls_v1/run_1/dropout_s3/complete.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/controls_v1/run_1/dropout_s3/complete.json",
+      "bytes": 82411,
+      "sha256": "a8f10626880300295a6dccff01f559dbbe2315a456fccc17e1ee63a3e2e3d9b4"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/controls_v1/run_1/official_clean/complete.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/controls_v1/run_1/official_clean/complete.json",
+      "bytes": 176874,
+      "sha256": "39a4e9a1b9157a25d6e105005a2d527e00092c60fe309ec2dc5621c81a885694"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/controls_v1/run_1/rotation_s3/complete.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/controls_v1/run_1/rotation_s3/complete.json",
+      "bytes": 81388,
+      "sha256": "91584e0483e457f7dc9a26f52f38175fce077971934bd766da51ef32ef390d68"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/controls_v1/run_2/clean_s0/complete.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/controls_v1/run_2/clean_s0/complete.json",
+      "bytes": 83725,
+      "sha256": "fd98de70b9f9970f921e4ebd8ad34a219bbdfd9c0d75e6cfad37943953782aeb"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/controls_v1/run_2/dropout_s3/complete.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/controls_v1/run_2/dropout_s3/complete.json",
+      "bytes": 82411,
+      "sha256": "398b92b99909dbeff21a5c782498d2bde52fb3f4b79d9edcb1dea478058dc539"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/controls_v1/run_2/official_clean/complete.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/controls_v1/run_2/official_clean/complete.json",
+      "bytes": 176873,
+      "sha256": "9c6019cde127aa9a2981d2fcb4da477a0ac5c0288ab7f5411b20115fe5697d95"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/controls_v1/run_2/rotation_s3/complete.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/controls_v1/run_2/rotation_s3/complete.json",
+      "bytes": 81389,
+      "sha256": "fa0a7c93e79b77f34bd935bc13cfe3edc6494eea346afa289bd36e008b86c539"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/data_v1/audit.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/data_v1/audit.json",
+      "bytes": 10826,
+      "sha256": "4915bbbde96add84539d8270e95abdca4f9c3d083c54a4d29714c921808c43b2"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/data_v1/clean_s0/manifest.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/data_v1/clean_s0/manifest.json",
+      "bytes": 16883,
+      "sha256": "ab22a2efce00d86188bdbb3d64760e2593a62c48f07b84f8b38b3b772d8ef4c8"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/data_v1/dropout_s3/manifest.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/data_v1/dropout_s3/manifest.json",
+      "bytes": 18471,
+      "sha256": "6288f2c2a5012e4772a861bbba6ecb5d4ced57dc1d71c446649aac57c2291970"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/data_v1/label_cal/manifest.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/data_v1/label_cal/manifest.json",
+      "bytes": 17581,
+      "sha256": "20f040f3f294f05b5653a059c4cb48c13c3b1f15369c4f87d427a02f8ce029ac"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/data_v1/official_clean/manifest.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/data_v1/official_clean/manifest.json",
+      "bytes": 39677,
+      "sha256": "0908d53660704064d93a76aa4e711f8a800585489d14b35105d7f83f2b8be00b"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/data_v1/rotation_s3/manifest.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/data_v1/rotation_s3/manifest.json",
+      "bytes": 18592,
+      "sha256": "5b70183f14d18a797f606df6eb31ad8c065770289abab94d5ca406eaef259235"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/data_v1/train/manifest.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/data_v1/train/manifest.json",
+      "bytes": 132175,
+      "sha256": "c844868b8a3321a7f02c6a708d87c50d06fdc63fdb2c337cae219f81561c45d3"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/evaluate.py",
+      "source": "BEVFusion/riskprop3d_hivt_extension/evaluate.py",
+      "bytes": 22681,
+      "sha256": "c44afb23010cf50aeae6f9e9f852572b8accd061dabe09bb8154e228c0a117ee"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/evaluate_controls.py",
+      "source": "BEVFusion/riskprop3d_hivt_extension/evaluate_controls.py",
+      "bytes": 5793,
+      "sha256": "a3b430c6da6e98520cdd7d076005477678800e7d48fb642cf3227cfb194534d8"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/evaluation_v1/freeze.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/evaluation_v1/freeze.json",
+      "bytes": 1162884,
+      "sha256": "b80d3d31b3bfb4c0f1040ef504ffb32de9930b12ce0d716d9fe764e84dcb06af"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/evaluation_v1/main/run_0/clean_s0/complete.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/evaluation_v1/main/run_0/clean_s0/complete.json",
+      "bytes": 661740,
+      "sha256": "52f9202d2670893322f622be2be4eae56b45b7bac12fe93f2e3cb17b7b9d1f4d"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/evaluation_v1/main/run_0/dropout_s3/complete.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/evaluation_v1/main/run_0/dropout_s3/complete.json",
+      "bytes": 651446,
+      "sha256": "8db4c4ded3a13cecb5d8bd09471998a9dcb44902d8d7ea4dcd7431616ac80d09"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/evaluation_v1/main/run_0/official_clean/complete.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/evaluation_v1/main/run_0/official_clean/complete.json",
+      "bytes": 1401684,
+      "sha256": "c0c13395ed8199037477f9cb7ac8c20271fb17ce407420ee5b0d61c6f1a9e776"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/evaluation_v1/main/run_0/rotation_s3/complete.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/evaluation_v1/main/run_0/rotation_s3/complete.json",
+      "bytes": 642603,
+      "sha256": "9fb6f254a2fd448cf249b4e828762f24026622e0c411ead25de9203e6d48c2e0"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/evaluation_v1/main/run_1/clean_s0/complete.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/evaluation_v1/main/run_1/clean_s0/complete.json",
+      "bytes": 661741,
+      "sha256": "f13deb8aecc130bfb920c50ae6dc2ed9b04ecfc372517283090be17fede02c9c"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/evaluation_v1/main/run_1/dropout_s3/complete.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/evaluation_v1/main/run_1/dropout_s3/complete.json",
+      "bytes": 651447,
+      "sha256": "965bfe7733f2d13ba7b23ff95edcfee9c580cda0d31bc85bafc9455bbe543bda"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/evaluation_v1/main/run_1/official_clean/complete.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/evaluation_v1/main/run_1/official_clean/complete.json",
+      "bytes": 1401683,
+      "sha256": "bf8e778cd814a69e9e0e568f0f4f8b5da3fcaaa5a2f0e05e7d3c95c040bd155e"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/evaluation_v1/main/run_1/rotation_s3/complete.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/evaluation_v1/main/run_1/rotation_s3/complete.json",
+      "bytes": 642605,
+      "sha256": "a45c6bd40eed2abbd1697dfc4fea21f0d683b3b85208203781782a7a54d6a0f9"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/evaluation_v1/main/run_2/clean_s0/complete.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/evaluation_v1/main/run_2/clean_s0/complete.json",
+      "bytes": 661741,
+      "sha256": "fe77c683af5bd452f0ce2279420f89b2b686a5a6a75177a88bb6f67d7c55d3a3"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/evaluation_v1/main/run_2/dropout_s3/complete.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/evaluation_v1/main/run_2/dropout_s3/complete.json",
+      "bytes": 651449,
+      "sha256": "266f285292a035e2bbeb4a580e3de2bd5a2759978ca5fc7b5274cea392697075"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/evaluation_v1/main/run_2/official_clean/complete.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/evaluation_v1/main/run_2/official_clean/complete.json",
+      "bytes": 1401685,
+      "sha256": "c265c5bd32351f85c529e0fd6dac833e64d5711868c8a8b8d176951055bafcfb"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/evaluation_v1/main/run_2/rotation_s3/complete.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/evaluation_v1/main/run_2/rotation_s3/complete.json",
+      "bytes": 642604,
+      "sha256": "6796fe835a8f93ef0409e36b4a4a63fed77ff4fe008fb786df48bf09efa7dc6a"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/evaluation_v1/sensitivity/run_0/clean_s0/complete.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/evaluation_v1/sensitivity/run_0/clean_s0/complete.json",
+      "bytes": 3142,
+      "sha256": "1d76ad5d2d0e3736079cf5f7b3c59bf48dece1960e53ccf9fd6c7b46ebc9db48"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/evaluation_v1/sensitivity/run_1/clean_s0/complete.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/evaluation_v1/sensitivity/run_1/clean_s0/complete.json",
+      "bytes": 3141,
+      "sha256": "f4a4dc501665efcf6c5a5b1a38e60702f008f44e74d78156408d0f84c3b7eb3c"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/evaluation_v1/sensitivity/run_2/clean_s0/complete.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/evaluation_v1/sensitivity/run_2/clean_s0/complete.json",
+      "bytes": 3141,
+      "sha256": "75a553db879492fbfaf94fc38b30cc519a4416fa90b8d3f56254aeb2554658a5"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/hivt_runtime.py",
+      "source": "BEVFusion/riskprop3d_hivt_extension/hivt_runtime.py",
+      "bytes": 8108,
+      "sha256": "65b84d83d9785f0983caf81a0868f4985cbf2adac80aaf3e217577887799e55b"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/host_v1/engineering.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/host_v1/engineering.json",
+      "bytes": 3461,
+      "sha256": "65b9e35cbbdecc53aa39505307a6b8aa1fb1cb6b1d83236c5a90b2b86152c8d1"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/host_v1/freeze.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/host_v1/freeze.json",
+      "bytes": 4712,
+      "sha256": "aa610327a0f845e7367b3fc9282d43c4608e1aaaf3d2a1fb1c85daf5722133f6"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/host_v1/run_0/best.pt",
+      "source": "BEVFusion/riskprop3d_hivt_extension/host_v1/run_0/best.pt",
+      "bytes": 10279240,
+      "sha256": "86fbcb41e38373623fe163dacf9d4b4ca9efbb753e8a786f2babb90923bd8386"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/host_v1/run_0/calibration.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/host_v1/run_0/calibration.json",
+      "bytes": 375,
+      "sha256": "95b8719b19a80a49d76bbb4b402cb5288cc39e8f0df8cfbde6a084f53a7107b7"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/host_v1/run_0/epoch0.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/host_v1/run_0/epoch0.json",
+      "bytes": 135,
+      "sha256": "41a25e575c4093ca8f7fbcc7012848882ce70422ddb847c2c95aa46f628e1eb4"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/host_v1/run_0/epochs.jsonl",
+      "source": "BEVFusion/riskprop3d_hivt_extension/host_v1/run_0/epochs.jsonl",
+      "bytes": 17880,
+      "sha256": "114262827802727210618935c3f0f8805e47a4c864565d025be6b0a580b98433"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/host_v1/run_0/support_probe.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/host_v1/run_0/support_probe.json",
+      "bytes": 929,
+      "sha256": "5ce6ab8240a79822c1bad3c23f4504f911e11f58b80007ada00c6a2319c30f59"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/host_v1/run_0/training_complete.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/host_v1/run_0/training_complete.json",
+      "bytes": 666,
+      "sha256": "c09b1ef6222d38c0b2fd4e0915fc7d57af5d31aeb014d9926220b0d7b0919297"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/host_v1/run_1/best.pt",
+      "source": "BEVFusion/riskprop3d_hivt_extension/host_v1/run_1/best.pt",
+      "bytes": 10279240,
+      "sha256": "41fe88bd87516e08e30019d382bc7b8c3455a020051ab1f7b68be3fa92a106f1"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/host_v1/run_1/calibration.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/host_v1/run_1/calibration.json",
+      "bytes": 375,
+      "sha256": "9c1ba9795bf3f420823b6567f808fcc79d8fcafe0b822841efa94797526d6ced"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/host_v1/run_1/epoch0.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/host_v1/run_1/epoch0.json",
+      "bytes": 134,
+      "sha256": "b84a5c6794479dd53689ca8a5cfbd7f9541963fdf9fa5ace8bc6a4aea1caec1a"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/host_v1/run_1/epochs.jsonl",
+      "source": "BEVFusion/riskprop3d_hivt_extension/host_v1/run_1/epochs.jsonl",
+      "bytes": 17849,
+      "sha256": "822df69eb8685ffd217d5964f70957a6062598c3ee6d4ec4fde1f14accc9ccbd"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/host_v1/run_1/support_probe.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/host_v1/run_1/support_probe.json",
+      "bytes": 930,
+      "sha256": "1f1f0d36985a1ac0897ada9e766b6989ef00af2a7b0ad4b631c34f6ba8a94ea0"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/host_v1/run_1/training_complete.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/host_v1/run_1/training_complete.json",
+      "bytes": 663,
+      "sha256": "3395012b2a9081514c04d11b4333131be02c1f124745ba4bc139f4cb2673584d"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/host_v1/run_2/best.pt",
+      "source": "BEVFusion/riskprop3d_hivt_extension/host_v1/run_2/best.pt",
+      "bytes": 10279240,
+      "sha256": "df912e919a1828c54f58071328163a1badbd52aa569bbf6285c6b17fbdad31a9"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/host_v1/run_2/calibration.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/host_v1/run_2/calibration.json",
+      "bytes": 375,
+      "sha256": "4913eed92a7a220845734563b9208353a6e1a5a05601bf42bb80afe413383c77"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/host_v1/run_2/epoch0.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/host_v1/run_2/epoch0.json",
+      "bytes": 136,
+      "sha256": "7cd656d6982665fb197721dd41ffd1e3ab2186fb345e6c28c212d72edf5d2037"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/host_v1/run_2/epochs.jsonl",
+      "source": "BEVFusion/riskprop3d_hivt_extension/host_v1/run_2/epochs.jsonl",
+      "bytes": 17881,
+      "sha256": "d405bc72df068d1654cbbc63e1e635677c2783049c89c65735a1a9c499e053f4"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/host_v1/run_2/support_probe.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/host_v1/run_2/support_probe.json",
+      "bytes": 931,
+      "sha256": "593e8ba9e53d2aae36ca3107ec8539cb72b67c83e66218f5e38213c774ea2d83"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/host_v1/run_2/training_complete.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/host_v1/run_2/training_complete.json",
+      "bytes": 667,
+      "sha256": "8c79da9cb021d096ea4812ea9fec0188a25bbaa59d052e1d27212d65960ce5e0"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/implementation_checks.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/implementation_checks.json",
+      "bytes": 1562,
+      "sha256": "6b4bda7670ef05a4b1ced0d3d89d6088159fa7b9321a7d9b454795c06bac945c"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/pipeline.py",
+      "source": "BEVFusion/riskprop3d_hivt_extension/pipeline.py",
+      "bytes": 6480,
+      "sha256": "442cea365139f65f1a1a22fe2063a260c7a76ce81e31326b37467a3a6877fdb6"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/pipeline_v1/cpu_status.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/pipeline_v1/cpu_status.json",
+      "bytes": 40,
+      "sha256": "5fa0afe9399309dd9f4b38dd8c4ec358c57a08778fe8c74ddc1808562e9ffcdb"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/pipeline_v1/finish_launcher.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/pipeline_v1/finish_launcher.json",
+      "bytes": 186,
+      "sha256": "db36d547437b63f06918b33c5de875422794b7b252a914865b96feacfbf0d186"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/pipeline_v1/finish_status.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/pipeline_v1/finish_status.json",
+      "bytes": 87,
+      "sha256": "1b3a04fc535bef1721173e950da6af7ac063a59ce65bde6ad0a523e21c6d2e1b"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/pipeline_v1/gpu_status.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/pipeline_v1/gpu_status.json",
+      "bytes": 340,
+      "sha256": "e20fbc3cbe4629ac7846fe77349f55fb3d6e75edf090944fe2f3ec939ba0d496"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/pipeline_v1/launchers.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/pipeline_v1/launchers.json",
+      "bytes": 127,
+      "sha256": "60b15d2ad8e593fd7600755b5e6e865918f7c66256d0a300077901a2fb723916"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/pipeline_v1/queue_restart_attempt2.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/pipeline_v1/queue_restart_attempt2.json",
+      "bytes": 398,
+      "sha256": "8f3dc953803e42fc161db9b81910b52fc851387e13b1803ddbf0a331d353e5e1"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/preflight.py",
+      "source": "BEVFusion/riskprop3d_hivt_extension/preflight.py",
+      "bytes": 9216,
+      "sha256": "f30d1bb7d5779aae2ed1e49ec42d0b54d453d7f9c4bffefb79e1f99969a2ef4e"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/query_alignment_clean_cal_dev_attempt1.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/query_alignment_clean_cal_dev_attempt1.json",
+      "bytes": 478,
+      "sha256": "0d39235933ba4554a1641098e4a5f0f829be12661573d64e2fc4589f9ea9bc17"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/query_alignment_clean_train_attempt1.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/query_alignment_clean_train_attempt1.json",
+      "bytes": 203,
+      "sha256": "12d23684a913fa3bbcbe6ed02f1dcaa4b2d1a5e556850d1ffdde11a26986a362"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/recover.py",
+      "source": "BEVFusion/riskprop3d_hivt_extension/recover.py",
+      "bytes": 28570,
+      "sha256": "586ca4f01e36d97c81794b1a8671b2d233ce3dcc12765398ccb9241ae4e0236c"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/recovery_v1/authority/manifest.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/recovery_v1/authority/manifest.json",
+      "bytes": 182557,
+      "sha256": "35e351efe8ebcb75cc070bb391dbe2a0c0f53992def9dff7a866dd42f25a1d01"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/recovery_v1/baseline.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/recovery_v1/baseline.json",
+      "bytes": 75752,
+      "sha256": "3b5b654c524354fbbd46828c6ac1085aa49d2c3a839ed34eb4b79a353e2480cc"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/recovery_v1/checkpoints/seed_20260731.pt",
+      "source": "BEVFusion/riskprop3d_hivt_extension/recovery_v1/checkpoints/seed_20260731.pt",
+      "bytes": 230346,
+      "sha256": "9173260dd82c72cedc3f17ba1560d9b3071221efaebcac1d1bb8f70ae2041e1e"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/recovery_v1/checkpoints/seed_20260801.pt",
+      "source": "BEVFusion/riskprop3d_hivt_extension/recovery_v1/checkpoints/seed_20260801.pt",
+      "bytes": 230346,
+      "sha256": "10d6bd9ee7dddb7540d05821097fea7d56d887204d825c35d97db2170336e5be"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/recovery_v1/checkpoints/seed_20260802.pt",
+      "source": "BEVFusion/riskprop3d_hivt_extension/recovery_v1/checkpoints/seed_20260802.pt",
+      "bytes": 230346,
+      "sha256": "58611bdf35c0c3ebc7016193d1576fa8efb01c02af4fc5a0910b4e2db61c37db"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/recovery_v1/launcher.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/recovery_v1/launcher.json",
+      "bytes": 397,
+      "sha256": "c36c3fa0eab12f7f4b950aa8a34b41a7a17ece0241bf5ec49e5ed17f282a5e95"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/recovery_v1/pre_recovery_freeze.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/recovery_v1/pre_recovery_freeze.json",
+      "bytes": 4040,
+      "sha256": "4f96c8ece3422c52ba78db5bf261dcaf6ce7528ef990d5015901f541c5905506"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/recovery_v1/recovery_manifest.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/recovery_v1/recovery_manifest.json",
+      "bytes": 842,
+      "sha256": "197b21f50489049208effc26b39c1873b58a531398d7e904e511fa671d0d251c"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/recovery_v1/smoke/engineering_check.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/recovery_v1/smoke/engineering_check.json",
+      "bytes": 632,
+      "sha256": "10ae79c80e4591cbf4bfca921372c097b49f26711753b63dc2c2f1c163efb4be"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/recovery_v1/smoke/old_input_comparison.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/recovery_v1/smoke/old_input_comparison.json",
+      "bytes": 2120,
+      "sha256": "e99a8c7537f0db1b32218f344b58c5ea8b6e7b0e2b732ba24023afbcf82cb7e5"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/recovery_v1/smoke/raw/dev_00/accepted.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/recovery_v1/smoke/raw/dev_00/accepted.json",
+      "bytes": 570,
+      "sha256": "45b8494ff49a0d780859e6e8ed2553a2fc2b4c0f2ce1a978f5830b59fb3bceb3"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/recovery_v1/status.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/recovery_v1/status.json",
+      "bytes": 75,
+      "sha256": "1a2de22a56f20f2acf95b8f5266f764afee5f332a161bf5e7cd7d824186f9a0e"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/recovery_v1/storage_manifest.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/recovery_v1/storage_manifest.json",
+      "bytes": 305,
+      "sha256": "f2e2c7efbe356b023053454f259b9a63f2c38af55a5826dc2870ce2107411056"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/recovery_v1/training/seed_20260731_complete.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/recovery_v1/training/seed_20260731_complete.json",
+      "bytes": 162,
+      "sha256": "e2ce0947224d12850ca44ee6d0b60dcc815932dac24d657cd17d488514619f6b"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/recovery_v1/training/seed_20260731_epochs.jsonl",
+      "source": "BEVFusion/riskprop3d_hivt_extension/recovery_v1/training/seed_20260731_epochs.jsonl",
+      "bytes": 4480,
+      "sha256": "56969040b36576cf8da570318815ea8bdcee5bbac0858c1bd00a966a1b6bad50"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/recovery_v1/training/seed_20260801_complete.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/recovery_v1/training/seed_20260801_complete.json",
+      "bytes": 162,
+      "sha256": "0adcfefcf3ab0a09cfec1e32eb1ee43bd3e99caa1807f806a9ffc2ebf175d9aa"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/recovery_v1/training/seed_20260801_epochs.jsonl",
+      "source": "BEVFusion/riskprop3d_hivt_extension/recovery_v1/training/seed_20260801_epochs.jsonl",
+      "bytes": 4483,
+      "sha256": "0deb9fc5874a366f47a2ceaa7016250d12fe6a749d9f1f94e805785b6b0c1198"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/recovery_v1/training/seed_20260802_complete.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/recovery_v1/training/seed_20260802_complete.json",
+      "bytes": 162,
+      "sha256": "6180f27e49822ffbdd0d4bb394e67cdd659777204e1f2cdb18adeb5a75c3d1dc"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/recovery_v1/training/seed_20260802_epochs.jsonl",
+      "source": "BEVFusion/riskprop3d_hivt_extension/recovery_v1/training/seed_20260802_epochs.jsonl",
+      "bytes": 4481,
+      "sha256": "f166c44f9a029ae491587cc9fbee3cf4d5eae41fa88fc024a546878bb17da741"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/results_v1/MC_sensitivity.csv",
+      "source": "BEVFusion/riskprop3d_hivt_extension/results_v1/MC_sensitivity.csv",
+      "bytes": 1163,
+      "sha256": "3501b6e3e9b97bef0d47e2c8788b5e01ed27d0e514ef1df00d2380e037ebac61"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/results_v1/absolute.csv",
+      "source": "BEVFusion/riskprop3d_hivt_extension/results_v1/absolute.csv",
+      "bytes": 14159,
+      "sha256": "6917a3f574d1e2ce2a42ff2bcc2747dd3367ba75b24fe19843153478ea0bc86c"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/results_v1/absolute_estimates.csv",
+      "source": "BEVFusion/riskprop3d_hivt_extension/results_v1/absolute_estimates.csv",
+      "bytes": 2430,
+      "sha256": "7818e17881b9890b7e144cf07df709012f5e95c976036675843447d0055f2f91"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/results_v1/common_targets.csv",
+      "source": "BEVFusion/riskprop3d_hivt_extension/results_v1/common_targets.csv",
+      "bytes": 1202,
+      "sha256": "f6f703e3cf8a763ffcba618ee257850572427c52feb2e0f7f0c667788e88e56b"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/results_v1/completion.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/results_v1/completion.json",
+      "bytes": 1193,
+      "sha256": "262643fc1202029975b3ff1166e782f95f88206530891c680b4e265d01395f6f"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/results_v1/contrasts.csv",
+      "source": "BEVFusion/riskprop3d_hivt_extension/results_v1/contrasts.csv",
+      "bytes": 1585,
+      "sha256": "690a700e339139705d9c0e9b46399201cce2d793f584f6398330b49b44c3a6f9"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/results_v1/control_contrasts.csv",
+      "source": "BEVFusion/riskprop3d_hivt_extension/results_v1/control_contrasts.csv",
+      "bytes": 3044,
+      "sha256": "26a3824dbaa52e725fc0f5e572f028548c17ccc5f2460aa291a5f865e0f5042e"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/results_v1/controls.csv",
+      "source": "BEVFusion/riskprop3d_hivt_extension/results_v1/controls.csv",
+      "bytes": 29494,
+      "sha256": "b56a49c10c0cdec419e226a03f32e06ae4250b65a3298d7868d17a5eeaa82b27"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/results_v1/final_delivery_audit.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/results_v1/final_delivery_audit.json",
+      "bytes": 4880,
+      "sha256": "61880e30bf3b73be5e276325f645df68e8242ff9e576a88cc0eff2d218cc95d7"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/results_v1/summary.json",
+      "source": "BEVFusion/riskprop3d_hivt_extension/results_v1/summary.json",
+      "bytes": 165118,
+      "sha256": "7f1d0480a86d2862386f9e180b4a101a0b425ca577d645cfceebcea5f957ab80"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/run_host.py",
+      "source": "BEVFusion/riskprop3d_hivt_extension/run_host.py",
+      "bytes": 14205,
+      "sha256": "8d9d5aaf7a52ffd2aaa68c351815073e93fc58e69007e2a0d43a2cdbd44a6691"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/runtime_compatibility.patch",
+      "source": "BEVFusion/riskprop3d_hivt_extension/runtime_compatibility.patch",
+      "bytes": 4953,
+      "sha256": "b3176439f112beffa484f69ed8a252f138b14fc98e7559c09633c97420127222"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/summarize.py",
+      "source": "BEVFusion/riskprop3d_hivt_extension/summarize.py",
+      "bytes": 20330,
+      "sha256": "4d6350fcd8edbd1ed3c3b0dafd38fad92a552447e62573bbdceda15c78db58ba"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/LICENSE",
+      "source": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/README.md",
+      "source": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/README.md",
+      "bytes": 3148,
+      "sha256": "b4b0b6a260b0202de4dcab129111f1e83450b0abff1af27c4dc306dd8d47c52f"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/assets/overview.png",
+      "source": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/assets/overview.png",
+      "bytes": 1442741,
+      "sha256": "8cc0ed02e0ae483ac5b85256a80c46494499ffc8268cd1c8b77d302c33646d12"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/assets/visualization.png",
+      "source": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/assets/visualization.png",
+      "bytes": 226205,
+      "sha256": "1ad8d45dc12133f66d37b67ee4ecb1e3f4660d2a79d8c3aa8706adebda4e5d7e"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/datamodules/__init__.py",
+      "source": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/datamodules/__init__.py",
+      "bytes": 735,
+      "sha256": "f2852b4b7cc639e858fcfb147c64679a3128a5283804cc892a06f85ef7bcf4e5"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/datamodules/argoverse_v1_datamodule.py",
+      "source": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/datamodules/argoverse_v1_datamodule.py",
+      "bytes": 2783,
+      "sha256": "06561c53224a20d12522d63367b48445fb7bf6d59b0f71d2ed9d88ce09b89bd6"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/datamodules/nuscenes_datamodule.py",
+      "source": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/datamodules/nuscenes_datamodule.py",
+      "bytes": 2883,
+      "sha256": "4918b769aef419ab4c876406e72a8b7c3d448dc7dbd56d728adc29f43e5e485c"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/datasets/__init__.py",
+      "source": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/datasets/__init__.py",
+      "bytes": 717,
+      "sha256": "4cdd47fbfd0af290df18d17b5900610065d82dcf7df6b568a165f02c26319782"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/datasets/argoverse_v1_dataset.py",
+      "source": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/datasets/argoverse_v1_dataset.py",
+      "bytes": 10795,
+      "sha256": "dbd6d3adcff7d9bbebf5023502b2412b2f9824a993719961a27eebe89e59eb0c"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/datasets/nuscenes_dataset.py",
+      "source": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/datasets/nuscenes_dataset.py",
+      "bytes": 8380,
+      "sha256": "ab2f94c0df6ef52eda5777a38361e9bf0e1b7a31601a2ef70af76ce76466620c"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/eval.py",
+      "source": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/eval.py",
+      "bytes": 2293,
+      "sha256": "600b4fac11f3d2f23436ea896a6668cc8e3e323f8f3e328d4ee9556f5acebe41"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/losses/__init__.py",
+      "source": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/losses/__init__.py",
+      "bytes": 730,
+      "sha256": "9977161797dba4de90870d8959594ae81f7106d23b3d7482c6a05d1ab275776f"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/losses/laplace_nll_loss.py",
+      "source": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/losses/laplace_nll_loss.py",
+      "bytes": 1516,
+      "sha256": "b5eb09521d2a1779c20b7585028b7096f1e1c8d452b713d3f1ac9b4d81dea08f"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/losses/soft_target_cross_entropy_loss.py",
+      "source": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/losses/soft_target_cross_entropy_loss.py",
+      "bytes": 1396,
+      "sha256": "176f2b2ac833eb99e909ea159cf613ae9c1b9b25552edc890abebe4cd30d52a1"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/metrics/__init__.py",
+      "source": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/metrics/__init__.py",
+      "bytes": 684,
+      "sha256": "36fa4afb68817285075f893b57fc0920bd4a50cbd080f818a5d46946fe3cb406"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/metrics/ade.py",
+      "source": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/metrics/ade.py",
+      "bytes": 1509,
+      "sha256": "1f42673327dab58bdc9741b5fdc7b8176995129b330f7c8f34d7ed6d3e9508d0"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/metrics/fde.py",
+      "source": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/metrics/fde.py",
+      "bytes": 1510,
+      "sha256": "d139c8dd511610f288c99f7e5a3a3b44a2180d9dbfd4afb0530fdf232ae0bfcb"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/metrics/mr.py",
+      "source": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/metrics/mr.py",
+      "bytes": 1622,
+      "sha256": "cf02540ac0b959cf9beb1a5b513cbb4381d9247592be8f03929cd87c9e6bde0d"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/models/__init__.py",
+      "source": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/models/__init__.py",
+      "bytes": 1128,
+      "sha256": "cf6ec6ad098d3f8f234147c7150a00208d40802d8f5809bea499ea1f8fb4a63b"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/models/decoder.py",
+      "source": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/models/decoder.py",
+      "bytes": 6147,
+      "sha256": "d3818d089679b71c57d1dff5434a8b5fdb9e2420601e89178351b0c80b0999ee"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/models/embedding.py",
+      "source": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/models/embedding.py",
+      "bytes": 2647,
+      "sha256": "0d6ba544e4733ec92b466caa38a0ed848b067bce6a0b0d4cdb18b4081f4a5281"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/models/global_interactor.py",
+      "source": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/models/global_interactor.py",
+      "bytes": 6800,
+      "sha256": "7769fa9de42b1a637ebf2166fc25a536b93f622cc996d1cf9aeeb19653aa14ba"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/models/hivt.py",
+      "source": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/models/hivt.py",
+      "bytes": 16546,
+      "sha256": "37252f1c9324daaf1c81a2f4df49d782891a482c9fe68d3a4504dd1623426c00"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/models/local_encoder.py",
+      "source": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/models/local_encoder.py",
+      "bytes": 20023,
+      "sha256": "277baeafbaa9081605ef4fa4d4bb2b1f866da93291cc273a1006bb4785c26988"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/models/local_encoder_std.py",
+      "source": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/models/local_encoder_std.py",
+      "bytes": 19888,
+      "sha256": "d8a68653172e5b7d19d415875c2bd8c43a3297a2f99d682e6ad44fc7806cd3ee"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/models/num_nodes.py",
+      "source": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/models/num_nodes.py",
+      "bytes": 1253,
+      "sha256": "0ded21ab1b0391c5044ae0ccd682e6b0b6c3da3cf94707af60457bfe5bc4b22c"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/models/softmax.py",
+      "source": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/models/softmax.py",
+      "bytes": 1951,
+      "sha256": "7ec6751dd51f803d1ef0af9a39bab963c7006d0e8baa2c9b6ddec31179453f71"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/train.py",
+      "source": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/train.py",
+      "bytes": 2282,
+      "sha256": "4593982969ccd054558a31d1336b87b843b852027b630cf846c5c97891bbfed3"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/utils.py",
+      "source": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/HiVT_modified/utils.py",
+      "bytes": 6263,
+      "sha256": "282ebc3af3d60d5e1fc010e71b390aa7903daf9ab7db7bac18072758791f5a01"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/docs/trj.md",
+      "source": "BEVFusion/riskprop3d_hivt_extension/third_party/MapUncertaintyPrediction/docs/trj.md",
+      "bytes": 1023,
+      "sha256": "32729ddbb78f2da782670fbea99f14f30a6e09352d57228498efcc96e3f4e8ad"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/CITATION_AUDIT.md",
+      "source": "BEVFusion/riskprop3d_paper/CITATION_AUDIT.md",
+      "bytes": 8046,
+      "sha256": "dcad1b5b56fad83d95609c342ab735622184595aa1592639df5436b18173d3eb"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/CLOSEST_RELATED_WORK.ris",
+      "source": "BEVFusion/riskprop3d_paper/CLOSEST_RELATED_WORK.ris",
+      "bytes": 2603,
+      "sha256": "9f051ced097c242bb5928460cdcb3e1a6f14eb3b4fdda3cf18f6f5d7aab47499"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/EVIDENCE_MATRIX.md",
+      "source": "BEVFusion/riskprop3d_paper/EVIDENCE_MATRIX.md",
+      "bytes": 11137,
+      "sha256": "88d2c9347ddaf83acada9cd81f5dd80b5cb230de156b9db615f72fd616a816ba"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/FIGURE_5_DESIGN.md",
+      "source": "BEVFusion/riskprop3d_paper/FIGURE_5_DESIGN.md",
+      "bytes": 3490,
+      "sha256": "693d56c1c338d9ce5c222d85df8c6a2a3a74269778937bdbe32f2670c43577d4"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/FIGURE_CONTRACTS.md",
+      "source": "BEVFusion/riskprop3d_paper/FIGURE_CONTRACTS.md",
+      "bytes": 7220,
+      "sha256": "b301631babb58f3eafdbea7acd45ea029fa201768c1ad0929bf116a115f6a310"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/FIGURE_MANIFEST.md",
+      "source": "BEVFusion/riskprop3d_paper/FIGURE_MANIFEST.md",
+      "bytes": 3082,
+      "sha256": "82baf5ce6e5cd23201dbdd0dae597dd9216076f197970be43ed85c46f6372065"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/FINAL_CLAIM_LEDGER.md",
+      "source": "BEVFusion/riskprop3d_paper/FINAL_CLAIM_LEDGER.md",
+      "bytes": 4936,
+      "sha256": "855bedb388f515b639c810497a00402d53652f86cea195af9325a746335dd228"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/FINAL_CONFIRMATION_PROTOCOL.md",
+      "source": "BEVFusion/riskprop3d_paper/FINAL_CONFIRMATION_PROTOCOL.md",
+      "bytes": 9716,
+      "sha256": "8db7688c9d230e0f93c64ab66a480925fd1081b0fa6abca2ea2d180654c7c929"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/FINAL_CONFIRMATION_REPORT.md",
+      "source": "BEVFusion/riskprop3d_paper/FINAL_CONFIRMATION_REPORT.md",
+      "bytes": 10910,
+      "sha256": "406fa45336afabc54cf2300a91b8271ec9b3c4ac7fdbd8186e2ead1d9ffe9b8c"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/MANUSCRIPT_DRAFT.md",
+      "source": "BEVFusion/riskprop3d_paper/MANUSCRIPT_DRAFT.md",
+      "bytes": 70107,
+      "sha256": "8c0893f21c1d5e12b4816f71cf7e32c302ca70ac7188eefe234436df970ec86f"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/MANUSCRIPT_DRAFT_ZH.md",
+      "source": "BEVFusion/riskprop3d_paper/MANUSCRIPT_DRAFT_ZH.md",
+      "bytes": 60197,
+      "sha256": "ab9200c8410c58bef58d8ced20af346e87a0bdf5b56857d28453ed69444fb3d9"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/MANUSCRIPT_WRITING_NOTES.md",
+      "source": "BEVFusion/riskprop3d_paper/MANUSCRIPT_WRITING_NOTES.md",
+      "bytes": 11207,
+      "sha256": "871665ada8d02a33a2126810f9dc863e3bdcd709ee6166575149f6f81c8a293c"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/OFFICIAL_EVIDENCE_TABLE.md",
+      "source": "BEVFusion/riskprop3d_paper/OFFICIAL_EVIDENCE_TABLE.md",
+      "bytes": 5119,
+      "sha256": "35bd5a59be4ac4e61b913cdbe2d65a09f68f8484d95672ccd3b9a42f731aa3f8"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/PAPER_MAP.md",
+      "source": "BEVFusion/riskprop3d_paper/PAPER_MAP.md",
+      "bytes": 17603,
+      "sha256": "f4418ccb9fffb7391851fb69ab078006e5a8f7f93d3d2bae4f49b1788083e890"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/PRECONFIRMATION_CLAIM_LEDGER.md",
+      "source": "BEVFusion/riskprop3d_paper/PRECONFIRMATION_CLAIM_LEDGER.md",
+      "bytes": 2284,
+      "sha256": "8e5cbba4e921bee608d08e1cddb04e7b0a168f761a70628977a67b0cf776fdbb"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/README.md",
+      "source": "BEVFusion/riskprop3d_paper/README.md",
+      "bytes": 5445,
+      "sha256": "4ab9beddcaaa77d17ba628a6621a7c0c204b5356373fbb34a08b1a4b25cfa95f"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/SUPPLEMENTARY_APPENDIX.md",
+      "source": "BEVFusion/riskprop3d_paper/SUPPLEMENTARY_APPENDIX.md",
+      "bytes": 26619,
+      "sha256": "e6c80cfbaa56e40fd274819cd5e3efc2f50c54599049f9c417d37a995b8abb1f"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/UPSTREAM_CHARACTERIZATION_TABLE.md",
+      "source": "BEVFusion/riskprop3d_paper/UPSTREAM_CHARACTERIZATION_TABLE.md",
+      "bytes": 3858,
+      "sha256": "e38017d94e648d108b2503080ba3b8202bca5644920eeb95d765fcb7fa358342"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/evidence_exports/EXPORT_MANIFEST.json",
+      "source": "BEVFusion/riskprop3d_paper/evidence_exports/EXPORT_MANIFEST.json",
+      "bytes": 4745,
+      "sha256": "c8589981e4b1abe89f43176d3bc48a1768164fe14d9ec21380215dac49aeb429"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/evidence_exports/attribute_strata_complete.csv",
+      "source": "BEVFusion/riskprop3d_paper/evidence_exports/attribute_strata_complete.csv",
+      "bytes": 869749,
+      "sha256": "709b742298bb785a7e4a63157a4e3702ac2d858c3c1fed9b1c9eedfb89eaaa77"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/evidence_exports/attribute_strata_readme.md",
+      "source": "BEVFusion/riskprop3d_paper/evidence_exports/attribute_strata_readme.md",
+      "bytes": 2702,
+      "sha256": "d53d0cca803b58542aded7ba5f3e6b3a8d59e6ec68cfd8ed3ff3d3c67f9e1682"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/evidence_exports/preservation_equivalence.json",
+      "source": "BEVFusion/riskprop3d_paper/evidence_exports/preservation_equivalence.json",
+      "bytes": 17754,
+      "sha256": "dd1ef9cb684bb75684b756abc196fe46550b2f539acbb8166f38829697d33611"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/evidence_exports/preservation_fidelity_summary.csv",
+      "source": "BEVFusion/riskprop3d_paper/evidence_exports/preservation_fidelity_summary.csv",
+      "bytes": 4721,
+      "sha256": "689970a004e272c852eb505659bc8b4de9665714b2b353befc2db7af0322b856"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/evidence_exports/runtime_measurements.csv",
+      "source": "BEVFusion/riskprop3d_paper/evidence_exports/runtime_measurements.csv",
+      "bytes": 1407,
+      "sha256": "f43df9ee1a6ab3678cef4825bc1dd68690e33cd2537ef3863d80c2e0379a5e41"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/evidence_exports/runtime_protocol.md",
+      "source": "BEVFusion/riskprop3d_paper/evidence_exports/runtime_protocol.md",
+      "bytes": 3154,
+      "sha256": "08b6d4c4129ce7119e0dd385e4784067fa7b3473eb5fafb4e5bb00a34a85f938"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/figures/figure_1_interface_taxonomy.pdf",
+      "source": "BEVFusion/riskprop3d_paper/figures/figure_1_interface_taxonomy.pdf",
+      "bytes": 34790,
+      "sha256": "72e2a23fd711be89ac47f1f9e16ce298ffedf3c74308f99964dad79781e33dc4"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/figures/figure_1_interface_taxonomy.png",
+      "source": "BEVFusion/riskprop3d_paper/figures/figure_1_interface_taxonomy.png",
+      "bytes": 197201,
+      "sha256": "7a453a8c6d7914384d63f8a66292b8606d03d0d8db574cd615b400455b227784"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/figures/figure_1_interface_taxonomy.svg",
+      "source": "BEVFusion/riskprop3d_paper/figures/figure_1_interface_taxonomy.svg",
+      "bytes": 25736,
+      "sha256": "c0ec4c5edf32096c14e24f904f57eb4f64237c810fbacbe657f080149cbc8793"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/figures/figure_1_interface_taxonomy.tiff",
+      "source": "BEVFusion/riskprop3d_paper/figures/figure_1_interface_taxonomy.tiff",
+      "bytes": 1243938,
+      "sha256": "f6708a6f883a338897d52c97356afef618f743c0e3b50082aa5c01ddd6464abf"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/figures/figure_2_stochastic_propagation.pdf",
+      "source": "BEVFusion/riskprop3d_paper/figures/figure_2_stochastic_propagation.pdf",
+      "bytes": 31185,
+      "sha256": "58de20f1e073070c940fba1d86f89b5fd093783ff322b3ed013f83d6d36d9522"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/figures/figure_2_stochastic_propagation.png",
+      "source": "BEVFusion/riskprop3d_paper/figures/figure_2_stochastic_propagation.png",
+      "bytes": 124281,
+      "sha256": "945539fafbab4cf9c0186f62b80425847cc1112287ef4610ab30672663e7e057"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/figures/figure_2_stochastic_propagation.svg",
+      "source": "BEVFusion/riskprop3d_paper/figures/figure_2_stochastic_propagation.svg",
+      "bytes": 29732,
+      "sha256": "52b407631a9b293737eeaeba0299870030ede5ddadb9efe97c31a7f97c33e494"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/figures/figure_2_stochastic_propagation.tiff",
+      "source": "BEVFusion/riskprop3d_paper/figures/figure_2_stochastic_propagation.tiff",
+      "bytes": 757984,
+      "sha256": "f07017e5f01db5c1b27100d051d70db3059c7ca05b566cb1dcab19ab40b068f6"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/figures/figure_3_upstream_downstream_transfer.pdf",
+      "source": "BEVFusion/riskprop3d_paper/figures/figure_3_upstream_downstream_transfer.pdf",
+      "bytes": 61364,
+      "sha256": "520714bda5e0c762fa776c24e791500ea820677017e15154ee77755f00194fe5"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/figures/figure_3_upstream_downstream_transfer.png",
+      "source": "BEVFusion/riskprop3d_paper/figures/figure_3_upstream_downstream_transfer.png",
+      "bytes": 214636,
+      "sha256": "e43b8ae10769f6a749b45c3d55eb4876d17c3a5a5583c7628b9cf2448be8dd19"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/figures/figure_3_upstream_downstream_transfer.svg",
+      "source": "BEVFusion/riskprop3d_paper/figures/figure_3_upstream_downstream_transfer.svg",
+      "bytes": 118775,
+      "sha256": "ecb0fba6a1bfb2169a5cf07402dcf6589c0ab9f2230e794db22861883cc3374a"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/figures/figure_3_upstream_downstream_transfer.tiff",
+      "source": "BEVFusion/riskprop3d_paper/figures/figure_3_upstream_downstream_transfer.tiff",
+      "bytes": 1214322,
+      "sha256": "5ad15cbcdfe4aa8fed9877a625d9adb92ba487aaefc6b8187a85f41acaee4a42"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/figures/figure_4_learned_interfaces.pdf",
+      "source": "BEVFusion/riskprop3d_paper/figures/figure_4_learned_interfaces.pdf",
+      "bytes": 35599,
+      "sha256": "96edfa3edc8424889b8b3d1c6be47d191ccc434342eb4dd48badb7bb15a2e126"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/figures/figure_4_learned_interfaces.png",
+      "source": "BEVFusion/riskprop3d_paper/figures/figure_4_learned_interfaces.png",
+      "bytes": 204424,
+      "sha256": "4131b567f74b8e9997ef408b6479b6bb8662f0b89de0ebd795b35820a1f5cf14"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/figures/figure_4_learned_interfaces.svg",
+      "source": "BEVFusion/riskprop3d_paper/figures/figure_4_learned_interfaces.svg",
+      "bytes": 34768,
+      "sha256": "40d07f65a1180565f745b9502f59b42d99e89d185bfdc1a6842ca2c29b7e3e90"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/figures/figure_4_learned_interfaces.tiff",
+      "source": "BEVFusion/riskprop3d_paper/figures/figure_4_learned_interfaces.tiff",
+      "bytes": 1010246,
+      "sha256": "0dafb44c0968186155da1129b17bf0ba796134a569de45154bbe6cd55d041e0c"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/figures/figure_5_interface_stability.pdf",
+      "source": "BEVFusion/riskprop3d_paper/figures/figure_5_interface_stability.pdf",
+      "bytes": 36118,
+      "sha256": "1a2f4e29ba77602dd8c4ff6828e25b367deb5e0246a6ab520a00c8b0d3ddc5f5"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/figures/figure_5_interface_stability.png",
+      "source": "BEVFusion/riskprop3d_paper/figures/figure_5_interface_stability.png",
+      "bytes": 185848,
+      "sha256": "7827a7e3f2fb2e80cbdfcb7e4eeb65ccd39276861e1ba8cb69b637c891b33e26"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/figures/figure_5_interface_stability.svg",
+      "source": "BEVFusion/riskprop3d_paper/figures/figure_5_interface_stability.svg",
+      "bytes": 49755,
+      "sha256": "e23babf770981d6cb978afbb78cb41b4262db780181105355565fffb6e5ccde4"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/figures/figure_5_interface_stability.tiff",
+      "source": "BEVFusion/riskprop3d_paper/figures/figure_5_interface_stability.tiff",
+      "bytes": 1300938,
+      "sha256": "059e5fef269049f88ce9c56d20baffb78355a5db78ead8ce4d49a32e840fa044"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/figures/figure_s1_risk_boundary.pdf",
+      "source": "BEVFusion/riskprop3d_paper/figures/figure_s1_risk_boundary.pdf",
+      "bytes": 29039,
+      "sha256": "8bad5a702541914f6439e2a8c9d5bb8c90d56a3e79bd6ed9d9336832eef5a27f"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/figures/figure_s1_risk_boundary.png",
+      "source": "BEVFusion/riskprop3d_paper/figures/figure_s1_risk_boundary.png",
+      "bytes": 107084,
+      "sha256": "a779c5f89c7928d46523acff90567290eac920de71579a7953eb5883e6986745"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/figures/figure_s1_risk_boundary.svg",
+      "source": "BEVFusion/riskprop3d_paper/figures/figure_s1_risk_boundary.svg",
+      "bytes": 30378,
+      "sha256": "5b846a7ca1bd87bbf1afb60aad24205ae01ce65043268b938d70651f9c4b77a0"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/figures/figure_s1_risk_boundary.tiff",
+      "source": "BEVFusion/riskprop3d_paper/figures/figure_s1_risk_boundary.tiff",
+      "bytes": 686814,
+      "sha256": "d908dede6eead9ee9364a3877b9ad284bc9aa690a5ce47d290002959a939f568"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/figures/source_data/figure_2.csv",
+      "source": "BEVFusion/riskprop3d_paper/figures/source_data/figure_2.csv",
+      "bytes": 2635,
+      "sha256": "4c4229861abb8d83bd93301ff9148305eff7799d1c25f0d3106645ea5626131d"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/figures/source_data/figure_3.csv",
+      "source": "BEVFusion/riskprop3d_paper/figures/source_data/figure_3.csv",
+      "bytes": 52862,
+      "sha256": "330a931a32e51c94d9e4b73928ea50865414688e1a74a114290e07f7f49e6f70"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/figures/source_data/figure_4.csv",
+      "source": "BEVFusion/riskprop3d_paper/figures/source_data/figure_4.csv",
+      "bytes": 3158,
+      "sha256": "9ff4b4bd5cdedfdbe267fa33799a3b730dae5b0017ecdca38ec4349c8bfaa7b2"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/figures/source_data/figure_5.csv",
+      "source": "BEVFusion/riskprop3d_paper/figures/source_data/figure_5.csv",
+      "bytes": 8979,
+      "sha256": "be46c849b2e130afbc4f4c56ed5211531f472fe6725a30b78c5c63acc4a98078"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/figures/source_data/figure_s1.csv",
+      "source": "BEVFusion/riskprop3d_paper/figures/source_data/figure_s1.csv",
+      "bytes": 2410,
+      "sha256": "3af6085cae7b4df2832b12536e6eb089b4dde1611ad87135234d0565bb6e9224"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/nature-figure.json",
+      "source": "BEVFusion/riskprop3d_paper/nature-figure.json",
+      "bytes": 26,
+      "sha256": "7a050fee710b1e9965f9a12c3323f0b88bc0be8758a8045a4ad5378f0c2e2c2c"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_paper/plot_manuscript_figures.py",
+      "source": "BEVFusion/riskprop3d_paper/plot_manuscript_figures.py",
+      "bytes": 60232,
+      "sha256": "4c528a175ad33d9598640a703d4dff84475c033af0884d8d6691612a7359e430"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_r0/README.md",
+      "source": "BEVFusion/riskprop3d_r0/README.md",
+      "bytes": 6662,
+      "sha256": "1db4f3f36693a7fa46f53c49cc8f7153c027a2f453fd410a9c4190b780937fbd"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_r1/README.md",
+      "source": "BEVFusion/riskprop3d_r1/README.md",
+      "bytes": 8843,
+      "sha256": "1207b91cf7f2f4f318e7ca54245ef1e14547cfcad1d46bd17783b34fd31f58ce"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_r15/README.md",
+      "source": "BEVFusion/riskprop3d_r15/README.md",
+      "bytes": 5539,
+      "sha256": "8effc7387c89f2ca1d8904e48bd461ec3a1a42631f187143f7d310976d0adf3f"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_r2_core/README.md",
+      "source": "BEVFusion/riskprop3d_r2_core/README.md",
+      "bytes": 10982,
+      "sha256": "ca3b878ab3ddd215568b2313bec218530d78e877e2e1b8a8b08afd52e7efd519"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_r2d/README.md",
+      "source": "BEVFusion/riskprop3d_r2d/README.md",
+      "bytes": 11367,
+      "sha256": "9c706501377a5ca1cf16d679c432a9d7b7f71313a41205871b36a0d44b6aa851"
+    },
+    {
+      "path": "BEVFusion/riskprop3d_r3p/README.md",
+      "source": "BEVFusion/riskprop3d_r3p/README.md",
+      "bytes": 9035,
+      "sha256": "24623a57ea66370aeea837f225115dad6564ee9b7e9edd103949d333bd0e949e"
+    },
+    {
+      "path": "BEVFusion/setup.cfg",
+      "source": "BEVFusion/setup.cfg",
+      "bytes": 188,
+      "sha256": "cd14d7573eba093c427a5707871d5863ca4ff30378cc74277368a0d13ff0da88"
+    },
+    {
+      "path": "BEVFusion/setup.py",
+      "source": "BEVFusion/setup.py",
+      "bytes": 6441,
+      "sha256": "52f370ed9129c27145e7f87315da6c3d92a89a2b90c5e599736ae73735c65a46"
+    },
+    {
+      "path": "BEVFusion/tests/test_probset3d_f0.py",
+      "source": "BEVFusion/tests/test_probset3d_f0.py",
+      "bytes": 2768,
+      "sha256": "236e3d41b16e0c6824825eb4828a66dd62cf925668631479a7c275b374c9d44b"
+    },
+    {
+      "path": "BEVFusion/tests/test_stage1_export.py",
+      "source": "BEVFusion/tests/test_stage1_export.py",
+      "bytes": 5286,
+      "sha256": "a49659e65fd2789da6d87f002d9a7088d2de9e5a5d68c6c4d49703803688c813"
+    },
+    {
+      "path": "BEVFusion/tests/test_stage2_corruptions.py",
+      "source": "BEVFusion/tests/test_stage2_corruptions.py",
+      "bytes": 15528,
+      "sha256": "5e146e69e4c1dabab8c0fae2d421cf91abea650edea0a88a09eef7fd1746e7b5"
+    },
+    {
+      "path": "BEVFusion/tests/test_stage3.py",
+      "source": "BEVFusion/tests/test_stage3.py",
+      "bytes": 26829,
+      "sha256": "0af1a084f2ecb7015e0bb35ec3221d4b07cb84ea74bf537424f86de4f93f71cf"
+    },
+    {
+      "path": "BEVFusion/tests/test_stage3d_b.py",
+      "source": "BEVFusion/tests/test_stage3d_b.py",
+      "bytes": 5695,
+      "sha256": "d5c03b4d2712a8d1a61c6b8adbf19481f30b07375c0a42fa982723268196cab9"
+    },
+    {
+      "path": "BEVFusion/tools/create_data.py",
+      "source": "BEVFusion/tools/create_data.py",
+      "bytes": 4280,
+      "sha256": "b8e50a6e03ad08b94b0953a7d05884a0d04761582c50b69e9daebdd7b96ec4f7"
+    },
+    {
+      "path": "BEVFusion/tools/data_converter/__init__.py",
+      "source": "BEVFusion/tools/data_converter/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "BEVFusion/tools/data_converter/av2_converter.py",
+      "source": "BEVFusion/tools/data_converter/av2_converter.py",
+      "bytes": 16853,
+      "sha256": "dad0140928c44db0f32bfa1025812895576ee4dee8f2741e820315cc00535831"
+    },
+    {
+      "path": "BEVFusion/tools/data_converter/create_gt_database.py",
+      "source": "BEVFusion/tools/data_converter/create_gt_database.py",
+      "bytes": 13078,
+      "sha256": "4e258771c5acc861e0f04bdec0d4439ae077b5f1d7896bc7b15428c3ad052a15"
+    },
+    {
+      "path": "BEVFusion/tools/data_converter/nuscenes_converter.py",
+      "source": "BEVFusion/tools/data_converter/nuscenes_converter.py",
+      "bytes": 26475,
+      "sha256": "35d59283c311ef5a469830fe08541074a52efae4d69283802a8ae15a6fea3d1c"
+    },
+    {
+      "path": "BEVFusion/tools/export_riskprop3d_paper_evidence.py",
+      "source": "BEVFusion/tools/export_riskprop3d_paper_evidence.py",
+      "bytes": 44009,
+      "sha256": "03a1a02d22ca9be988609261ba4fdb8fdc2ddcf1b9281c4e2e71c962a4402883"
+    },
+    {
+      "path": "BEVFusion/tools/export_riskprop3d_upstream_downstream.py",
+      "source": "BEVFusion/tools/export_riskprop3d_upstream_downstream.py",
+      "bytes": 25747,
+      "sha256": "dfb3b5cb31e5eb6380e0e2eadce4513406f6dcd2de5b0c74ad88ff687e0b0276"
+    },
+    {
+      "path": "BEVFusion/tools/geoprob3d_g0.py",
+      "source": "BEVFusion/tools/geoprob3d_g0.py",
+      "bytes": 33176,
+      "sha256": "d32e15f0f19e2a38fce890ccaad04377df5c2569dbf32001e55c7c1bd5b55a3f"
+    },
+    {
+      "path": "BEVFusion/tools/probset3d_f0_export.py",
+      "source": "BEVFusion/tools/probset3d_f0_export.py",
+      "bytes": 20391,
+      "sha256": "295f07bf954da9bfbc46350285709416ef809726030fed2baf5a735b012d7bbe"
+    },
+    {
+      "path": "BEVFusion/tools/probset3d_f0_score.py",
+      "source": "BEVFusion/tools/probset3d_f0_score.py",
+      "bytes": 69389,
+      "sha256": "fb7f8c18ffcbf77860e81fe48b4b18dccef82823607512ecbd09b7a04ac955ff"
+    },
+    {
+      "path": "BEVFusion/tools/probset3d_f1_authority.py",
+      "source": "BEVFusion/tools/probset3d_f1_authority.py",
+      "bytes": 53375,
+      "sha256": "0cc7131e7295df8ad7648d31b1a64d3fb3898573574f0919973a185505832ee5"
+    },
+    {
+      "path": "BEVFusion/tools/probset3d_v2_authority.py",
+      "source": "BEVFusion/tools/probset3d_v2_authority.py",
+      "bytes": 21137,
+      "sha256": "94cb263d7eefeb8ad68307705db5391a0febd7007f7754555e5739bcafbd2e58"
+    },
+    {
+      "path": "BEVFusion/tools/probset3d_v2_sweeps.py",
+      "source": "BEVFusion/tools/probset3d_v2_sweeps.py",
+      "bytes": 5604,
+      "sha256": "50da1fa2a9fa55c4eb478232d20f52facca29b52c1a9ce5cce646aa408c6cff8"
+    },
+    {
+      "path": "BEVFusion/tools/probset3d_v3_formal.py",
+      "source": "BEVFusion/tools/probset3d_v3_formal.py",
+      "bytes": 34936,
+      "sha256": "c2e94c7e43a323321e5e32e50aacc8b9dd7d2dd589ddf743a7c9e725ca2010a6"
+    },
+    {
+      "path": "BEVFusion/tools/probset3d_v3_pilot.py",
+      "source": "BEVFusion/tools/probset3d_v3_pilot.py",
+      "bytes": 20449,
+      "sha256": "ef597e2d43730a21340206bf1dbd14cba6b75c64ac349e41e498fd849f903e45"
+    },
+    {
+      "path": "BEVFusion/tools/riskprop3d_confirmation_export.py",
+      "source": "BEVFusion/tools/riskprop3d_confirmation_export.py",
+      "bytes": 16892,
+      "sha256": "dfdfcf4c6db3caacd6202f4785314be09e66806ba1a43cc9a12efca021bd4c43"
+    },
+    {
+      "path": "BEVFusion/tools/riskprop3d_final_confirmation.py",
+      "source": "BEVFusion/tools/riskprop3d_final_confirmation.py",
+      "bytes": 62670,
+      "sha256": "b65a27300a92109b031173aa58273c8a60b676dbe1a6e72a4de2a5afa23e74fb"
+    },
+    {
+      "path": "BEVFusion/tools/riskprop3d_level1_matched_law.py",
+      "source": "BEVFusion/tools/riskprop3d_level1_matched_law.py",
+      "bytes": 66306,
+      "sha256": "f2a26c9ed7f151000462137e8ba0cc2b6fa81e54fc34012077fdc6b7f85912ed"
+    },
+    {
+      "path": "BEVFusion/tools/riskprop3d_level1_matched_law_packaging.py",
+      "source": "BEVFusion/tools/riskprop3d_level1_matched_law_packaging.py",
+      "bytes": 5273,
+      "sha256": "fd7bb7aee4bd0441f73ba3993fcd6b523faacf36a045992361c80543d0db7e81"
+    },
+    {
+      "path": "BEVFusion/tools/riskprop3d_process_noise_sensitivity.py",
+      "source": "BEVFusion/tools/riskprop3d_process_noise_sensitivity.py",
+      "bytes": 22932,
+      "sha256": "bb36276c40ca392d91c5f31d031186fca625ff23d04c1d2ef7264737baba2d32"
+    },
+    {
+      "path": "BEVFusion/tools/riskprop3d_r0.py",
+      "source": "BEVFusion/tools/riskprop3d_r0.py",
+      "bytes": 51818,
+      "sha256": "404744946d1eb858ca2849128261ed9e3aca6116e65e0353bc5531b0c4cb2376"
+    },
+    {
+      "path": "BEVFusion/tools/riskprop3d_r1.py",
+      "source": "BEVFusion/tools/riskprop3d_r1.py",
+      "bytes": 65136,
+      "sha256": "b53d96558e1062d784a96bf5f097f4b6ef3e5c51667c832b23ea0d7e9c582e87"
+    },
+    {
+      "path": "BEVFusion/tools/riskprop3d_r15.py",
+      "source": "BEVFusion/tools/riskprop3d_r15.py",
+      "bytes": 14165,
+      "sha256": "362eca178c45b40b4ea80a2c862578ed7537a404bf04cd96cd97c232ea7fd6a7"
+    },
+    {
+      "path": "BEVFusion/tools/riskprop3d_r2_core.py",
+      "source": "BEVFusion/tools/riskprop3d_r2_core.py",
+      "bytes": 51830,
+      "sha256": "61b244f73f5b08f8f06345f40e27b14677e17f4a604baf30712af9b453a1a356"
+    },
+    {
+      "path": "BEVFusion/tools/riskprop3d_r2d.py",
+      "source": "BEVFusion/tools/riskprop3d_r2d.py",
+      "bytes": 62272,
+      "sha256": "79e5fa1232dd0a8f8bd987c58c143c6cbabf309a06dcacd931cc81a89c0e1bdc"
+    },
+    {
+      "path": "BEVFusion/tools/riskprop3d_r3p.py",
+      "source": "BEVFusion/tools/riskprop3d_r3p.py",
+      "bytes": 38520,
+      "sha256": "2447537f4d7e824b459d44aca0327e91d3c0a69e23908405221ddf2a6c8d63d1"
+    },
+    {
+      "path": "BEVFusion/tools/stage1_freeze_smoke.py",
+      "source": "BEVFusion/tools/stage1_freeze_smoke.py",
+      "bytes": 4362,
+      "sha256": "38d8e0247fd0c1593c3bf81210249c4c7142505b500b32c406401a0a2b874de2"
+    },
+    {
+      "path": "BEVFusion/tools/stage2_analyze_pilot.py",
+      "source": "BEVFusion/tools/stage2_analyze_pilot.py",
+      "bytes": 42049,
+      "sha256": "efff51078f8b111fa7f11af42cd68c89b9d5b64bdb4f2c10a21334f080ce494b"
+    },
+    {
+      "path": "BEVFusion/tools/stage2_build_pre_pilot.py",
+      "source": "BEVFusion/tools/stage2_build_pre_pilot.py",
+      "bytes": 24522,
+      "sha256": "0a31d99c8dd53c0cbc70a9de11631eb530a1764031dd68c6f596d85dd7a859cc"
+    },
+    {
+      "path": "BEVFusion/tools/stage2_run_pilot.py",
+      "source": "BEVFusion/tools/stage2_run_pilot.py",
+      "bytes": 24012,
+      "sha256": "b72935905f93948dd4fca3fdc6b3723c984ea4b6abd8c6f1ce0a84eeb77c89de"
+    },
+    {
+      "path": "BEVFusion/tools/stage3_build_labels.py",
+      "source": "BEVFusion/tools/stage3_build_labels.py",
+      "bytes": 18394,
+      "sha256": "84abb763905c9cf4185160571372ea51b7cfd5c9faa8b300e62698cb06cefdec"
+    },
+    {
+      "path": "BEVFusion/tools/stage3_build_splits.py",
+      "source": "BEVFusion/tools/stage3_build_splits.py",
+      "bytes": 10701,
+      "sha256": "d4ffe920c331878923c2e09978bed2cfd3654a5725a22e4d90e7793c2f9e6e89"
+    },
+    {
+      "path": "BEVFusion/tools/stage3_calibrate_camera.py",
+      "source": "BEVFusion/tools/stage3_calibrate_camera.py",
+      "bytes": 41561,
+      "sha256": "690a52e9a492bb2dd983ddc7633c2c58edcf453cc473e0f81db849bf0be606d7"
+    },
+    {
+      "path": "BEVFusion/tools/stage3_export_target_uq_from_checkpoint.py",
+      "source": "BEVFusion/tools/stage3_export_target_uq_from_checkpoint.py",
+      "bytes": 6073,
+      "sha256": "054de9f2d87d99e49db3bee205183e30b1ce074ceb704a71a5daf76d88c993ca"
+    },
+    {
+      "path": "BEVFusion/tools/stage3_run_real_target_uq.py",
+      "source": "BEVFusion/tools/stage3_run_real_target_uq.py",
+      "bytes": 64841,
+      "sha256": "98b9def561defa3c2d47cb7b13e77782f270726e5d4f5da4dc904117bee835fe"
+    },
+    {
+      "path": "BEVFusion/tools/stage3_verify_target_uq_splits.py",
+      "source": "BEVFusion/tools/stage3_verify_target_uq_splits.py",
+      "bytes": 3352,
+      "sha256": "bf3f2ce0ef652f07bc48d750ef76f5dbcd2f0455c6028ea893943cd627f42b76"
+    },
+    {
+      "path": "BEVFusion/tools/stage3d_b_aggregate.py",
+      "source": "BEVFusion/tools/stage3d_b_aggregate.py",
+      "bytes": 11092,
+      "sha256": "5a680817bd3d2f5dd292ec6e0202cbb934234b5cf424067e2b57948c1b6ae3cd"
+    },
+    {
+      "path": "BEVFusion/tools/stage3d_b_collect_labels.py",
+      "source": "BEVFusion/tools/stage3d_b_collect_labels.py",
+      "bytes": 12178,
+      "sha256": "790582d67c06e8b815f0d1f565aee5465f52743a43c3cbc4f8bd59f2c6cb6111"
+    },
+    {
+      "path": "BEVFusion/tools/stage3d_b_native_assignment.py",
+      "source": "BEVFusion/tools/stage3d_b_native_assignment.py",
+      "bytes": 15593,
+      "sha256": "c57b844d0fa6601ae9b484d9d1dc829f330b3c688b0bfd3e5678b9a41257477c"
+    },
+    {
+      "path": "BEVFusion/tools/stage3d_b_train_branch.py",
+      "source": "BEVFusion/tools/stage3d_b_train_branch.py",
+      "bytes": 33781,
+      "sha256": "aaa273fd9b546e854ac93c658efc1c19b54a4b40a0823927516b6f9970c33740"
+    },
+    {
+      "path": "BEVFusion/tools/test.py",
+      "source": "BEVFusion/tools/test.py",
+      "bytes": 16294,
+      "sha256": "e5996eac03db52c68472ddb6db083229758e7d9d51bc4ade5797b962b8ed88a5"
+    },
+    {
+      "path": "BEVFusion/tools/train.py",
+      "source": "BEVFusion/tools/train.py",
+      "bytes": 2708,
+      "sha256": "a5aa3a0012517c783cb6e12db760cc4249ec3b8c2d02cd1d5a354fc60e3e792b"
+    },
+    {
+      "path": "manuscript/attachment_original.tex",
+      "source": "user_attachment",
+      "bytes": 48306,
+      "sha256": "ef36a3186713b6e2d9aba851d8a3129858d69a5fc4e36a1cd45c1c570889ae67"
+    }
+  ]
+}

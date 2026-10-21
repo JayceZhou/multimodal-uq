@@ -1,0 +1,23 @@
+name: bev
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  - python=3.8
+  - pytorch=2.4.1
+  - torchvision=0.19.1
+  - pytorch-cuda=12.4
+  - pip
+  - pip:
+      - addict==2.4.0
+      - mmdet==2.20.0
+      - ninja==1.11.1
+      - numba==0.57.1
+      - numpy==1.23.5
+      - nuscenes-devkit==1.1.11
+      - Pillow==8.4.0
+      - pyquaternion==0.9.9
+      - Shapely==1.8.5.post1
+      - torchpack==0.3.1
+      - yapf==0.32.0

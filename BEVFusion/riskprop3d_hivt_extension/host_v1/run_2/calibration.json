@@ -1,0 +1,9 @@
+{
+  "scale_factor": 0.9510184514011064,
+  "initial_mixture_nll": -5.496804828260342,
+  "calibrated_mixture_nll": -5.510453511982788,
+  "rows": 22188,
+  "source_manifest_sha256": "20f040f3f294f05b5653a059c4cb48c13c3b1f15369c4f87d427a02f8ce029ac",
+  "checkpoint_sha256": "df912e919a1828c54f58071328163a1badbd52aa569bbf6285c6b17fbdad31a9",
+  "all_A_groups_share_factor": true
+}

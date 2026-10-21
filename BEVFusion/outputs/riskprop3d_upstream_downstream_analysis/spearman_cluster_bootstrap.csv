@@ -1,0 +1,7 @@
+upstream_metric,upstream_label,downstream_metric,downstream_label,spearman_rho,cluster_bootstrap_ci95_low,cluster_bootstrap_ci95_high,condition_seed_cells,population_condition_severity_clusters,head_seeds_per_cluster,bootstrap_resamples
+xy_nll_gain_htc,Upstream XY NLL gain,downstream_es_gain_htc_cv,CV trajectory ES gain,0.8178462874511506,0.5903857405247532,0.8964488708860164,48,16,3,10000
+xy_nll_gain_htc,Upstream XY NLL gain,downstream_es_gain_htc_mlp,MLP trajectory ES gain,0.8140468953538862,0.5764812106849351,0.9095202456481449,48,16,3,10000
+coverage_error_reduction_htc,Natural-coverage error reduction,downstream_es_gain_htc_cv,CV trajectory ES gain,0.13243595310464612,-0.42831792250679745,0.6111553506304159,48,16,3,10000
+coverage_error_reduction_htc,Natural-coverage error reduction,downstream_es_gain_htc_mlp,MLP trajectory ES gain,0.26118106817194964,-0.29550033176801116,0.6814317802830149,48,16,3,10000
+eq90_log_sharpness_gain_htc,Equal-coverage log-area gain,downstream_es_gain_htc_cv,CV trajectory ES gain,0.34075119409465915,0.06388229880451786,0.6136684079837257,48,16,3,10000
+eq90_log_sharpness_gain_htc,Equal-coverage log-area gain,downstream_es_gain_htc_mlp,MLP trajectory ES gain,0.38221884498480246,0.09491201144011842,0.6421240257457408,48,16,3,10000

@@ -1,0 +1,61 @@
+{
+  "attributes": {
+    "path": "outputs/riskprop3d_final_confirmation/attributes/result.json",
+    "sha256": "1051f0c16ae9746309f05dbd3ff2c6ea7192ec6a9ee5b684f751fdfb6e74e0e5"
+  },
+  "bootstrap_resamples": 10000,
+  "bootstrap_unit": "scene",
+  "claim_ledger": {
+    "path": "riskprop3d_paper/FINAL_CLAIM_LEDGER.md",
+    "sha256": "855bedb388f515b639c810497a00402d53652f86cea195af9325a746335dd228"
+  },
+  "external": {
+    "path": "outputs/riskprop3d_final_confirmation/external/result.json",
+    "sha256": "ae7ff156b2148921ab438ca66b0a0267fd63338f50b561d75ba42aeed741d8ff"
+  },
+  "freeze_manifest_sha256": "89b7bf9e79ca01c31fd1bd6a983b519fee459aec01334b5d01a44949c6f93bf4",
+  "internal_test_read": false,
+  "method_development_closed": true,
+  "metrics": {
+    "diagnostic": "mixture_nll",
+    "primary": "trajectory_energy_score",
+    "secondary": [
+      "high_fde_auprc",
+      "risk_coverage",
+      "false_safe",
+      "equal_coverage_area",
+      "mean_ade",
+      "mean_fde"
+    ]
+  },
+  "official_comparisons": {
+    "r0": [
+      "P1",
+      "P2",
+      "P3"
+    ],
+    "r2_core": [
+      "C0_mean_matched",
+      "C2_gaussian_dse",
+      "C3_no_tail",
+      "C4_no_circular",
+      "C5_full_dse"
+    ],
+    "r2d": [
+      "D0_deterministic",
+      "D1_mc_teacher",
+      "D2_gt_only",
+      "D3_risk_distilled"
+    ],
+    "r3p": [
+      "P0_mean_only",
+      "P1_confidence",
+      "P2_gaussian",
+      "P3_m2_probability"
+    ]
+  },
+  "official_val_read": false,
+  "one_sentence_argument": "Perception distributions improve explicit stochastic pushforward, but this value does not imply that explicit probability representations are necessary under ordinary GT-supervised forecasting; residual value is concentrated in risk ranking.",
+  "status": "F3_FINAL_CLAIM_LEDGER_FROZEN",
+  "title": "When Does Perception Uncertainty Help Motion Forecasting? A Controlled Study under Multimodal Sensor Degradation"
+}

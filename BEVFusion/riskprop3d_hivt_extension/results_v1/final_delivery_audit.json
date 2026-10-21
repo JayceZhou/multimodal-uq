@@ -1,0 +1,236 @@
+{
+  "recovery_v1/pre_recovery_freeze.json": {
+    "frozen_sources": 25
+  },
+  "context_recovery_v1/freeze.json": {
+    "frozen_sources": 27
+  },
+  "host_v1/freeze.json": {
+    "frozen_sources": 24
+  },
+  "evaluation_v1/freeze.json": {
+    "frozen_sources": 25
+  },
+  "host_runs": [
+    {
+      "run": 0,
+      "epochs": 64,
+      "updates": 325888,
+      "calibration_scale": 0.9749515749508466,
+      "support_probe": "PASS"
+    },
+    {
+      "run": 1,
+      "epochs": 64,
+      "updates": 325888,
+      "calibration_scale": 0.9644194302837568,
+      "support_probe": "PASS"
+    },
+    {
+      "run": 2,
+      "epochs": 64,
+      "updates": 325888,
+      "calibration_scale": 0.9510184514011064,
+      "support_probe": "PASS"
+    }
+  ],
+  "output_manifests": [
+    {
+      "section": "main",
+      "run": 0,
+      "condition": "clean_s0",
+      "rows": 18230,
+      "parts": 4558
+    },
+    {
+      "section": "main",
+      "run": 0,
+      "condition": "dropout_s3",
+      "rows": 17946,
+      "parts": 4487
+    },
+    {
+      "section": "main",
+      "run": 0,
+      "condition": "rotation_s3",
+      "rows": 17702,
+      "parts": 4426
+    },
+    {
+      "section": "main",
+      "run": 0,
+      "condition": "official_clean",
+      "rows": 38644,
+      "parts": 9661
+    },
+    {
+      "section": "main",
+      "run": 1,
+      "condition": "clean_s0",
+      "rows": 18230,
+      "parts": 4558
+    },
+    {
+      "section": "main",
+      "run": 1,
+      "condition": "dropout_s3",
+      "rows": 17946,
+      "parts": 4487
+    },
+    {
+      "section": "main",
+      "run": 1,
+      "condition": "rotation_s3",
+      "rows": 17702,
+      "parts": 4426
+    },
+    {
+      "section": "main",
+      "run": 1,
+      "condition": "official_clean",
+      "rows": 38644,
+      "parts": 9661
+    },
+    {
+      "section": "main",
+      "run": 2,
+      "condition": "clean_s0",
+      "rows": 18230,
+      "parts": 4558
+    },
+    {
+      "section": "main",
+      "run": 2,
+      "condition": "dropout_s3",
+      "rows": 17946,
+      "parts": 4487
+    },
+    {
+      "section": "main",
+      "run": 2,
+      "condition": "rotation_s3",
+      "rows": 17702,
+      "parts": 4426
+    },
+    {
+      "section": "main",
+      "run": 2,
+      "condition": "official_clean",
+      "rows": 38644,
+      "parts": 9661
+    },
+    {
+      "section": "sensitivity",
+      "run": 0,
+      "condition": "clean_s0",
+      "rows": 64,
+      "parts": 16
+    },
+    {
+      "section": "sensitivity",
+      "run": 1,
+      "condition": "clean_s0",
+      "rows": 64,
+      "parts": 16
+    },
+    {
+      "section": "sensitivity",
+      "run": 2,
+      "condition": "clean_s0",
+      "rows": 64,
+      "parts": 16
+    },
+    {
+      "section": "controls",
+      "run": 0,
+      "condition": "clean_s0",
+      "rows": 18230,
+      "parts": 570
+    },
+    {
+      "section": "controls",
+      "run": 0,
+      "condition": "dropout_s3",
+      "rows": 17946,
+      "parts": 561
+    },
+    {
+      "section": "controls",
+      "run": 0,
+      "condition": "rotation_s3",
+      "rows": 17702,
+      "parts": 554
+    },
+    {
+      "section": "controls",
+      "run": 0,
+      "condition": "official_clean",
+      "rows": 38644,
+      "parts": 1208
+    },
+    {
+      "section": "controls",
+      "run": 1,
+      "condition": "clean_s0",
+      "rows": 18230,
+      "parts": 570
+    },
+    {
+      "section": "controls",
+      "run": 1,
+      "condition": "dropout_s3",
+      "rows": 17946,
+      "parts": 561
+    },
+    {
+      "section": "controls",
+      "run": 1,
+      "condition": "rotation_s3",
+      "rows": 17702,
+      "parts": 554
+    },
+    {
+      "section": "controls",
+      "run": 1,
+      "condition": "official_clean",
+      "rows": 38644,
+      "parts": 1208
+    },
+    {
+      "section": "controls",
+      "run": 2,
+      "condition": "clean_s0",
+      "rows": 18230,
+      "parts": 570
+    },
+    {
+      "section": "controls",
+      "run": 2,
+      "condition": "dropout_s3",
+      "rows": 17946,
+      "parts": 561
+    },
+    {
+      "section": "controls",
+      "run": 2,
+      "condition": "rotation_s3",
+      "rows": 17702,
+      "parts": 554
+    },
+    {
+      "section": "controls",
+      "run": 2,
+      "condition": "official_clean",
+      "rows": 38644,
+      "parts": 1208
+    }
+  ],
+  "status": "PASS",
+  "audited_at_utc": "2026-10-14T02:24:17.325900+00:00",
+  "hashed_files": 78217,
+  "result_shards": 78123,
+  "full_row_finiteness_and_alignment": "All rows checked by frozen summarize.py before completion.json; all result shard hashes rechecked here; first/last shard numerical checks repeated.",
+  "summary_sha256": "7f1d0480a86d2862386f9e180b4a101a0b425ca577d645cfceebcea5f957ab80",
+  "completion_sha256": "262643fc1202029975b3ff1166e782f95f88206530891c680b4e265d01395f6f",
+  "scope": "Registered minimum Level I complete; Level II and independent confirmation not executed."
+}

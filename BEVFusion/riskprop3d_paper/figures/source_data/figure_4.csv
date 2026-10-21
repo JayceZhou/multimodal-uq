@@ -1,0 +1,19 @@
+panel,population,condition,contrast,metric,estimate,ci_low,ci_high,n_scenes,seed_1,seed_2,seed_3,source_stage,note
+a,development,Clean,DSE vs raw concat,trajectory energy improvement,0.01965378189836927,0.008945031522673888,0.031004076600605616,70,0.0212914649565776,0.009318726543392289,0.002407762945557465,R1/R2-Core,
+a,development,Clean,Full vs mean-matched,trajectory energy improvement,0.00690202707685095,-0.0015017872096266842,0.016049440018054546,70,0.006142830413015785,-0.004941172119097866,0.01178627502902745,R1/R2-Core,
+a,development,Clean,Full vs Gaussianized,trajectory energy improvement,0.00507981401587302,-0.007752241155769342,0.01752762206054175,70,0.014094121690160983,0.009197888000930956,-0.01580608444518201,R1/R2-Core,
+b,development,Clean,HTC token vs mean,trajectory energy improvement,0.0020525730236084206,-0.013775149791194612,0.015589998451529691,70,0.0035363686429833777,0.013470125712905219,0.006750922042490586,R3-P,
+b,development,Clean,HTC token vs confidence,trajectory energy improvement,0.000693329296296763,-0.015306568599869142,0.013214136455474663,70,0.0014849443660548839,0.014255473618432333,0.0036434225760359875,R3-P,
+b,development,Clean,HTC token vs Gaussian,trajectory energy improvement,-0.0014004061428623778,-0.014536190827809664,0.009431574582007897,70,-0.00046091538950850564,0.00203866155962631,0.0059690011076970455,R3-P,
+c,development,Clean,Preservation student vs GT-only student,Teacher energy distance reduction,0.5368934589236307,0.501981879672036,0.5747397929418273,70,,,,R2-D,Metric-specific normalized scale; magnitudes are not compared across rows.
+c,development,Clean,Preservation student vs GT-only student,First-moment error reduction,0.1011116451497659,0.0787942165295165,0.12572110092050376,70,,,,R2-D,Metric-specific normalized scale; magnitudes are not compared across rows.
+c,development,Clean,Preservation student vs GT-only student,Second-moment error reduction,0.4375777587994216,0.4159884350236819,0.45855854941200413,70,,,,R2-D,Metric-specific normalized scale; magnitudes are not compared across rows.
+c,development,Clean,Preservation student vs GT-only student,90% coverage gap reduction,0.0517839521828733,0.04484365331048593,0.05902505857801066,70,,,,R2-D,Metric-specific normalized scale; magnitudes are not compared across rows.
+d,development,Clean,vs MC teacher,trajectory energy improvement,0.10956711406516971,0.09757936284421792,0.1207635288816492,70,,,,R2-D,
+d,development,Clean,vs GT-only student,trajectory energy improvement,-0.059414560830838084,-0.08835455007361173,-0.026566976699286163,70,,,,R2-D,
+e,development,,MC teacher runtime,prediction time (s),4.705585952848196,,,,1,,,R2-D,
+e,development,,one-pass preservation runtime,prediction time (s),0.12606268003582954,,,,1,,,R2-D,
+e,development,,MC teacher runtime,prediction time (s),4.880616365000606,,,,2,,,R2-D,
+e,development,,one-pass preservation runtime,prediction time (s),0.1258149966597557,,,,2,,,R2-D,
+e,development,,MC teacher runtime,prediction time (s),4.787682363763452,,,,3,,,R2-D,
+e,development,,one-pass preservation runtime,prediction time (s),0.1211001593619585,,,,3,,,R2-D,

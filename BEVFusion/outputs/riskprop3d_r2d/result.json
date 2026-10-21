@@ -1,0 +1,586 @@
+{
+  "diagnostics": {
+    "accuracy_D3_minus_D0": {
+      "beam_s1": {
+        "mean_ade": -0.0039490506349745555,
+        "mean_fde": -0.007283449910467625
+      },
+      "beam_s2": {
+        "mean_ade": -0.0029254610522010094,
+        "mean_fde": -0.005560641128182134
+      },
+      "beam_s3": {
+        "mean_ade": -0.008482651068636285,
+        "mean_fde": -0.016341979177476318
+      },
+      "clean_s0": {
+        "mean_ade": -0.003674525299870604,
+        "mean_fde": -0.007491385237417283
+      },
+      "dropout_s1": {
+        "mean_ade": -0.004359779053508479,
+        "mean_fde": -0.008387289679944726
+      },
+      "dropout_s2": {
+        "mean_ade": -0.004492754848430305,
+        "mean_fde": -0.008554915263290908
+      },
+      "dropout_s3": {
+        "mean_ade": -0.003916083223351679,
+        "mean_fde": -0.008131865466693894
+      },
+      "lowlight_s1": {
+        "mean_ade": -0.003507370203438507,
+        "mean_fde": -0.00691735879392454
+      },
+      "lowlight_s2": {
+        "mean_ade": -0.003583650437961153,
+        "mean_fde": -0.0069624482492406945
+      },
+      "lowlight_s3": {
+        "mean_ade": -0.004072760096056422,
+        "mean_fde": -0.008167836914092383
+      }
+    },
+    "clean_proper_scores": {
+      "D0_deterministic": {
+        "energy": {
+          "ci95": [
+            0.163840853560425,
+            0.21319082312142648
+          ],
+          "count": 70,
+          "mean": 0.18685327572604238
+        },
+        "nll": {
+          "ci95": [
+            20.217775116088696,
+            26.32699944805934
+          ],
+          "count": 70,
+          "mean": 23.078037049152073
+        }
+      },
+      "D1_mc_teacher": {
+        "energy": {
+          "ci95": [
+            0.0975793628442179,
+            0.1207635288816492
+          ],
+          "count": 70,
+          "mean": 0.10956711406516972
+        },
+        "nll": {
+          "ci95": [
+            7.941984498912013,
+            9.800035824114723
+          ],
+          "count": 70,
+          "mean": 8.846722978712826
+        }
+      },
+      "D2_gt_only": {
+        "energy": {
+          "ci95": [
+            -0.08835455007361173,
+            -0.026566976699286163
+          ],
+          "count": 70,
+          "mean": -0.059414560830838084
+        },
+        "nll": {
+          "ci95": [
+            -0.7077646483377759,
+            -0.4977568716482035
+          ],
+          "count": 70,
+          "mean": -0.6050220061292316
+        }
+      }
+    },
+    "seed_clean_energy_D2_minus_D3": [
+      -0.09576142729321811,
+      -0.07418348183255011,
+      -0.0933406189445139
+    ]
+  },
+  "downstream_energy_D3_over_D2": {
+    "clean": {
+      "ci95": [
+        -0.08835455007361173,
+        -0.026566976699286163
+      ],
+      "count": 70,
+      "mean": -0.059414560830838084
+    },
+    "full": {
+      "beam": {
+        "ci95": [
+          -0.058990878289381335,
+          -0.001805945099254291
+        ],
+        "count": 70,
+        "mean": -0.031850486463937476
+      },
+      "dropout": {
+        "ci95": [
+          -0.0636389641437229,
+          0.005437989049160537
+        ],
+        "count": 70,
+        "mean": -0.03197670914210797
+      },
+      "lowlight": {
+        "ci95": [
+          -0.08216054252884235,
+          -0.01343874128716338
+        ],
+        "count": 70,
+        "mean": -0.05061342375143802
+      }
+    },
+    "without_s3": {
+      "beam": {
+        "ci95": [
+          -0.06761670944836666,
+          -0.009543147757685102
+        ],
+        "count": 70,
+        "mean": -0.0401273047747002
+      },
+      "dropout": {
+        "ci95": [
+          -0.07764128384408212,
+          -0.010327044916700485
+        ],
+        "count": 70,
+        "mean": -0.046826785991746
+      },
+      "lowlight": {
+        "ci95": [
+          -0.0857978776146581,
+          -0.02039024327689494
+        ],
+        "count": 70,
+        "mean": -0.055493376942051593
+      }
+    }
+  },
+  "efficiency": {
+    "D1_seconds": [
+      4.705585952848196,
+      4.880616365000606,
+      4.787682363763452
+    ],
+    "D3_seconds": [
+      0.12606268003582954,
+      0.1258149966597557,
+      0.1211001593619585
+    ],
+    "parameter_ratio_to_R0_MLP": 0.9142532221379833,
+    "r0_mlp_parameters": 26380,
+    "speedup_by_replicate": [
+      37.327351374021035,
+      38.792008064025666,
+      39.534897303094866
+    ],
+    "speedup_mean": 38.55141891371385,
+    "student_parameters": 24118
+  },
+  "endpoint": "STOP LEARNED AMORTIZED PROPAGATION",
+  "gates": {
+    "G1_teacher_fidelity": true,
+    "G2_downstream_proper_score": false,
+    "G3_mc_equivalence": true,
+    "G4_risk_retention": true,
+    "G5_sharpness": true,
+    "G6_efficiency": true
+  },
+  "input_sha256": {
+    "checkpoints": {
+      "0": "bcafcf1d35f2f8fb71df59a8f21c3b02294a15bc7632c660f0dbcf2ab91f98d4",
+      "1": "051e8fa6330891fc4513c7190493435179e8a96254fafc22eed7cfa652da7f4f",
+      "2": "5bce042ae956580363f070373ed60c4c968251583991867419014c9ae242726b"
+    },
+    "code": "79e5fa1232dd0a8f8bd987c58c143c6cbabf309a06dcacd931cc81a89c0e1bdc",
+    "initialization_hashes": {
+      "0": {
+        "D2_gt_only": "6e4ecafe79de32560ee30cc89dea1086906bc58a8bc611909ba0f39abfca42bf",
+        "D3_risk_distilled": "6e4ecafe79de32560ee30cc89dea1086906bc58a8bc611909ba0f39abfca42bf"
+      },
+      "1": {
+        "D2_gt_only": "57a7df5cb5cecfddd15fc1d5493b5c13ff938581376f0cd5774039166f52488b",
+        "D3_risk_distilled": "57a7df5cb5cecfddd15fc1d5493b5c13ff938581376f0cd5774039166f52488b"
+      },
+      "2": {
+        "D2_gt_only": "20d9071f240663bec55c472e205e60580b10c208db4ebd19e3c1bfda34b4dd8d",
+        "D3_risk_distilled": "20d9071f240663bec55c472e205e60580b10c208db4ebd19e3c1bfda34b4dd8d"
+      }
+    },
+    "metrics": {
+      "0": "bacad5d446325d6fcea15b273c89b0df713ff70b63b33cb2c607f6468746f206",
+      "1": "f60dc5d63ecd5ddf78908892bce93f512fc2bdc26dcc209e0b226c1872e6eba4",
+      "2": "52737391e9e0305cd04cc2d6c52c272229d3cb4a6a7b667ba5778c899f512d76"
+    },
+    "parameter_counts": {
+      "0": {
+        "D2_gt_only": 24118,
+        "D3_risk_distilled": 24118
+      },
+      "1": {
+        "D2_gt_only": 24118,
+        "D3_risk_distilled": 24118
+      },
+      "2": {
+        "D2_gt_only": 24118,
+        "D3_risk_distilled": 24118
+      }
+    },
+    "prepare_manifest": "fe8b11db76283a712fac7656acfe4a0f6dad2f16b0fb514cb25a8d637a4ced07",
+    "r0_result": "9d8ff660c264b74142ae8a4635645f8240b3bf153b3c2230b9f72cc7b64fd232",
+    "r2_core_result": "21776529d072a191a8180c83463cbedfb88f4ec33671aae911544e10b82a93f6"
+  },
+  "internal_test_read": false,
+  "mc_equivalence_D3_vs_D1": {
+    "clean": {
+      "ci90": [
+        -0.11905101628432231,
+        -0.09965401231457313
+      ],
+      "ci95": [
+        -0.1207635288816492,
+        -0.09757936284421792
+      ],
+      "count": 70,
+      "equivalence_margin": 0.02842674989142461,
+      "mean": -0.10956711406516971,
+      "pass": true,
+      "superiority": true,
+      "teacher_mean_energy": 1.4213374945712305,
+      "tost_equivalent": false
+    },
+    "full": {
+      "beam": {
+        "ci90": [
+          -0.1112319427366561,
+          -0.08634321682080076
+        ],
+        "ci95": [
+          -0.11328254180443491,
+          -0.08339500240258195
+        ],
+        "count": 70,
+        "equivalence_margin": 0.0367414019781649,
+        "mean": -0.0992942056278256,
+        "pass": true,
+        "superiority": true,
+        "teacher_mean_energy": 1.8370700989082451,
+        "tost_equivalent": false
+      },
+      "dropout": {
+        "ci90": [
+          -0.11340825607723146,
+          -0.09073170079004829
+        ],
+        "ci95": [
+          -0.11533948365253037,
+          -0.08802620390094144
+        ],
+        "count": 70,
+        "equivalence_margin": 0.031243748817937754,
+        "mean": -0.10243631747690678,
+        "pass": true,
+        "superiority": true,
+        "teacher_mean_energy": 1.5621874408968877,
+        "tost_equivalent": false
+      },
+      "lowlight": {
+        "ci90": [
+          -0.12070295294620483,
+          -0.10037612004382634
+        ],
+        "ci95": [
+          -0.12238458173041292,
+          -0.09808606881750799
+        ],
+        "count": 70,
+        "equivalence_margin": 0.02876049779182794,
+        "mean": -0.11080486671155494,
+        "pass": true,
+        "superiority": true,
+        "teacher_mean_energy": 1.438024889591397,
+        "tost_equivalent": false
+      }
+    },
+    "without_s3": {
+      "beam": {
+        "ci90": [
+          -0.11351693327106406,
+          -0.0932721592140469
+        ],
+        "ci95": [
+          -0.11531137671994095,
+          -0.09092574592543795
+        ],
+        "count": 70,
+        "equivalence_margin": 0.03204211291403539,
+        "mean": -0.10368435197144664,
+        "pass": true,
+        "superiority": true,
+        "teacher_mean_energy": 1.6021056457017693,
+        "tost_equivalent": false
+      },
+      "dropout": {
+        "ci90": [
+          -0.11661332486775794,
+          -0.09473247440044599
+        ],
+        "ci95": [
+          -0.11835656477591883,
+          -0.09220778286626607
+        ],
+        "count": 70,
+        "equivalence_margin": 0.029542033350676924,
+        "mean": -0.10594509405785238,
+        "pass": true,
+        "superiority": true,
+        "teacher_mean_energy": 1.4771016675338462,
+        "tost_equivalent": false
+      },
+      "lowlight": {
+        "ci90": [
+          -0.12166895583321338,
+          -0.10238301472240205
+        ],
+        "ci95": [
+          -0.12344642599444058,
+          -0.10036408023628945
+        ],
+        "count": 70,
+        "equivalence_margin": 0.028535502376483404,
+        "mean": -0.11229560893194705,
+        "pass": true,
+        "superiority": true,
+        "teacher_mean_energy": 1.4267751188241702,
+        "tost_equivalent": false
+      }
+    }
+  },
+  "numeric_value_count": 75515193,
+  "official_val_read": false,
+  "passed": false,
+  "risk_retention": {
+    "high_fde_auprc": {
+      "pass": true,
+      "retention_contrast": {
+        "ci95": [
+          0.061955809807039644,
+          0.07899902569681468
+        ],
+        "count": 70,
+        "mean": 0.07008050951327822
+      },
+      "student_gain": {
+        "ci95": [
+          0.5153308951312575,
+          0.5846439784536623
+        ],
+        "count": 70,
+        "mean": 0.5496899883813023
+      },
+      "teacher_gain": {
+        "ci95": [
+          0.4985886909601964,
+          0.5670921322857964
+        ],
+        "count": 70,
+        "mean": 0.5328994209644713
+      }
+    },
+    "risk_coverage": {
+      "pass": true,
+      "retention_contrast": {
+        "ci95": [
+          0.044546492885717534,
+          0.06337043255460569
+        ],
+        "count": 70,
+        "mean": 0.05370817952949115
+      },
+      "student_gain": {
+        "ci95": [
+          0.4111699274068804,
+          0.5905151288391918
+        ],
+        "count": 70,
+        "mean": 0.49959266959875875
+      },
+      "teacher_gain": {
+        "ci95": [
+          0.40674711079880893,
+          0.5862724212346633
+        ],
+        "count": 70,
+        "mean": 0.4954272111880751
+      }
+    }
+  },
+  "sharpness": {
+    "clean": {
+      "D3_over_D1": 0.9697806152172452,
+      "area": {
+        "D1_mc_teacher": 4.879715867872174,
+        "D3_risk_distilled": 4.7313956415039184
+      }
+    },
+    "full": {
+      "beam": {
+        "D3_over_D1": 0.9801203885650955
+      },
+      "dropout": {
+        "D3_over_D1": 0.9738943693249996
+      },
+      "lowlight": {
+        "D3_over_D1": 0.9702739024034589
+      }
+    },
+    "per_condition": {
+      "beam_s1": {
+        "D3_over_D1": 0.9712323939069339,
+        "area": {
+          "D1_mc_teacher": 4.981605085007998,
+          "D3_risk_distilled": 4.83854772797324
+        }
+      },
+      "beam_s2": {
+        "D3_over_D1": 0.9833801723771888,
+        "area": {
+          "D1_mc_teacher": 5.871144630838397,
+          "D3_risk_distilled": 5.774377503599605
+        }
+      },
+      "beam_s3": {
+        "D3_over_D1": 0.985748599411164,
+        "area": {
+          "D1_mc_teacher": 7.524097395029354,
+          "D3_risk_distilled": 7.416381792887381
+        }
+      },
+      "clean_s0": {
+        "D3_over_D1": 0.9697806152172452,
+        "area": {
+          "D1_mc_teacher": 4.879715867872174,
+          "D3_risk_distilled": 4.7313956415039184
+        }
+      },
+      "dropout_s1": {
+        "D3_over_D1": 0.9635637099172275,
+        "area": {
+          "D1_mc_teacher": 4.953648692679519,
+          "D3_risk_distilled": 4.770340773238271
+        }
+      },
+      "dropout_s2": {
+        "D3_over_D1": 0.9715531367979211,
+        "area": {
+          "D1_mc_teacher": 5.243324766002192,
+          "D3_risk_distilled": 5.094554427938543
+        }
+      },
+      "dropout_s3": {
+        "D3_over_D1": 0.9865662612598506,
+        "area": {
+          "D1_mc_teacher": 6.455774082283739,
+          "D3_risk_distilled": 6.368715173349827
+        }
+      },
+      "lowlight_s1": {
+        "D3_over_D1": 0.961672121845709,
+        "area": {
+          "D1_mc_teacher": 4.87317296589467,
+          "D3_risk_distilled": 4.684915122318848
+        }
+      },
+      "lowlight_s2": {
+        "D3_over_D1": 0.9669447404570634,
+        "area": {
+          "D1_mc_teacher": 4.859907442228876,
+          "D3_risk_distilled": 4.698236787022696
+        }
+      },
+      "lowlight_s3": {
+        "D3_over_D1": 0.9822048449076043,
+        "area": {
+          "D1_mc_teacher": 4.910472574757729,
+          "D3_risk_distilled": 4.820321211289176
+        }
+      }
+    },
+    "without_s3": {
+      "beam": {
+        "D3_over_D1": 0.9773062831420614
+      },
+      "dropout": {
+        "D3_over_D1": 0.9675584233575742
+      },
+      "lowlight": {
+        "D3_over_D1": 0.9643084311513862
+      }
+    }
+  },
+  "teacher_fidelity_D3_over_D2": {
+    "coverage90_gap": {
+      "ci95": [
+        0.04484365331048593,
+        0.05902505857801066
+      ],
+      "count": 70,
+      "mean": 0.0517839521828733
+    },
+    "first_moment_error": {
+      "ci95": [
+        0.0787942165295165,
+        0.12572110092050376
+      ],
+      "count": 70,
+      "mean": 0.1011116451497659
+    },
+    "second_moment_error": {
+      "ci95": [
+        0.4159884350236819,
+        0.45855854941200413
+      ],
+      "count": 70,
+      "mean": 0.4375777587994216
+    },
+    "teacher_energy_distance": {
+      "ci95": [
+        0.501981879672036,
+        0.5747397929418273
+      ],
+      "count": 70,
+      "mean": 0.5368934589236307
+    }
+  },
+  "track_counts": {
+    "beam_s1": 33790,
+    "beam_s2": 31879,
+    "beam_s3": 23121,
+    "clean_s0": 34856,
+    "dropout_s1": 34789,
+    "dropout_s2": 34559,
+    "dropout_s3": 33675,
+    "lowlight_s1": 34840,
+    "lowlight_s2": 34719,
+    "lowlight_s3": 34336
+  },
+  "valid": true,
+  "validity": {
+    "V1_R0_and_R2_boundaries_and_sources_frozen": true,
+    "V2_R0_R1_rows_and_split_authority_frozen": true,
+    "V3_R0_teacher_replay_exact": true,
+    "V4_D2_D3_capacity_initialization_and_seeds_frozen": true,
+    "V5_common_rows_and_all_numeric_values_finite": true,
+    "V6_forbidden_inputs_and_splits_unread": true
+  }
+}

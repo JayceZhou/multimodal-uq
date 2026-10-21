@@ -1,0 +1,6 @@
+{
+  "checkpoint_sha256": "9173260dd82c72cedc3f17ba1560d9b3071221efaebcac1d1bb8f70ae2041e1e",
+  "seed": 20260731,
+  "finite": true,
+  "updates_per_model": 56280
+}

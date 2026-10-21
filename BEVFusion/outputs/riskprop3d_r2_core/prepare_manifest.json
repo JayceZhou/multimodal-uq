@@ -1,0 +1,181 @@
+{
+  "checkpoint_sha256": {
+    "20260731": "087b3c4c63d40ab3314e1a6730c220384ea0212c83c4f3a895b083145679ffbc",
+    "20260801": "1781113c58cd5fb11d81befcd7f28be346ead4d431f18b71d2c1b74ca05f2f90",
+    "20260802": "ddf350e5dc5ea02aa87831b0cfb26b63b3b4ba555081048b3c0fd625cab60a5f"
+  },
+  "conditions": [
+    "clean_s0",
+    "lowlight_s1",
+    "lowlight_s2",
+    "lowlight_s3",
+    "dropout_s1",
+    "dropout_s2",
+    "dropout_s3",
+    "beam_s1",
+    "beam_s2",
+    "beam_s3"
+  ],
+  "internal_test_read": false,
+  "official_val_read": false,
+  "records": {
+    "beam_s1": {
+      "counts": {
+        "crossing": 21338,
+        "far_range": 3408,
+        "future_heading_change": 1073,
+        "high_current_residual": 7185,
+        "sparse_lidar": 8771,
+        "turning": 514,
+        "two_wheeler": 575,
+        "vehicle": 17787,
+        "yaw_boundary": 9887
+      },
+      "rows": 33790,
+      "sha256": "b2e0646f34645663cc82fe0e469634a91ad4e8bc2c624d4a301dc981bbc0b1ca"
+    },
+    "beam_s2": {
+      "counts": {
+        "crossing": 19991,
+        "far_range": 2639,
+        "future_heading_change": 1044,
+        "high_current_residual": 7977,
+        "sparse_lidar": 7596,
+        "turning": 494,
+        "two_wheeler": 488,
+        "vehicle": 17013,
+        "yaw_boundary": 9642
+      },
+      "rows": 31879,
+      "sha256": "452448affe6019822ab6fafa6e4834d04db12c49934a4e94856906870030bdef"
+    },
+    "beam_s3": {
+      "counts": {
+        "crossing": 14144,
+        "far_range": 1294,
+        "future_heading_change": 736,
+        "high_current_residual": 8079,
+        "sparse_lidar": 4009,
+        "turning": 348,
+        "two_wheeler": 364,
+        "vehicle": 13088,
+        "yaw_boundary": 7742
+      },
+      "rows": 23121,
+      "sha256": "fd61a85c0b18d68110fac4353fa6fbc1034877744a8c513387b3bd6fd0f830e0"
+    },
+    "clean_s0": {
+      "counts": {
+        "crossing": 21852,
+        "far_range": 3815,
+        "future_heading_change": 1108,
+        "high_current_residual": 6208,
+        "sparse_lidar": 9538,
+        "turning": 532,
+        "two_wheeler": 579,
+        "vehicle": 18230,
+        "yaw_boundary": 10161
+      },
+      "rows": 34856,
+      "sha256": "e7f3adc7488e4a4a9a40bcf73bcd6427c7acad463b4211d0dbfed9234af6b187"
+    },
+    "dropout_s1": {
+      "counts": {
+        "crossing": 21779,
+        "far_range": 3789,
+        "future_heading_change": 1096,
+        "high_current_residual": 6389,
+        "sparse_lidar": 9463,
+        "turning": 524,
+        "two_wheeler": 578,
+        "vehicle": 18219,
+        "yaw_boundary": 10129
+      },
+      "rows": 34789,
+      "sha256": "d828e2dd23a6d83700098c00052b061c7499fb9f0776d4e349fdd1185abe6d54"
+    },
+    "dropout_s2": {
+      "counts": {
+        "crossing": 21772,
+        "far_range": 3699,
+        "future_heading_change": 1088,
+        "high_current_residual": 6845,
+        "sparse_lidar": 9300,
+        "turning": 527,
+        "two_wheeler": 569,
+        "vehicle": 18149,
+        "yaw_boundary": 10121
+      },
+      "rows": 34559,
+      "sha256": "1a7dee29b516135fbeecaba3cd73fa90d143718d1779a49e8a10fb89376ad9da"
+    },
+    "dropout_s3": {
+      "counts": {
+        "crossing": 21257,
+        "far_range": 3420,
+        "future_heading_change": 1053,
+        "high_current_residual": 7988,
+        "sparse_lidar": 8633,
+        "turning": 507,
+        "two_wheeler": 548,
+        "vehicle": 17946,
+        "yaw_boundary": 9938
+      },
+      "rows": 33675,
+      "sha256": "23766f56b6d1d0649a85663d757a35298118807b04757161273a24615c003901"
+    },
+    "lowlight_s1": {
+      "counts": {
+        "crossing": 21875,
+        "far_range": 3805,
+        "future_heading_change": 1107,
+        "high_current_residual": 6182,
+        "sparse_lidar": 9517,
+        "turning": 532,
+        "two_wheeler": 576,
+        "vehicle": 18226,
+        "yaw_boundary": 10128
+      },
+      "rows": 34840,
+      "sha256": "8fb40d67a42f5b285b4b1e414d1b753ab39cc86aa653d8dc47ae808920cb7ae1"
+    },
+    "lowlight_s2": {
+      "counts": {
+        "crossing": 21897,
+        "far_range": 3759,
+        "future_heading_change": 1101,
+        "high_current_residual": 6345,
+        "sparse_lidar": 9446,
+        "turning": 527,
+        "two_wheeler": 570,
+        "vehicle": 18198,
+        "yaw_boundary": 10103
+      },
+      "rows": 34719,
+      "sha256": "49fe2517deed9a10690dd4e1d3c09b06577187f3cf28f532c2069aafd4bdf055"
+    },
+    "lowlight_s3": {
+      "counts": {
+        "crossing": 21616,
+        "far_range": 3653,
+        "future_heading_change": 1092,
+        "high_current_residual": 6762,
+        "sparse_lidar": 9176,
+        "turning": 530,
+        "two_wheeler": 551,
+        "vehicle": 18108,
+        "yaw_boundary": 9954
+      },
+      "rows": 34336,
+      "sha256": "bddb215819d7c44ae475bfc63b7daa10b7c5d18685e46cbeb39dba36c5aaecee"
+    }
+  },
+  "residual_q80_m": 0.2574319601058961,
+  "source_code_sha256": "61b244f73f5b08f8f06345f40e27b14677e17f4a604baf30712af9b453a1a356",
+  "source_r15_result_sha256": "f24702f8f3c8ed49e5aaebcf11242eedcc1571f4093fce8979a2b1a425e314b0",
+  "source_r1_metrics_sha256": {
+    "0": "9e66534e9caa7ff00357da2aa6e3bbe15aa8294a6699927cc3a43430efed97fd",
+    "1": "f407bf7d33a2b34c684a901e423689879ac6ac91d9db6debace221fc734f0c9d",
+    "2": "3f66197122242cd4df19fbf1d913f355910b2959f9a0cc29b44139340206a71f"
+  }
+}

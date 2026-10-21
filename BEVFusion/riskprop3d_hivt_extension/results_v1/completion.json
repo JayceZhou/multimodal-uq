@@ -1,0 +1,18 @@
+{
+  "status": "LEVEL_I_COMPLETE",
+  "main_run_condition_outputs": 12,
+  "main_target_rows_per_run": 92522,
+  "artifacts_sha256": {
+    "results_v1/summary.json": "7f1d0480a86d2862386f9e180b4a101a0b425ca577d645cfceebcea5f957ab80",
+    "REPORT.md": "8ffd2189086774d5e23527a8f6e18d0f16306b3cc42ee7beaf89400cf11b82c3",
+    "results_v1/contrasts.csv": "690a700e339139705d9c0e9b46399201cce2d793f584f6398330b49b44c3a6f9",
+    "results_v1/absolute.csv": "6917a3f574d1e2ce2a42ff2bcc2747dd3367ba75b24fe19843153478ea0bc86c",
+    "results_v1/absolute_estimates.csv": "7818e17881b9890b7e144cf07df709012f5e95c976036675843447d0055f2f91",
+    "results_v1/controls.csv": "b56a49c10c0cdec419e226a03f32e06ae4250b65a3298d7868d17a5eeaa82b27",
+    "results_v1/control_contrasts.csv": "26a3824dbaa52e725fc0f5e572f028548c17ccc5f2460aa291a5f865e0f5042e",
+    "results_v1/common_targets.csv": "f6f703e3cf8a763ffcba618ee257850572427c52feb2e0f7f0c667788e88e56b",
+    "results_v1/MC_sensitivity.csv": "3501b6e3e9b97bef0d47e2c8788b5e01ed27d0e514ef1df00d2380e037ebac61"
+  },
+  "evaluation_freeze_sha256": "b80d3d31b3bfb4c0f1040ef504ffb32de9930b12ce0d716d9fe764e84dcb06af",
+  "no_required_statistical_tables_pending": true
+}

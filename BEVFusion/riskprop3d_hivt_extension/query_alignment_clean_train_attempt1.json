@@ -1,0 +1,11 @@
+{
+  "matched_targets_checked": 162919,
+  "missing": 0,
+  "max_absolute_difference": {
+    "box": 0.0,
+    "feature": 0.0,
+    "logits": 0.0,
+    "seed": 0.0
+  },
+  "all_target_head_inputs_exact": true
+}

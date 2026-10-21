@@ -1,0 +1,80 @@
+{
+  "bootstrap_repeats": 10000,
+  "bootstrap_seed": 20260805,
+  "checks": {
+    "all_checks_pass_except_declared_runtime_hardware_provenance": true,
+    "attributes": {
+      "all_precomputed_scope_values_match": true,
+      "precomputed_values_checked": 228,
+      "row_count": 1596,
+      "source_all_numeric_finite": true,
+      "suppressed_rows": 0
+    },
+    "equivalence": {
+      "development/beam_S1-S2": true,
+      "development/beam_full_S1-S3": true,
+      "development/clean": true,
+      "development/dropout_S1-S2": true,
+      "development/dropout_full_S1-S3": true,
+      "development/lowlight_S1-S2": true,
+      "development/lowlight_full_S1-S3": true,
+      "final_validation/clean": true
+    },
+    "fidelity": {
+      "coverage90_gap": true,
+      "first_moment_error": true,
+      "second_moment_error": true,
+      "teacher_energy_distance": true
+    },
+    "runtime": {
+      "mean_paired_speedup_matches_frozen_result": true,
+      "original_hardware_metadata_complete": false,
+      "replicate_count": 3,
+      "timed_batches_per_replicate": 137
+    }
+  },
+  "declared_missing_evidence": {
+    "final_validation_teacher_fidelity_rows": 4,
+    "original_runtime_hardware_metadata": "not serialized by the frozen R2-D timing archive",
+    "reason": "The final archive does not retain the teacher/student sample or moment-fidelity arrays required for the four fidelity definitions; no post-hoc model rerun was performed."
+  },
+  "generator": "tools/export_riskprop3d_paper_evidence.py",
+  "generator_sha256": "03a1a02d22ca9be988609261ba4fdb8fdc2ddcf1b9281c4e2e71c962a4402883",
+  "no_condition_or_result_selection": true,
+  "no_model_execution": true,
+  "no_new_sampling": true,
+  "output_sha256": {
+    "attribute_strata_complete.csv": "709b742298bb785a7e4a63157a4e3702ac2d858c3c1fed9b1c9eedfb89eaaa77",
+    "attribute_strata_readme.md": "d53d0cca803b58542aded7ba5f3e6b3a8d59e6ec68cfd8ed3ff3d3c67f9e1682",
+    "preservation_equivalence.json": "dd1ef9cb684bb75684b756abc196fe46550b2f539acbb8166f38829697d33611",
+    "preservation_fidelity_summary.csv": "689970a004e272c852eb505659bc8b4de9665714b2b353befc2db7af0322b856",
+    "runtime_measurements.csv": "f43df9ee1a6ab3678cef4825bc1dd68690e33cd2537ef3863d80c2e0379a5e41",
+    "runtime_protocol.md": "08b6d4c4129ce7119e0dd385e4784067fa7b3473eb5fafb4e5bb00a34a85f938"
+  },
+  "row_counts": {
+    "attribute_strata_complete.csv": 1596,
+    "preservation_equivalence.json/tests": 8,
+    "preservation_fidelity_summary.csv": 8,
+    "runtime_measurements.csv": 8
+  },
+  "source_sha256": {
+    "outputs/riskprop3d_final_confirmation/attributes/result.json": "1051f0c16ae9746309f05dbd3ff2c6ea7192ec6a9ee5b684f751fdfb6e74e0e5",
+    "outputs/riskprop3d_final_confirmation/metrics/official/replicate_0.npz": "11a1ade2c66fa4065823d0f644adcd5ded3dea5db5863938ab205fcfcb869b32",
+    "outputs/riskprop3d_final_confirmation/metrics/official/replicate_1.npz": "e16db96fb1bb5a12c9fb2abd1bc6b844c1c06af7e8b8e5ced58a467aa7fc392f",
+    "outputs/riskprop3d_final_confirmation/metrics/official/replicate_2.npz": "0fc864b8d2f12c6da0cc3fa9b5a5897d5cbf6e829d45c2737fa244e630dd2a9f",
+    "outputs/riskprop3d_final_confirmation/official/result.json": "a2dfa3cabac8a2338fd6025c4c81686abf913016bf69e048be28c3d4f0fceaac",
+    "outputs/riskprop3d_r0/metrics/replicate_0.npz": "0a2e4374de79ae49fdca037d8b2962a38f2ceb554c6af3c2e8d40541bc9f5d16",
+    "outputs/riskprop3d_r0/metrics/replicate_1.npz": "c77a5d958f303caacbf834266a6c34c8ee6b94c3c0efbbf29a8e079646edaac0",
+    "outputs/riskprop3d_r0/metrics/replicate_2.npz": "e5f71ead2b2c40eee202c99808d3e03b8a04b2b913fe4ccd0a9f154b48db02c0",
+    "outputs/riskprop3d_r2d/metrics/replicate_0.npz": "bacad5d446325d6fcea15b273c89b0df713ff70b63b33cb2c607f6468746f206",
+    "outputs/riskprop3d_r2d/metrics/replicate_1.npz": "f60dc5d63ecd5ddf78908892bce93f512fc2bdc26dcc209e0b226c1872e6eba4",
+    "outputs/riskprop3d_r2d/metrics/replicate_2.npz": "52737391e9e0305cd04cc2d6c52c272229d3cb4a6a7b667ba5778c899f512d76",
+    "outputs/riskprop3d_r2d/result.json": "a6d4729fc320109ccfc40b1ac80ea93c28df77bddeaf803571cebf3ce148d2bd",
+    "outputs/riskprop3d_r3p/metrics/replicate_0.npz": "5eb511a9de4929fff7b251aa71829b661f6e3420be85e3b98cc6d02cc1aad6ce",
+    "outputs/riskprop3d_r3p/metrics/replicate_1.npz": "56f24b27d493230b0639cf2a7173d4f91803741384680af7bc7c4136bd222074",
+    "outputs/riskprop3d_r3p/metrics/replicate_2.npz": "737f0c79070843dbfe56414f8c852e1e2bd86b1fec546c1cb98968ab10f46b89",
+    "tools/riskprop3d_final_confirmation.py": "b65a27300a92109b031173aa58273c8a60b676dbe1a6e72a4de2a5afa23e74fb",
+    "tools/riskprop3d_r2d.py": "79e5fa1232dd0a8f8bd987c58c143c6cbabf309a06dcacd931cc81a89c0e1bdc"
+  },
+  "status": "COMPLETE_WITH_EXPLICIT_PROVENANCE_LIMITATIONS"
+}

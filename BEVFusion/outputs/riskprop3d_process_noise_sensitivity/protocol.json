@@ -1,0 +1,67 @@
+{
+  "comparators": {
+    "G": "P2/M1",
+    "HTC": "P3/M2"
+  },
+  "conditions_selected_from_results": false,
+  "covariance_multipliers": [
+    0.0,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "effect": "G minus HTC; positive favors HTC",
+  "evaluator_sha256": "bb36276c40ca392d91c5f31d031186fca625ff23d04c1d2ef7264737baba2d32",
+  "hosts": [
+    "CV",
+    "MLP"
+  ],
+  "inference": {
+    "bootstrap_seed": 20260805,
+    "multiplicity": "unadjusted directional sensitivity intervals; all prespecified contrasts reported",
+    "paired_scene_bootstrap_resamples": 10000,
+    "replicates_averaged_before_scene_bootstrap": true,
+    "unit": "scene"
+  },
+  "internal_test_read": false,
+  "models_retrained": false,
+  "official_modern_host_outcome_read": false,
+  "populations": [
+    "development_clean",
+    "final_validation"
+  ],
+  "primary_metric": "trajectory energy score",
+  "purpose": "reviewer-requested R0 process-noise magnitude sensitivity",
+  "robustness_interpretation": "directionally robust only if every population-host-multiplier point estimate is positive; interval-supported throughout only if every 95% CI lower bound is positive",
+  "sampling": {
+    "common_random_numbers": true,
+    "perception_draw_sets": 2,
+    "perception_samples": 64,
+    "propagation_seeds": [
+      20260806,
+      20260807,
+      20260808
+    ],
+    "same_base_process_noise_across_multipliers": true
+  },
+  "source_sha256": {
+    "outputs/probset3d_v3/f1_formal/checkpoints/seed_20260731.pt": "087b3c4c63d40ab3314e1a6730c220384ea0212c83c4f3a895b083145679ffbc",
+    "outputs/probset3d_v3/f1_formal/checkpoints/seed_20260801.pt": "1781113c58cd5fb11d81befcd7f28be346ead4d431f18b71d2c1b74ca05f2f90",
+    "outputs/probset3d_v3/f1_formal/checkpoints/seed_20260802.pt": "ddf350e5dc5ea02aa87831b0cfb26b63b3b4ba555081048b3c0fd625cab60a5f",
+    "outputs/riskprop3d_final_confirmation/metrics/official/replicate_0.npz": "11a1ade2c66fa4065823d0f644adcd5ded3dea5db5863938ab205fcfcb869b32",
+    "outputs/riskprop3d_final_confirmation/metrics/official/replicate_1.npz": "e16db96fb1bb5a12c9fb2abd1bc6b844c1c06af7e8b8e5ced58a467aa7fc392f",
+    "outputs/riskprop3d_final_confirmation/metrics/official/replicate_2.npz": "0fc864b8d2f12c6da0cc3fa9b5a5897d5cbf6e829d45c2737fa244e630dd2a9f",
+    "outputs/riskprop3d_final_confirmation/tracks/official/clean.npz": "2aaba38091bf89545b7888ce8e6246262202e3d1c41f3f81ace51cb7954f47db",
+    "outputs/riskprop3d_r0/metrics/replicate_0.npz": "0a2e4374de79ae49fdca037d8b2962a38f2ceb554c6af3c2e8d40541bc9f5d16",
+    "outputs/riskprop3d_r0/metrics/replicate_1.npz": "c77a5d958f303caacbf834266a6c34c8ee6b94c3c0efbbf29a8e079646edaac0",
+    "outputs/riskprop3d_r0/metrics/replicate_2.npz": "e5f71ead2b2c40eee202c99808d3e03b8a04b2b913fe4ccd0a9f154b48db02c0",
+    "outputs/riskprop3d_r0/predictor.pt": "c8aaeade1dfae025b908233faf23ea7a293be151b8dd38edbd773002d72cbab2",
+    "outputs/riskprop3d_r0/tracks/clean_s0.npz": "82cfa0fba2969daf0d649e1b0b67d56e5d3aa924532150a53b6945dab878df99"
+  },
+  "standard_deviation_multipliers": [
+    0.0,
+    0.7071067811865476,
+    1.0,
+    1.4142135623730951
+  ]
+}

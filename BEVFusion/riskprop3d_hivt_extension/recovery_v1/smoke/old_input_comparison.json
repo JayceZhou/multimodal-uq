@@ -1,0 +1,95 @@
+{
+  "compared_retained_targets": 12,
+  "exact_box_matches": 12,
+  "max_errors": {
+    "box_error": 0.0,
+    "feature_error": 0.0,
+    "logits_error": 0.0
+  },
+  "comparisons": [
+    {
+      "token": "0032005d81f04d109c67ae92af4d0a2f",
+      "row": 7614,
+      "box_error": 0.0,
+      "feature_error": 0.0,
+      "logits_error": 0.0
+    },
+    {
+      "token": "0032005d81f04d109c67ae92af4d0a2f",
+      "row": 7615,
+      "box_error": 0.0,
+      "feature_error": 0.0,
+      "logits_error": 0.0
+    },
+    {
+      "token": "0032005d81f04d109c67ae92af4d0a2f",
+      "row": 7616,
+      "box_error": 0.0,
+      "feature_error": 0.0,
+      "logits_error": 0.0
+    },
+    {
+      "token": "0032005d81f04d109c67ae92af4d0a2f",
+      "row": 7617,
+      "box_error": 0.0,
+      "feature_error": 0.0,
+      "logits_error": 0.0
+    },
+    {
+      "token": "0032005d81f04d109c67ae92af4d0a2f",
+      "row": 7618,
+      "box_error": 0.0,
+      "feature_error": 0.0,
+      "logits_error": 0.0
+    },
+    {
+      "token": "0032005d81f04d109c67ae92af4d0a2f",
+      "row": 7619,
+      "box_error": 0.0,
+      "feature_error": 0.0,
+      "logits_error": 0.0
+    },
+    {
+      "token": "004cfb1f600e4d6d937a04d98a5d6d27",
+      "row": 30310,
+      "box_error": 0.0,
+      "feature_error": 0.0,
+      "logits_error": 0.0
+    },
+    {
+      "token": "004cfb1f600e4d6d937a04d98a5d6d27",
+      "row": 30311,
+      "box_error": 0.0,
+      "feature_error": 0.0,
+      "logits_error": 0.0
+    },
+    {
+      "token": "004cfb1f600e4d6d937a04d98a5d6d27",
+      "row": 30312,
+      "box_error": 0.0,
+      "feature_error": 0.0,
+      "logits_error": 0.0
+    },
+    {
+      "token": "004cfb1f600e4d6d937a04d98a5d6d27",
+      "row": 30313,
+      "box_error": 0.0,
+      "feature_error": 0.0,
+      "logits_error": 0.0
+    },
+    {
+      "token": "004cfb1f600e4d6d937a04d98a5d6d27",
+      "row": 30314,
+      "box_error": 0.0,
+      "feature_error": 0.0,
+      "logits_error": 0.0
+    },
+    {
+      "token": "004cfb1f600e4d6d937a04d98a5d6d27",
+      "row": 30315,
+      "box_error": 0.0,
+      "feature_error": 0.0,
+      "logits_error": 0.0
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "accepted": true,
+  "split": "dev",
+  "shard": 0,
+  "samples": 2,
+  "parts": [
+    {
+      "file": "part-00000.npz",
+      "sample_count": 2,
+      "sha256": "41a5e679f420f19bc1dc183b83d0163eafba65225bf6de28ad5c4a347dc56db0",
+      "size_bytes": 246888
+    }
+  ],
+  "physical_gpu": 0,
+  "wall_time_seconds": 2.6668481826782227,
+  "peak_cuda_allocation_bytes": 2401157632,
+  "detector_state_sha256": "68ba140dbc4d4c7283cdb17719a0e49ed6aec0eb50353ce7be2f1d760becfef8",
+  "detector_updates": 0,
+  "query_density_column_present": false,
+  "is_engineering_smoke": true,
+  "head_gradient_check": true,
+  "head_optimizer_updates": 0
+}

@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "rows": [
+    5697,
+    10975,
+    11014,
+    16566,
+    7572,
+    1210,
+    16558,
+    11692
+  ],
+  "laws": [
+    {
+      "law": "AG",
+      "state_max_absolute_xy": 38.8351827367479,
+      "targets": 8,
+      "draws_per_set": 64
+    },
+    {
+      "law": "AH",
+      "state_max_absolute_xy": 39.089465855249294,
+      "targets": 8,
+      "draws_per_set": 64
+    },
+    {
+      "law": "AM",
+      "state_max_absolute_xy": 38.88578696554942,
+      "targets": 8,
+      "draws_per_set": 64
+    }
+  ],
+  "key_activation_max_absolute": {
+    "local_encoder": 66.07150268554688,
+    "global_interactor": 62.711181640625
+  },
+  "future_labels_in_features": false,
+  "trained_host_map_ablation_max_mean_difference": 6.382682800292969,
+  "trained_host_neighbor_ablation_max_mean_difference": 3.8794918060302734,
+  "scope": "fixed hash dev probe; formal outputs still checked independently",
+  "physical_gpu": 0
+}

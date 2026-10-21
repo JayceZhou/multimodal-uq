@@ -1,0 +1,226 @@
+{
+  "authorities": {
+    "r0": {
+      "endpoint": "GO TO RISKPROP3D METHOD DEVELOPMENT",
+      "path": "outputs/riskprop3d_r0/result.json",
+      "sha256": "9d8ff660c264b74142ae8a4635645f8240b3bf153b3c2230b9f72cc7b64fd232"
+    },
+    "r15": {
+      "endpoint": "GO TO RISKPROP3D-CORE",
+      "path": "outputs/riskprop3d_r15/result.json",
+      "sha256": "f24702f8f3c8ed49e5aaebcf11242eedcc1571f4093fce8979a2b1a425e314b0"
+    },
+    "r2_core": {
+      "endpoint": "STOP RISKPROP3D-CORE MECHANISM CLAIM",
+      "path": "outputs/riskprop3d_r2_core/result.json",
+      "sha256": "21776529d072a191a8180c83463cbedfb88f4ec33671aae911544e10b82a93f6"
+    },
+    "r2d": {
+      "endpoint": "STOP LEARNED AMORTIZED PROPAGATION",
+      "path": "outputs/riskprop3d_r2d/result.json",
+      "sha256": "a6d4729fc320109ccfc40b1ac80ea93c28df77bddeaf803571cebf3ce148d2bd"
+    },
+    "r3p": {
+      "endpoint": "STOP RISKPROP3D DIRECTION",
+      "path": "outputs/riskprop3d_r3p/result.json",
+      "sha256": "eaa7ac63d0b7aa7b84aa72b0e1f3053d96875a34e490a6400a9c496bb2a863bf"
+    }
+  },
+  "bootstrap_resamples": 10000,
+  "bootstrap_unit": "scene",
+  "checkpoints": {
+    "heads": {
+      "20260731": "087b3c4c63d40ab3314e1a6730c220384ea0212c83c4f3a895b083145679ffbc",
+      "20260801": "1781113c58cd5fb11d81befcd7f28be346ead4d431f18b71d2c1b74ca05f2f90",
+      "20260802": "ddf350e5dc5ea02aa87831b0cfb26b63b3b4ba555081048b3c0fd625cab60a5f"
+    },
+    "r0_predictor": "c8aaeade1dfae025b908233faf23ea7a293be151b8dd38edbd773002d72cbab2",
+    "r2_core": {
+      "0": "6cf412ff2a90ea3c435c381d27f95d526f0ec0899731079e990dcd388c42a1e4",
+      "1": "e09abc6f013be8ce869e3a29df20c6590a316fc4f31073ba7c2c1aecaeafb893",
+      "2": "9f5d39755046a8df2dba3f27ec644288ec09a7614518d215cac0ff0609647302"
+    },
+    "r2d": {
+      "0": "bcafcf1d35f2f8fb71df59a8f21c3b02294a15bc7632c660f0dbcf2ab91f98d4",
+      "1": "051e8fa6330891fc4513c7190493435179e8a96254fafc22eed7cfa652da7f4f",
+      "2": "5bce042ae956580363f070373ed60c4c968251583991867419014c9ae242726b"
+    },
+    "r3p": {
+      "0": "05f5b2ee1011d1720bad1fd60349e5c75cdaa02b2fbc77e4a80c2f8dd95d1313",
+      "1": "ebdc3cda92afc7b3efe4687f34a18e00478cc3bcbb9fe944bf91f1ab623fa9b6",
+      "2": "6073adfc30b99da2212147e547dc88cccb5de52032d0ced71c1ec397a20f837b"
+    }
+  },
+  "documents": {
+    "EVIDENCE_MATRIX.md": {
+      "path": "riskprop3d_paper/EVIDENCE_MATRIX.md",
+      "sha256": "88d2c9347ddaf83acada9cd81f5dd80b5cb230de156b9db615f72fd616a816ba"
+    },
+    "FINAL_CONFIRMATION_PROTOCOL.md": {
+      "path": "riskprop3d_paper/FINAL_CONFIRMATION_PROTOCOL.md",
+      "sha256": "8db7688c9d230e0f93c64ab66a480925fd1081b0fa6abca2ea2d180654c7c929"
+    },
+    "PAPER_MAP.md": {
+      "path": "riskprop3d_paper/PAPER_MAP.md",
+      "sha256": "d4ae04828e81cc04cf60d5a573605b0215464938ff0a5eb2b80a5e2910fabfe7"
+    },
+    "PRECONFIRMATION_CLAIM_LEDGER.md": {
+      "path": "riskprop3d_paper/PRECONFIRMATION_CLAIM_LEDGER.md",
+      "sha256": "8e5cbba4e921bee608d08e1cddb04e7b0a168f761a70628977a67b0cf776fdbb"
+    },
+    "README.md": {
+      "path": "riskprop3d_paper/README.md",
+      "sha256": "4ab9beddcaaa77d17ba628a6621a7c0c204b5356373fbb34a08b1a4b25cfa95f"
+    },
+    "confirmation_README.md": {
+      "path": "riskprop3d_final_confirmation/README.md",
+      "sha256": "15c7a351147c87dd9ca9e719f7168d831f663b0ba9c73a2a7b3635372fe6b7d9"
+    }
+  },
+  "evaluation_contract": {
+    "aggregation": "per-track differences averaged within scene, then paired across three replicates",
+    "confidence_interval": "10000 paired-scene bootstrap resamples at seed 20260805",
+    "diagnostic": "nll",
+    "equal_coverage_area": "median(pi * empirical q90(final_maha2) * sqrt(final_det))",
+    "false_safe": "lowest-risk 80% within scene",
+    "high_fde": "same-interface deterministic/mean-reference predictive-mean FDE > 2m",
+    "metrics": [
+      "energy",
+      "nll",
+      "mean_ade",
+      "mean_fde",
+      "min_ade",
+      "min_fde",
+      "miss",
+      "coverage_50",
+      "coverage_80",
+      "coverage_90",
+      "final_maha2",
+      "final_det",
+      "area90",
+      "log_area90",
+      "collision_probability"
+    ],
+    "primary": "energy",
+    "risk_ranking": "predicted final log equal-model ellipse area"
+  },
+  "external": {
+    "conditions": [
+      "rotation_s2",
+      "rotation_s3",
+      "translation_s3",
+      "temporal_s2",
+      "temporal_s3"
+    ],
+    "excluded_source": "outputs/third_work_r0/feature_shards (official-val-based metadata; not used)",
+    "families": {
+      "rotation": [
+        "rotation_s2",
+        "rotation_s3"
+      ],
+      "temporal": [
+        "temporal_s2",
+        "temporal_s3"
+      ],
+      "translation": [
+        "translation_s3"
+      ]
+    },
+    "info_path": "outputs/stage3/splits/nuscenes_infos_stage3_dev.pkl",
+    "official_val_used": false,
+    "temporal_history": {
+      "path": "outputs/riskprop3d_final_confirmation/inputs/dev_camera_history.json",
+      "sha256": "961290ce0489ff287b290fceb2be944aece462603f16b2115f0656394665f022"
+    },
+    "temporal_info": {
+      "2": {
+        "path": "outputs/riskprop3d_final_confirmation/inputs/nuscenes_infos_dev_temporal_s2_valid.pkl",
+        "sample_count": 2738,
+        "sha256": "2b2114b3101837325566219e95031131f79f3626884e4598272077cbd310d0d7"
+      },
+      "3": {
+        "path": "outputs/riskprop3d_final_confirmation/inputs/nuscenes_infos_dev_temporal_s3_valid.pkl",
+        "sample_count": 2738,
+        "sha256": "2b2114b3101837325566219e95031131f79f3626884e4598272077cbd310d0d7"
+      }
+    }
+  },
+  "input_contract": {
+    "corruption_identity_input": false,
+    "current_gt_residual_input": false,
+    "r0": "frozen 64-d history/current/mask/class state plus M1/M2 head distributions",
+    "r2_core": "frozen target-centric R2-Core adapters; no mechanism subset input",
+    "r2d": "frozen 64-d state plus 20-d M2 raw probability token",
+    "r3p": "frozen 64-d state plus predeclared mean/confidence/M1/M2 20-d token"
+  },
+  "internal_test_read": false,
+  "method_development_closed": true,
+  "official": {
+    "declared_sample_count": 6019,
+    "info_path": "outputs/stage2/full/nuscenes_infos_val_6019.pkl",
+    "info_sha256": "d11a9dd4b71722629ec84b3482cdc67dd16f7cf4b87c8603cdf6dc720537a7c7",
+    "official_val_read": false
+  },
+  "primary_metric": "trajectory_energy_score",
+  "scripts": {
+    "confirmation": {
+      "path": "tools/riskprop3d_final_confirmation.py",
+      "sha256": "b65a27300a92109b031173aa58273c8a60b676dbe1a6e72a4de2a5afa23e74fb"
+    },
+    "confirmation_exporter": {
+      "path": "tools/riskprop3d_confirmation_export.py",
+      "sha256": "dfdfcf4c6db3caacd6202f4785314be09e66806ba1a43cc9a12efca021bd4c43"
+    },
+    "r0": {
+      "path": "tools/riskprop3d_r0.py",
+      "sha256": "404744946d1eb858ca2849128261ed9e3aca6116e65e0353bc5531b0c4cb2376"
+    },
+    "r1": {
+      "path": "tools/riskprop3d_r1.py",
+      "sha256": "b53d96558e1062d784a96bf5f097f4b6ef3e5c51667c832b23ea0d7e9c582e87"
+    },
+    "r2_core": {
+      "path": "tools/riskprop3d_r2_core.py",
+      "sha256": "61b244f73f5b08f8f06345f40e27b14677e17f4a604baf30712af9b453a1a356"
+    },
+    "r2d": {
+      "path": "tools/riskprop3d_r2d.py",
+      "sha256": "79e5fa1232dd0a8f8bd987c58c143c6cbabf309a06dcacd931cc81a89c0e1bdc"
+    },
+    "r3p": {
+      "path": "tools/riskprop3d_r3p.py",
+      "sha256": "2447537f4d7e824b459d44aca0327e91d3c0a69e23908405221ddf2a6c8d63d1"
+    }
+  },
+  "seeds": {
+    "bootstrap": 20260805,
+    "external_offset": 500000,
+    "head": [
+      20260731,
+      20260801,
+      20260802
+    ],
+    "official_offset": 900000,
+    "r0_propagation": [
+      20260806,
+      20260807,
+      20260808
+    ],
+    "r2_core_sampling": [
+      20260818,
+      20260819,
+      20260820
+    ],
+    "r2d_sampling": [
+      20260827,
+      20260828,
+      20260829
+    ],
+    "r3p_sampling": [
+      20260833,
+      20260834,
+      20260835
+    ]
+  },
+  "status": "F0_IMMUTABLE_EVIDENCE_FREEZE_ACTIVE"
+}

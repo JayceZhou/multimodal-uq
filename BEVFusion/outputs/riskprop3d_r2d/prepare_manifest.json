@@ -1,0 +1,114 @@
+{
+  "bootstrap_seed": 20260805,
+  "conditions": [
+    "clean_s0",
+    "lowlight_s1",
+    "lowlight_s2",
+    "lowlight_s3",
+    "dropout_s1",
+    "dropout_s2",
+    "dropout_s3",
+    "beam_s1",
+    "beam_s2",
+    "beam_s3"
+  ],
+  "corruption_input": false,
+  "current_gt_residual_input": false,
+  "head_checkpoint_sha256": {
+    "20260731": "087b3c4c63d40ab3314e1a6730c220384ea0212c83c4f3a895b083145679ffbc",
+    "20260801": "1781113c58cd5fb11d81befcd7f28be346ead4d431f18b71d2c1b74ca05f2f90",
+    "20260802": "ddf350e5dc5ea02aa87831b0cfb26b63b3b4ba555081048b3c0fd625cab60a5f"
+  },
+  "head_seeds": [
+    20260731,
+    20260801,
+    20260802
+  ],
+  "internal_test_read": false,
+  "model_seeds": [
+    20260824,
+    20260825,
+    20260826
+  ],
+  "official_val_read": false,
+  "predictor_sha256": "c8aaeade1dfae025b908233faf23ea7a293be151b8dd38edbd773002d72cbab2",
+  "r0_propagation_seeds": [
+    20260806,
+    20260807,
+    20260808
+  ],
+  "r0_result_sha256": "9d8ff660c264b74142ae8a4635645f8240b3bf153b3c2230b9f72cc7b64fd232",
+  "r2_core_result_sha256": "21776529d072a191a8180c83463cbedfb88f4ec33671aae911544e10b82a93f6",
+  "records": {
+    "beam_s1": {
+      "r0_tracks_sha256": "156f8f6372ad6c3ebe1c5dbb1c0edcabd43d410f547f2a2eb915342329614c2e",
+      "r1_scenes_sha256": "da95016d688b9beea3784d11c156c8bd53fa7061555fccbdc65472bf8925d497",
+      "rows": 33790
+    },
+    "beam_s2": {
+      "r0_tracks_sha256": "6eb86b6b5504748f8dcb39dca452e0776f7231af2e6b771764cfee65ee5b14ce",
+      "r1_scenes_sha256": "666176f8066a600c74b81eab77f5eeca268280475621216aa6fb02d839867975",
+      "rows": 31879
+    },
+    "beam_s3": {
+      "r0_tracks_sha256": "ef7625053a36bb22d489cafa2996384ff22d2505df45fab6564c61d44a8e632a",
+      "r1_scenes_sha256": "6f22614bd1830a12dfade1c2ba705b4d0e644cc1ceb2bc051132ac930087b1a2",
+      "rows": 23121
+    },
+    "clean_s0": {
+      "r0_tracks_sha256": "82cfa0fba2969daf0d649e1b0b67d56e5d3aa924532150a53b6945dab878df99",
+      "r1_scenes_sha256": "efe5b1d08b35517c8e481738b68d850401d00c9d2d17ebb47de8f7875587e180",
+      "rows": 34856
+    },
+    "dropout_s1": {
+      "r0_tracks_sha256": "c7463b115a11b71a446f31b4331b58899f12790e0ac5523883576cb2854f0998",
+      "r1_scenes_sha256": "c444dda3aa03d5e6e9fc4069320e71ceb84148f7e2161e86bcab85aca54a762e",
+      "rows": 34789
+    },
+    "dropout_s2": {
+      "r0_tracks_sha256": "b5a5db657270216fd03a3fd8e2d5f1bce7c138d328135369805618d7273cba62",
+      "r1_scenes_sha256": "8929004d2797478a1373a535daba0e0f9ee6f631ae7dff2c8de2ffc78c41c149",
+      "rows": 34559
+    },
+    "dropout_s3": {
+      "r0_tracks_sha256": "82b1d1d78363b48dbc9bb4ffc38fbf18cd8a0dadc94c6ccf56062536035f04e4",
+      "r1_scenes_sha256": "2e30a29ecfd08bd8a198b6b9aff6d7f1ec82e36ed5ba5401d9dfbf1a8fe6cf81",
+      "rows": 33675
+    },
+    "label_cal": {
+      "r0_tracks_sha256": "be61da137da7c5d7aa34f38dd695ad9b1b98433a7b37adb8c6dd3de957e3f128",
+      "r1_scenes_sha256": "2b4f7a95280c1372ec233119addc5e0d3fec15fe7e6e807a1aebed05523474e9",
+      "rows": 39192
+    },
+    "lowlight_s1": {
+      "r0_tracks_sha256": "522a3ce2ec26f2d3caadff66dbe1e8db400dad86858ce72c5130c281c02cbce3",
+      "r1_scenes_sha256": "b0bd22735bf80dc74fe186bde5acec34e78a31a67bf9d2a46857fba78310f96d",
+      "rows": 34840
+    },
+    "lowlight_s2": {
+      "r0_tracks_sha256": "93d1981b176d810af28cb1cd5bac6b5b5ce29b0807f1bb79394d5b53c4f93c3a",
+      "r1_scenes_sha256": "19640ef21dcf3c3f2c3345306150e19c79a2c6d35d0029dcc2c698865c206638",
+      "rows": 34719
+    },
+    "lowlight_s3": {
+      "r0_tracks_sha256": "57bf8bbab895d084c114a52035a34a444b98f8a203e1841287f1fe016fd58d51",
+      "r1_scenes_sha256": "21811806777d5258ef9b785c313b862b4fa9f4abde5c83577d74d97b19e4e141",
+      "rows": 34336
+    },
+    "train": {
+      "r0_tracks_sha256": "9df0c6b310b34cd0b4f8a20c67601cd1eeb874b171ab2d16eec72a8213f61798",
+      "r1_scenes_sha256": "6543660cc99dd4196fab498cba91fa36fb7dbdbd9c676da481d168c83035e179",
+      "rows": 295718
+    }
+  },
+  "student_sample_seeds": [
+    20260827,
+    20260828,
+    20260829
+  ],
+  "train_teacher_seeds": [
+    20260821,
+    20260822,
+    20260823
+  ]
+}

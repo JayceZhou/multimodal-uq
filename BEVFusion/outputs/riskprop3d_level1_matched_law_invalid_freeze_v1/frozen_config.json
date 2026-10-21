@@ -1,0 +1,292 @@
+{
+  "conditions": [
+    {
+      "condition": "clean",
+      "condition_index": 0,
+      "metric_condition": "clean_s0",
+      "metric_group": "development",
+      "population": "development",
+      "seed_offset": 0,
+      "severity": 0,
+      "source_name": "clean_s0",
+      "tracks": "outputs/riskprop3d_r0/tracks/clean_s0.npz"
+    },
+    {
+      "condition": "camera_lowlight",
+      "condition_index": 1,
+      "metric_condition": "lowlight_s1",
+      "metric_group": "development",
+      "population": "development",
+      "seed_offset": 1009,
+      "severity": 1,
+      "source_name": "lowlight_s1",
+      "tracks": "outputs/riskprop3d_r0/tracks/lowlight_s1.npz"
+    },
+    {
+      "condition": "camera_lowlight",
+      "condition_index": 2,
+      "metric_condition": "lowlight_s2",
+      "metric_group": "development",
+      "population": "development",
+      "seed_offset": 2018,
+      "severity": 2,
+      "source_name": "lowlight_s2",
+      "tracks": "outputs/riskprop3d_r0/tracks/lowlight_s2.npz"
+    },
+    {
+      "condition": "camera_lowlight",
+      "condition_index": 3,
+      "metric_condition": "lowlight_s3",
+      "metric_group": "development",
+      "population": "development",
+      "seed_offset": 3027,
+      "severity": 3,
+      "source_name": "lowlight_s3",
+      "tracks": "outputs/riskprop3d_r0/tracks/lowlight_s3.npz"
+    },
+    {
+      "condition": "lidar_point_dropout",
+      "condition_index": 4,
+      "metric_condition": "dropout_s1",
+      "metric_group": "development",
+      "population": "development",
+      "seed_offset": 4036,
+      "severity": 1,
+      "source_name": "dropout_s1",
+      "tracks": "outputs/riskprop3d_r0/tracks/dropout_s1.npz"
+    },
+    {
+      "condition": "lidar_point_dropout",
+      "condition_index": 5,
+      "metric_condition": "dropout_s2",
+      "metric_group": "development",
+      "population": "development",
+      "seed_offset": 5045,
+      "severity": 2,
+      "source_name": "dropout_s2",
+      "tracks": "outputs/riskprop3d_r0/tracks/dropout_s2.npz"
+    },
+    {
+      "condition": "lidar_point_dropout",
+      "condition_index": 6,
+      "metric_condition": "dropout_s3",
+      "metric_group": "development",
+      "population": "development",
+      "seed_offset": 6054,
+      "severity": 3,
+      "source_name": "dropout_s3",
+      "tracks": "outputs/riskprop3d_r0/tracks/dropout_s3.npz"
+    },
+    {
+      "condition": "lidar_beam_reduction",
+      "condition_index": 7,
+      "metric_condition": "beam_s1",
+      "metric_group": "development",
+      "population": "development",
+      "seed_offset": 7063,
+      "severity": 1,
+      "source_name": "beam_s1",
+      "tracks": "outputs/riskprop3d_r0/tracks/beam_s1.npz"
+    },
+    {
+      "condition": "lidar_beam_reduction",
+      "condition_index": 8,
+      "metric_condition": "beam_s2",
+      "metric_group": "development",
+      "population": "development",
+      "seed_offset": 8072,
+      "severity": 2,
+      "source_name": "beam_s2",
+      "tracks": "outputs/riskprop3d_r0/tracks/beam_s2.npz"
+    },
+    {
+      "condition": "lidar_beam_reduction",
+      "condition_index": 9,
+      "metric_condition": "beam_s3",
+      "metric_group": "development",
+      "population": "development",
+      "seed_offset": 9081,
+      "severity": 3,
+      "source_name": "beam_s3",
+      "tracks": "outputs/riskprop3d_r0/tracks/beam_s3.npz"
+    },
+    {
+      "condition": "camera_extrinsic_rotation",
+      "condition_index": 0,
+      "metric_condition": "rotation_s2",
+      "metric_group": "held_out_degradation",
+      "population": "held_out_degradation",
+      "seed_offset": 500000,
+      "severity": 2,
+      "source_name": "rotation_s2",
+      "tracks": "outputs/riskprop3d_final_confirmation/tracks/external/rotation_s2.npz"
+    },
+    {
+      "condition": "camera_extrinsic_rotation",
+      "condition_index": 1,
+      "metric_condition": "rotation_s3",
+      "metric_group": "held_out_degradation",
+      "population": "held_out_degradation",
+      "seed_offset": 501009,
+      "severity": 3,
+      "source_name": "rotation_s3",
+      "tracks": "outputs/riskprop3d_final_confirmation/tracks/external/rotation_s3.npz"
+    },
+    {
+      "condition": "camera_extrinsic_translation",
+      "condition_index": 2,
+      "metric_condition": "translation_s3",
+      "metric_group": "held_out_degradation",
+      "population": "held_out_degradation",
+      "seed_offset": 502018,
+      "severity": 3,
+      "source_name": "translation_s3",
+      "tracks": "outputs/riskprop3d_final_confirmation/tracks/external/translation_s3.npz"
+    },
+    {
+      "condition": "camera_temporal_offset",
+      "condition_index": 3,
+      "metric_condition": "temporal_s2",
+      "metric_group": "held_out_degradation",
+      "population": "held_out_degradation",
+      "seed_offset": 503027,
+      "severity": 2,
+      "source_name": "temporal_s2",
+      "tracks": "outputs/riskprop3d_final_confirmation/tracks/external/temporal_s2.npz"
+    },
+    {
+      "condition": "camera_temporal_offset",
+      "condition_index": 4,
+      "metric_condition": "temporal_s3",
+      "metric_group": "held_out_degradation",
+      "population": "held_out_degradation",
+      "seed_offset": 504036,
+      "severity": 3,
+      "source_name": "temporal_s3",
+      "tracks": "outputs/riskprop3d_final_confirmation/tracks/external/temporal_s3.npz"
+    },
+    {
+      "condition": "clean",
+      "condition_index": 0,
+      "metric_condition": "official_clean",
+      "metric_group": "final_validation",
+      "population": "final_validation",
+      "seed_offset": 900000,
+      "severity": 0,
+      "source_name": "official_clean",
+      "tracks": "outputs/riskprop3d_final_confirmation/tracks/official/clean.npz"
+    }
+  ],
+  "conditions_selected_from_results": false,
+  "construction": {
+    "degrees_requirement": "nu > 2; no clipping",
+    "linear_covariance": "C_HTC = nu/(nu-2) * diag(scale^2); sigma_MMG = scale*sqrt(nu/(nu-2))",
+    "resultant_clipping": "machine tiny <= R <= 1-machine epsilon for logarithm only",
+    "surrogate_uses_trained_g_parameters": false,
+    "yaw_resultant": "R_VM = I1(kappa)/I0(kappa); sigma_WG^2 = -2*log(R_VM)"
+  },
+  "environment": {
+    "numpy": "1.23.5",
+    "python": "3.8.20",
+    "scipy": "1.10.1",
+    "torch": "2.4.1"
+  },
+  "evaluator_sha256": "6b4090fc3394e27213ebc88f89666b5c3f4af3dc69d4a48199f4948827b1b036",
+  "head_seeds": [
+    20260731,
+    20260801,
+    20260802
+  ],
+  "hosts": {
+    "CV": "reads target XY position and XY velocity; does not read yaw",
+    "MLP": "frozen R0 residual MLP"
+  },
+  "interpretation": {
+    "component_contrasts": "secondary diagnostics without multiplicity-adjusted component claims",
+    "confirmatory_mechanism_claim_permitted": false,
+    "internal_test_read": false,
+    "new_holdout": false
+  },
+  "laws": {
+    "L0Y0_HTC_MMG": "complete HTC-derived moment-matched Gaussian/wrapped-Gaussian surrogate",
+    "L0Y1_LIN_MM": "HTC covariance-matched Gaussian linear state plus HTC von Mises yaw",
+    "L1Y0_YAW_MM": "HTC Student-t linear state plus resultant-matched wrapped-Gaussian yaw",
+    "L1Y1_HTC": "frozen HTC Student-t/von-Mises law",
+    "TRAINED_G": "frozen independently trained Gaussian/wrapped-Gaussian ecological comparator"
+  },
+  "models_retrained": false,
+  "official_modern_host_outcome_read": false,
+  "primary": {
+    "bootstrap_resamples": 10000,
+    "bootstrap_seed": 20260805,
+    "effect": "ES(HTC-MMG) - ES(HTC); positive favors full HTC",
+    "inference": "replicate-averaged paired scene bootstrap",
+    "joint_probes": [
+      "CV",
+      "MLP"
+    ],
+    "metric": "trajectory energy score"
+  },
+  "purpose": "test whether law structure beyond matched linear covariance and yaw first trigonometric moment changes the frozen Level-I pushforward",
+  "qa_tolerances": {
+    "analytic_covariance_relative_frobenius": 1e-12,
+    "analytic_resultant_absolute": 1e-12,
+    "cv_yaw_zero_absolute": 0.0,
+    "r0_energy_replay_absolute": 1e-06,
+    "shared_mean_absolute": 2e-05
+  },
+  "sampling": {
+    "circular_substreams": {
+      "von_mises": "original NumPy Generator.vonmises stream, exactly replaying R0 HTC",
+      "wrapped_gaussian": "original R0 yaw_normal stream"
+    },
+    "common_future_process_noise": true,
+    "common_linear_normal_draws": true,
+    "main_draw_sets": 2,
+    "main_samples": 64,
+    "mc_sensitivity_population": "development clean",
+    "mc_sensitivity_samples": 256,
+    "mc_sensitivity_seed_offset": 2000000,
+    "propagation_seeds": [
+      20260806,
+      20260807,
+      20260808
+    ],
+    "student_radial_draws": true
+  },
+  "source_sha256": {
+    "outputs/probset3d_v3/f1_formal/checkpoints/seed_20260731.pt": "087b3c4c63d40ab3314e1a6730c220384ea0212c83c4f3a895b083145679ffbc",
+    "outputs/probset3d_v3/f1_formal/checkpoints/seed_20260801.pt": "1781113c58cd5fb11d81befcd7f28be346ead4d431f18b71d2c1b74ca05f2f90",
+    "outputs/probset3d_v3/f1_formal/checkpoints/seed_20260802.pt": "ddf350e5dc5ea02aa87831b0cfb26b63b3b4ba555081048b3c0fd625cab60a5f",
+    "outputs/riskprop3d_final_confirmation/metrics/external/replicate_0.npz": "0571da4d922bf31ddbf5dbe32314bfd3604479422aba8db0e4e98d6698b6a2a0",
+    "outputs/riskprop3d_final_confirmation/metrics/external/replicate_1.npz": "85d3cb552d814734d08d267ff9e69d403931011827ba989f815a0d527f036f8b",
+    "outputs/riskprop3d_final_confirmation/metrics/external/replicate_2.npz": "20cfd4c4a59d152c6cc13434ad553dd1614b0f593c66dc0e690a218f08d745d7",
+    "outputs/riskprop3d_final_confirmation/metrics/official/replicate_0.npz": "11a1ade2c66fa4065823d0f644adcd5ded3dea5db5863938ab205fcfcb869b32",
+    "outputs/riskprop3d_final_confirmation/metrics/official/replicate_1.npz": "e16db96fb1bb5a12c9fb2abd1bc6b844c1c06af7e8b8e5ced58a467aa7fc392f",
+    "outputs/riskprop3d_final_confirmation/metrics/official/replicate_2.npz": "0fc864b8d2f12c6da0cc3fa9b5a5897d5cbf6e829d45c2737fa244e630dd2a9f",
+    "outputs/riskprop3d_final_confirmation/tracks/external/rotation_s2.npz": "5ee703ceab7a2ff97d210f184610d0cc88cbfd58ed902c214cc75513c5f1f316",
+    "outputs/riskprop3d_final_confirmation/tracks/external/rotation_s3.npz": "ac072f4b514ecbbc470f459438c7e74bd61e314a81eea549e4366f6931c4a30d",
+    "outputs/riskprop3d_final_confirmation/tracks/external/temporal_s2.npz": "3694832c74c0b099d568b54d60438f8eef9a3afe5703af6019ab9572f3fb36a8",
+    "outputs/riskprop3d_final_confirmation/tracks/external/temporal_s3.npz": "e8b7d6bea5341a445770da0f4059bcab5f1b60b2c349d2cc31b36ceebfe627bb",
+    "outputs/riskprop3d_final_confirmation/tracks/external/translation_s3.npz": "24dd6f2d76f546a04a2141878e7d735d16a00175b41779c5b6502c2cc8e97424",
+    "outputs/riskprop3d_final_confirmation/tracks/official/clean.npz": "2aaba38091bf89545b7888ce8e6246262202e3d1c41f3f81ace51cb7954f47db",
+    "outputs/riskprop3d_r0/metrics/replicate_0.npz": "0a2e4374de79ae49fdca037d8b2962a38f2ceb554c6af3c2e8d40541bc9f5d16",
+    "outputs/riskprop3d_r0/metrics/replicate_1.npz": "c77a5d958f303caacbf834266a6c34c8ee6b94c3c0efbbf29a8e079646edaac0",
+    "outputs/riskprop3d_r0/metrics/replicate_2.npz": "e5f71ead2b2c40eee202c99808d3e03b8a04b2b913fe4ccd0a9f154b48db02c0",
+    "outputs/riskprop3d_r0/predictor.pt": "c8aaeade1dfae025b908233faf23ea7a293be151b8dd38edbd773002d72cbab2",
+    "outputs/riskprop3d_r0/tracks/beam_s1.npz": "156f8f6372ad6c3ebe1c5dbb1c0edcabd43d410f547f2a2eb915342329614c2e",
+    "outputs/riskprop3d_r0/tracks/beam_s2.npz": "6eb86b6b5504748f8dcb39dca452e0776f7231af2e6b771764cfee65ee5b14ce",
+    "outputs/riskprop3d_r0/tracks/beam_s3.npz": "ef7625053a36bb22d489cafa2996384ff22d2505df45fab6564c61d44a8e632a",
+    "outputs/riskprop3d_r0/tracks/clean_s0.npz": "82cfa0fba2969daf0d649e1b0b67d56e5d3aa924532150a53b6945dab878df99",
+    "outputs/riskprop3d_r0/tracks/dropout_s1.npz": "c7463b115a11b71a446f31b4331b58899f12790e0ac5523883576cb2854f0998",
+    "outputs/riskprop3d_r0/tracks/dropout_s2.npz": "b5a5db657270216fd03a3fd8e2d5f1bce7c138d328135369805618d7273cba62",
+    "outputs/riskprop3d_r0/tracks/dropout_s3.npz": "82b1d1d78363b48dbc9bb4ffc38fbf18cd8a0dadc94c6ccf56062536035f04e4",
+    "outputs/riskprop3d_r0/tracks/lowlight_s1.npz": "522a3ce2ec26f2d3caadff66dbe1e8db400dad86858ce72c5130c281c02cbce3",
+    "outputs/riskprop3d_r0/tracks/lowlight_s2.npz": "93d1981b176d810af28cb1cd5bac6b5b5ce29b0807f1bb79394d5b53c4f93c3a",
+    "outputs/riskprop3d_r0/tracks/lowlight_s3.npz": "57bf8bbab895d084c114a52035a34a444b98f8a203e1841287f1fe016fd58d51",
+    "outputs/riskprop3d_r1/scenes/label_cal.npz": "2b4f7a95280c1372ec233119addc5e0d3fec15fe7e6e807a1aebed05523474e9",
+    "tools/riskprop3d_level1_matched_law.py": "6b4090fc3394e27213ebc88f89666b5c3f4af3dc69d4a48199f4948827b1b036"
+  },
+  "status": "RETROSPECTIVE MATCHED-LAW AUDIT",
+  "title": "Level-I Moment-Matched Law Control"
+}

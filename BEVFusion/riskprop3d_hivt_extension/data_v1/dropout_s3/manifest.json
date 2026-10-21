@@ -1,0 +1,374 @@
+{
+  "condition": "dropout_s3",
+  "targets": 17946,
+  "scenes": 70,
+  "source_tracks": "outputs/riskprop3d_r0/tracks/dropout_s3.npz",
+  "source_tracks_sha256": "82b1d1d78363b48dbc9bb4ffc38fbf18cd8a0dadc94c6ccf56062536035f04e4",
+  "sources": [
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_00/parts/part-00000.npz",
+      "sha256": "5a1d7a13e5540b12d2847303f94d3483258575aa9d9ebbe567df792a5deaf034"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_00/parts/part-00001.npz",
+      "sha256": "78fc326270998e3693a74638bcf6af1ec42072475529be15d485fb8c7f2df266"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_00/parts/part-00002.npz",
+      "sha256": "7751036cb602a9378055873432b24d6458992f1ef8314ec15c60c7793b2aaef2"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_00/parts/part-00003.npz",
+      "sha256": "c833308a7276ff609b1f068d7f1bf08c9f4b39b956bfd1568952e85e0c73c6ab"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_00/parts/part-00004.npz",
+      "sha256": "f55b10958a3d1e07f5619d4ca66b292c4e42ce70f1ad3e5c9065aaf98067995d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_00/parts/part-00005.npz",
+      "sha256": "d683ab1f5735aa6d03422d2000d47f3274b1389b7729a9ee88e73e8a29a60a37"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_00/parts/part-00006.npz",
+      "sha256": "4b46cda160c443e8a1e50e60d2c970f56e473439536488c88242c4b296f56279"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_00/parts/part-00007.npz",
+      "sha256": "3a89f4dad15c45eb6d0f8a68aa7979f22104dbd22efd58a4c4a122ad18273d13"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_00/parts/part-00008.npz",
+      "sha256": "99411b2ba4e725878a8b7446346e0a2278663f7025f2ec32e87d99704a1ca75f"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_00/parts/part-00009.npz",
+      "sha256": "90c2a8725f6f6877a0a76c7a69cb1abedaeb17f6a0ba39d77556c58b241e4be3"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_00/parts/part-00010.npz",
+      "sha256": "b208b1d4b3974f408073e3f12af1a1b16aae031d13496f57f261a6d38912ef37"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_00/parts/part-00011.npz",
+      "sha256": "3d77c1b98c7c725a708772baf1615f7206d5305aaf84cf277ca759719a705710"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_00/parts/part-00012.npz",
+      "sha256": "057115b7aa24ac2fd8279e06340ad165fd4d6049a74f4c68e17b89246bb02447"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_00/parts/part-00013.npz",
+      "sha256": "a5427fff16dd1b29c3a6c573be9a143d3c5de0c5ca330320e850778b5dce100c"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_00/parts/part-00014.npz",
+      "sha256": "ed30795b52bef37ee7dbe457adbee144109911743bf56c331e03466949790e24"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_00/parts/part-00015.npz",
+      "sha256": "37ab5dc1771497e602839d4c8145cc18595e46f1e716f65353c3816f8a573332"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_00/parts/part-00016.npz",
+      "sha256": "b79ce0052307bc5f251f3bf42e2828b4e9a7582143a8f68bbd88ef93cd6aa07a"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_00/parts/part-00017.npz",
+      "sha256": "c6f1442dedafbe2e82e32d4c8e0d35ffb1b5978906d1eb0c97ab22370c44ea5e"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_00/parts/part-00018.npz",
+      "sha256": "e037c526ae91dca0b472e6b051ad85dfe41dd07703e3b4359a82ba8552876de2"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_00/parts/part-00019.npz",
+      "sha256": "580e159ea91758e077f7feba33ae90d04eeaff574c3354fb941832c72676b4d5"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_00/parts/part-00020.npz",
+      "sha256": "a515609b9b1e84c1cbbb1063baf8e2faa37b28654007ba8be28758efa2f1c536"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_00/parts/part-00021.npz",
+      "sha256": "cccb19c9c594dda922a1e7f2992275ac0f4beaea58a843cdb9d7802bb6620d67"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_00/parts/part-00022.npz",
+      "sha256": "1290f2b24e9099c86b221f18b2b8cf8f930fae2d722e69a38ae9888236bc88e3"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_00/parts/part-00023.npz",
+      "sha256": "7b75a071a11619f153e907895c370a0883bd40562c374ef0f21db7f165ed448d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_00/parts/part-00024.npz",
+      "sha256": "84f5dd34653752574b8f64a9fead1b1a6567547083342beb9fa5b50b65d311e9"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_00/parts/part-00025.npz",
+      "sha256": "2d938ca3c6b4a3e8324f52668fd5d488f109de2257a6394bc7b039f0128c8d96"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_00/parts/part-00026.npz",
+      "sha256": "d27618dbf95f81e8489f302c3c7adbad5b80114a5c9eca13eeb1e495a4533732"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_00/parts/part-00027.npz",
+      "sha256": "30b893150ecf7d8953c994b81df7a2197ff1b263e102a4abca9a66844bf32700"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_00/parts/part-00028.npz",
+      "sha256": "756c5333914fd32df568010d4ef812cca4a1c3a18996436d4a90bc4494c2dfb7"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_00/parts/part-00029.npz",
+      "sha256": "5567a6c6d5d23232c13f92058c22841682fd719d5e855066c77cf956eeb8eb7f"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_00/parts/part-00030.npz",
+      "sha256": "21852e7099b0b4d83b305de77a3865f183207b6157affdbf2f46a508329854e0"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_00/parts/part-00031.npz",
+      "sha256": "6e130e7d85ea694610e5ff3af6b0c22d68735999b7dbd9135394a97a0bd0a416"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_00/parts/part-00032.npz",
+      "sha256": "4130d99a1fc01cb0a1005b21644dbe2b5b03b9d3bd3189d8c519006bc76c7fd4"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_00/parts/part-00033.npz",
+      "sha256": "2ab58abc27fed945e9f4cb4aac4c036bf28c6ae07c542cc6884303eda30562ae"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_00/parts/part-00034.npz",
+      "sha256": "89789c2b648f2d23bc95d12a457c6a8921806768d192fac8a4e68caeb08bea2b"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_00/parts/part-00035.npz",
+      "sha256": "aa839581c00f24a6a441210fe41ce7301cadeea46872f7aab630c696d487437e"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_00/parts/part-00036.npz",
+      "sha256": "b86a0c5fe9c946da48b2cd4f3a920fb6e7ad09561706655b66eb20b207af89d9"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_00/parts/part-00037.npz",
+      "sha256": "aaecec55eee489359654f169d086dad24c134c8b944dffd9125aeaf838a45fd4"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_00/parts/part-00038.npz",
+      "sha256": "af0cc209de57cd3e1b465a82557b7db750087ae26f804d7c0383f9052a79ed2c"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_00/parts/part-00039.npz",
+      "sha256": "1ef0ac663766c668539462e0d10b81dc54aff16e9c5d51fa8b7b9f3166189cff"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_00/parts/part-00040.npz",
+      "sha256": "7126e3b99bd3d2514ce9084f98872e27c76ba9e32efdd2af770fe91896668c77"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_00/parts/part-00041.npz",
+      "sha256": "53c3df1ef0bc54cbead71516eac1f655a94d8cccf6bb438ffd9cecc61bcc2f0a"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_00/parts/part-00042.npz",
+      "sha256": "d15636add032d7e7b0392979f59e1e121b7414781d745f0b6cf9251a30bbce91"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_00/parts/part-00043.npz",
+      "sha256": "d7a95098f36d7b1630c5f1d57f0dc0eca734675b615d985101583ae4815a2c86"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_01/parts/part-00000.npz",
+      "sha256": "9f76d8d255b0b53b5520253d277decb1b30ca53687025af463f14ca067e8b344"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_01/parts/part-00001.npz",
+      "sha256": "00ce910a7b0cd070f84c837957910e8e787ce4563f4c050b57226048024938c9"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_01/parts/part-00002.npz",
+      "sha256": "0c2021f649e93a468d10c7c3e170e860e310c75d90395fc7ca69e1570725e548"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_01/parts/part-00003.npz",
+      "sha256": "dc26583d4d44ba4414bf6520d4cf5a973a18e6398ff03ff1a5c837c153d7697d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_01/parts/part-00004.npz",
+      "sha256": "c07a4ba537ceda41f65817c1f9e444663759fcd79847c048a32e5224592bcbd3"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_01/parts/part-00005.npz",
+      "sha256": "38900e644d65b54e82a369f3aacfab6a2f634cb480cfb05049ffcc49bcda59e6"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_01/parts/part-00006.npz",
+      "sha256": "763daee4361078e4f361d7cbdd67871446a8c326e95c5cb864065a3c5720e766"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_01/parts/part-00007.npz",
+      "sha256": "d6a25f6aebddea00b16902022074088554138adae3a18dea4049ad72235e6f44"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_01/parts/part-00008.npz",
+      "sha256": "2463e38c638b45ace90470c103a5db48312f56ec657f76d2a6be64e1830afaa5"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_01/parts/part-00009.npz",
+      "sha256": "989dde0be08f81a4ed6650feae88d823cd418d08d691c0084cc5e49918bd0b6d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_01/parts/part-00010.npz",
+      "sha256": "b4ce3b0111abf043eed55c1c87a7381ecae66e869210b462ecea9dd3dc8cb7c4"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_01/parts/part-00011.npz",
+      "sha256": "f825e3f424bd249aa679764445eab34e5e883fca2c98c7322a7d6e6259e90782"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_01/parts/part-00012.npz",
+      "sha256": "53e19957312ff19111b9b70671b5f9570b84b87e6ec13d86d9c4cd21a6bfca9e"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_01/parts/part-00013.npz",
+      "sha256": "c798011723d87fc13dbceef256954538bc946935d346f3971b367db2333c49f1"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_01/parts/part-00014.npz",
+      "sha256": "3ad9b89d585e371d59ba47cab08335bd7dd5fc88703dcfcf103a3747ebc2b8a4"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_01/parts/part-00015.npz",
+      "sha256": "5355d877850f04014cc0b9b30e494fbb226ed0d57177ab839bc9ad7e55db2493"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_01/parts/part-00016.npz",
+      "sha256": "64e504ae91f56a493fd4bc1a652fed2773e0b4094032a6b8915da21868a47618"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_01/parts/part-00017.npz",
+      "sha256": "ef21c7f644be25e77904f8391a4e2bd6ba34a09911017a7385f19a5faad2ebee"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_01/parts/part-00018.npz",
+      "sha256": "03d0ec0ee3fc7b3ea12065171b4a48b041d385a1bfefb6f4b3c4058315a8e94f"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_01/parts/part-00019.npz",
+      "sha256": "8bb4da325ca01532b168012a7ed79fc0d127edd04de6b744f1486ae4cb51c0c3"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_01/parts/part-00020.npz",
+      "sha256": "a7dccc30f3526f9e9ee7baa9b9c23f8192c55d8e0e20e223bbb17a74f10f937a"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_01/parts/part-00021.npz",
+      "sha256": "cb39cdc27283845cab28d25a783fc7e74190e4441d20b3c53bd88552d594b040"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_01/parts/part-00022.npz",
+      "sha256": "6870c905da8b3bb02196c638a1c3b5582c0a1b18a205b29ea47e42aaebff04c7"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_01/parts/part-00023.npz",
+      "sha256": "e5673b643cde8589a4d9b71e5ebf2415f50067f1fd3c61f43166c8e6f5ecd0db"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_01/parts/part-00024.npz",
+      "sha256": "0f74896a371b079e3cb9890b59cc3da7ea223d49b05516c83b9100e049a7a55d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_01/parts/part-00025.npz",
+      "sha256": "2a0bebab12b63c9e16c6d7485b902be129fadea484e7b6b6e77c3cea2d678ad2"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_01/parts/part-00026.npz",
+      "sha256": "497ae6c54ed9de095d37b645eaa4a4139833b164907c797d661a6b0da6312a25"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_01/parts/part-00027.npz",
+      "sha256": "d9591c0602fb0e68fa103bfbfdaedd394ab58ed01112f7175b30f117e33ba235"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_01/parts/part-00028.npz",
+      "sha256": "fde61832965c0cdf3dfb3e96f16fa2ff9787707e4b87ecaea8d6b8f8c01bdbaa"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_01/parts/part-00029.npz",
+      "sha256": "df6cd521e7d43e76bb2b14bc08d884fe15c6ab7454adae202fff5c87c5540386"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_01/parts/part-00030.npz",
+      "sha256": "28a1d72961f469629fc5715002cfe8c7c292aa86ad12ed88e878cef9cff1381c"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_01/parts/part-00031.npz",
+      "sha256": "88dad4841b7285f8cfd733a07ba9aca60b5c357d993e1a097ae7469d05630a7e"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_01/parts/part-00032.npz",
+      "sha256": "cb4e73d7a48b08bbf42d1632065710e4e26c68552a33da9e13ef980feb61c992"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_01/parts/part-00033.npz",
+      "sha256": "3037762869a66ba9b46c25e9e2aba753ad1a07febb1258cc9eaf98ee564eadcd"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_01/parts/part-00034.npz",
+      "sha256": "c41bd059ffdf9428fe39d6c9412e7698904518a7218b849ee9339c3808eb41d1"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_01/parts/part-00035.npz",
+      "sha256": "b37a58f55232a9f1d82215fd09fad64cbc22cac851fdcb7a12fa1644707be236"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_01/parts/part-00036.npz",
+      "sha256": "e15cd088894da6d00288cfd1b31d307f0d1a80bcf30352b6556ef91d434aec91"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_01/parts/part-00037.npz",
+      "sha256": "c33d3d3d828ff75cae7629a87c821b6199390d84bd65e0a7ae574b0aec1effb9"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_01/parts/part-00038.npz",
+      "sha256": "1eb9568236a13d19e61086ed6339f0a47443eb4d00302c1f8b6d2db9e79cc34e"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_01/parts/part-00039.npz",
+      "sha256": "eaf1f7d2db81090a511191bd02fbed10b00170190427900607678366cb5ee8fb"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_01/parts/part-00040.npz",
+      "sha256": "f70533ffd0df698afbb73202e195c616682d626d5aa5f4f36018468567521ac9"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_01/parts/part-00041.npz",
+      "sha256": "5b2e45ef98227faedddcbf2a219e8a6541a0ce478ab8a38be82147df80ac6b90"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_01/parts/part-00042.npz",
+      "sha256": "3c3d21edc9165a2f1ab6b025f0b665e9f4457d0073a680e8da9cc4ec9de97cc7"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/context_recovery_v1/raw/dropout_s3_01/parts/part-00043.npz",
+      "sha256": "457160adf90e07d708c201fdbb04aa9e97f319e6c27dd77954835a41f207be63"
+    }
+  ],
+  "geometry_sha256": "67ef94c64a9845035e5277741ff4c046491507c1bb71baac5262c043dccf9242",
+  "labels_sha256": "cffab53c64f8da7a6c63e045b8393a72c2e2fd8c79e25de90e7a487fa8ffd8b8",
+  "builder_sha256": "f7c88310dfbe8f8d500ca56b91d6d1980501e2430bcffbc4915dcb131cc982ea",
+  "contract_sha256": "1826efd9fd97029ea970b29ce9e5d230638f806f747482a279e6eb285608860d",
+  "background_current_missing_retained_target": 0,
+  "current_box_max_absolute_difference": 0.0,
+  "current_box_exact_retained_targets": 17946,
+  "empty_map_targets": 0,
+  "max_history_time_deviation_seconds": 0.149733,
+  "target_history_source": "original retained perception; unchanged",
+  "neighbor_history_source": "same-condition regenerated perception; no GT positions",
+  "future_labels_in_geometry": false,
+  "seconds": 182.9119987487793
+}

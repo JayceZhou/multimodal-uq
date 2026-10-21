@@ -1,0 +1,20 @@
+{
+  "reason": "use both GPU memory and utilization for future stage availability; only waiting own controllers restarted",
+  "old_pids": [
+    2214214,
+    2284743
+  ],
+  "new_controllers": [
+    {
+      "name": "gpu",
+      "command": "hosts",
+      "pid": 2433282
+    },
+    {
+      "name": "finish",
+      "command": "finish",
+      "pid": 2433283
+    }
+  ],
+  "time_unix": 1791909084.9316654
+}

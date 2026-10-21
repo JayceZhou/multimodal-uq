@@ -1,0 +1,24 @@
+{
+  "gates": {
+    "all_seeds_and_conditions_present": true,
+    "analytic_circular_resultant_match": true,
+    "analytic_linear_covariance_match": true,
+    "cv_yaw_zero_check": true,
+    "exact_r0_replay": true,
+    "finite_nu_gt_2_positive_definite": true,
+    "frozen_probe_process_noise_and_targets": true,
+    "identical_rows_and_order": true,
+    "invalid_clipping_rejection_rates_saved": true,
+    "scene_level_traceability": true,
+    "shared_detector_mean": true,
+    "surrogate_independent_of_trained_g_parameters": true
+  },
+  "internal_test_read": false,
+  "max_analytic_covariance_relative_error": 5.417464782172103e-16,
+  "max_analytic_resultant_absolute_error": 1.1102230246251565e-16,
+  "max_invalid_sample_rate": 0.0,
+  "max_r0_energy_replay_absolute": 0.0,
+  "max_shared_mean_absolute_error": 2.384185791015625e-07,
+  "min_degrees_of_freedom": 2.0999999046325684,
+  "valid": true
+}

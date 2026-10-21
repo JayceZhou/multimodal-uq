@@ -1,0 +1,23 @@
+{
+  "stage": "CV_MLP_same_targets",
+  "active": {},
+  "pending": 0,
+  "completed": [
+    {
+      "task": "controls_0",
+      "gpu": 0,
+      "exit_code": 0
+    },
+    {
+      "task": "controls_1",
+      "gpu": 2,
+      "exit_code": 0
+    },
+    {
+      "task": "controls_2",
+      "gpu": 3,
+      "exit_code": 0
+    }
+  ],
+  "failed": []
+}

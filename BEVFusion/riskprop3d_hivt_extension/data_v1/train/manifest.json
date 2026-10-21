@@ -1,0 +1,2858 @@
+{
+  "condition": "train",
+  "targets": 162919,
+  "scenes": 559,
+  "source_tracks": "outputs/riskprop3d_r0/tracks/train.npz",
+  "source_tracks_sha256": "9df0c6b310b34cd0b4f8a20c67601cd1eeb874b171ab2d16eec72a8213f61798",
+  "sources": [
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00000.npz",
+      "sha256": "cd9f7938f2c74a6e2c8b959c7bea90ca3bfdb7e5ddfe7b8cee204fa6792e50c5"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00001.npz",
+      "sha256": "8db9189e788f70d6bbef89b8fd3cccbe87a70f73e4db6393e77402738a67191c"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00002.npz",
+      "sha256": "1c3435a0e38e7ae264528abe1096131a3110df9b2901577044f4932cf96895ed"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00003.npz",
+      "sha256": "d345578744af0c0b47df7a2e7d2c977dcd4339b6d4ef8400086facd1dbd96c5a"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00004.npz",
+      "sha256": "009e9425c3f64453202b941904b528378b6bfdc6ba4303f433260cdbe5e72468"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00005.npz",
+      "sha256": "34a78014e42caa625d4ada04614d7d46b66b40ee87f054e2b6bad02cb74f7963"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00006.npz",
+      "sha256": "2d877682acf79601bc10d144ff512266a1ebaab09bd16ca2564661c85f9ea05f"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00007.npz",
+      "sha256": "9b00613a681c5cba596c721192ae34f0fc9b27302a844891583951fba1a547e0"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00008.npz",
+      "sha256": "c473939e428d41c8028c06e01393cc3cd5f8719f59fd8435789f55f328831921"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00009.npz",
+      "sha256": "341ee31ee7a1a22dff58895ae854e1dae64c050d6cacf5ca359a2c86d894c400"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00010.npz",
+      "sha256": "e8171e43e87d80a4a65f47becaa5db2ca40e355799eb99877f6fd704ff4c2d86"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00011.npz",
+      "sha256": "c177272979ea96017d5a89173cdc58d10baf41c4b2114f77420652cd6a761bfb"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00012.npz",
+      "sha256": "be9fb33d455906fc67919b93c6728f40751e01238ae7973e6e289fb96c5f123d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00013.npz",
+      "sha256": "11b0f56e9a10a69ad873ec158965b25e997628954a5305c8d9e3cb1b2b7b6f73"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00014.npz",
+      "sha256": "90ddd4035256802238fff7625a26b194bb6ab4fdcd8968276ba165f3d272535b"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00015.npz",
+      "sha256": "ba24c57cbb19bf86cc6c8f77862b517b44893fa56cb4200ca0b2e21fda160204"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00016.npz",
+      "sha256": "dd5cb396acd22f94c2cade71d857c814479cc2a40c73d04ca7f862686410b07f"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00017.npz",
+      "sha256": "1ab7f8de60d47e6fea0a316332328f77aa4fda669b64a4e38602e862d9f7bb08"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00018.npz",
+      "sha256": "3af765fc78142ef710b66af8790196abf0337b3e6e014c46c52150813c585e0a"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00019.npz",
+      "sha256": "b61a3bfad42e4fcd138d39f19afa9d467eb6f9a709bbfecddaa2244f1d36d901"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00020.npz",
+      "sha256": "c2ca8086bc419275d4db90e93f0543f31900576c8e3c843b083ca481c94156fa"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00021.npz",
+      "sha256": "2b80ce831d2b8ae4f988249d6707ad715a466ff8aaf722841dd49bacb35caa2d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00022.npz",
+      "sha256": "6d0b264288b0cb5de3f3500a2f4cc10b95be92e6c0a5536a4ef614385c73db4b"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00023.npz",
+      "sha256": "8b8cda666d20fadcbe0cb58cedbedbfe1221dd50beb4b9a494ed860da02213ae"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00024.npz",
+      "sha256": "c594a9c8883dfdbf4a494840ca9eea8e227634227ae84e4789f87effe486d0ae"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00025.npz",
+      "sha256": "8eb7da0383c14abb5b342a61def8ba6c4de5fd901ffa738fbb9aeade2a97f115"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00026.npz",
+      "sha256": "e617c50408ef47cfb97f4daa095ad7dec3b1f77a8935d952cf2671d2c12a29e6"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00027.npz",
+      "sha256": "04772b3e55070269b0ade16eb9e1211aa8de126c5c71789732c293beb41182cc"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00028.npz",
+      "sha256": "d65b9163fd01f436aa70a50597beaf9fa2bbf6b140f7356fa2b4c9cef5da41fc"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00029.npz",
+      "sha256": "e54f9f3d01daae3471cc47bfc142ce315dc7cdec6366e62364c4fc5bea24c840"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00030.npz",
+      "sha256": "f173620dfaf7c3ef22e1f4e5d0bfa5c83a81cd8d4a2a52bafd36bfd50fbdec1d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00031.npz",
+      "sha256": "ecdacc84db02ff4dccaec9457f9519e7eca0e45fdd776a3d029e167a47434548"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00032.npz",
+      "sha256": "4d77df49bd3598c55208b18064138ffdf0d5957a482c61c38b771f1b8d259bb4"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00033.npz",
+      "sha256": "1d6db4658df195f0ccda5c92362b3c9e4ef83903123aab96ac0e98b01dd1fa84"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00034.npz",
+      "sha256": "c36cca9777ff27c94295d65b774c915e01ee3ed3e97071fa855e5ec4d2a7f8a2"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00035.npz",
+      "sha256": "5f448a8f62d82c2741d6f2ebe2aed02ce7e708e5b42271b93d019484ae1c2fd8"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00036.npz",
+      "sha256": "8497b0c524f87d27169c84ea392519fb1e043fec203a8b01522946d207dbe9d2"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00037.npz",
+      "sha256": "2743bab43374526249f86a00c202ddbd9eac6183cc3e5ae1c5562baebe3fde8c"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00038.npz",
+      "sha256": "1e887b75fc203340bf2a2c5e6b2c853c2030d2e0b6ea809317ee8616692fb148"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00039.npz",
+      "sha256": "247da1040236849c96b00a8d82f3fd617d283b319f018e9ae621b6a6d32f800d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00040.npz",
+      "sha256": "3a9f29357c74c5226a413cca31fd3777783359f6cae718ecead5147f6c6ce2a7"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00041.npz",
+      "sha256": "acb11dea0be413aa745ff67e58f4d90af76924d0f16875fa21df58db6a4ae16c"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00042.npz",
+      "sha256": "69a4248ccd64c448165237638d2f2bf2cabcc656a8f59a96adf49968a8058df2"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00043.npz",
+      "sha256": "8d346a0cfda75b0f5e8b6c536f7f8105a9568595cb02c7399dc7c85880374fa6"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00044.npz",
+      "sha256": "f07cabcfcb9f7c36b23c9d794754fd84b29e97f684aeec7148559ababce5b806"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00045.npz",
+      "sha256": "4ff1748526c6dda53b13f85c3adaf10651cf91e236048570f1e4eddcbcb17ded"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00046.npz",
+      "sha256": "6a93bda67b8e2c92e35101911396d91a8c4d06ec5ae97d642c1bc6a2d3e9954a"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00047.npz",
+      "sha256": "f2bbee12bd5e2128ace81b1b83480b28f8acb13f3048794c11b3dcdd4e8a4b28"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00048.npz",
+      "sha256": "b99afbec7356a680bc7d73917e2eacf07428e26e9f5c6def0186ff14632355c6"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00049.npz",
+      "sha256": "b71b60179e313926328183ce654a4469441aeec0661195aba02609bf63942e1a"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00050.npz",
+      "sha256": "5727f46a269f28bd883f2dcb895a88a1e4ba48bff1ec4692e7799d49ca7968d6"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00051.npz",
+      "sha256": "a4724a6113da4f57bf38a1882c0d4306e3c22a9c26a60fd47c2eb2e31873f1b1"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00052.npz",
+      "sha256": "416ae039e80b469fc7dfd3c53532111ddfcdf62819e40a6cd4c9d5940d8f4866"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00053.npz",
+      "sha256": "d83e7b1ebb44e6b30b4be53b3cf0f84db2fd6f51895f4ae984f030a3fa023565"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00054.npz",
+      "sha256": "5cee7c4ac4a07addc82cdababf530362fdbd7207feaa79d361b8fc94de6d8280"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00055.npz",
+      "sha256": "c48b4672a10f83b82d17f65412231ad6718baf5e575ee6032c4dcd35ad206c46"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00056.npz",
+      "sha256": "1ea58dec527de1b316d0232bddce4774e21344d5a4680271a20f8122c6a483ec"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00057.npz",
+      "sha256": "2c6bda87654f25b6f6eac61c4e163d4f1d7a591855a5eef41f75816e7a628af5"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00058.npz",
+      "sha256": "b041f7320ad2da44b99a3c521ed78129113897a79e41f567e3b8222fc041b82a"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00059.npz",
+      "sha256": "18de0508fa7b7b2c5fa8af87853695c2e0d9b79fd3d89a2b61ba98f5a30871b8"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00060.npz",
+      "sha256": "6060bc7e855019293e31bdcca784bbcd309373a5addf16ec61cc975668876250"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00061.npz",
+      "sha256": "bcb802178b8327fb612ad124df3dbe4e58a4f23f39bb933068c33bc7a3fe4ebe"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00062.npz",
+      "sha256": "0b579114aebf9f536f89ab2c8a1b389e93c0caf57990e8ca86ff1ee85e3efb92"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00063.npz",
+      "sha256": "e7ff95f8d86548c2c7ea5894ac33c5b2095ed85f9014d442c3bd2bc7fdb88a02"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00064.npz",
+      "sha256": "73fc83c67a0ef78c94b2b52477889261e07fada08fe28bb5e2bf4f8b052701da"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00065.npz",
+      "sha256": "d817907e20e44a30587d650034ceef101d17f7381456026efed6866acd9930d8"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00066.npz",
+      "sha256": "557d96329922c48f0968d5274efebcb8c3045edfa219f58e831cd51657b1b193"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00067.npz",
+      "sha256": "fa2918457fa66421b299f677dbeb10a9f6c4793b9a17dc5b25a0c12d001ed1f7"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00068.npz",
+      "sha256": "a3fd80a7c84d4547302781922dbed3d84dd1bbc1fc882de32fe454b94db95877"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00069.npz",
+      "sha256": "ac3991fbabb33235a5dd968b6f1add68e6a80a50f1e1aa76139aca0986ebe891"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00070.npz",
+      "sha256": "191164a7acd404f1d55533748d8d7f53273ccd8a4b94b777e0095d4e8bd22c69"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00071.npz",
+      "sha256": "fce5383061fccbfc7dea9d53768f22550080288afd77ae8fd5ae31c37826cd7b"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00072.npz",
+      "sha256": "60c475457073e41d9a5460df833bfae2bbfc3b6715bbd8e897c95bff546d0d07"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00073.npz",
+      "sha256": "b7ebf53d12142f9f03d49b760fa89fc18589d8ec4c8e3e1f57bef15fbc3a80b5"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00074.npz",
+      "sha256": "6888b5c0c26245ee66556b8962f1458575a8963d3a58af4f4ed7672822760688"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00075.npz",
+      "sha256": "d6af55106077f170b4c94d9525a32461f3e995f264690c03e4a3ab4aca607c34"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00076.npz",
+      "sha256": "9f08620efe1b5a12f2c007a9f26e0008ec456fd8c12a54d5e1af783e496d3e17"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00077.npz",
+      "sha256": "69c4c2cdcdc65cc09927ecb79278b218965ead8ee7ef36ab6c3680a94ff6460e"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00078.npz",
+      "sha256": "0afdfcfeac4b69c9d7c02d49245f0a18c218d32c07de4de48341bac6ef7fa461"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00079.npz",
+      "sha256": "1d65fdd8fa5fd0164b629b733af51a11b7add4a45739487ccee9b76af4fde75b"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00080.npz",
+      "sha256": "532f6934976cbab01a63210eeee1143b2c46fb610bd864a9f5a2439ea79fd907"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00081.npz",
+      "sha256": "b14c7892575ac0371e65789d7860fffb8fbdb0d33820dd717bdf5d729139c5d7"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00082.npz",
+      "sha256": "cb47b6e813e56c1ef65a288d69b338cd5d796b8656cdf8c5ceab92226287d313"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00083.npz",
+      "sha256": "85673c3a7acffa9d36f841cee4d03dfd8865bc05dc24d7519cecd09d383f67f9"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00084.npz",
+      "sha256": "5334c67d4891615e2ae4a6a3ce22d46d3824ed764ac4a62c0288909aed59ffad"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00085.npz",
+      "sha256": "a19ee74ea6e5096252c7fe03fba625cd9fe5492c0b8be1ac0ae342567e18281a"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00086.npz",
+      "sha256": "7e265728e02d7df9cd7f5bcd7700d5d8fde12d318b1fd70b368fcf1d4af96092"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00087.npz",
+      "sha256": "d7a343936900c76c6a56848098422d28a42c1dc83c2711714acca6cf40dc8a16"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00088.npz",
+      "sha256": "701a240c05c177bbb0b45ed27e3850709f56050775152d380a29a789feb0fa51"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00089.npz",
+      "sha256": "aef538d88280a882105b7518a253e9dba4a1f30f7d5e93121282a9299415c44d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00090.npz",
+      "sha256": "33937bfb07f2a6c6a69cf75183126145642a0b26d7185727917fc981c2799f74"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00091.npz",
+      "sha256": "3f6c29bd24be1f704f069e7494222c6e3e52e1c191ec0a6d0ead9c929b3c9024"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00092.npz",
+      "sha256": "e94662afd94bfdbab29cc3c65598fd0ea1178d51a060cde93427535ca08a4cb3"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00093.npz",
+      "sha256": "41292cfa2515bae1adc8ec6470c67e10a26520144e442b525d839e9f20071eae"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00094.npz",
+      "sha256": "28df5128224817b5c10dc928a0140a9697f9e44554cc92e5b6f841e9ab7bb446"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00095.npz",
+      "sha256": "d8641a2f90c808d58e0a21417533588456b2f480afa34428d703043b9c9a6050"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00096.npz",
+      "sha256": "4a7c5dad5402826efc7a1d66e0de6279ccf850b5064057d08e12a42e60635a1c"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00097.npz",
+      "sha256": "abe351027bad150de1057841dd8e19c8d0a987453d3b6583bc920696946e9dfa"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00098.npz",
+      "sha256": "658e4ae2224bc09d5df1b31c3a6ca2fdf6483a5eff5d2cbb9afeb710312ca2e5"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00099.npz",
+      "sha256": "4ed50435b96b4810815361ef5a08644a73b1805ea5a064945553bca0f4b64b7e"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00100.npz",
+      "sha256": "2a33f61fc9362c40937842c2fe58b24116c7039e2dbebdb0c754ab303692bd1d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00101.npz",
+      "sha256": "4fdcf1558d9bf6fa43a62768a53fb53440d0c11e74ba0b2a07af27b5a16319a8"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00102.npz",
+      "sha256": "0d76091ee3fe29cf6a4887ef37b4ebdfb02fe8ca2580dc0506c19a449c091249"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00103.npz",
+      "sha256": "e0d680d504d3c6ff35be47031fc39d2e425f3f9b9d556f6bf76fb77f52f7fe09"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00104.npz",
+      "sha256": "79db3dba8d8b4b2123dcb1eaded173e4778c0418046578f8f24981abdea4e965"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00105.npz",
+      "sha256": "fb1e2c1f71b52f389f1c4337ee976b49a8bdde1a06d18158c0083849bc6d9f32"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00106.npz",
+      "sha256": "5f707aa30e9e43dabb3b170f73d8cf99633e2dcbc436c53487a9dd46a59d271b"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00107.npz",
+      "sha256": "8abf9d482704a44ec479cf63be061d8b246776c4ab65a2a70cb03b333a0cb33c"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00108.npz",
+      "sha256": "f8ee8345729480e037b1a820903db607efaf6aefad5640a1773adcdd159f9aaa"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00109.npz",
+      "sha256": "516f6d0a3723168a58affb50c01ab33ad7bc3251a922801eeae03e55432b7f94"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00110.npz",
+      "sha256": "6d6090c0b52368ceaca8e91dfbbb518b28c51ea1c94c0ca1ae25adb23c6acad2"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00111.npz",
+      "sha256": "bca67bef070ddf0fc8b2f4910614c13743442e70a95a6eca11305158ac430158"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00112.npz",
+      "sha256": "97c323039ca1352be1aea59226f3b751b628c4fe58c7051c404e440db0a8abc4"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00113.npz",
+      "sha256": "b5aa83926a47f39b5f61e00e2c41a49c4a4282aa1a304ce8a866f23726331ea1"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00114.npz",
+      "sha256": "833488a2a4323ac69625f0a87b5e66c267d0d57267990cc726f51abeb333a615"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00115.npz",
+      "sha256": "dbf7b248f7c6ed27cfeecac4adc6faade1f06d035f640b160b5ce0d7e731197d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00116.npz",
+      "sha256": "2ec2d7fbc6e15f7f1cfd1f4f7e44573b3e226c959c86ce79143f1cb083221414"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_00/parts/part-00117.npz",
+      "sha256": "eed77d0cd3ac5dfd092443d10a5ef6d7a48d9916ae42a3df32fd39f0c2d048c8"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00000.npz",
+      "sha256": "9b9124c6fb050c0efc94e5130bb37eb71548029cf2608d5903d6e2fd2bb7d5cf"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00001.npz",
+      "sha256": "25bc55519888ec7205783f319d130457c037909790a206790d479cffe2b193ed"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00002.npz",
+      "sha256": "3bd08b5583974265a3143c096f188742bc81c2a7fb48d1bf37b9616a328871d4"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00003.npz",
+      "sha256": "d3be3ffe4a895b838ca802e7b2234fdff42ec896b29fc9a04e1da1e5e6e0544b"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00004.npz",
+      "sha256": "46dc95445a4a2c3b4916f6e19fdbb77b1c602adb2cfbee3e74a625c816f0afb0"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00005.npz",
+      "sha256": "5a9a695290243301828cb702f86e5793a9e9b268dfdd65b650f0ef35614074e0"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00006.npz",
+      "sha256": "2f04f074175b604f209b3cb4bd0842be8250147fb65df0893e75202a5bfab102"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00007.npz",
+      "sha256": "e29ea450e0e6103c18e679a1633c9e4de2ec455ad40344e1d12226b840c452c6"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00008.npz",
+      "sha256": "3fac3a001eabffd2522e4db90dbecda1fdf468e8720bfb7414bfcc7fa7d30c1b"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00009.npz",
+      "sha256": "4878aeedcd22aebdfdec2366f772cc8749937db2fac797ca463d553f6ec187c3"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00010.npz",
+      "sha256": "04126807a946e552e82336f890e74309e96c9d5dc795cf6742fb608663ab8cd0"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00011.npz",
+      "sha256": "471953608a3c0e4ffbd31f47590497b7f956db208748916d5d4fa3011f402166"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00012.npz",
+      "sha256": "939f08ae9ab853efc37dd5acc51769fbed5492eb9a1bc614da1e589a18b9f321"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00013.npz",
+      "sha256": "9220b9fb4731f693eddf5ad0f0f4081fcca308da8d685a795b73ff1bca1283a9"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00014.npz",
+      "sha256": "1cc8aa7a815ed5e8045381ff8926b6f9ebe35aa47a1d2f48b0c1db40039775ce"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00015.npz",
+      "sha256": "f8d3bfa7c844e78bdf622ca7223266e68471d15f803a5cf548763fc3ebfd8202"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00016.npz",
+      "sha256": "ea880d9d40384b8419ff6e7971066ff13eb8b651c64ab61cb62a450700f19fce"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00017.npz",
+      "sha256": "76978fa8353f911800e06fdf8b3976c6d981dc8b49d34c26919001cac272748d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00018.npz",
+      "sha256": "136bfa7e7d210a0d385c218105e4e9af60f3a4cd6d936ad377be116933827729"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00019.npz",
+      "sha256": "c5cddcddee6d98bd2bb41e569d27082aa8766b2eca8866656a1c15f07a7c6e83"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00020.npz",
+      "sha256": "63a8e1eb852312c1565b64b35ac327efa091ef1b5699a5b126bb64bfd7281373"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00021.npz",
+      "sha256": "56e42e43fae9ca454ae7b44c469f1233f30570d1ef863db806387c69e2af20be"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00022.npz",
+      "sha256": "f43d43657869cfc38aee62984c9e10b8e0acf33f09f17e15e8fdbdd115fc8130"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00023.npz",
+      "sha256": "48cad3076fd5fbe2d49fe4bf7ae347d0b6d283b305508b58aa86e50e48c81409"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00024.npz",
+      "sha256": "66951702e90dad461208af582747072a53afd25e7c941ff42a4562114de3b9d5"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00025.npz",
+      "sha256": "2de7d5643cb1ceb7416babbe7e19329db2cf29f0a91d03c599098061e971c76e"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00026.npz",
+      "sha256": "34aee0ccd5a6bee28342466b8b74609c64202850bc9c1a5df9014a0e3738f722"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00027.npz",
+      "sha256": "5ccf686ebfde8c85aa598d8e30eaeb6279779d478f079533ad83024db54d4efe"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00028.npz",
+      "sha256": "ff94c667e7f29f5b9a486626a8ae94a7451a45c467607f35eb58c048950ce83a"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00029.npz",
+      "sha256": "340323165225109012fb8defd54b5343d91d5552bfd7208b525cb02efb815da8"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00030.npz",
+      "sha256": "e3740d0f3a597e978b4addd2b8794839c2c9dcb92bad68552137cf2307c01c6b"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00031.npz",
+      "sha256": "0604f8fd073180be497b14dde99585c4564ba690c2ab69875105e20d967cb69b"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00032.npz",
+      "sha256": "cface12f1bbc2a33e27c6a31f904691caeb9c727d327b6f984aa39bb71526ee5"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00033.npz",
+      "sha256": "29f4cd53d27a1adbd511a33116f84fdba080050c321c784e5e095f7967ec8feb"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00034.npz",
+      "sha256": "e85555d2550dd078fb9f3e293788a06b2532039d04e43f7f052e5814793a61c1"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00035.npz",
+      "sha256": "5c810f8d1b872498aa3fba34f3b7707e87e5a6e8fa44c8d057dcc6d370132e5e"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00036.npz",
+      "sha256": "e523123d2e7927b5af56bb75f8a4bc99765eb4f17b7638df6b947421a4a8b212"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00037.npz",
+      "sha256": "65598bbae97dfe7e31d089ed416bb41b1996663504a52236d79a6548a1aedbae"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00038.npz",
+      "sha256": "1a251db6ad4447de88a63bca33af4e7f9a12c43dc1896e5c9fd2a6c535778851"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00039.npz",
+      "sha256": "553e7132d1b6986c0c7b199a40156a5fbec8b55d4e7964652cf7cdabd56f0b44"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00040.npz",
+      "sha256": "739b8b1aaaafda70520995d46536361fc84b26aa2040e265ad7e6603e5c8a9a6"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00041.npz",
+      "sha256": "0a3db73e2b26bdd7b970e6bde46481fdea906af153cb7fbd3c0f4d816d23ff0c"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00042.npz",
+      "sha256": "3ba667c430f2c200715994b25f6683cf9e67c86b1ec74920212e0c1ee9fc937b"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00043.npz",
+      "sha256": "1436fc9e5ce4350aeed3753c037a169b05158ddc5339aa4e7b4cb4ef6a7c5686"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00044.npz",
+      "sha256": "6d944843aa872f0d63fd58fe0ae04f3bab91313ce712081b61cfdfd41e05ef1d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00045.npz",
+      "sha256": "514991d2f0f50e675825e7488f3d3f3460442c96e3ac34814c35cf1939df2e4c"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00046.npz",
+      "sha256": "2be1ad36aa049cd7b9ff9c2a27885d01980ebece535b76c48cab5fbcb29be078"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00047.npz",
+      "sha256": "8e1080907b05a6555294365598a066acb9e34fac6114df8e1ee9e75ad9f07750"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00048.npz",
+      "sha256": "06d1e4e1749eec47e94551e250d210a6509c28b20571901692e7a0f02b329202"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00049.npz",
+      "sha256": "7914d4b6241a3e926b121dfd099b047b4118468f4d26c84c13a1d103eb2dc3fb"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00050.npz",
+      "sha256": "2759f429912d43b9516c2876792ca8e349c29229cfec50e986ee04ab6698ea71"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00051.npz",
+      "sha256": "d9e38c6342c6ad9458ce967650a92e257a5ad7fc13538e3449b2e09fc94392a2"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00052.npz",
+      "sha256": "076b6674e50ce3c6b27fd05f96c24b6d9f355b541b6e1059affe633e52f8c069"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00053.npz",
+      "sha256": "85755d84de053adedb7cd058af867a6f136a23f52dbfd087432bccd133de05db"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00054.npz",
+      "sha256": "d01e4b5839986fc9c539ea37c46315f33972946e812db22daab5b20c6da6e3ab"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00055.npz",
+      "sha256": "f48633341031a826e4e0da5fa0561c080ffa1857a4e67e97ccb22840ce2d6a3c"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00056.npz",
+      "sha256": "f1cdd7f07e15919e82aaa5e2603605c9a9abbe610a1eb29c4cc776891be08551"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00057.npz",
+      "sha256": "fd497733b617b0fe4366d53c2fec333e6ff3719537ba2498c1b9db2c54afcea9"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00058.npz",
+      "sha256": "42819699109136fe183444a73a0ae13c422632ab915e665f60ea32bd5baa8cd7"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00059.npz",
+      "sha256": "77dd2c5b16ec738d5c1c8e00baf51326739a9a2f063884d174564a39377d4218"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00060.npz",
+      "sha256": "870a5937968cc6868f93cf62847199c022d838e465b2ad75de35b1afca4b2255"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00061.npz",
+      "sha256": "33758c4a10e2acf3efe1d089a4f28c280ba34d33ed24a020b6d659b58b0687db"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00062.npz",
+      "sha256": "e804e43755ac7b8cd6a6de79a6e13b0318666f9248b293af18967b3c245221b9"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00063.npz",
+      "sha256": "33372664cfeec677fa8821545932195af67bf65ec6b25771b0b94f0f960350a9"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00064.npz",
+      "sha256": "c6097faff1cb4f4dd602539d051928899011cb5be6c5207282ae3c224b3c31f6"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00065.npz",
+      "sha256": "1e6e108af3fe8463b094576711a849baf303de20865e91fa0bce3ec93d19de95"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00066.npz",
+      "sha256": "5d7e686790e6c915e618e2a0930acab0f19ca4eed800aaea73930b0772644e1f"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00067.npz",
+      "sha256": "1e6d847e216bb040a3d86d90e2aba1b64c8c7ecf763b967f6fb2e57e2e14f340"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00068.npz",
+      "sha256": "62a101118aa93228230a2d7e0f0ae9e1f43ad8f7b10cb719aa2a9e1a43362b52"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00069.npz",
+      "sha256": "7ffeb2a2f543d2c89d0b781c38ed1333f91c5c7226d7515ad55efe7c0eb917d7"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00070.npz",
+      "sha256": "236da63836672428c7aaa2c8cc17f9767495671d32ea847bc427fafecc4aa9c5"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00071.npz",
+      "sha256": "5bd6c816ff4d5a85300e7aea95f22b531dd31ca7c85a61af09a77cf28a933045"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00072.npz",
+      "sha256": "b402803fcc5d11a23a018c2e11ef52c065f3eca574281c852385c57830ea0fcd"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00073.npz",
+      "sha256": "8ea418bf24ca4c5920c2ed14a70bc4d920664b32aec1cb04d78f495145850f95"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00074.npz",
+      "sha256": "475ac3244c9f2288ffeb9c469f0892739811e4da9621c66e8050afaad0e5fe4e"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00075.npz",
+      "sha256": "c6332c6bd8ec216613fe67594a8014693d4a88fe34ca8d3c237dcc767354494c"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00076.npz",
+      "sha256": "ab47c1cb2c1db1b78fc27a46f125baa6b89b1aefc79063a54608fad57fc93912"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00077.npz",
+      "sha256": "f25b2f117d0a0ab2684231bd719230d569cd445b7d6a67d027c716e1a4975a61"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00078.npz",
+      "sha256": "4b953245ede5ce5d4e1d4bed29025dc29977e0783d5e2786088f3c402bc4f120"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00079.npz",
+      "sha256": "b2995fd7d43d77a0e2727050d44dd1369e2b4ba2612942d02bcfa776b22af35b"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00080.npz",
+      "sha256": "cbf39e60261d3b12e10bd29c40d516de912d6baeb72381f0c40bab86fe6d750b"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00081.npz",
+      "sha256": "7362344c10892372e9c57b0a9d8e765ec9705bd45ded6ffae435c5ddc4007aae"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00082.npz",
+      "sha256": "a10c29d9ce555c6aabcdcfbdbd0b47a5647c54188daed3fc2b0385fb3d7074bb"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00083.npz",
+      "sha256": "b818c8267ea359fcd45aaea681410ab8046f80ab5d053704ffafe739c10c6f37"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00084.npz",
+      "sha256": "af100ec07b7cae4c0425e1afa6034569b20f95d0fa76d1116effefab6192c088"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00085.npz",
+      "sha256": "c85c40668994e79dcd89a6ca68c000d47ca44319af27d2ef727d80a8d60b1f50"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00086.npz",
+      "sha256": "25a093f7890e13a916323c47bade9282547545b35f14b8f73440e8c127b58f07"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00087.npz",
+      "sha256": "25a2bcc0a7d84a88a3550af0543269867476ea8c8c84ce7383aa91027e87ae41"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00088.npz",
+      "sha256": "a2aa6d65ebffead3b8691ccd00191b1d193b3ab81cef047686c2439d6e7f146d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00089.npz",
+      "sha256": "4359b6df1b3b88ee86fa6d58999ca8b5cfc92d9ac69448c9b492089aa2e38dcd"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00090.npz",
+      "sha256": "e6e61680cc04efb71f236f6eebad5c10d124247c3f06591021e4c2480c9c816f"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00091.npz",
+      "sha256": "51a06b7095d0dbb9845d730b16040bf42cc8c9b3a39a20b657181650e8e49227"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00092.npz",
+      "sha256": "a8c4a891ac853c73446a9235d6dcc3be18532e4368360ce0289258a434998dbe"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00093.npz",
+      "sha256": "f456eea729ec3e18c334361b9e4db6bf6b67921a4c1edb84992a9a44e1e99814"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00094.npz",
+      "sha256": "e61515a91d72c71410f2aee3f50276b3f7b7d8d24a35dc574775670912dde6f0"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00095.npz",
+      "sha256": "4354ca98dd01e027efada6fc813ffa36a2b4ec7e02710b1b7bffe698541a8ca9"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00096.npz",
+      "sha256": "cb6f4a3bd11e45b8fe549daca1e6019bd853ee7f419b8be6eeb4838be36fa469"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00097.npz",
+      "sha256": "6d3bf1c817b9f3780fbb4e569e76e112f6c9fab1283c31273ab7e4eb419c2002"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00098.npz",
+      "sha256": "4ac6f80fc87e3019451b719dd10d4c58f3800b150f3d82176ca877ca770083e2"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00099.npz",
+      "sha256": "32227f7e19b21cd04346ac30f013ebe8f3c4772e601a2280c329b71ef968d250"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00100.npz",
+      "sha256": "f5fa0682cdd4c6b49d7ab213485a0ec065036c970ef48c1af44a7a81da29e06f"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00101.npz",
+      "sha256": "6de6fcac961c0fa92d3dae01d535b28d21f08251806c828ea20bdf7a62b87876"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00102.npz",
+      "sha256": "d37a1fc83da1937e18330847b102eb91ed204916d7b37093f463125103829c0d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00103.npz",
+      "sha256": "3e42299ecbc45ea6af0f3baa4d5619810a48f8f37189778acbbb7b9bf1009dce"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00104.npz",
+      "sha256": "c84382accb802cf82058d5189476c69b2249fef60bae5599932067806a3c0004"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00105.npz",
+      "sha256": "822e4c8526ebce6afda8ab4c719e6257930459de65bebbcabdad8e15c19e8b33"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00106.npz",
+      "sha256": "b70884645fb7cb68b43dd9fa23852c5c916da9cd04721e541695007710a2691c"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00107.npz",
+      "sha256": "c01245425a2d739576bc1c2b6d2996c80f92f225c01e9d99d21a1c5bdfaef16c"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00108.npz",
+      "sha256": "d235284e182a9aea5f3850a66ccc6cba44ac2e37dae9c0163a210100f513225c"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00109.npz",
+      "sha256": "547e2a8348366dc5dd553326fef18403dc00435fcc30fdf31d42a507f356c2e2"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00110.npz",
+      "sha256": "a4eee51e3b7beea2a4bfebc705a648cd7c4fc52ee2c74763f0fb4489c09b9039"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00111.npz",
+      "sha256": "b20365024213f26a958a5aae44f916e93d480e947a82b3e0e86eec1c37e06f5f"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00112.npz",
+      "sha256": "525bf7f2e5730588f291a16027e84f5a22000a86dde40f6ea9f8476d49ea2650"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00113.npz",
+      "sha256": "38de63f60c2302a2c5adf84d8b43dac17c7c432177559607e11183ca526045cc"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00114.npz",
+      "sha256": "27cfea04a419592a6c6af0858ae11b4a2af9251581f3b234a59c3cd018705128"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00115.npz",
+      "sha256": "47be75a06bd804c7463aae58a0ecf163e6b75efc39cb1fb1cc0d5773d2a9dc6e"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00116.npz",
+      "sha256": "59f2e9e15a78cb9296f3b84c916daa9e557fd6f0c58c6dfb451d312d96335c10"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_01/parts/part-00117.npz",
+      "sha256": "f61d991f12355def5bbedec9e9f760684d658642fa988585f542cd11b22e1dd9"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00000.npz",
+      "sha256": "3c39bfdf35d2bf4529537e92c6cba0bee6657571678f06625a57b177327e6dc1"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00001.npz",
+      "sha256": "84d7adcdd3cdff384c8f2368915620d3f72c5202218633861b66df8860569136"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00002.npz",
+      "sha256": "c75c10d3288f8febb66ece8e96c48d5df7b9098211c8b42f89cbf07456b13f4e"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00003.npz",
+      "sha256": "51271b28cc851fcd7c9141a1545cde1b50ba7ca8e6810a8b746b0b20cf04b881"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00004.npz",
+      "sha256": "10f89e73dadbef28a255c82a27796726d3c5fa7f3e75246316ec6d68f4c4ef66"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00005.npz",
+      "sha256": "50c42674b6d58181a3511c5bce188f1ad956d42b77cfbf2d58131702997ca4e9"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00006.npz",
+      "sha256": "52b08a3fdd8a03925f60db08ca1319643ea8a3fb4d448877ab566073b3d7344b"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00007.npz",
+      "sha256": "adf8d38a1741d2636e19acf61aae3a2a51d7ce61d1069c2ec139fa41626c5647"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00008.npz",
+      "sha256": "aee90beb1c257ca98900f09aa74db157c8f236fdedbd618ff3e3c7b23345a5a3"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00009.npz",
+      "sha256": "770b5fc88cd336515e107681521fccbd39bbf1dc6b53723f20edb822cb50fbaf"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00010.npz",
+      "sha256": "2e6bda54ddbf57a57c886b1bd08daaf4df858fa7c65a25a4b0aac2c34572ad7d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00011.npz",
+      "sha256": "d9738c7ba6c8de8168b8389ac4989abe4a89c093911a9df8915227fc76570504"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00012.npz",
+      "sha256": "2c96bec14e103c56b4857dfb2044a06ccffd87cedcf8790612bef4d636467685"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00013.npz",
+      "sha256": "9af4de6f0a254dc4c4315d28b6c1a778bc0a775507cfba0b25d6b14d3a3d672f"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00014.npz",
+      "sha256": "937510ba3fec8c44e0aa9f435ba5b79ee63108cc0ba6d88de14d0d0b134ca079"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00015.npz",
+      "sha256": "0407a2f8c2b6a2ce0f137e742670f32f583a766d1378b341842d950b6ef5f47b"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00016.npz",
+      "sha256": "6f21ba50967650b7786f5fddbd48432529e7fb6420736a42cda8c617ce8b74fc"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00017.npz",
+      "sha256": "233eeeb6936bf05926b2c972e0eee2daa05ef4e7bb897a7bd4f5a6b3a74b25f0"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00018.npz",
+      "sha256": "5045e7fdf2d26ae20bf49602cb562b9dab7a382e44a036a1a1e37196fd8cf21d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00019.npz",
+      "sha256": "55d9c38a19e663aa81a319f0d7b69daf3b1e6f192505f5f77727f0c8022125e2"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00020.npz",
+      "sha256": "4096d3bbb577316a2df0419b5575b96a2a3548b49c87377cc269b25f6a50d2a7"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00021.npz",
+      "sha256": "917da4f816d4dfcf2855f729ce4068344f0ea87cdf8b31d3c84f3e4b27132753"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00022.npz",
+      "sha256": "2d99291816d28702c54b49a8b32796363e005864622e2010f9b3a0ac74a88dc5"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00023.npz",
+      "sha256": "a725c114d8632361b1bab0a7517c5f193fbd408092041cf264c23e313551f43b"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00024.npz",
+      "sha256": "d5bd9f93685695c6be44051a975db65fb82800d353971acf29a59ceb294ba665"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00025.npz",
+      "sha256": "090a6b4bdb2baf7bb73b0c407a3d6294172fa3d1ba0536bbf290c4af3141c6dc"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00026.npz",
+      "sha256": "ead95ffc288309a2fc4fd4056414c9063bc07c5c1e659152aa3fa4212adcb934"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00027.npz",
+      "sha256": "44af2a0c7f8a3034789250cf77cff89077be733ccbccfff89ebeabd4dc0363cc"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00028.npz",
+      "sha256": "2d1c65ad231064810111dd5514e1f208b25ca6e020596750fabd4ae3dd476c4b"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00029.npz",
+      "sha256": "c52d540415fb190678ad5540fb5542d06a33bf3b20c255fccfa73e16a6a1763b"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00030.npz",
+      "sha256": "983dd1e3a04ffe5d0b591e0823c4169ded853c14ce2bd98842134bd532d7e317"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00031.npz",
+      "sha256": "c1805a3150da5613ec02f7df9481189691d114229559cfca760b6ae0a0cea597"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00032.npz",
+      "sha256": "d99226c5d4a985d262bf6396786bbeda3423d258f8bfb2775057719dc124994f"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00033.npz",
+      "sha256": "6437e95d824e837862c4aa0243ce826756baa2767b348935932dc32c5b360950"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00034.npz",
+      "sha256": "e6b3aaabd2093b5d25b256d6ae87418411c6336cf31f1fc27ae69adc138748cd"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00035.npz",
+      "sha256": "043f0ac75dd3b8351a55519dfdf14e1bfc424c92cfb0bbfe8179e9903180f9f3"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00036.npz",
+      "sha256": "5f5604e9687a7ce0ba743e8115cdf0d6c95359b8a73c20ed4757585e014520b4"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00037.npz",
+      "sha256": "4e1c89ed69134a73e3b5b48a4784e673b80f627c3d7a8c77b105cc0bb60785c6"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00038.npz",
+      "sha256": "ede0598f44b666c6a1927dda7027de259606fd727bcde659f36e5b0bc6efdf6a"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00039.npz",
+      "sha256": "9d24b5a0c6d3fbe2805efef7b10a0e6d75411cbd2641f3f740e372bb57bdd7e4"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00040.npz",
+      "sha256": "be9523df8853372d08be0090b5f0905d8108b542ec072ee786bc671613790b75"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00041.npz",
+      "sha256": "d438a68c5be72fccc0d34364c3b737173833fc8eaefe08dbbe609d066f7322f0"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00042.npz",
+      "sha256": "8cce5eae78c0575454335a79df8b0a0f8a57511dc39495dffef61fcdf64eaf7d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00043.npz",
+      "sha256": "af5db53dbe5ec9c3c9512267a8f8a4a11e1f33e09fe00aef9c3999acd2fa963f"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00044.npz",
+      "sha256": "d44b53037518d0b7283ba8a6898049ae4508edcb1ff87cb2f90cb8e5a7bed067"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00045.npz",
+      "sha256": "b4d2aa21cb06ea0e1c86ce290086d244ba9243cf2802d15f2acbaf3e1c631bb5"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00046.npz",
+      "sha256": "61ffcc692c442673eeadf026f03afbf8d0deaca388bb930c2f9e8b803925d3fb"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00047.npz",
+      "sha256": "e9a2ea15c3039cbf0170a64115a97f686f6a0786f2f8e519e6bde7a951516a54"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00048.npz",
+      "sha256": "86ef3ee9e6284228e1fe4507fddd90970f29c4622fe804b4277bab0af13b48cf"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00049.npz",
+      "sha256": "6fffab51d59b9441932054f1f30411de46953432aa96cfcd181ee54a19e0483c"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00050.npz",
+      "sha256": "7cd90329ec5906b7c05b4a2f56922fd2b65fa62cd30e47b1e76f0072fe8c5bf4"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00051.npz",
+      "sha256": "b66527e4f018bc0341b151c0d107e45cbbf173bc9d66b5674fe120c9e480d628"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00052.npz",
+      "sha256": "dc63e052b2f3ac1bbc92dd0df64701f07ab8fab559ff1aa1f40d93736adfff41"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00053.npz",
+      "sha256": "41c0592ce16c26127eb23d6348d6db717406011f119c7c19463d2d01403eac71"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00054.npz",
+      "sha256": "e490ae3d3c69d716bd70c068192223f4be77edf288e565d38bc652708aecb3d4"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00055.npz",
+      "sha256": "c145d95bee62ad270d80432bdafe626da750a085097aeed823a4be40a23cef75"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00056.npz",
+      "sha256": "f9b91f9520ef4deeda29cd9ce21f239fc268384b9b1109e22cd7e48b56cf60c7"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00057.npz",
+      "sha256": "a2ad8780e1ecebb638421539d62a6659c48283608b9175369aa31e9a40c9b61a"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00058.npz",
+      "sha256": "9300f7490e7195baf0b0d3e9e5c2db941a100a9ce50d5dfd0a76b829a473c3c1"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00059.npz",
+      "sha256": "f7ce306d4fa8dc0a01db47aad331338c444afc9b133a881c9c4446468466c77d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00060.npz",
+      "sha256": "b197f2e3027acfbeb1bc50f3e3531774ecbb8e70ede7256b32b43fb482398f89"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00061.npz",
+      "sha256": "33ec1fcbb1dd2b46ad76ba669e58502403b6d753144345e142bb88cb94691df4"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00062.npz",
+      "sha256": "1a0a3e83e57f3919973900bb6e174830a7c32e64f19bc4dce0b75f1a428f1fe7"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00063.npz",
+      "sha256": "ee9616e13956d8588e01af87ed6b78bc0edaaf51ba3707957bd5ab9dc1c02749"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00064.npz",
+      "sha256": "f110f64c414a56bee95b3d2b101707831c352f1574d27b65de53b6f9d9f6db8d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00065.npz",
+      "sha256": "1ea4792530b10cba5892769ffda495d9ed7193f4e440162395cfef74a3426afe"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00066.npz",
+      "sha256": "3951ff6cac0bafef6094f57c4c8a21457b988cdd5a8fd2efc4b5cbf5e638073c"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00067.npz",
+      "sha256": "014bd82828283b8a2a610f754ecaa7680a011d700a76d30827318b23ce9e0acf"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00068.npz",
+      "sha256": "c68a00d9f513745ccff13ceb85fdbe3d0d331b5444a912dabcf45e8fc4a842aa"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00069.npz",
+      "sha256": "a23e87f8b50aed12b4ef8c2ffac15fb8789a32c2d4704b8a704b1f421d3eaa90"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00070.npz",
+      "sha256": "1fce0b124a43fe7c4a810b4310b8e9c7c9253708aead198f6586d668f4c22060"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00071.npz",
+      "sha256": "05c0c6bfccf9f54939fa75707807b564b553de75e399321226efe9b601afce69"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00072.npz",
+      "sha256": "15b29b12537268e2dc60e3a3595a5f5b08b2872c0511cb6f6a42a362082f5751"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00073.npz",
+      "sha256": "cdfeefe8834c828b3b3723d5a71ce463c50861be021dd99276f04d610b6f47f1"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00074.npz",
+      "sha256": "b8fb7950c4956ab89cd18cae2a7036f58135551e853b0d95788a3d77da458511"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00075.npz",
+      "sha256": "74801d33e38aac56ae0311af79f39c6e1419eedf225e9d1eb3664170bd8fc010"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00076.npz",
+      "sha256": "8c7ec8575b77337e52ed4d2b806cab940de02820992981a03170b830c6b4d6b9"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00077.npz",
+      "sha256": "2d036cc530db48b279ee3f8b086f21d2df99cf9d8899afb0a3eab2911a90adfc"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00078.npz",
+      "sha256": "362527e969ffe4c8e7ff4baafd1f7f093d272569de7be530ffc9f363d65a3539"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00079.npz",
+      "sha256": "a079eaada3cfc23077efc9eeaed96247e21545c5e5e174feb0078f04517f4554"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00080.npz",
+      "sha256": "efb8dc578b1d20814731b4b01858393c2185dd48757216c778ae858ece5f76c5"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00081.npz",
+      "sha256": "c0b3f264b1ce04864907dbc93a4eb49ae6bed3eec9569e67db8f263e1be4a5b8"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00082.npz",
+      "sha256": "7524c3d42e6f2c69320c11d83dcd57f34d01015ab6b292624f9b2283ffb5779f"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00083.npz",
+      "sha256": "d065c378ff92548398d87a5601898195581c7f1e40f0dc4d6ba0be319fdf1204"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00084.npz",
+      "sha256": "6e91b70e65f2a10bbd51d2ac2166d2b7ff2611aa15d4e96859098f072eba51f9"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00085.npz",
+      "sha256": "ee129051be66c00ebcbccc24d125cc02e001ce7e75446d5cfa2bd79ab17e746f"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00086.npz",
+      "sha256": "3d7a88888af19a2252c73e8acc1643a1aae0c27add052af9f5f6f56eaf106911"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00087.npz",
+      "sha256": "d41b561f3b8295416880897b354f1eea5551a3794daa6a51b724ee6b4f94225f"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00088.npz",
+      "sha256": "106f5d8f7ef5511cc30798900e00392fe5eb33dc9fa5eb0164017de2b6fc5ce5"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00089.npz",
+      "sha256": "9479313a12ca3f455933eb4536f4501cabca80d4f17baec0dc14b9b2769c0f73"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00090.npz",
+      "sha256": "a3d50eb0782ce46f4bd3a294a88d0c7b19ef0ce344dcae10d1ce53b1a12330ab"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00091.npz",
+      "sha256": "6eb61bf840950de45f9af968fd8f65d10f949386d27d860ded53763ddaa5486b"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00092.npz",
+      "sha256": "f57ecf3dd3863033e060f583493feea112a9329d25d72e9d0d6fae21f7f16fde"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00093.npz",
+      "sha256": "9501423299ac2a01db675b2f33710b34bb6f292d85ef41ac519f119671cfd103"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00094.npz",
+      "sha256": "f9d6196694d7ea83bf336e9e7545104bce4717675b1a72b5989a76afce1429d6"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00095.npz",
+      "sha256": "fd875dc75e69e06bc6023dfb22e041c94a0d60edb721230206221cb995e34730"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00096.npz",
+      "sha256": "46a0db17a315f0da723bb40d42e97b712d7b1f29e0772d9cd481cad90a15f314"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00097.npz",
+      "sha256": "15f24c44469ebddfb4b312143306defdbc8f304985a08f6e4d43747d0f7effe5"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00098.npz",
+      "sha256": "04706606813373b3127452a21bae88793df78698f7020f95d04468eed9521b1d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00099.npz",
+      "sha256": "26e9162c60664951297bcd846c741cfa7054bae6fdb860b33fb5a26265686ee6"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00100.npz",
+      "sha256": "e87107f8de31205b9bf84330cd7277258528eb212ad90ec960663d8b98706c35"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00101.npz",
+      "sha256": "1a018e279dac039bee41462ee062ba4fb92fdf98b3bde197ff9c11cdf6edc165"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00102.npz",
+      "sha256": "d2bfe63de40e5e206aa47b8cd7233d65975e470681e129fe2b3edb4240d69051"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00103.npz",
+      "sha256": "f6216d0eaa9446a8a9b89b85ef493459f22df40fc8d4bae07c167939d15dd721"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00104.npz",
+      "sha256": "f47837153952808783b753a77e65b18c0e4378780a0c52d98233cc5c4b163f91"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00105.npz",
+      "sha256": "be1c15b409e62c3a4b2b9c09f582d41ec3baabac9dd5e04b97aa8abca321a93b"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00106.npz",
+      "sha256": "8c89048afe8a16f70916bab51d1b0cfcbf4f4da575e64b8010595d3b87b21b3b"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00107.npz",
+      "sha256": "abbe46fdcf2190ec42e922201a947a6b2cfd91c0676ee06ed112fe7c2f7835c3"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00108.npz",
+      "sha256": "82c8132ef78dbca4b622c5771b3c83d3cd16f4842fec9f27272b5c6773134015"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00109.npz",
+      "sha256": "6807de1a916f8b71582aa06ce63e396b2d3f43b50c758adc326517117e04ebea"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00110.npz",
+      "sha256": "733c9c42a51f93328de4d5a35488582fb7b3ebad36086f5b74a877538f32dbc8"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00111.npz",
+      "sha256": "df8935d23523051657a05c0fa41d0a536fdc83a37b216799b54d49ea65c61bd0"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00112.npz",
+      "sha256": "0ce43f497ddc76e65099ec56170c685d360e7a2e8cd10fa4837eddc96e4f4839"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00113.npz",
+      "sha256": "b5dafeba0acb60d13c6b90948ca331116a962ee0665d2a506e391ec0d9943b9b"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00114.npz",
+      "sha256": "4067b0ca36a6a0249ec13eae9482322e4aff550842d84babc95ffc73e3c78588"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00115.npz",
+      "sha256": "0bda926724b9aa703fe952261c81bdd5774a664a5b926c5adddfb8d011848a79"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00116.npz",
+      "sha256": "0595df3a73b5db01def6f6321c82839d5f254fbb4553200caf678902de33ecb7"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_02/parts/part-00117.npz",
+      "sha256": "4f6d37270cde30c0148b551fc400182c02fad2c6e63264ddc5c9096edfce4214"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00000.npz",
+      "sha256": "b5aa7c9ec025d39486cdd5f612d1d3eff94dfc0c8be2884eb2c9cc67dc3d2dbc"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00001.npz",
+      "sha256": "6fcfb7688492a8ba55a1d0e9397fae345d7f1ed937bb4bc754ff965384d37efb"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00002.npz",
+      "sha256": "540abfbcbb621178876c084ad4f7d78614f24c67a09a09cea9efba36be06b261"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00003.npz",
+      "sha256": "b78aa9b5f0e3884c001f5da16161ac4c3ecafbeaac904bb675e58f809bb3484d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00004.npz",
+      "sha256": "59821fb29737c916fcefb7f5951134fd713c0af814d6c2f123d18949f552f1b9"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00005.npz",
+      "sha256": "1cbe7b4145ed6114f70cc240eed54298a5b67008e8ac876ed6fa52488d5dbfa4"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00006.npz",
+      "sha256": "86b88ecda322397ba0ab64f13b752a85215c9a8669862ca1a06a4b057897d6a6"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00007.npz",
+      "sha256": "2c6aaea22bbf11fbc452f845681f7897e5551e815cc9f38a3c90cfafc42b3cb2"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00008.npz",
+      "sha256": "69c6f618ea960230809becdaff01763114b2aa3ed2af640aea406a262e448c9d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00009.npz",
+      "sha256": "e9233b8b44c3e99c2a2ea223a204b87ff7d334655305af514ef58658c7e4627b"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00010.npz",
+      "sha256": "3631e48da1254d945ddd812423cb2319450b107b8162b249d753a85bb2fd456d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00011.npz",
+      "sha256": "d59d74c70ee6e89a05519ec16d9c8e1fbb9ab8a16bf1af2b3169d225b5f9952d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00012.npz",
+      "sha256": "2d19844c95b0d341024eef4efc503ed1a436fc2897ac3a8d039784b125d98984"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00013.npz",
+      "sha256": "5025e76b691991e562df0f74a0c4fd708b1424955859bfa4c24fcaf69cefb161"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00014.npz",
+      "sha256": "5fc8848b77e607fd02898dce97fe61ff7d853f2549a2c6f4f28804121fefa07e"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00015.npz",
+      "sha256": "2169d4aab0d6fcfa1a7599c2dbaf17a5645c2bfb422bb18a04197037d445270a"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00016.npz",
+      "sha256": "15c7b0df95046d86223a0dd890a660ea73fb797ea932dd354e89df1861788158"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00017.npz",
+      "sha256": "774a12d0102e85cddd6f567ed67f52ab3996f7ed83e83e17aeb3fc5135525a02"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00018.npz",
+      "sha256": "468187f1ab3784ef2d047ef9da51968406ebfb6eaf338bda2fa33766019bdc63"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00019.npz",
+      "sha256": "0e091a970772cc16af3c9700bf14b1f52f405e716a2b11b9d127cf2cfd0d1e36"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00020.npz",
+      "sha256": "db9f1f68c8de4255df70528da5f419db173ecdd4bebf3b4b47dd2510de715bfa"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00021.npz",
+      "sha256": "f10619769c9a0e6b1d45109b5f791e3e771a15cbacef6ead6ad465950aea6d0d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00022.npz",
+      "sha256": "42ab4f18af839a075632aa5a41e5eaebacb0f104185294c87be6d217bca9fe4b"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00023.npz",
+      "sha256": "a485af4447c7ce9cb3de876237c065ac29f719beba2859784d9a5279c33cee21"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00024.npz",
+      "sha256": "bf6c979620553480c6a8ca79696662a3cd619279da642a24d4e1249f889efd84"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00025.npz",
+      "sha256": "92739dcb550bb886f5613020d8e0f39442afc0c62308bc30d946913a49fab772"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00026.npz",
+      "sha256": "f9a962e3b2851962fcc89037909c00d21e823d577d731d35117613d2c9b65fc8"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00027.npz",
+      "sha256": "4293dfe0aa7107200f3cd8b062f91e5e60f1f9308a9e4e9d343724c1377e462c"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00028.npz",
+      "sha256": "dc7499d9e4d0280c574d157afccc9f20c0117992572344768616ad27cbb06b26"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00029.npz",
+      "sha256": "91c001c47c6631990803dad64215d7f6513d35463e6f9c3cefb140f193460026"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00030.npz",
+      "sha256": "320eb77e53618a385beb6add91cf81ce6a2903ba23285c8d9439b4560d0a4993"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00031.npz",
+      "sha256": "e93b541ff437b38341fb157ffcf4d0ea060c3107a375e17fe274184e84cfcafd"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00032.npz",
+      "sha256": "79346bfc80c76b8e76665b71a33440a3dc968b8bfbd0d2d74754d8273d1c94a3"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00033.npz",
+      "sha256": "f82c499b8a673aee9e8f3b688df07f2a1a9340ebd3979aac67f6b3cbfe14a6d5"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00034.npz",
+      "sha256": "100b62157b73712c1dd551a3217518e71d2ed134b214818ca18a8f3de530d8c1"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00035.npz",
+      "sha256": "1f0b3bfd0e1d1ff5d033cae5438cc5765486af74f6a66372d806720f807a3c43"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00036.npz",
+      "sha256": "c1f778a08b8779290257226d0b86438cc460bbb8db303c35127bee08540d6f16"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00037.npz",
+      "sha256": "8f731de3a78e3fd219bd1c30d2e50c061da63e9bfe803f2c88bb824b4f4e435d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00038.npz",
+      "sha256": "41a262c52057ceda0b39deeca2ac57c2c6087c53bf58b3bf94c0711c306c3659"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00039.npz",
+      "sha256": "567a5b182ddf3a6f4dfb9f92361093a5fc58e6b2727588645e52d45e88672cec"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00040.npz",
+      "sha256": "a48db321172270ea2603c69d63baa4a61ea9db28ae50ceeb2fe950d13e3c5d8f"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00041.npz",
+      "sha256": "84d8172fd01ec7165c94c976cec8e898b495dc02357564c5064f8542692c2b9a"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00042.npz",
+      "sha256": "51300838fb35af4e0c937f9a089e70692cef0a64993a742307c82f67227c54e2"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00043.npz",
+      "sha256": "b2d52b41cda4da2616f77f2e6756bf293c901d10274375b10c0b10f380ecb6a0"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00044.npz",
+      "sha256": "891930aa0bf14ce499cbd5ea982f603f58667861639a8bae0a6093bfe894cfee"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00045.npz",
+      "sha256": "82d29083e6db7de1291da240bb2426c68909b02805bd308a4527ad8b3638cb0d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00046.npz",
+      "sha256": "7a63a50bdb53cf1b4d0eb438151da17f5c550193881ee54ad5d4d78fe5756927"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00047.npz",
+      "sha256": "745a95553f336995b97fffdbb3ba3d95ce0117b36666e79725a24f5e1bd6d4b9"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00048.npz",
+      "sha256": "931e84e5a84472e2885f93c2c9ba46a61ec7df94a9c62f5f7ddc46676e3603cc"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00049.npz",
+      "sha256": "501dd3d7e7d27a9a3692cd7f6c77bf6203f28dc55c9d83037cca76aa28d86ef0"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00050.npz",
+      "sha256": "24b5fe671c916c8da253878a46e5d6999aebe6e60953c923b8233bf9f9f40232"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00051.npz",
+      "sha256": "b3900abefb46f1732316a86d92d66421cae4ef453e590e2722881ec2a3f005f7"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00052.npz",
+      "sha256": "1a572f6f68242a7120c0ad14170e71a18220507081d8980c429508af51a950b9"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00053.npz",
+      "sha256": "c5b5a92333a5aec2be87018c2d43acfc111a7ff3b0b672b404738a1966ebe91e"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00054.npz",
+      "sha256": "df0a901525548d9fe8df157e1d2cd631e90301f145615cf7193f86b6819c7fe8"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00055.npz",
+      "sha256": "1e46deedcd101079f837fe1fa2b23d09448d815d9fe33021e301d13b0f451b92"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00056.npz",
+      "sha256": "5acdc81106d890d6dd59f42ffee0b8913799a5c8a354b2c334f7dc9adbcdaead"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00057.npz",
+      "sha256": "f5560049245fafd0b773ed15062141fc149f6b40b0983a37b74c218f34cb051b"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00058.npz",
+      "sha256": "ecd766b335f6b009514db395592d3f103f6f8d507474117782377de773b2afa1"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00059.npz",
+      "sha256": "35db61f6c559d1a0c6fdfcb99682f99fd5aa57ef0dd9b614ebb6f1a787304b65"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00060.npz",
+      "sha256": "ecd144d4db89d58d88a279bf86e0670f9ced45a4ef06a365a7189249420291c7"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00061.npz",
+      "sha256": "195714dd5582554167b90256e041814be504da971256a4562cc7f8381cccf07e"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00062.npz",
+      "sha256": "74528413eacc34678f4790015b19eaddf617315a4502e37d998035e2839947a0"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00063.npz",
+      "sha256": "cc8a80057f619667980680ddb576e8129ebb51e6d670d6fbc91e62b179f98b55"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00064.npz",
+      "sha256": "d5711b44b969959c4922c461d099e8c6c882092e53656ab6850ea4ab9d4f4af4"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00065.npz",
+      "sha256": "e0b10889494de8e49e1befee7dbd1d1d4075546ff7c52451cf4ccd3054605ca7"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00066.npz",
+      "sha256": "bbe7fd6f55d70e1383d3bffc01dd6ce3e9259d706cccf696b341e581bf881528"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00067.npz",
+      "sha256": "7d3cc48ca5d4ab2027aaaeaf37e91b525408d6a2cecf6109c6680fd48e2a78a1"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00068.npz",
+      "sha256": "50f5aa853e6032766dda2324c3792aaf1e0b224e7724cdb38165c9668cdf5cd5"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00069.npz",
+      "sha256": "8ca41de0ae096d78146f955dd50a991c3aa67201a3ac676eb10b9e764d47be31"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00070.npz",
+      "sha256": "92be55f816a59d22cb6ab43021d1809fc83c6b24fdf8531c5bfb42b11208f46f"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00071.npz",
+      "sha256": "7ae0e7ad82b1dbd9ac362d6eab23bae2b4d5048b65b3259863e05512127bbac1"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00072.npz",
+      "sha256": "55cf1485bfaf030720a8cd882eab31b6d561b6efd90159479f2eaf691e9cb47a"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00073.npz",
+      "sha256": "892c85ddbfb8b68e39cfc6c2b617a2415056232c6e50870a6428148a35816873"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00074.npz",
+      "sha256": "1f90db4abc4d66f8766d96523dd855dd8f66268d4b07524726e5a689c97a3234"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00075.npz",
+      "sha256": "260466a33f0081aa82abffb536e9fd74a9aa06750e77962189d5c9583deb3593"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00076.npz",
+      "sha256": "9cdd6d1b7862d57ad122807debb88977518fbffe10f87480208f7df5d8940f82"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00077.npz",
+      "sha256": "3f4baa41770f1650e697e38bedb40ecfb6c7daab69763fc55858f669f3e24994"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00078.npz",
+      "sha256": "222081ed527e07c26cac372af5f6388d593af168ecf5cc23acb583f86b06ad6e"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00079.npz",
+      "sha256": "3ef4b543718ae811540050dee8ffd77f42624ed5149022410c7fefd2cfa5a662"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00080.npz",
+      "sha256": "d3d41b034aad7d2fe99fed38d1949d76700e2f1228e870f992da5c928eb70c67"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00081.npz",
+      "sha256": "0d01d8d65bbd633deaf3d7106978df9b783d3d8852e90c1a43617bb715fa1365"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00082.npz",
+      "sha256": "f51546c0dabbffd01185d76dd57e9dbc37f60429bdfd0b390cddc58923f48989"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00083.npz",
+      "sha256": "383f76ff5d6307c500815161b8fecea6a031b6ed2ab5e02835875f716748f7fe"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00084.npz",
+      "sha256": "975ccecfd67322a0c043c784778511b6dfef6c63d82cffbacb67569ed4474675"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00085.npz",
+      "sha256": "df3b28db5c6b3f96fa3be6a9c251f8313c769500b9717b3ddaf8f1bbf38d7cf2"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00086.npz",
+      "sha256": "def43855c0ab74558aba62281007fd3d20c1daf09b8cac2f44d88a035ee46861"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00087.npz",
+      "sha256": "0cc726c6631ba48b7a89a527fe36b071a38fe6b57af96a5d2ac538e5eb7d2564"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00088.npz",
+      "sha256": "474891260f8cda6e4452829a715e804795d0d1bdcd19b1cd47139d52ac18e0f8"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00089.npz",
+      "sha256": "3d29887df8083d881b961509cb2cefa5424add48eb80034d95774bc2aabb7663"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00090.npz",
+      "sha256": "32d8756cb1b07958e91a144ef3f12b6464cd3e7e8ba2cd8dee04b0c27229780b"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00091.npz",
+      "sha256": "fa6427f7ef53e7c6c242692c15f8bc13e7f88266ff0b44c325419d779630d0c5"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00092.npz",
+      "sha256": "0031211d7057d3676fe37606783128564a531e3d7c0684fe365b446740449f19"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00093.npz",
+      "sha256": "ee03e6440c1173d65e20343f4783af274cbaf5da641f3a8b677be57f612c94d7"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00094.npz",
+      "sha256": "4879499ab546fdab1fc4037a96a38fb4889d729de934654d2ccdf8b117dbe957"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00095.npz",
+      "sha256": "c2da9e4c06a7abff28a9558415d7668feaccb8d3b95605b9fb8f0c9d723b7814"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00096.npz",
+      "sha256": "d13473524785309d807c2a0b3ddea0ef576c534206ef2fa060d5f44ca4102762"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00097.npz",
+      "sha256": "cb1c57a39f16f1eede836b56cce7ee3d994c0246e9a79e96d8e97a573fbc28ec"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00098.npz",
+      "sha256": "f97d0cf0c5ad064effb61b4604ffd761eba092e874b012388eb3cdb62f2b1fbb"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00099.npz",
+      "sha256": "59938ed0548f09e381bd1452bbb740b1a8040a7e04fd14eb9823ec56276f5df1"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00100.npz",
+      "sha256": "9cd147c22e410f8479b5a62d5c1500cd95c26f19b2bf264ebebb453561eb521b"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00101.npz",
+      "sha256": "48e54c760e762fbff673709d598513e960a880f825f717ca07f33780031f6308"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00102.npz",
+      "sha256": "f0740b4aee336190dccca348b8043a360a370e1b6c0b1afd01c39db90ad07377"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00103.npz",
+      "sha256": "d4c7e26d6e3b629386c9e4c396c54e76d0f68d9d60ccc1e30ee74422709f15f6"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00104.npz",
+      "sha256": "bbf46f24d74ce75cb7e5fb31a3484dd0bd4b99f8f654d38a56448d8a7fe3060a"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00105.npz",
+      "sha256": "3f1f608dcc0953aca94ef1d702f59fdddd5420c9396bd4567ae1e5e2cd845f01"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00106.npz",
+      "sha256": "b92d344fbae996d63f6200122e830b9f77a56cbb3ddb4f4ecf8cf6ef138a14c8"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00107.npz",
+      "sha256": "98aa32cb812e8d96109260ce4421cc67f3829937aeb2bb3ea4cccce97a643914"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00108.npz",
+      "sha256": "2ef8c840e222b9cfd81c242d12ec377e39fd5414ceb6d6f6e5defb2660124e08"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00109.npz",
+      "sha256": "e18dc3da9bc16c911c76de7c0fcedfa228bc60d6b5686adbc0dc1aba27e0fa55"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00110.npz",
+      "sha256": "91a919c1fc1ddbaf8b510034d93346945a9584320bc4788a3eee2ac093ae3bcc"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00111.npz",
+      "sha256": "c9743c1594fd89b1215d6e5487d66df2e2cc2c7897df1e7d6c5da248c1154b68"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00112.npz",
+      "sha256": "47657c8be840ba24f777fe34d4df27444b1e7453b16bcdbf8e45d4e7efe938b3"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00113.npz",
+      "sha256": "0b895ce952f7c95abf4cf84fcb8205d8a91463c25b3dce5357289e99a7bad53e"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00114.npz",
+      "sha256": "387f5d98b905942428f655ca00f289d0b5df28cd444ae771e97c1d0f89bd24a0"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00115.npz",
+      "sha256": "3cb7ba465ddd282846f324cf28030f713afa58033049c1f7c007259b41e1ff0e"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00116.npz",
+      "sha256": "f47e92f7c837d31ae60026f343836d5dda82e599549d1bd86e8279cb5f8313ac"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_03/parts/part-00117.npz",
+      "sha256": "a26f78406494be5e82d3fe4ef368a34e3076f94bb206a3c65361232bea97c709"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00000.npz",
+      "sha256": "5b7f607272df8a3165c36dc45bbbec383691c88659f84199b5aebf030471c0d7"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00001.npz",
+      "sha256": "7ac12244dfd8973cce5d6c23ecbd7888cfa8279ad7961902f9aad29c9fa116b0"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00002.npz",
+      "sha256": "b728eb7fc87c3b6c736b240917d9382f0acb7ebfe85c107c316796b6315bdf55"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00003.npz",
+      "sha256": "2e226d721b1299a84ea14e00886ce3ef2369c20cac1ba7aee250868a30a5f4d5"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00004.npz",
+      "sha256": "91f497538024faa89df8baa7aab788871162926530823568ebe9713d5febe197"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00005.npz",
+      "sha256": "5548b935d1291a2ae63520ec13be5b6a65d6b7eef1cad4618894007d88bb8c8e"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00006.npz",
+      "sha256": "f6577657b2a1eeea2f0b6e7ef5a139150b77d54e2b8294dc92b3b375482683cb"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00007.npz",
+      "sha256": "56a1fcd8379269f435e61e455e8082844d44d1159ca042c5e23ebc330d9d9a0a"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00008.npz",
+      "sha256": "050993e09d70a711193aaafee732f69ca56dea06a180956e41c586652c73a8ff"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00009.npz",
+      "sha256": "c4505a7fd35dc80d0249317c9fabb429390b9b67bcbaaa7e18971d22b189c1bb"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00010.npz",
+      "sha256": "eac82a55e77799386f15baed1cdf2a4c87574ebe7d706d939c3492d974690d95"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00011.npz",
+      "sha256": "8e5fc233bcdd132eff7ca9092ed4e87dbb649aad7e9c4afa69882b3503b0b7c3"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00012.npz",
+      "sha256": "dc3feacc4ef343d9a28390ccd04296f27adbb026209cfd11c1866f0d4337dc13"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00013.npz",
+      "sha256": "a16e225ad8220eb214e0ca412db2fda81e29ae15d001f0487c2370df5e66d290"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00014.npz",
+      "sha256": "246c0c3ce8461f17e04eba642bf37b28899301e12bf5abc091c5a89cd56ddf0a"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00015.npz",
+      "sha256": "8012d6f2679c3d35ad25f61b2308cd0f10a22d02fa79814611a4ddcce8d26838"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00016.npz",
+      "sha256": "8347719515af4d132441a5a5154f65cbd2a11851f4e81601a48e103a3f02eeff"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00017.npz",
+      "sha256": "8fc1a18c9c2755cf0aa8e45a72f551bfee883f7d4863c1c57a4488563ac1443a"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00018.npz",
+      "sha256": "efcd9d48b852338cb14908fdb68b48cf61f6d235fc60e82fd6b4f59521c86bbb"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00019.npz",
+      "sha256": "751a38a2b5d3752cdfa27034ac9b10310f984799763147129d5ad6b6bbb316fc"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00020.npz",
+      "sha256": "9345995d31429fb2e5970b7e8c472753a89a34d3301908daa25568a8583a470f"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00021.npz",
+      "sha256": "a9c6fdaf0f6fcc009856001a0b4410a66d6bc1c6fc54333f8014bd2f8c070f01"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00022.npz",
+      "sha256": "bce255222ef1517db89cb52ce50594b7b2535853b267007eeef68446c0a9208c"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00023.npz",
+      "sha256": "e450d4dcca21fa9056057bc382dc2fcf797fe0f01e7a054a1fb0ccb5b89c1456"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00024.npz",
+      "sha256": "72cd5d075ded7a8222be44f717641fb14ea374310fe7038b506047527f796e70"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00025.npz",
+      "sha256": "3f825e9e810456953d7acddc58ff9715738d512c0657086c094413caf55c3c37"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00026.npz",
+      "sha256": "2848f034289f46ccab1f20fe0ad8db2a16b4767e8616b11910e93deb88a7f25e"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00027.npz",
+      "sha256": "6f4184ae840f72f2da49bcb59eb1849ef652d7d2b9fc709947a334e2f63037af"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00028.npz",
+      "sha256": "2ad8cb8a05766f41610ec8914f622781ccc3906d5464279b1d29d6884c8018a5"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00029.npz",
+      "sha256": "8ed54f08bf7b27976f40f69af410d30722c66b82554244af3046a9c0c5e05911"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00030.npz",
+      "sha256": "313131a86032a7b294dba70fbf24705c9aa824b1f8aac20760209502de7b8094"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00031.npz",
+      "sha256": "02b75d7e69e01eac72c0253019f40bc7f7e38290f567ca1c83ee178d113d23a2"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00032.npz",
+      "sha256": "d11c060ed10b2a29f6d4b7f8a15d06118715d89077a4dc0a3c0a4e8aa6148c0d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00033.npz",
+      "sha256": "a3e14ac17610c0d6ca234565a76330babc9eec52e06f4ab657931b8de9d55bf3"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00034.npz",
+      "sha256": "f6f28efc9ebbad756bb82e7b2be9754a32ea435827c18716b8aaf5d5efd58a30"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00035.npz",
+      "sha256": "dac3f6aaf218a570f310880d405b69985ee9a97f63ea8a11939ec7fbffdea491"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00036.npz",
+      "sha256": "87078b7b666c1e11c80d966ba52a90bad8a95dfb21be7023e6babf0be63e9862"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00037.npz",
+      "sha256": "4d61981c9b1202ba5f426eae7730d6ce8f8607637aecbe7748758dfefde59639"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00038.npz",
+      "sha256": "d2f3e1fe14a0f6623a9aabb74a3d40e8b2316efe6df468fbfbfaea2424f27582"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00039.npz",
+      "sha256": "1af84ddd7628b25caa906d5d62d65638c12cc52a980f8ad2c9b5722d5d757bf4"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00040.npz",
+      "sha256": "59db3505ecf0a32ae4a4262c48b614ad01ec82cac0bd5b0560d60ce1c31525ea"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00041.npz",
+      "sha256": "674b99577a57dbb3661c9996562d11134c48c055eff72b9bee1eb8d2b43b2abb"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00042.npz",
+      "sha256": "18d73eea7b61a79d7fdebb85ddc3b13d64b93c52d3e1eb2f36dcbfdd6fb43c62"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00043.npz",
+      "sha256": "73072f7321b2cb7f719da448b1f03869b321103207f24029e2bbe8b049207183"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00044.npz",
+      "sha256": "c132c29622d3cde294407615e0172fb76c4b2837614049ae7d081d20150af2f0"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00045.npz",
+      "sha256": "81da243197733a16086a1b3466bbd94da6e646abbeedcdcb3de67fe43f8f7f1b"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00046.npz",
+      "sha256": "4afd553698f8cd67162e87840a98efc2497a8e255f765aea094fe10e6b568a96"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00047.npz",
+      "sha256": "bc262fae21a2d779d88216486ac063f00b277f408b8bab76e20bd5b8fe5f4953"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00048.npz",
+      "sha256": "ff60c7b192de03946f18dca396e4cab2aeec722d85712a30f0d7a9f5e1ebaa39"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00049.npz",
+      "sha256": "6fb4537ce8289d18812783e723de662081da73c8738dc1d490af80aac44c8314"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00050.npz",
+      "sha256": "6eae7c0a3e78b78bed11137bb3dff4d8e0c3aab3f3ec5d97ffb6a84f0e0ec788"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00051.npz",
+      "sha256": "0978968619e0091278ac317b0d905f6def07fbce851bb56fcb87825dd48ab33c"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00052.npz",
+      "sha256": "86001e97f0cad81f72b0b9ce146ee582b601248eec70aa08fa56d5594002a2a4"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00053.npz",
+      "sha256": "fc18c4b7b6801b7d6d46f5a9f92a7a95e0b68218dcce33a295bb9261507de069"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00054.npz",
+      "sha256": "28ba5cb632e16073cd090f467234ffd435e628a2020b422759082600c465de63"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00055.npz",
+      "sha256": "02ad51f50eb92e0a8de4e62199f9ca73e2fd162059235110b945b384a72c0316"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00056.npz",
+      "sha256": "337789428afc3f2683c1aca465e4027eadc2c337c014e27af2ec5545e21fce2d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00057.npz",
+      "sha256": "22c43abb2be3aa131bc6c3687ee5ad67fea27805452d2a2017abe122feb22825"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00058.npz",
+      "sha256": "610a612efe99a12774fcb6b02b17dccf16661e39f0ceadda163e631cdf174e7b"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00059.npz",
+      "sha256": "3485d1209d54bbe1da1ab441673cfa8219198f9d0bfc3c54f2986268dc903929"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00060.npz",
+      "sha256": "a8d696caac7b38d1f4c6e57817e5c6e24a679a050dd97ccc7f757c8a72a30397"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00061.npz",
+      "sha256": "b34c41776b67bde1e94d9e786e8b4639113673e74aa31bf02ef4ae5e62e54756"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00062.npz",
+      "sha256": "3880abcab131ffe01e8b7bd37136fef02484d1ce2370ddf46b2e56ebfa452e43"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00063.npz",
+      "sha256": "53c4d66746931361c461cbedf5e2e1248c0b40e3ec0fdd381f038ce4dbeeafd0"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00064.npz",
+      "sha256": "baac21795585805f291be908a1bbc6ba4199a820bf4ecef475724a40eba9b584"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00065.npz",
+      "sha256": "91c6eb42cea13a712584d3c11a4320791d5a1e7a13400ec694fe5a11ce267ee2"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00066.npz",
+      "sha256": "cbb637985a8ef903e8cff62212d031b5241b3ba729ae4c4006cded2eb2297ff2"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00067.npz",
+      "sha256": "723d0682a87ae319e864401c1bb21796517c46e0cbec35c4e170ca9a9f2b21e4"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00068.npz",
+      "sha256": "e61f74be870f7d04571c2f32d4ff46692aa433baa124fe91b5ccaf612c1335c3"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00069.npz",
+      "sha256": "2a860a353e81b8198815e2d7ae82782431458f804a50fdc9efa65d6d8d838e61"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00070.npz",
+      "sha256": "6c6a3b501849b37ecb80593ca15246a18e3e2a607d7850b08576379f4a09f509"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00071.npz",
+      "sha256": "b36919bc3560c0615011bb0aaaac36f680da8cefdc7dff7dc0b5e18de1e8f0e0"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00072.npz",
+      "sha256": "841b83e7ae348f8ce29f382e9dabe757c17c55d9d3fa9a25dcd8855a0d628295"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00073.npz",
+      "sha256": "a2218cae37a9fa6ddd894ae0ff4cc1c5c3c81ee437c79f6e61b532a93b719f2f"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00074.npz",
+      "sha256": "11b02d943165f4684607d41b324a8424db26996e5b6e2b161dc21c2713d442fa"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00075.npz",
+      "sha256": "1fe2d28b477ae5cb4875f9b9a68af056d78c82a9375a723ab6828f8466ea0622"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00076.npz",
+      "sha256": "d130a28ad28905456f24a0fd2438022b438cd6427ecc9d615215d48858003ed1"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00077.npz",
+      "sha256": "f4b0c2b04592b3321c0c2eba4c30a5bd12bcdc34bfc36a7866fb834a06ac3aeb"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00078.npz",
+      "sha256": "d8b09d1480dc12924207a2e960fff68e1c4262186fb721b550a9a92ca0277eb2"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00079.npz",
+      "sha256": "08d36696c66ba7dacdd3116ce576847af1c05ea83ae1dce8aa714d36a0fd7052"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00080.npz",
+      "sha256": "2248ae26f4787770ff79a01a7fca38431299042e98663719049dc4077acad128"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00081.npz",
+      "sha256": "6099187392fa3fc72f8ee2d95ea96e832ccac24e64448b61d8f52e361a1fd369"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00082.npz",
+      "sha256": "74ef02ee1d70ab53b8ef8b202dcce869af4fd37dca503dd9c812893cf7bf6a03"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00083.npz",
+      "sha256": "141daefafd01152f14ae4333d154511d605105428786c9042f5c2a619ab6f495"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00084.npz",
+      "sha256": "c57b19403ee70277bb1b0c71e7a90ffa6af2862a7c5093221174abad7487b5ad"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00085.npz",
+      "sha256": "75348de02cfa67185130b4736bcb10f4e16df7d3c964b4b47b71af12002811cc"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00086.npz",
+      "sha256": "7f0e1f4480634491ed4f7d35071ad3a570b0a6af79e67836dac3a74072865308"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00087.npz",
+      "sha256": "7fb079e54a172e50d80cb398412ff6b23d09d172551b006e8433ed3fc294daee"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00088.npz",
+      "sha256": "d660082149957344878fb555072ed66c06e673826f75b78ea5b70de351e10888"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00089.npz",
+      "sha256": "9d449872ba6dfb183f059f76879b3b0a5cfca3a4389ce67fcf4f607c7fc61786"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00090.npz",
+      "sha256": "f4b6fe532943a18cb1d547b8eb065339f2b80eca492617a78fa5b84f71a57ffc"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00091.npz",
+      "sha256": "9f03497b2fa1b558fdda372cd1deaf04c22b147d76a1deb864ea2a7f5462cc35"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00092.npz",
+      "sha256": "cfe00402185aa51112bd0e4a743a4f236e4de191a8a48f65ac874bc06d4aca61"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00093.npz",
+      "sha256": "b12f6b076f2ccdf1670718bbf2d71cc0c9c7c668de2e8a5c79163a829e3e1c1b"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00094.npz",
+      "sha256": "d53ff07217e221fb52fff9af3c8d6edff128ed9b5a2a8e15c8caef94da08dc63"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00095.npz",
+      "sha256": "6a1567df15753a2bf3741df81681c396e92098d24a8c4b2b1534f8379a509360"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00096.npz",
+      "sha256": "586a096152066aa973c47920bc53913197af23423febb494dbf196eeeb82148e"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00097.npz",
+      "sha256": "41b1e804e4ddd972c90730b4204617984e873164fbe28363d0c6bd0374fd5049"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00098.npz",
+      "sha256": "025349c4b021c921ac9915dd42de16dd60188e8528c7b7a3fe2dcb11f33c6145"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00099.npz",
+      "sha256": "e6082cab49e717e7efa595480e610a4285571f62713dc35e53a0d6645ba12c60"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00100.npz",
+      "sha256": "df9ddab8dd6d865aa5f63560cf3f932b830f9b135b5f34afbfff19cbed5b393f"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00101.npz",
+      "sha256": "0a803098d4b3c6bbc40f44678d508df5fcb669d36e4b14a759e42638dedd1b0d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00102.npz",
+      "sha256": "43063a464cf804210593fc2f8636108e4aae0c804b911e8e056ba943fd0b1e25"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00103.npz",
+      "sha256": "22822ff1c018ca9eb35db82b2ba334a2b5247232ae42e9653970f518081fc537"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00104.npz",
+      "sha256": "a44da8cd57b9823adb1e2810d14a17594137843de2fbafd1726d6dba2507061b"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00105.npz",
+      "sha256": "503ee48f51a1ceeaea7c9ab91e98c25cf41877c5cb5c95073c8a772c17c2c8a4"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00106.npz",
+      "sha256": "42361ec34f54c60203b74fce3d70ff0c22034d3185e5ff3073e8535a8ba131d0"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00107.npz",
+      "sha256": "a24a8c1e73582049ad3fbdd3672f6d0433e229800fc3746ac1d99166f94224ae"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00108.npz",
+      "sha256": "2906c9a8064932b9db53c8205dfb24bc2ce6836aec261813ac8151a802d3fdbf"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00109.npz",
+      "sha256": "a777da005676561fbcebffe789d0aac08f386e36342456cc2132e6dc64aea1df"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00110.npz",
+      "sha256": "414f2d8812bf793907a9504f378adb018402fd645bb4c79b019c997bab54daac"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00111.npz",
+      "sha256": "24762e1fdd66f0f51bd372024bd91443a99f261e2bf6051f7d843107ec4768c2"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00112.npz",
+      "sha256": "4c996be5677f4fdac8abc0e471394dfe3b672ece37f3b3cf2638fa9cfdec4e00"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00113.npz",
+      "sha256": "e0d8b7c3723f36d8db2db6b06b240b12714531bee56d32d2d23eaa313fa0ddf4"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00114.npz",
+      "sha256": "cbeb4ca1f6c9170005e7c702d330c7bfad65a10e3048194a3e693e7c169e1645"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00115.npz",
+      "sha256": "5156bceca1f3b6c1bc2b0504f2696001135939210f4e2d0d219d274c568eb0a2"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00116.npz",
+      "sha256": "09d7506a647624741d15b7ad334721150316f8eb9ec29bcf0331c75e5ef71a0d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_04/parts/part-00117.npz",
+      "sha256": "ecccb9f69a92a70d4295ff1f2cfb0b1ca224852e848912f49665d14c3c2c8f90"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00000.npz",
+      "sha256": "2f69350421c6bc9bcca9dcdb17ab260f15e22f825f9d7c7e91352444cae5f863"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00001.npz",
+      "sha256": "eb2fa88720ee7be13fd59a2447c514f6c95ea2445e070284ac3ba45ca8fecde0"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00002.npz",
+      "sha256": "02bb9c8783642cc3427773be4e6c5cf4d0c36d1df45db61697e209f79d66b1f4"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00003.npz",
+      "sha256": "d67ed317641bb7b1f8209918ed7ff0d83e5770f5cde33e63664b8552dfcef3ef"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00004.npz",
+      "sha256": "851d866165d3737b4d881bd11ea37a2230adf7c6d5c26d8418bc1f0ebe673a92"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00005.npz",
+      "sha256": "531a803e2d5c7176d9b7de42198af59999a44d070dc3a24b5b2ba8d69cdc911d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00006.npz",
+      "sha256": "5ea8826470f216215f342b1df2bfc38d36e7cebd606f7b0df72fe9bea8bc26dc"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00007.npz",
+      "sha256": "f5be4bc385fe9faf780c38739ad1d3d35c1e98588781fb681092aed07c4dd96e"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00008.npz",
+      "sha256": "40bcdfb8e7d440c8c63af42d169f91530b83c5d092b19fba6b568d8a812c7f5d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00009.npz",
+      "sha256": "e5bfcd820231d745e5908085124ae59e6b5eb849237ad321f10c7440c52ef4b7"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00010.npz",
+      "sha256": "9f28e968f452ace1182e58f1657296463bf2aaf3ea2b9e78f589602b943059b0"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00011.npz",
+      "sha256": "cd834ba7e20adf339904e8bfcb38ce1673472e34e7134988092611bf6e3e57c4"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00012.npz",
+      "sha256": "c2cd91da7e216b46d88edd283482bcf9ae0b28731dc46ae7e57b331b4f5c5d5f"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00013.npz",
+      "sha256": "f0378941851d173ab3d8e2721204c2f1bb3e82d8521ff263cb985fab92f200e2"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00014.npz",
+      "sha256": "a97bdd37db03c094b7ed9d90a30885c7e0a533b324872d0cb47569bc5564cef9"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00015.npz",
+      "sha256": "e3f3fde9f66dda7862380d4034454e7cd52bfdba6f8f59081cd50f262bc1b8de"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00016.npz",
+      "sha256": "41bb54685565ef3950fdc1044827f70a1b0a520ecb7f3b02955fd01839f5637f"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00017.npz",
+      "sha256": "afba5095f64b63b527e82802ce0fa55665948ab94c843462939d771f94220a85"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00018.npz",
+      "sha256": "bfc309a1256d81c39632e06193f4c3a55c42fed3a62f990c20e34e45151d8704"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00019.npz",
+      "sha256": "8227bc3efb1e23fc2d1f4c96904e7226a4c7a6bdf9d45148c533fd09870c7aab"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00020.npz",
+      "sha256": "8378d61a9a8cc5280be0ae31e9e5f0208d64a87b3ca63cd4f503cf3228fac2ca"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00021.npz",
+      "sha256": "8b5705db1d8a4df3ab0dfbbc8df7590a381aa49317df1bf61a62ac5b8f2c432e"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00022.npz",
+      "sha256": "2a99a5d4cd3de536d9f10a13c418adb18ef696186b55487b9ce292ed55de6249"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00023.npz",
+      "sha256": "a2c6832cc41f10d61359c9b7e0c0e9ee1e97bc9705548ef6b2a6d6afd744e5fe"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00024.npz",
+      "sha256": "66f9f012f0c78cdf25fef8491e4d0c764cd004816321f9d0a4b74a781c7d02f4"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00025.npz",
+      "sha256": "91c04ba600a5d5f06c44fab05e771cac9ac0ef15cf3f3f94c122faa42d998bbb"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00026.npz",
+      "sha256": "9339a7a43796dc039a3714ddf32136f995736ecca03d31ec0aab671bcfc68cae"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00027.npz",
+      "sha256": "2a79fd0cdf3bc9512931ce56216fdaf3d7ee429f55cccde79152bc5a14bf2bb4"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00028.npz",
+      "sha256": "40d7c7615c7ba104c73e6bb77a712fe910e6b3a2c9b7f68b672f3d5f224e252e"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00029.npz",
+      "sha256": "e8fc7e365f7cbae7c6aa7cc0e1814504270499836b572a2825d009ee2ab909c1"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00030.npz",
+      "sha256": "a368b8520fa3ad8beb2bde8c1f7e8a4b0ead15aa1da5147e9755541315a5d5a2"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00031.npz",
+      "sha256": "a5fc89fd777dc6c5249efd1697d203e8cdaf88b075aae3459c87fb43daa826d8"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00032.npz",
+      "sha256": "eaa9ceef960dac5c441a33514cbbf196393cd747ce4ed5edc2762f55dba43238"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00033.npz",
+      "sha256": "91ac35ecb11c3e56c1604af8d8363c88a19e0b5c121e7d40970ab6b092058d89"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00034.npz",
+      "sha256": "2d8fb341f734d2e90e267f2055d3ae14b2fc889d3a40edc1e926b19c811a9c5c"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00035.npz",
+      "sha256": "e1ab4e47fb45a550e9fbcbab52fdf2f1464508722cc5074a5649cd17d212b107"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00036.npz",
+      "sha256": "36c4a0f3d8499ebf11803eed7bb9d2b1fbf067d46d4bf19cbbbb6bd2b39879d2"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00037.npz",
+      "sha256": "af876cc4dbd66ff918b1f48f0dcd7ab7068128f16570a9bebe3d4c7670a2cde3"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00038.npz",
+      "sha256": "94c02090e9213ae1dd04f2fe188ba3ae8a4e17cb8830077033c9cd83fb188f56"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00039.npz",
+      "sha256": "7b6cb468f2900322a4de6ac50eb80025be3ba3af40517d7e362f7b60ae9a662c"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00040.npz",
+      "sha256": "dcba839358122c949db029462d488f4727b52527fa1fd8f9778639794cea856d"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00041.npz",
+      "sha256": "30f874b830a788b2255452ab9028f3ca6ea5d0b3197344b1f73f0212f185360c"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00042.npz",
+      "sha256": "cacbf4fcc333f60de7cd13964174859bef29b18d2c763d6c412676122f010dd7"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00043.npz",
+      "sha256": "8f8f3a2d2ce5da80086aa007f10f6d260b85338b38da5b684d77ab0ce6eeef44"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00044.npz",
+      "sha256": "b7c4c333ca256e5e25f24143827e2a8a391779806dd19aefa3716cd5c83b4610"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00045.npz",
+      "sha256": "38781a2366e06fc8403e4c12ca36f0eb67174ba763eabd15f191f8ea35c9ec03"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00046.npz",
+      "sha256": "eebb9c70ccf8743ee40875f4f0d9c82c791fa1b332ada2433c4e81def505dbd5"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00047.npz",
+      "sha256": "2b5e579b3e7c276e62f3db96171d6d9b2cc27d8f52e7dcb0ee5d4a3b4b7a8455"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00048.npz",
+      "sha256": "b67eb16aeccb0159d568d3b3db34c327cb3803b8d9b884fe0f5d3d111dde0d0e"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00049.npz",
+      "sha256": "6d95379d075f58f23b6188cd9391ce99ceec17ebb75cda23ce2f91bd4d9743ff"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00050.npz",
+      "sha256": "5c41929b33c577fd1dbe7451497f20b2818d97270931abb0ded8dc41ffbdaa79"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00051.npz",
+      "sha256": "359b67eef000fa52081815e93e5419bae54c480a35959ad61fd7d50b4afd4816"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00052.npz",
+      "sha256": "55abeab02d8042f20c782bd092b569863cde36896c7d1afbf9b0945f54bcc833"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00053.npz",
+      "sha256": "614103a959b9d56bdec57a842749ed794e28c1aa2b617b2e7f65f6aca39346c9"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00054.npz",
+      "sha256": "88b17ceadad9aefdcc2b010a51492bdd49458a06ec2d7312cef94b06d6a21d62"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00055.npz",
+      "sha256": "72ad55d43c24b5a5dd81f27ede46ba570373ab2a38aedf4996abd2a358e7c159"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00056.npz",
+      "sha256": "f0c3904e9a9ec77a50057311fe97430adbe90d2f9d9011b099a91148e3524749"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00057.npz",
+      "sha256": "99e8928de45a03234e29720f2d32c4dc75bd17d1c3d5446fd4271c713e027559"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00058.npz",
+      "sha256": "04ad4a697b93aca29e07a699b0dadf65d776de37a3874fd07349507d8e88fe33"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00059.npz",
+      "sha256": "c93fa92cc38b0e5079fb2ca7b27b1c2cefbcd7e2d65ce555a85a7fbbcde4de76"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00060.npz",
+      "sha256": "b109652fad9846f8073b6b3a6f71d66a3531a12396dd60c699dc4c399179c2f6"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00061.npz",
+      "sha256": "b242b2bc82b61143dbf1cf675d11f3191dcee904ee7f2777537d07cd092e5c29"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00062.npz",
+      "sha256": "03f1346f5c3f7fbd092e7c7f229681b9664727514a1ac4308d2c5273fbb1e4a9"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00063.npz",
+      "sha256": "7c252a166bd405c1a049d39c84d2564e85f3e5ae48fa599463a3bfe60f88c700"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00064.npz",
+      "sha256": "325d17238ddd725fb770ee9aafa6ad2eb7547ed8302794f06b5c306c5985bf10"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00065.npz",
+      "sha256": "2a9514febda2b8999a60dabe45b2f3c931a3a7776a2551636f765e7bd61bf9bc"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00066.npz",
+      "sha256": "4b0d1ee962c3bbd3133caf8e2a7f53074ae390967e33853a46f1b861ea86734b"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00067.npz",
+      "sha256": "066e8a118703f6d8eed2a3c9d34677e461ff0020f26272c00ca5c8fa4471afbe"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00068.npz",
+      "sha256": "ba8d125ca051fc73032596a2c9ecef0f17dcc7f48bbb4cd316a54b92f2c4af2b"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00069.npz",
+      "sha256": "aa075b42acfa6dc19e7fa35b9141f2ee34ba8fcb48d6011da8030a72b29e197f"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00070.npz",
+      "sha256": "d0bdc60cec7124d7e8eaa0b057b5d496faecd6830c24ec2649ceb6378dc898e3"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00071.npz",
+      "sha256": "996a51e814be1d44ae692b227b27ff42d2afaa7bd4d6aa5edcf3972d180ae54c"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00072.npz",
+      "sha256": "8b7c5df8e4a51fd3d2211034c6ba508d8584f6216163becd16f9b7f6f03c6454"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00073.npz",
+      "sha256": "ff90364bc621f23194aba9062a7d3739baa8712dbd9176d93d34697cf31ca9b3"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00074.npz",
+      "sha256": "e09a67d36a43b6cd3cdb90aea8067693ae7d8ae7fb14ce884be6b1064a4965e0"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00075.npz",
+      "sha256": "4d95c884cb1e23dce3c4ae0568c7320cc5460e81beccaab0bbe725be23b392a7"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00076.npz",
+      "sha256": "641da7472e880693a11718b550eec44adbaba6dfb51e1bc8cd6c0db0affd1fc4"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00077.npz",
+      "sha256": "1f2112a953a14c579de9295334f5eda44b35daa601fd84f579239711965fb330"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00078.npz",
+      "sha256": "808ff9cce3a45cdbc7628167ce2d241111044691603adb6402c2171d37094b68"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00079.npz",
+      "sha256": "238562e84e95ba10e8b803e8ddebca2789e89c5b60d2d4c5dc7cc0f2ceea6f7e"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00080.npz",
+      "sha256": "427a8e7acf53b3f918cd73396580eecbe51374496adfc5dedca41a4448fbd097"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00081.npz",
+      "sha256": "6877aeba743ef81ed7cece62b3dfe990debe01f8d491993776e93f79ee3bd789"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00082.npz",
+      "sha256": "5ce440a2a1d8319f1d9d0d8848fd0ff6c02bda43167b3c45e3f31250e3c93678"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00083.npz",
+      "sha256": "8597bd3d8138f4d3df8c949c631f079bff1b465bef422beede37ad8334ee8201"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00084.npz",
+      "sha256": "1c7b9428c1d3021559172c2944789ff390170ae9e532d0bac0e490cf37af6e8b"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00085.npz",
+      "sha256": "d2b49a1d606ca42f672545593b0c1e63c59b627057a76c86a5df8ef373bbcf3c"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00086.npz",
+      "sha256": "67b23851ac23e7be39670d6ee4fe45123b4d6e70a232ba4895a47f01c86c7aac"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00087.npz",
+      "sha256": "f2e830542694cda7cf8d1efbf15451322dc86948d0c70630418a11e39f9b2682"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00088.npz",
+      "sha256": "b51b5836d85e00ce36061f1585c45ba7601b311c3c675128b9bc560f27c76364"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00089.npz",
+      "sha256": "f45ce15b2dce3c2dae88a18c6b2cf30726999c7e16eac4868d28cf1db28ea59a"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00090.npz",
+      "sha256": "10ebef36dc905b9d72d2fda4f4b077df02de4d721e4477814b8108cd9a13a3d8"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00091.npz",
+      "sha256": "129dacab517222708309fd1af12f410d83e8aba314acbee4f84a28f929cc7b31"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00092.npz",
+      "sha256": "bb43ee23224cf754d0f1efb4fbfd3f9bfbd742ef959b80c0d727522e32df1e61"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00093.npz",
+      "sha256": "00abd338cae3c365173c14f4692155f6b58790fd511103e53a6443c6cab6c4bb"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00094.npz",
+      "sha256": "cfb379cc4a5c1253406dee7de69050d508ee35d58198cb3ea797abff1d6a6a89"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00095.npz",
+      "sha256": "fc29d89a1b5bd9943d4a27d22c4f2b1eac19d64b26b9f7d2df32c7df4805b946"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00096.npz",
+      "sha256": "1d0b65185fff4afaee3a589841f7dcf0b1ab9d5f221234aa79c8d67da3b368ae"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00097.npz",
+      "sha256": "2e83d3dab35da44c6b164a0d241913be20d07380a5827f3b296e6a1b644aa1c7"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00098.npz",
+      "sha256": "5802fc6689398a974a93d533d6ee24cb84a44eff22b45e838288b66e81443c81"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00099.npz",
+      "sha256": "663238b27f44e54d835952c28038bde3ab7d68b98a96b34b965ee42fb5de56a4"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00100.npz",
+      "sha256": "1171a9eff0d28011a795c13cf44a896e1ff775cefd867fa950cd8081e215aaaf"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00101.npz",
+      "sha256": "c272c9e7f50764973048b6ffeb9637b4d25ed835aaa32d3762ea945bac8d0941"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00102.npz",
+      "sha256": "083bbbac11f31ba256c2ba53427b99d576591d58a0f72fe03538f380bd105f6b"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00103.npz",
+      "sha256": "e71ec6607d4de9599157474b0648a879e6405ae9b759ffdf4eb6544633110677"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00104.npz",
+      "sha256": "6d80e26d853df871d8c2b87bbc914de6faba04b0eb4e9ff28ac0991939458732"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00105.npz",
+      "sha256": "92efc852e8b24a03e037260838015f07bbcb172e9d9bef85bccce38bb0381424"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00106.npz",
+      "sha256": "57b62375b5d060ea9b7b65dbe2308b92a07bf128f075f4aaeb52100a0444fc5e"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00107.npz",
+      "sha256": "3a4d718f8b8ac138c39affb2fc8d44bb718beefacde3183e04bf2533e2827123"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00108.npz",
+      "sha256": "59f0130ac1fc20e12023b302ab54ed511bb03875fe5de09f5b38b20102c39614"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00109.npz",
+      "sha256": "0b2d2642ce29164501f24e750fae3af3b149533c8a9ff43318ce3e104e45ac84"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00110.npz",
+      "sha256": "ac4e4785047f29a54053b746608a705e611664acf0bddf2acf39ac7c3813143b"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00111.npz",
+      "sha256": "1f18829409391d4f8117680b25f6a5b1f6715fa92695b5ed2a4013b9906e6533"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00112.npz",
+      "sha256": "9ba5a163403a75d9ee2b0e38c5253fb37f1bb3fc3f68f05b5a65e198bfc2d2a9"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00113.npz",
+      "sha256": "3bd9742ceab7b24a0a60b9b3d0c213f7e1a84661c9463c2f8b81ec22104c119a"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00114.npz",
+      "sha256": "6082c45ec6c1d0b1b6b5bfe2bc47c9897921043d91c1978d8c1605e376d0fa85"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00115.npz",
+      "sha256": "6fbd9bea09b9284294777485ca5cfd7daa8211570f1b778d7bf0900d080e1384"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00116.npz",
+      "sha256": "442cc3b911bfc2b33ade0ccf573dbe01b196911df422b454ff0a5e2b059b1686"
+    },
+    {
+      "path": "riskprop3d_hivt_extension/recovery_v1/raw/train_05/parts/part-00117.npz",
+      "sha256": "aed5b242a2415773fd14f4006063a2e49164d31a02062e7e6a731c2421618bbb"
+    },
+    {
+      "path": "outputs/riskprop3d_r1/scenes/train.npz",
+      "sha256": "6543660cc99dd4196fab498cba91fa36fb7dbdbd9c676da481d168c83035e179"
+    }
+  ],
+  "geometry_sha256": "4ef2894d9b7893f3d727a2504a201cf85eb1b68242cc474fe74a6c49a5c394b6",
+  "labels_sha256": "90bb433c70e36a8fb50386885e82acd545477f1ea3a9fea3ce985b59c4afbdc2",
+  "builder_sha256": "f7c88310dfbe8f8d500ca56b91d6d1980501e2430bcffbc4915dcb131cc982ea",
+  "contract_sha256": "1826efd9fd97029ea970b29ce9e5d230638f806f747482a279e6eb285608860d",
+  "background_current_missing_retained_target": 0,
+  "current_box_max_absolute_difference": 0.0,
+  "current_box_exact_retained_targets": 162919,
+  "empty_map_targets": 321,
+  "max_history_time_deviation_seconds": 0.155802,
+  "target_history_source": "original retained perception; unchanged",
+  "neighbor_history_source": "same-condition regenerated perception; no GT positions",
+  "future_labels_in_geometry": false,
+  "seconds": 1337.4710249900818
+}

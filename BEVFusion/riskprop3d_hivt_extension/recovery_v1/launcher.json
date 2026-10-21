@@ -1,0 +1,14 @@
+{
+  "controller_pid": 1919620,
+  "command": [
+    "/home/zhousc/multimodal-uq/BEVFusion/riskprop3d_hivt_extension/recover.py",
+    "run"
+  ],
+  "log": "/home/zhousc/multimodal-uq/BEVFusion/riskprop3d_hivt_extension/recovery_v1/controller.log",
+  "physical_gpus": [
+    0,
+    2,
+    3
+  ],
+  "status_path": "/home/zhousc/multimodal-uq/BEVFusion/riskprop3d_hivt_extension/recovery_v1/status.json"
+}

@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "host_seed": 202610132,
+  "gpu": 3,
+  "epochs": 64,
+  "updates": 325888,
+  "checkpoint_sha256": "df912e919a1828c54f58071328163a1badbd52aa569bbf6285c6b17fbdad31a9",
+  "initial_development": {
+    "min_fde": 4.9593400955200195,
+    "min_ade": 3.5248022079467773,
+    "mean_ade": 3.6832456588745117,
+    "mean_fde": 5.265920162200928
+  },
+  "selected_min_fde": 0.42523977160453796,
+  "seconds": 18538.963777780533,
+  "peak_allocation_bytes": 1244726272,
+  "training_manifest_sha256": "c844868b8a3321a7f02c6a708d87c50d06fdc63fdb2c337cae219f81561c45d3",
+  "dev_manifest_sha256": "ab22a2efce00d86188bdbb3d64760e2593a62c48f07b84f8b38b3b772d8ef4c8"
+}

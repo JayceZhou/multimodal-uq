@@ -1,0 +1,520 @@
+{
+  "analysis_type": "read-only descriptive upstream-to-downstream transfer",
+  "bootstrap_resamples": 10000,
+  "bootstrap_seed": 20260805,
+  "causal_distribution_family_claim": false,
+  "classification_counts": {
+    "CV": {
+      "amplification": 30,
+      "attenuation": 15,
+      "indeterminate": 0,
+      "ranking_reversal": 0
+    },
+    "MLP": {
+      "amplification": 36,
+      "attenuation": 9,
+      "indeterminate": 0,
+      "ranking_reversal": 0
+    }
+  },
+  "condition_inference": {
+    "development|camera_lowlight|1": {
+      "downstream_es_gain_htc_cv": {
+        "ci95": [
+          0.011079601478225053,
+          0.02207969779313113
+        ],
+        "mean": 0.01652319975475195
+      },
+      "downstream_es_gain_htc_mlp": {
+        "ci95": [
+          0.008507132658998467,
+          0.016828729382968102
+        ],
+        "mean": 0.01256528090736098
+      },
+      "xy_nll_gain_htc": {
+        "ci95": [
+          0.06229217834657602,
+          0.11567593028876287
+        ],
+        "mean": 0.08641130634427492
+      }
+    },
+    "development|camera_lowlight|2": {
+      "downstream_es_gain_htc_cv": {
+        "ci95": [
+          0.011579085680813502,
+          0.022608480300915005
+        ],
+        "mean": 0.016763227240160144
+      },
+      "downstream_es_gain_htc_mlp": {
+        "ci95": [
+          0.007666788054647259,
+          0.016360564477644543
+        ],
+        "mean": 0.011876866055267287
+      },
+      "xy_nll_gain_htc": {
+        "ci95": [
+          0.06306219890245364,
+          0.11553871367125754
+        ],
+        "mean": 0.08646209133339879
+      }
+    },
+    "development|camera_lowlight|3": {
+      "downstream_es_gain_htc_cv": {
+        "ci95": [
+          0.016138387380571172,
+          0.028505505870527647
+        ],
+        "mean": 0.022119382552090304
+      },
+      "downstream_es_gain_htc_mlp": {
+        "ci95": [
+          0.01292668181335717,
+          0.023117802307522
+        ],
+        "mean": 0.017885174436363376
+      },
+      "xy_nll_gain_htc": {
+        "ci95": [
+          0.07192294385908635,
+          0.1278658731374883
+        ],
+        "mean": 0.09620831810847831
+      }
+    },
+    "development|clean|0": {
+      "downstream_es_gain_htc_cv": {
+        "ci95": [
+          0.010927255040559846,
+          0.021630230121555905
+        ],
+        "mean": 0.0161425582021682
+      },
+      "downstream_es_gain_htc_mlp": {
+        "ci95": [
+          0.008454916155937577,
+          0.01616888851485705
+        ],
+        "mean": 0.012297748224515726
+      },
+      "xy_nll_gain_htc": {
+        "ci95": [
+          0.06435102211309665,
+          0.11917216505937063
+        ],
+        "mean": 0.08917366576819322
+      }
+    },
+    "development|lidar_beam_reduction|1": {
+      "downstream_es_gain_htc_cv": {
+        "ci95": [
+          0.016681134236914873,
+          0.028481765536336526
+        ],
+        "mean": 0.02245763759337418
+      },
+      "downstream_es_gain_htc_mlp": {
+        "ci95": [
+          0.013114526334751766,
+          0.022660551995755066
+        ],
+        "mean": 0.01773155465103052
+      },
+      "xy_nll_gain_htc": {
+        "ci95": [
+          0.0837973165063046,
+          0.15421490377349936
+        ],
+        "mean": 0.11602052318892704
+      }
+    },
+    "development|lidar_beam_reduction|2": {
+      "downstream_es_gain_htc_cv": {
+        "ci95": [
+          0.02250180862839482,
+          0.05063680493269773
+        ],
+        "mean": 0.03681115670945097
+      },
+      "downstream_es_gain_htc_mlp": {
+        "ci95": [
+          0.020635641313594914,
+          0.04346291197802012
+        ],
+        "mean": 0.031978092349584056
+      },
+      "xy_nll_gain_htc": {
+        "ci95": [
+          0.11266815784438346,
+          0.2684558063358185
+        ],
+        "mean": 0.18307878815626155
+      }
+    },
+    "development|lidar_beam_reduction|3": {
+      "downstream_es_gain_htc_cv": {
+        "ci95": [
+          0.06677579492532679,
+          0.10958481787223898
+        ],
+        "mean": 0.08780218478009252
+      },
+      "downstream_es_gain_htc_mlp": {
+        "ci95": [
+          0.05578473343187856,
+          0.0925410979962186
+        ],
+        "mean": 0.07383939733548626
+      },
+      "xy_nll_gain_htc": {
+        "ci95": [
+          0.17625562499552228,
+          0.2831588821028854
+        ],
+        "mean": 0.22749573662397674
+      }
+    },
+    "development|lidar_point_dropout|1": {
+      "downstream_es_gain_htc_cv": {
+        "ci95": [
+          0.010528620106185093,
+          0.021919468355166925
+        ],
+        "mean": 0.01626177870520411
+      },
+      "downstream_es_gain_htc_mlp": {
+        "ci95": [
+          0.008705816025371101,
+          0.01750044730591897
+        ],
+        "mean": 0.013016973619340934
+      },
+      "xy_nll_gain_htc": {
+        "ci95": [
+          0.06833210490829897,
+          0.12982953938517514
+        ],
+        "mean": 0.09624536825223369
+      }
+    },
+    "development|lidar_point_dropout|2": {
+      "downstream_es_gain_htc_cv": {
+        "ci95": [
+          0.013521655711712736,
+          0.025622282987489923
+        ],
+        "mean": 0.019558368025198676
+      },
+      "downstream_es_gain_htc_mlp": {
+        "ci95": [
+          0.011736998418739672,
+          0.021475571461549492
+        ],
+        "mean": 0.016566399734268673
+      },
+      "xy_nll_gain_htc": {
+        "ci95": [
+          0.07397229643060493,
+          0.12311749689150032
+        ],
+        "mean": 0.09652301133050031
+      }
+    },
+    "development|lidar_point_dropout|3": {
+      "downstream_es_gain_htc_cv": {
+        "ci95": [
+          0.020270318938154105,
+          0.0361862016419203
+        ],
+        "mean": 0.028364222607023204
+      },
+      "downstream_es_gain_htc_mlp": {
+        "ci95": [
+          0.01639471418010633,
+          0.030860086801869288
+        ],
+        "mean": 0.023918790402142575
+      },
+      "xy_nll_gain_htc": {
+        "ci95": [
+          0.08774065624130219,
+          0.17709352350230423
+        ],
+        "mean": 0.12691801552794307
+      }
+    },
+    "final_validation|clean|0": {
+      "downstream_es_gain_htc_cv": {
+        "ci95": [
+          0.01637080866554559,
+          0.025439618029367592
+        ],
+        "mean": 0.020604011061251704
+      },
+      "downstream_es_gain_htc_mlp": {
+        "ci95": [
+          0.0160158421898509,
+          0.026971486770770704
+        ],
+        "mean": 0.021007009076573702
+      },
+      "xy_nll_gain_htc": {
+        "ci95": [
+          0.13995472372829276,
+          0.20888862242190262
+        ],
+        "mean": 0.17258239213779125
+      }
+    },
+    "held_out_degradation|camera_extrinsic_rotation|2": {
+      "downstream_es_gain_htc_cv": {
+        "ci95": [
+          0.01608958799293446,
+          0.028970757824081657
+        ],
+        "mean": 0.02245658895876125
+      },
+      "downstream_es_gain_htc_mlp": {
+        "ci95": [
+          0.016022185660533025,
+          0.025904898078360977
+        ],
+        "mean": 0.020803344447181873
+      },
+      "xy_nll_gain_htc": {
+        "ci95": [
+          0.09752349493266038,
+          0.319080814644
+        ],
+        "mean": 0.19139003991834386
+      }
+    },
+    "held_out_degradation|camera_extrinsic_rotation|3": {
+      "downstream_es_gain_htc_cv": {
+        "ci95": [
+          0.018658269938873,
+          0.033219711125986935
+        ],
+        "mean": 0.02576534220031082
+      },
+      "downstream_es_gain_htc_mlp": {
+        "ci95": [
+          0.01887040559279258,
+          0.030107743074488273
+        ],
+        "mean": 0.02439633062100556
+      },
+      "xy_nll_gain_htc": {
+        "ci95": [
+          0.07803394131726839,
+          0.1364759301776513
+        ],
+        "mean": 0.10585041752004754
+      }
+    },
+    "held_out_degradation|camera_extrinsic_translation|3": {
+      "downstream_es_gain_htc_cv": {
+        "ci95": [
+          0.010845985482582778,
+          0.02231759999828062
+        ],
+        "mean": 0.016347098218429824
+      },
+      "downstream_es_gain_htc_mlp": {
+        "ci95": [
+          0.011544553977344307,
+          0.020562058920923117
+        ],
+        "mean": 0.015949222765808218
+      },
+      "xy_nll_gain_htc": {
+        "ci95": [
+          0.058784903432395536,
+          0.11056326841581687
+        ],
+        "mean": 0.0822875368437711
+      }
+    },
+    "held_out_degradation|camera_temporal_offset|2": {
+      "downstream_es_gain_htc_cv": {
+        "ci95": [
+          0.01259668304928671,
+          0.02332672677842769
+        ],
+        "mean": 0.017867721550990617
+      },
+      "downstream_es_gain_htc_mlp": {
+        "ci95": [
+          0.011310491390915403,
+          0.019802834447045795
+        ],
+        "mean": 0.015473626652982886
+      },
+      "xy_nll_gain_htc": {
+        "ci95": [
+          0.06839929688348005,
+          0.12906338324455235
+        ],
+        "mean": 0.09612263559889021
+      }
+    },
+    "held_out_degradation|camera_temporal_offset|3": {
+      "downstream_es_gain_htc_cv": {
+        "ci95": [
+          0.014249891706328188,
+          0.025846638302039714
+        ],
+        "mean": 0.019895141864230786
+      },
+      "downstream_es_gain_htc_mlp": {
+        "ci95": [
+          0.012562105580957984,
+          0.021976004880441893
+        ],
+        "mean": 0.0172111366359639
+      },
+      "xy_nll_gain_htc": {
+        "ci95": [
+          0.07523535376177075,
+          0.14445883048086275
+        ],
+        "mean": 0.10657214037622878
+      }
+    }
+  },
+  "condition_seed_cells": 48,
+  "correlations": [
+    {
+      "bootstrap_resamples": 10000,
+      "cluster_bootstrap_ci95_high": 0.8964488708860164,
+      "cluster_bootstrap_ci95_low": 0.5903857405247532,
+      "condition_seed_cells": 48,
+      "downstream_label": "CV trajectory ES gain",
+      "downstream_metric": "downstream_es_gain_htc_cv",
+      "head_seeds_per_cluster": 3,
+      "population_condition_severity_clusters": 16,
+      "spearman_rho": 0.8178462874511506,
+      "upstream_label": "Upstream XY NLL gain",
+      "upstream_metric": "xy_nll_gain_htc"
+    },
+    {
+      "bootstrap_resamples": 10000,
+      "cluster_bootstrap_ci95_high": 0.9095202456481449,
+      "cluster_bootstrap_ci95_low": 0.5764812106849351,
+      "condition_seed_cells": 48,
+      "downstream_label": "MLP trajectory ES gain",
+      "downstream_metric": "downstream_es_gain_htc_mlp",
+      "head_seeds_per_cluster": 3,
+      "population_condition_severity_clusters": 16,
+      "spearman_rho": 0.8140468953538862,
+      "upstream_label": "Upstream XY NLL gain",
+      "upstream_metric": "xy_nll_gain_htc"
+    },
+    {
+      "bootstrap_resamples": 10000,
+      "cluster_bootstrap_ci95_high": 0.6111553506304159,
+      "cluster_bootstrap_ci95_low": -0.42831792250679745,
+      "condition_seed_cells": 48,
+      "downstream_label": "CV trajectory ES gain",
+      "downstream_metric": "downstream_es_gain_htc_cv",
+      "head_seeds_per_cluster": 3,
+      "population_condition_severity_clusters": 16,
+      "spearman_rho": 0.13243595310464612,
+      "upstream_label": "Natural-coverage error reduction",
+      "upstream_metric": "coverage_error_reduction_htc"
+    },
+    {
+      "bootstrap_resamples": 10000,
+      "cluster_bootstrap_ci95_high": 0.6814317802830149,
+      "cluster_bootstrap_ci95_low": -0.29550033176801116,
+      "condition_seed_cells": 48,
+      "downstream_label": "MLP trajectory ES gain",
+      "downstream_metric": "downstream_es_gain_htc_mlp",
+      "head_seeds_per_cluster": 3,
+      "population_condition_severity_clusters": 16,
+      "spearman_rho": 0.26118106817194964,
+      "upstream_label": "Natural-coverage error reduction",
+      "upstream_metric": "coverage_error_reduction_htc"
+    },
+    {
+      "bootstrap_resamples": 10000,
+      "cluster_bootstrap_ci95_high": 0.6136684079837257,
+      "cluster_bootstrap_ci95_low": 0.06388229880451786,
+      "condition_seed_cells": 48,
+      "downstream_label": "CV trajectory ES gain",
+      "downstream_metric": "downstream_es_gain_htc_cv",
+      "head_seeds_per_cluster": 3,
+      "population_condition_severity_clusters": 16,
+      "spearman_rho": 0.34075119409465915,
+      "upstream_label": "Equal-coverage log-area gain",
+      "upstream_metric": "eq90_log_sharpness_gain_htc"
+    },
+    {
+      "bootstrap_resamples": 10000,
+      "cluster_bootstrap_ci95_high": 0.6421240257457408,
+      "cluster_bootstrap_ci95_low": 0.09491201144011842,
+      "condition_seed_cells": 48,
+      "downstream_label": "MLP trajectory ES gain",
+      "downstream_metric": "downstream_es_gain_htc_mlp",
+      "head_seeds_per_cluster": 3,
+      "population_condition_severity_clusters": 16,
+      "spearman_rho": 0.38221884498480246,
+      "upstream_label": "Equal-coverage log-area gain",
+      "upstream_metric": "eq90_log_sharpness_gain_htc"
+    }
+  ],
+  "head_seeds": [
+    20260731,
+    20260801,
+    20260802
+  ],
+  "models_retrained": false,
+  "modern_host_jobs_touched": false,
+  "outputs": {
+    "RESULTS_REPORT.md": {
+      "bytes": 4288,
+      "sha256": "69651dc99f164eff6ccdfedcfb82e59e572b13e61dea99d51ba31731dc7e5482"
+    },
+    "condition_severity_table.csv": {
+      "bytes": 7906,
+      "sha256": "a78570760fee582f6b0ea3ff4038a0adf55488307a867286669fcf535e706f54"
+    },
+    "figure_upstream_downstream_transfer.pdf": {
+      "bytes": 54473,
+      "sha256": "fbd66ce5deeadf627dad5b8ef3a835fb6002ca255d59e64deace2fff9ded6097"
+    },
+    "figure_upstream_downstream_transfer.png": {
+      "bytes": 217007,
+      "sha256": "8590cb56dfc9fc0d1262b7a41a567baec2963bab8348b7a877d48440f23122de"
+    },
+    "figure_upstream_downstream_transfer.svg": {
+      "bytes": 119076,
+      "sha256": "75930eacbed8e9d1e91e1efb87b41a46efc61526d408b7e8467ab456123b2263"
+    },
+    "figure_upstream_downstream_transfer.tiff": {
+      "bytes": 32427926,
+      "sha256": "73d2ad022ea1d1076e3862ab51a057322e6478d5229eb74ec6aec1fa7a03d0f2"
+    },
+    "seed_cell_source_data.csv": {
+      "bytes": 17144,
+      "sha256": "1d7e588defd64c7a79a0f48477daace10e42ca23c1d629627263fda119fbdf1c"
+    },
+    "spearman_cluster_bootstrap.csv": {
+      "bytes": 1286,
+      "sha256": "1bb33d1953dcb7908fcc12b6e40a32c54ad060955a7a9f0a46a14ed133ef812b"
+    },
+    "transfer_classification.csv": {
+      "bytes": 15016,
+      "sha256": "5bb26eefc275834a6463ee339283d2cffdd195aaed49b8b4c1b27f89006e10d9"
+    }
+  },
+  "population_condition_severity_clusters": 16,
+  "source_h5_sha256": "863c4b23a2f71bf1154fe9ed94cf38292de6812bd4512fd623206cac17131e05",
+  "source_manifest_sha256": "642f031dcefe78ab8b8c39fe4e7ab8ba600ec73a9b4881da173e0d5fd8fedd3e",
+  "valid": true
+}

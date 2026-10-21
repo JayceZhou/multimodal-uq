@@ -1,0 +1,172 @@
+{
+  "accepted": true,
+  "checkpoint_sha256": "ee0a389213922343508db40dff0ec04767b36d8f512da34b093939c37aaf2122",
+  "condition": "temporal_s3",
+  "config_sha256": "cb7bbbc25e8fdf67c2e914b11661828b684312300deb2afc410793192713e04b",
+  "corruption": "camera_temporal_offset",
+  "device": 0,
+  "exporter_sha256": "dfdfcf4c6db3caacd6202f4785314be09e66806ba1a43cc9a12efca021bd4c43",
+  "fields": [
+    "sample_token",
+    "scene_token",
+    "query_features",
+    "query_logits",
+    "query_boxes",
+    "seed_probabilities",
+    "native_matched_gt",
+    "gt_boxes",
+    "gt_labels"
+  ],
+  "full_sample_count": 2738,
+  "gpu": "NVIDIA H20",
+  "info_path": "outputs/riskprop3d_final_confirmation/inputs/nuscenes_infos_dev_temporal_s3_valid.pkl",
+  "info_sha256": "2b2114b3101837325566219e95031131f79f3626884e4598272077cbd310d0d7",
+  "internal_test_used": false,
+  "official_val_used": false,
+  "parts": [
+    {
+      "file": "outputs/riskprop3d_final_confirmation/exports/external/temporal_s3/shard-00-of-04/parts/part-00000.npz",
+      "sample_count": 32,
+      "sha256": "f6ff48d3d79d261a7c0b2d650f9c0de936a6fdacc57d82721722fbf39c553a62",
+      "size_bytes": 3399276
+    },
+    {
+      "file": "outputs/riskprop3d_final_confirmation/exports/external/temporal_s3/shard-00-of-04/parts/part-00001.npz",
+      "sample_count": 32,
+      "sha256": "56a19f60d27be9275fdcdf764186210707291f86e545a9f4aee217256d6a0ff8",
+      "size_bytes": 3403825
+    },
+    {
+      "file": "outputs/riskprop3d_final_confirmation/exports/external/temporal_s3/shard-00-of-04/parts/part-00002.npz",
+      "sample_count": 32,
+      "sha256": "1676368d027af03699391a0e09df241087a37c602eeb836d52fd4a2518cf090b",
+      "size_bytes": 3397608
+    },
+    {
+      "file": "outputs/riskprop3d_final_confirmation/exports/external/temporal_s3/shard-00-of-04/parts/part-00003.npz",
+      "sample_count": 32,
+      "sha256": "2d5021ec9c632ee0511d4172d7d9f2e86f67f3adcaa3790bcae62c91a7e7d935",
+      "size_bytes": 3395236
+    },
+    {
+      "file": "outputs/riskprop3d_final_confirmation/exports/external/temporal_s3/shard-00-of-04/parts/part-00004.npz",
+      "sample_count": 32,
+      "sha256": "ad63077bb76d234651b9eef93f41ae0d16186ab7332529ff4a970de3d5ae35d8",
+      "size_bytes": 3394643
+    },
+    {
+      "file": "outputs/riskprop3d_final_confirmation/exports/external/temporal_s3/shard-00-of-04/parts/part-00005.npz",
+      "sample_count": 32,
+      "sha256": "ca6964915699d5437d723d464974223b50055f10783342c52527209b73ecc4a4",
+      "size_bytes": 3398898
+    },
+    {
+      "file": "outputs/riskprop3d_final_confirmation/exports/external/temporal_s3/shard-00-of-04/parts/part-00006.npz",
+      "sample_count": 32,
+      "sha256": "6e5822711f834f9c663f8c1406edb26d384226599fe0ae4fe3f616550da7b69b",
+      "size_bytes": 3413577
+    },
+    {
+      "file": "outputs/riskprop3d_final_confirmation/exports/external/temporal_s3/shard-00-of-04/parts/part-00007.npz",
+      "sample_count": 32,
+      "sha256": "1d3ebf80d480807248d9f91d904585c31713bf753e5c67bbf0f2a1fcee94b9e7",
+      "size_bytes": 3427649
+    },
+    {
+      "file": "outputs/riskprop3d_final_confirmation/exports/external/temporal_s3/shard-00-of-04/parts/part-00008.npz",
+      "sample_count": 32,
+      "sha256": "2ef32838383289c5c1d8629c6e9922d38f291b4355a2cee31d44f86c926fb9a4",
+      "size_bytes": 3421898
+    },
+    {
+      "file": "outputs/riskprop3d_final_confirmation/exports/external/temporal_s3/shard-00-of-04/parts/part-00009.npz",
+      "sample_count": 32,
+      "sha256": "a6e6d008028a8957923560bce8c1d7534216260334a4ed150699ccbdc53aecec",
+      "size_bytes": 3417923
+    },
+    {
+      "file": "outputs/riskprop3d_final_confirmation/exports/external/temporal_s3/shard-00-of-04/parts/part-00010.npz",
+      "sample_count": 32,
+      "sha256": "ef3ed434cd3c9065ac774f39f908095e34a1f9c77233fb0a186ea0c6ff06f72d",
+      "size_bytes": 3399591
+    },
+    {
+      "file": "outputs/riskprop3d_final_confirmation/exports/external/temporal_s3/shard-00-of-04/parts/part-00011.npz",
+      "sample_count": 32,
+      "sha256": "52d3c1747abf0db737c20ea4f91b8f658ab003485f90a770455fa015996ae0c1",
+      "size_bytes": 3405701
+    },
+    {
+      "file": "outputs/riskprop3d_final_confirmation/exports/external/temporal_s3/shard-00-of-04/parts/part-00012.npz",
+      "sample_count": 32,
+      "sha256": "2a76ce715ffed808a808ee2c14bf61dd08b726c0888eec0ac88b20b16eb03c8c",
+      "size_bytes": 3403612
+    },
+    {
+      "file": "outputs/riskprop3d_final_confirmation/exports/external/temporal_s3/shard-00-of-04/parts/part-00013.npz",
+      "sample_count": 32,
+      "sha256": "cbc5072e0b967076809914b044fe25ad6802bcb5f67e2e73d230904b0091683a",
+      "size_bytes": 3401931
+    },
+    {
+      "file": "outputs/riskprop3d_final_confirmation/exports/external/temporal_s3/shard-00-of-04/parts/part-00014.npz",
+      "sample_count": 32,
+      "sha256": "2cafdb8a7f15cdc5195fb6d548234e3b9aac86e3aff19fb33e3afb06fca43f5e",
+      "size_bytes": 3404309
+    },
+    {
+      "file": "outputs/riskprop3d_final_confirmation/exports/external/temporal_s3/shard-00-of-04/parts/part-00015.npz",
+      "sample_count": 32,
+      "sha256": "a8f1f81efa8ea672d02f776bcc8f92a49ec700091783cd93d22d1ace014c5eda",
+      "size_bytes": 3406740
+    },
+    {
+      "file": "outputs/riskprop3d_final_confirmation/exports/external/temporal_s3/shard-00-of-04/parts/part-00016.npz",
+      "sample_count": 32,
+      "sha256": "9e29216be0c0240c18cbb463c23ef131673be12aa26c532579221b76e9231dd9",
+      "size_bytes": 3391608
+    },
+    {
+      "file": "outputs/riskprop3d_final_confirmation/exports/external/temporal_s3/shard-00-of-04/parts/part-00017.npz",
+      "sample_count": 32,
+      "sha256": "21dc4ebc90019adb573e5ff8abfc623db4af9787826ced37f5b6549a3f33c1f6",
+      "size_bytes": 3403919
+    },
+    {
+      "file": "outputs/riskprop3d_final_confirmation/exports/external/temporal_s3/shard-00-of-04/parts/part-00018.npz",
+      "sample_count": 32,
+      "sha256": "74adee4cccf8f6c40afef6af688145e83a749f4f4a8e53a43d7fe0ec3ef2ce70",
+      "size_bytes": 3390291
+    },
+    {
+      "file": "outputs/riskprop3d_final_confirmation/exports/external/temporal_s3/shard-00-of-04/parts/part-00019.npz",
+      "sample_count": 32,
+      "sha256": "a8d6b4c25e482a90fa634216d9f565cc14138769d110d46f92b875a71ff8e8e9",
+      "size_bytes": 3386467
+    },
+    {
+      "file": "outputs/riskprop3d_final_confirmation/exports/external/temporal_s3/shard-00-of-04/parts/part-00020.npz",
+      "sample_count": 32,
+      "sha256": "841e9ef384a21a4b59ed5a798599c043dcd0b0c178efb9d82106d31554a1b611",
+      "size_bytes": 3399613
+    },
+    {
+      "file": "outputs/riskprop3d_final_confirmation/exports/external/temporal_s3/shard-00-of-04/parts/part-00021.npz",
+      "sample_count": 13,
+      "sha256": "ca6a5d42833a06e16c829cb028ba2c7a13d88423dc5a2a46917bcafa17c0c38c",
+      "size_bytes": 1382169
+    }
+  ],
+  "peak_rss_kib": 2938124,
+  "phase": "external",
+  "sample_count": 685,
+  "sample_token_sha256": "732b0c958536adda1becc4cceed4d19b0ecdb0b287056c8874aec7d36dc244be",
+  "seed": 20260708,
+  "severity": 3,
+  "shard_count": 4,
+  "shard_index": 0,
+  "source_exporter_sha256": "295f07bf954da9bfbc46350285709416ef809726030fed2baf5a735b012d7bbe",
+  "temporal_history_sha256": "961290ce0489ff287b290fceb2be944aece462603f16b2115f0656394665f022",
+  "training_performed": false,
+  "wall_time_seconds": 119.86874389648438
+}

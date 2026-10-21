@@ -1,0 +1,28 @@
+{
+  "status": "IMPLEMENTATION_CHECKS_PASS",
+  "checks": {
+    "PyG_batch_indices_and_current_writeback": "PASS",
+    "empty_map_neighbor_forward_and_gradient_GPU3": "PASS",
+    "synthetic_four_law_two_stream_end_to_end_GPU3": "PASS",
+    "independent_and_64_256_prefix_RNG": "PASS",
+    "rotated_Laplace_and_between_mode_covariance": "PASS",
+    "paired_scene_bootstrap": "PASS",
+    "syntax_all_experiment_scripts": "PASS"
+  },
+  "source_sha256_at_record": {
+    "hivt_runtime.py": "65b84d83d9785f0983caf81a0868f4985cbf2adac80aaf3e217577887799e55b",
+    "evaluate.py": "9b15c5c0ceb493fb42f8c2d480f86c8e5730c94dcb4ff9c3af0c5d132a9443a6",
+    "run_host.py": "8d9d5aaf7a52ffd2aaa68c351815073e93fc58e69007e2a0d43a2cdbd44a6691",
+    "audit_data.py": "0a691b43f49c7a99153244eb23d0457e76ff3896216260ee18ca0d97ce723091",
+    "evaluate_controls.py": "a3b430c6da6e98520cdd7d076005477678800e7d48fb642cf3227cfb194534d8",
+    "pipeline.py": "7f076e58c2af14b40af08c4b3280203d569fe87c52450b90fcebe808f2e24f42",
+    "context_export.py": "a3cf0144640835844afb5e554070c747b7599b246738928f3d5cd5730968a272",
+    "preflight.py": "f30d1bb7d5779aae2ed1e49ec42d0b54d453d7f9c4bffefb79e1f99969a2ef4e",
+    "summarize.py": "7db4e514f593ace1856fb7cce636ce01c3666879237a07ad93757109c74c5e88",
+    "recover.py": "586ca4f01e36d97c81794b1a8671b2d233ce3dcc12765398ccb9241ae4e0236c",
+    "build_context.py": "f7c88310dfbe8f8d500ca56b91d6d1980501e2430bcffbc4915dcb131cc982ea"
+  },
+  "real_host_qualification": "PENDING",
+  "formal_law_results_read": false,
+  "GPU_checks_optimizer_updates": 0
+}

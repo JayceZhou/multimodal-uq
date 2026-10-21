@@ -1,0 +1,10 @@
+{
+  "cpu": {
+    "pid": 2214213,
+    "command": "prepare-cpu"
+  },
+  "gpu": {
+    "pid": 2214214,
+    "command": "hosts"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "definitions": {
+    "downstream_es_*": "retained 64-sample R0 trajectory energy score; P2=G and P3=HTC",
+    "eq90_threshold_*": "empirical 0.90 quantile of per-row XY squared standardized residual on the identical condition/seed rows",
+    "eq90_volume_g": "XY ellipse area in m^2 at empirical 90% coverage; legacy field name retained",
+    "eq90_volume_htc": "XY ellipse area in m^2 at empirical 90% coverage; legacy field name retained",
+    "linear90_inside_g": "natural uncalibrated 90% inclusion for the complete 8-D linear state using chi-square(df=8)",
+    "linear90_inside_htc": "natural uncalibrated 90% inclusion for the complete 8-D linear state using 8*F(df1=8,df2=nu)",
+    "row_id": "sample_token:instance_token; unique within each population/condition/severity",
+    "xy_nll_g": "uncalibrated 2-D diagonal Gaussian XY NLL from the frozen G/M1 head",
+    "xy_nll_htc": "uncalibrated 2-D multivariate Student-t XY NLL from the frozen HTC/M2 head"
+  },
+  "downstream_contract": "existing frozen CV/MLP, 64 samples, shared process-noise draws, and common random numbers; no replay or retraining",
+  "equal_coverage_geometry": "area = pi * q90 * scale_x * scale_y",
+  "extra_traceability_columns": [
+    "scene_token",
+    "sample_token",
+    "instance_token",
+    "source_row",
+    "xy_mahalanobis2_g",
+    "xy_mahalanobis2_htc",
+    "eq90_threshold_g",
+    "eq90_threshold_htc"
+  ],
+  "pairing_key": [
+    "population",
+    "condition",
+    "severity",
+    "head_seed",
+    "row_id"
+  ],
+  "required_columns": [
+    "population",
+    "condition",
+    "severity",
+    "head_seed",
+    "row_id",
+    "xy_nll_g",
+    "xy_nll_htc",
+    "linear90_inside_g",
+    "linear90_inside_htc",
+    "eq90_volume_g",
+    "eq90_volume_htc",
+    "downstream_es_g_cv",
+    "downstream_es_htc_cv",
+    "downstream_es_g_mlp",
+    "downstream_es_htc_mlp"
+  ],
+  "schema_version": "riskprop3d-upstream-downstream-v1",
+  "upstream_calibration": "none for NLL and natural coverage; empirical rescaling is used only to define the equal-coverage sharpness diagnostic"
+}

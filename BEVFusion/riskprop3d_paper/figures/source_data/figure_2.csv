@@ -1,0 +1,21 @@
+panel,population,condition,probe,contrast,metric,estimate,ci_low,ci_high,n_scenes,area_ratio,source_stage
+a,development,Clean,CV,HTC - Gaussian,trajectory energy improvement,0.016142558202168197,0.011021578893968011,0.021501395601155864,70,,R0
+a,development,Lowlight,CV,HTC - Gaussian,trajectory energy improvement,0.018468603182334134,0.013136497677946786,0.024270030060038698,70,,R0
+a,development,LiDAR point dropout,CV,HTC - Gaussian,trajectory energy improvement,0.021394789779141995,0.01535907547678767,0.027381785421792298,70,,R0
+a,development,Beam reduction,CV,HTC - Gaussian,trajectory energy improvement,0.0490236596943059,0.03890400189950816,0.059404175991819574,70,,R0
+a,development,Clean,MLP,HTC - Gaussian,trajectory energy improvement,0.01229774822451572,0.008500237411584342,0.016185930766962307,70,,R0
+a,development,Lowlight,MLP,HTC - Gaussian,trajectory energy improvement,0.01410910713299722,0.009890014837889222,0.018573217720984733,70,,R0
+a,development,LiDAR point dropout,MLP,HTC - Gaussian,trajectory energy improvement,0.017834054585250732,0.012681755172743751,0.022882580853780723,70,,R0
+a,development,Beam reduction,MLP,HTC - Gaussian,trajectory energy improvement,0.04118301477870028,0.032611127226220754,0.050069410556461524,70,,R0
+b,development,Clean,CV,HTC - mean-state current interface,trajectory energy improvement,0.09174634789100448,0.05933010315681517,0.12819018757282183,70,,R0
+c,development,Clean,CV,HTC / Gaussian,equal-coverage area ratio,,,,,0.8662806659320171,R0
+c,development,Lowlight,CV,HTC / Gaussian,equal-coverage area ratio,,,,,0.8773491280005582,R0
+c,development,LiDAR point dropout,CV,HTC / Gaussian,equal-coverage area ratio,,,,,0.8913081073713944,R0
+c,development,Beam reduction,CV,HTC / Gaussian,equal-coverage area ratio,,,,,0.9250358060539224,R0
+d,development,Clean,CV,HTC - Gaussian,high-FDE AUPRC improvement,0.03745091380165324,0.023846633559156394,0.051817814099377864,70,,R0
+b,development,Clean,MLP,HTC - mean-state current interface,trajectory energy improvement,0.07728616166087265,0.05048412675107675,0.10715975209223642,70,,R0
+c,development,Clean,MLP,HTC / Gaussian,equal-coverage area ratio,,,,,0.8667789872437703,R0
+c,development,Lowlight,MLP,HTC / Gaussian,equal-coverage area ratio,,,,,0.8742150909163198,R0
+c,development,LiDAR point dropout,MLP,HTC / Gaussian,equal-coverage area ratio,,,,,0.899629756788824,R0
+c,development,Beam reduction,MLP,HTC / Gaussian,equal-coverage area ratio,,,,,0.9290337532233409,R0
+d,development,Clean,MLP,HTC - Gaussian,high-FDE AUPRC improvement,0.03250534769575891,0.020528178234888603,0.045171196237117746,70,,R0

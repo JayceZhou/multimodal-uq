@@ -1,0 +1,89 @@
+{
+  "model": {
+    "historical_steps": 5,
+    "future_steps": 6,
+    "num_modes": 6,
+    "rotate": true,
+    "node_dim": 2,
+    "edge_dim": 2,
+    "embed_dim": 128,
+    "num_heads": 8,
+    "dropout": 0.2,
+    "num_temporal_layers": 4,
+    "num_global_layers": 3,
+    "local_radius": 50,
+    "parallel": false,
+    "lr": 0.0005,
+    "weight_decay": 0.0001,
+    "T_max": 64,
+    "method": "base"
+  },
+  "host_seeds": [
+    202610130,
+    202610131,
+    202610132
+  ],
+  "head_seeds": [
+    20260731,
+    20260801,
+    20260802
+  ],
+  "state_seeds": [
+    202610140,
+    202610141,
+    202610142
+  ],
+  "future_seeds": [
+    202610150,
+    202610151,
+    202610152
+  ],
+  "epochs": 64,
+  "batch_size": 32,
+  "optimizer": "native AdamW parameter groups",
+  "clip_norm": 5.0,
+  "AMP": false,
+  "scheduler": "native CosineAnnealingLR T_max=64",
+  "checkpoint": "lowest clean-dev target minFDE; earliest tie",
+  "calibration": "one positive scale factor minimizing clean label-cal six-step mixture Laplace NLL",
+  "supervision": "retained target only; future labels excluded from model forward",
+  "sources": {
+    "run_host.py": "8d9d5aaf7a52ffd2aaa68c351815073e93fc58e69007e2a0d43a2cdbd44a6691",
+    "hivt_runtime.py": "65b84d83d9785f0983caf81a0868f4985cbf2adac80aaf3e217577887799e55b",
+    "DATA_CONTRACT.md": "1826efd9fd97029ea970b29ce9e5d230638f806f747482a279e6eb285608860d",
+    "host_v1/engineering.json": "65b9e35cbbdecc53aa39505307a6b8aa1fb1cb6b1d83236c5a90b2b86152c8d1",
+    "data_v1/audit.json": "4915bbbde96add84539d8270e95abdca4f9c3d083c54a4d29714c921808c43b2",
+    "TIME_AUDIT_NOTE.md": "e5aba8ae0e4f023a119dc75e80402a70be285537861a4dbbbfbef55e6050d37b",
+    "third_party/MapUncertaintyPrediction/HiVT_modified/models/__init__.py": "cf6ec6ad098d3f8f234147c7150a00208d40802d8f5809bea499ea1f8fb4a63b",
+    "third_party/MapUncertaintyPrediction/HiVT_modified/models/decoder.py": "d3818d089679b71c57d1dff5434a8b5fdb9e2420601e89178351b0c80b0999ee",
+    "third_party/MapUncertaintyPrediction/HiVT_modified/models/embedding.py": "0d6ba544e4733ec92b466caa38a0ed848b067bce6a0b0d4cdb18b4081f4a5281",
+    "third_party/MapUncertaintyPrediction/HiVT_modified/models/global_interactor.py": "7769fa9de42b1a637ebf2166fc25a536b93f622cc996d1cf9aeeb19653aa14ba",
+    "third_party/MapUncertaintyPrediction/HiVT_modified/models/hivt.py": "37252f1c9324daaf1c81a2f4df49d782891a482c9fe68d3a4504dd1623426c00",
+    "third_party/MapUncertaintyPrediction/HiVT_modified/models/local_encoder.py": "277baeafbaa9081605ef4fa4d4bb2b1f866da93291cc273a1006bb4785c26988",
+    "third_party/MapUncertaintyPrediction/HiVT_modified/models/local_encoder_std.py": "d8a68653172e5b7d19d415875c2bd8c43a3297a2f99d682e6ad44fc7806cd3ee",
+    "third_party/MapUncertaintyPrediction/HiVT_modified/models/num_nodes.py": "0ded21ab1b0391c5044ae0ccd682e6b0b6c3da3cf94707af60457bfe5bc4b22c",
+    "third_party/MapUncertaintyPrediction/HiVT_modified/models/softmax.py": "7ec6751dd51f803d1ef0af9a39bab963c7006d0e8baa2c9b6ddec31179453f71",
+    "third_party/MapUncertaintyPrediction/HiVT_modified/losses/__init__.py": "9977161797dba4de90870d8959594ae81f7106d23b3d7482c6a05d1ab275776f",
+    "third_party/MapUncertaintyPrediction/HiVT_modified/losses/laplace_nll_loss.py": "b5eb09521d2a1779c20b7585028b7096f1e1c8d452b713d3f1ac9b4d81dea08f",
+    "third_party/MapUncertaintyPrediction/HiVT_modified/losses/soft_target_cross_entropy_loss.py": "176f2b2ac833eb99e909ea159cf613ae9c1b9b25552edc890abebe4cd30d52a1",
+    "third_party/MapUncertaintyPrediction/HiVT_modified/metrics/__init__.py": "36fa4afb68817285075f893b57fc0920bd4a50cbd080f818a5d46946fe3cb406",
+    "third_party/MapUncertaintyPrediction/HiVT_modified/metrics/ade.py": "1f42673327dab58bdc9741b5fdc7b8176995129b330f7c8f34d7ed6d3e9508d0",
+    "third_party/MapUncertaintyPrediction/HiVT_modified/metrics/fde.py": "d139c8dd511610f288c99f7e5a3a3b44a2180d9dbfd4afb0530fdf232ae0bfcb",
+    "third_party/MapUncertaintyPrediction/HiVT_modified/metrics/mr.py": "cf02540ac0b959cf9beb1a5b513cbb4381d9247592be8f03929cd87c9e6bde0d",
+    "third_party/MapUncertaintyPrediction/HiVT_modified/utils.py": "282ebc3af3d60d5e1fc010e71b390aa7903daf9ab7db7bac18072758791f5a01",
+    "runtime_compatibility.patch": "b3176439f112beffa484f69ed8a252f138b14fc98e7559c09633c97420127222"
+  },
+  "torch": "2.4.1",
+  "python": "3.8.20 (default, Oct  3 2024, 15:24:27) \n[GCC 11.2.0]",
+  "level": "I only",
+  "law_results_read": false,
+  "reference_commit": "0a11ee4b925e4967f2f889079d4086b663d396dc",
+  "private_dependencies": {
+    "torch_geometric": "2.5.3",
+    "torch_scatter": "2.1.2+pt24cu124",
+    "torch_sparse": "0.6.18+pt24cu124",
+    "pytorch_lightning": "2.3.3",
+    "torchmetrics": "1.4.3",
+    "lightning_utilities": "0.11.9"
+  }
+}

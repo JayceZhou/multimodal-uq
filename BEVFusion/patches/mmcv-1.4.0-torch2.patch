@@ -1,0 +1,36 @@
+diff --git a/setup.py b/setup.py
+--- a/setup.py
++++ b/setup.py
+@@ -241,7 +241,7 @@ def get_extensions():
+         # to compile those cpp files, so there is no need to add the
+         # argument
+         if platform.system() != 'Windows':
+-            extra_compile_args['cxx'] = ['-std=c++14']
++            extra_compile_args['cxx'] = ['-std=c++17']
+ 
+         include_dirs = []
+ 
+@@ -298,7 +298,7 @@ def get_extensions():
+         # to compile those cpp files, so there is no need to add the
+         # argument
+         if 'nvcc' in extra_compile_args and platform.system() != 'Windows':
+-            extra_compile_args['nvcc'] += ['-std=c++14']
++            extra_compile_args['nvcc'] += ['-std=c++17']
+ 
+         ext_ops = extension(
+             name=ext_name,
+diff --git a/mmcv/ops/csrc/pytorch/cuda/psamask_cuda.cu b/mmcv/ops/csrc/pytorch/cuda/psamask_cuda.cu
+--- a/mmcv/ops/csrc/pytorch/cuda/psamask_cuda.cu
++++ b/mmcv/ops/csrc/pytorch/cuda/psamask_cuda.cu
+@@ -2,10 +2,8 @@
+ // Modified from
+ // https://github.com/hszhao/semseg/blob/master/lib/psa/src
+ 
+-#include <THC/THC.h>
++#include <ATen/cuda/CUDAContext.h>
+ #include <torch/serialize/tensor.h>
+-
+-#include <THC/THCDeviceUtils.cuh>
+ 
+ #include "psamask_cuda_kernel.cuh"
+ #include "pytorch_cuda_helper.hpp"

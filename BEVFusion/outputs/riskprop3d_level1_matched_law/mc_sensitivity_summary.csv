@@ -1,0 +1,3 @@
+scope,population,condition,severity,probe,domain,metric,contrast,mean,ci95_lower,ci95_upper,scenes,all_seed_directions_positive,seed_0_effect,seed_1_effect,seed_2_effect
+mc_sensitivity,development,clean,0,CV,downstream,trajectory_energy_M256,full_higher_order,0.017099828674383585,0.01352692925492921,0.021093128434642793,70,True,0.01641921141483778,0.01833460104508809,0.016545673563224873
+mc_sensitivity,development,clean,0,MLP,downstream,trajectory_energy_M256,full_higher_order,0.017372482936135435,0.013828993644592093,0.021412774777226723,70,True,0.01716949070775965,0.01804097958434864,0.016906978516298028

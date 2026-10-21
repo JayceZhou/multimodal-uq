@@ -1,0 +1,87 @@
+TY  - CPAPER
+TI  - Propagating State Uncertainty Through Trajectory Forecasting
+AU  - Ivanovic, Boris
+AU  - Lin, Yifeng
+AU  - Shrivastava, Shubham
+AU  - Chakravarty, Punarjay
+AU  - Pavone, Marco
+T2  - 2022 International Conference on Robotics and Automation (ICRA)
+PY  - 2022
+SP  - 2351
+EP  - 2358
+DO  - 10.1109/ICRA46639.2022.9811776
+UR  - https://doi.org/10.1109/ICRA46639.2022.9811776
+ER  -
+
+TY  - CPAPER
+TI  - Whose Track Is It Anyway? Improving Robustness to Tracking Errors With Affinity-Based Trajectory Prediction
+AU  - Weng, Xinshuo
+AU  - Ivanovic, Boris
+AU  - Kitani, Kris
+AU  - Pavone, Marco
+T2  - Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition
+PY  - 2022
+SP  - 6563
+EP  - 6572
+UR  - https://openaccess.thecvf.com/content/CVPR2022/html/Weng_Whose_Track_Is_It_Anyway_Improving_Robustness_to_Tracking_Errors_CVPR_2022_paper.html
+ER  -
+
+TY  - JOUR
+TI  - Towards Trajectory Forecasting From Detection
+AU  - Zhang, Pu
+AU  - Bai, Lei
+AU  - Wang, Yuning
+AU  - Fang, Jianwu
+AU  - Xue, Jianru
+AU  - Zheng, Nanning
+AU  - Ouyang, Wanli
+JO  - IEEE Transactions on Pattern Analysis and Machine Intelligence
+VL  - 45
+IS  - 10
+PY  - 2023
+SP  - 12550
+EP  - 12561
+DO  - 10.1109/TPAMI.2023.3274686
+UR  - https://doi.org/10.1109/TPAMI.2023.3274686
+ER  -
+
+TY  - JOUR
+TI  - PU-TSI: Interactive Vehicle Trajectory Prediction Considering Perception Information Uncertainty
+AU  - Cao, Mingchun
+AU  - Wang, Chunyan
+AU  - Zhao, Wanzhong
+AU  - Zhang, Ziyu
+JO  - IEEE Internet of Things Journal
+VL  - 12
+IS  - 15
+PY  - 2025
+SP  - 30518
+EP  - 30532
+DO  - 10.1109/JIOT.2025.3570741
+UR  - https://doi.org/10.1109/JIOT.2025.3570741
+ER  -
+
+TY  - CPAPER
+TI  - ForeSight: Multi-View Streaming Joint Object Detection and Trajectory Forecasting
+AU  - Papais, Sandro
+AU  - Wang, Letian
+AU  - Cheong, Brian
+AU  - Waslander, Steven L.
+T2  - Proceedings of the IEEE/CVF International Conference on Computer Vision
+PY  - 2025
+SP  - 25474
+EP  - 25484
+UR  - https://openaccess.thecvf.com/content/ICCV2025/html/Papais_ForeSight_Multi-View_Streaming_Joint_Object_Detection_and_Trajectory_Forecasting_ICCV_2025_paper.html
+ER  -
+
+TY  - CPAPER
+TI  - Does Knowledge About Perceptual Uncertainty Help an Agent in Automated Driving?
+AU  - Grabowsky, Natalie
+AU  - Mütze, Annika
+AU  - Rottmann, Matthias
+T2  - Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops
+PY  - 2026
+SP  - 4219
+EP  - 4229
+UR  - https://openaccess.thecvf.com/content/CVPR2026W/SAIAD/html/Grabowsky_Does_Knowledge_About_Perceptual_Uncertainty_Help_an_Agent_in_Automated_CVPRW_2026_paper.html
+ER  -
