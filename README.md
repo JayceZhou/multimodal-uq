@@ -9,6 +9,36 @@ training using CV/MLP predictors and a map- and interaction-aware HiVT host.
 The results show that uncertainty benefits depend on the forecasting host,
 integration interface, and comparison used.
 
+## Quick start
+
+Clone the repository, download the Git LFS assets, and check the retained code and results:
+
+```bash
+git clone https://github.com/JayceZhou/multimodal-uq.git
+cd multimodal-uq
+git lfs install --local
+git lfs pull
+python check_package.py
+```
+
+The package check needs no GPU or dataset. To regenerate the historical paper
+figures from the included summaries (requires NumPy and Matplotlib; overwrites
+the existing figure files):
+
+```bash
+python BEVFusion/riskprop3d_paper/plot_manuscript_figures.py
+```
+
+For training and evaluation, first follow the environment and data setup in
+[REPRODUCING.md](REPRODUCING.md). The experiment entry points include:
+
+```bash
+cd BEVFusion
+export PYTHONPATH="$PWD${PYTHONPATH:+:$PYTHONPATH}"
+python tools/riskprop3d_r0.py --help
+python riskprop3d_hivt_extension/evaluate.py --help
+```
+
 ## Directory structure
 
 ```text
